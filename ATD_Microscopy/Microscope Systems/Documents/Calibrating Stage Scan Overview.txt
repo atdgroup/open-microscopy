@@ -1,0 +1,13 @@
+The Stage Scan overview should be calibrated such that the scan speed is ok, 
+not too fast so that there are gaps between the images.
+
+Settings are stored in bin\Microscope Data\StageScanData.ini
+
+Set 
+overview speed = 3
+overview calib fov = 430
+
+the speed used is = speed / calib fov * current fov
+
+set the calib and play with the speed.
+The values are read at startup.

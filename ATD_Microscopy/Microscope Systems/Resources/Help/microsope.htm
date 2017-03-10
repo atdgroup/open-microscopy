@@ -1,0 +1,222 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+  <meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+  <title>Microscope</title>
+</head>
+<body>
+<h2>Microscope</h2>
+The main microscope panel provides the most commonly used controls.
+More options are available via the <a href="Components.htm">components</a>
+tab where individual hardware elements can be controlled. The <a
+ href="Configure.htm">configure</a>
+tab
+offers some calibration possibilities.<br>
+<br>
+<a href="Components.htm">Components</a><br>
+<a href="Configure.htm">Configure</a><br>
+<a href="OpenMicroscope_GUI.htm">Help</a><br>
+<br>
+<br>
+<b><big>Microscope</big></b><br>
+<br>
+<img src="images%5Cmicroscope.png" alt="" border="1"><br>
+<b><big><br>
+<br>
+</big>Mode </b>-
+Choose the microscope mode here. Once a mode is chosen the path, camera
+settings,
+shutter settings and cube (to some extent) will be chosen automatically.<b><br>
+</b><span style="text-decoration: underline;">Fluorescence</span>
+- in
+this mode we illuminate the sample with the <a href="Lamp.htm">lamp</a>
+using Epi-illumination&nbsp;(light is passed from below
+through the <a href="objectives.htm">objective
+lens</a> and then onto
+the sample), the light goes through a <a href="Flour_cubes.htm">fluorescence
+cube</a> and is imaged onto the <a href="camera.htm">camera</a>.<br>
+<span style="text-decoration: underline;"><br>
+Bright Field</span><span style="font-style: italic;"> - </span>in
+this mode we illuminate the
+sample with either room lights or the
+LED array using Transillumination&nbsp;(bright field illumination of a
+sample by
+transmitted light), the light goes through a&nbsp;<a
+ href="Flour_cubes.htm">fluorescence
+cube</a>
+and is imaged onto the <a href="camera.htm">camera</a>.<br>
+<span style="text-decoration: underline;"><br>
+Laser Scanning</span><span style="font-style: italic;"> - </span>this
+is the mode used for laser scanning fluorescence and FLIM measurements.
+In this mode we use the <a href="White_laser.htm">laser</a>
+for excitation,&nbsp;the light goes
+through a <a href="Flour_cubes.htm">fluorescence&nbsp;cube</a>
+(normally done with UV - 2A) and the detection is done with
+the&nbsp;<a href="Pmts.htm">PMT</a>
+detector with the correct <a href="Filters.htm">filter set</a>
+in front of it.<br>
+<br>
+<table
+ style="text-align: left; background-color: rgb(226, 226, 226); width: 904px;"
+ border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="text-align: center;" colspan="3" rowspan="1"><b><big>When
+the Laser Scanning is chosen the following two control panels pop up.<br>
+      </big></b></td>
+    </tr>
+    <tr>
+      <td style="width: 486px; vertical-align: top;"><b><big><br>
+SPC Time Resolved Acquisition<br>
+      </big></b><b><big><br>
+      </big></b><b>Scanner </b>-
+advanced scanner settings can be chosen in the <a href="Components.htm">Components</a>
+&gt;&gt; <a href="Hardware.htm">Hardware</a> &gt;&gt; <a
+ href="Scanner.htm">Scanner</a>. <br>
+      <span style="text-decoration: underline;">Zoom</span> - Sets the
+area to be scanned or to park the beam.<span
+ style="text-decoration: underline;"><br>
+Speed</span> - &nbsp;Sets the speed of the scanners.<br>
+      <span style="text-decoration: underline;">Resolution</span> -
+&nbsp;Sets the resolution of the resulting image.<br>
+      <br>
+      <b>Acquisition </b><br>
+      <span style="text-decoration: underline;">Acq limit</span> - Sets
+the number of frames or seconds to acquire and accumilate data for.<span
+ style="text-decoration: underline;"><br>
+Repeat every</span> - Repeat acquisition every (number) of seconds.<br>
+      <span style="text-decoration: underline;">Display every</span> -
+Displays image every (number) of seconds.<br>
+      <span style="text-decoration: underline;"></span><span
+ style="text-decoration: underline;">Autosave</span> -
+Autosaves the acquired image/s.<br>
+      <span style="text-decoration: underline;">Accumulate</span> -
+Accumulate data from successive acquisitions.<br>
+      <span style="text-decoration: underline;">ADC Resolution</span> -
+Refers to the number of time resolved bins.<br>
+      <span style="text-decoration: underline;">Time Window</span> -
+&nbsp;For image display only, the saved raw data is not affected.
+Selects the range of time bins used.<br>
+      <span style="text-decoration: underline;">Acquire</span> - Scans
+and acquire an image.<br>
+      <span style="text-decoration: underline;">Live Acquire</span> -
+Fast acquisition.<br>
+      <span style="text-decoration: underline;">Scope</span> - Park the
+beam and show a trace.<br>
+      <span style="text-decoration: underline;">Stop</span> - Stops the
+acquisition.<br>
+      <span style="text-decoration: underline;">Settings</span> -
+&nbsp;Opens the <a href="Scanner.htm">advanced settings</a> dialog box.<br>
+      <span style="text-decoration: underline;">Measurement</span> -
+Light is on when a scan is in progress.<br>
+      <span style="text-decoration: underline;">Laser trigger</span>
+-&nbsp;Indicates that the hardware has good trigger pulses from the
+laser.<br>
+      <span style="text-decoration: underline;">Progress Bar</span> -
+Indicates the progress of the current acquisition.<br>
+      <span style="text-decoration: underline;">Accumulated time</span>
+- Amount of time acquisition has been accumulated.<br>
+      <span style="text-decoration: underline;">Accumulated Frames</span>
+- Accumulated number of frames.<br>
+      <span style="text-decoration: underline;">Close</span> -
+&nbsp;Closes the dialog box.<b><big></big></b></td>
+      <td style="width: 237px; vertical-align: top;"><img
+ style="width: 247px; height: 551px;" alt=""
+ src="images/SPC_timeResolvedAcquisition.png"></td>
+      <td style="vertical-align: top; width: 202px;"><img
+ style="width: 207px; height: 293px;" alt=""
+ src="images/SinglePhotonCounting.png"><br>
+      <br>
+      <b><big>Single Photon Count...<br>
+      </big></b><big>Detection rates (accepted values):</big><b><big><br>
+      </big></b><span style="text-decoration: underline;">SYNC</span> -
+Laser trigger pulses&nbsp; (laser rep rate, 4e7 or 8e7)<span
+ style="text-decoration: underline;"><br>
+      </span><span style="text-decoration: underline;">CFD</span> -
+Constant Fraction Discriminator (&lt;1e5 during scan)<br>
+      <span style="text-decoration: underline;">TAC</span> - Time to
+Amplitude Converter (&lt;1e5 during scan)<br>
+      <span style="text-decoration: underline;">ADC</span> - Analog to
+Digital Converter (&lt;1e5 during scan)<br>
+      <span style="text-decoration: underline;">Trigger</span>
+- Indicates that the hardware has good trigger pulses from the laser.<br>
+      <b><big><br>
+      </big></b></td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<b>Cube</b> - there are currently three
+<a href="Flour_cubes.htm">fluorescence
+cubes</a> to choose from.<br>
+<b><br>
+Path - </b>this refers to the
+detection path.<b><br>
+</b><span style="text-decoration: underline;">Laser scan</span>
+- when
+the laser scanning mode is chosen the detection is done by the&nbsp;<a
+ href="Pmts.htm">PMT</a>.
+<br>
+<span style="text-decoration: underline;">Colour
+camera</span> - not
+yet available. <br>
+<span style="text-decoration: underline;">Camera</span>
+- when
+the&nbsp;Fluorescence or Bright Field&nbsp;mode is chosen the
+detection
+is done by the <a href="camera.htm">camara</a>.
+<br>
+<span style="text-decoration: underline;">Path4</span>
+- not yet
+available. <br>
+<b><br>
+<br>
+</b><big><b>Camera
+settings</b></big>
+- these controls are
+duplicated from the <a href="camera.htm">
+camera</a>
+control panel.<br>
+<br>
+<span style="text-decoration: underline;">Live</span>
+- takes repeated snapped images.<br>
+<span style="text-decoration: underline;">Exp.</span>
+- exposure time.<br>
+<span style="text-decoration: underline;">Snap</span>
+- snaps an
+individual image.<br>
+<span style="text-decoration: underline;">Binning</span>
+- pixels in
+the vertical and horizontal direction are combined. For
+example 2 x
+2 means that that 4 pixels from a 2 x 2 square&nbsp;are combined to a
+single pixel. The result of
+binning is that (per&nbsp;pixel) the intensity is increased while
+the
+resolution is decreased.<br>
+<br>
+<br>
+<big><b>Stage<br>
+<br>
+</b></big>The
+stage section gives an updated display of the stage
+position. <br>
+<span style="text-decoration: underline;">Store
+XYZ</span> -&nbsp; the
+co-ordinates displayed will be
+stored to memory. <br>
+<span style="text-decoration: underline;">GoTo
+XYZ</span> -&nbsp; will
+drive
+the <a href="Stage.htm">stage</a>
+to the stored in&nbsp;Store XYZ.<br>
+<br>
+<big><b><br>
+Joystick<br>
+<br>
+</b></big><span style="text-decoration: underline;">Joystick</span>
+-
+joystick is enabled and the right LED will
+turn red.
+</body>
+</html>

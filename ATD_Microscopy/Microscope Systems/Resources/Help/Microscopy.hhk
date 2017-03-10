@@ -1,0 +1,550 @@
+<html>
+<head>
+<meta name="generator" content="Help Information&reg; Keyword Index Tool (KIT) 0.8.4">
+<!-- Sitemap 1.0 -->
+</head>
+<body>
+<object type="text/site properties">
+  <param name="FrameName" value="right">
+  <param name="Font" value="Verdana,8,0">
+</object>
+<ul>
+<li><object type="text/sitemap">
+    <param name="Name" value="Advanced">
+    <param name="Name" value="Camera Advanced Settings">
+    <param name="Local" value="Camera_more.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Alignment">
+    <param name="Name" value="Open Microscope Alignment">
+    <param name="Local" value="open_microscope_alignment.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="and">
+    <param name="Name" value="Load and save settings">
+    <param name="Local" value="Load_and_save_setttings.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="API">
+    <param name="Name" value="Python Microscopy API">
+    <param name="Local" value="timelapse_scripting_api.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Autofocus">
+    <param name="Name" value="Autofocus">
+    <param name="Local" value="autofocus.htm">
+    <param name="Name" value="Autofocus">
+    <param name="Local" value="Software_autofocous.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Automatic">
+    <param name="Name" value="Automatic Snap">
+    <param name="Local" value="Automatic_snap.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Automation">
+    <param name="Name" value="Automation">
+    <param name="Local" value="automation.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Background">
+    <param name="Name" value="Background">
+    <param name="Local" value="background.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="calibration">
+    <param name="Name" value="objective_pixel_calibration">
+    <param name="Local" value="objective_pixel_calibration.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Camera">
+    <param name="Name" value="Camera">
+    <param name="Local" value="camera.htm">
+    <param name="Name" value="Camera Advanced Settings">
+    <param name="Local" value="Camera_more.htm">
+    <param name="Name" value="Colour Camera">
+    <param name="Local" value="Colour_camera.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Cell">
+    <param name="Name" value="Cell finding">
+    <param name="Local" value="cell_finding_options.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Coarse">
+    <param name="Name" value="Coarse Z-drive">
+    <param name="Local" value="Coarse_Z-drive.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Colour">
+    <param name="Name" value="Colour Camera">
+    <param name="Local" value="Colour_camera.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Configure">
+    <param name="Name" value="Configure">
+    <param name="Local" value="Configure.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="cubes">
+    <param name="Name" value="Flour cubes">
+    <param name="Local" value="Flour_cubes.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="define">
+    <param name="Name" value="Well plate define">
+    <param name="Local" value="well_plate_define.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="devices">
+    <param name="Name" value="Reinitialize devices">
+    <param name="Local" value="Reinitialize_devices.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="drive">
+    <param name="Name" value="Z drive">
+    <param name="Local" value="Z_drive.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Editing">
+    <param name="Name" value="Editing the help files">
+    <param name="Local" value="Editing_the_help_files.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="example">
+    <param name="Name" value="Timelapse script example">
+    <param name="Local" value="timelapse_scripting_example.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Excitaion">
+    <param name="Name" value="Excitaion Monitor">
+    <param name="Local" value="Laser_power.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Exit">
+    <param name="Name" value="Exit">
+    <param name="Local" value="Exit.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="files">
+    <param name="Name" value="Editing the help files">
+    <param name="Local" value="Editing_the_help_files.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Filters">
+    <param name="Name" value="Filters">
+    <param name="Local" value="Filters.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="finding">
+    <param name="Name" value="Cell finding">
+    <param name="Local" value="cell_finding_options.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="FLIM">
+    <param name="Name" value="FLIM Instrument Respoense (Prompt) Measurement">
+    <param name="Local" value="prompt_measurement.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Flour">
+    <param name="Name" value="Flour cubes">
+    <param name="Local" value="Flour_cubes.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Focal">
+    <param name="Name" value="Focal plane">
+    <param name="Local" value="focal_plane.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Galileo">
+    <param name="Name" value="Galileo">
+    <param name="Local" value="OpenMicroscope_GUI.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Hardware">
+    <param name="Name" value="Hardware">
+    <param name="Local" value="Hardware.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="help">
+    <param name="Name" value="Editing the help files">
+    <param name="Local" value="Editing_the_help_files.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="htm">
+    <param name="Name" value="Realtime_overview.htm">
+    <param name="Local" value="Realtime_overview.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Instrument">
+    <param name="Name" value="FLIM Instrument Respoense (Prompt) Measurement">
+    <param name="Local" value="prompt_measurement.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="interest">
+    <param name="Name" value="Setting a region of interest">
+    <param name="Local" value="region_scan_set_ROI.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Lamp">
+    <param name="Name" value="Lamp">
+    <param name="Local" value="Lamp.htm">
+    <param name="Name" value="Manual lamp">
+    <param name="Local" value="manual_lamp.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Laser">
+    <param name="Name" value="White Laser">
+    <param name="Local" value="White_laser.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="lift">
+    <param name="Name" value="Optical lift">
+    <param name="Local" value="optical_lift.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Load">
+    <param name="Name" value="Load and save settings">
+    <param name="Local" value="Load_and_save_setttings.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Log">
+    <param name="Name" value="Log">
+    <param name="Local" value="log.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Manual">
+    <param name="Name" value="Manual lamp">
+    <param name="Local" value="manual_lamp.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Measurement">
+    <param name="Name" value="FLIM Instrument Respoense (Prompt) Measurement">
+    <param name="Local" value="prompt_measurement.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Microscope">
+    <param name="Name" value="Microscope">
+    <param name="Local" value="Galileo_microsope.htm">
+    <param name="Name" value="Microscope overview">
+    <param name="Local" value="microscope_overview.htm">
+    <param name="Name" value="Microscope">
+    <param name="Local" value="microsope.htm">
+    <param name="Name" value="Open Microscope Alignment">
+    <param name="Local" value="open_microscope_alignment.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Microscopy">
+    <param name="Name" value="Python Microscopy API">
+    <param name="Local" value="timelapse_scripting_api.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Monitor">
+    <param name="Name" value="Excitaion Monitor">
+    <param name="Local" value="Laser_power.htm">
+    <param name="Name" value="Temperature monitor">
+    <param name="Local" value="temperature_monitor.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="objective">
+    <param name="Name" value="objective_pixel_calibration">
+    <param name="Local" value="objective_pixel_calibration.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Objectives">
+    <param name="Name" value="Objectives">
+    <param name="Local" value="objectives.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Open">
+    <param name="Name" value="Open Microscope Alignment">
+    <param name="Local" value="open_microscope_alignment.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Optical">
+    <param name="Name" value="Optical lift">
+    <param name="Local" value="optical_lift.htm">
+    <param name="Name" value="Optical Path">
+    <param name="Local" value="Optical_path.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="overview">
+    <param name="Name" value="Microscope overview">
+    <param name="Local" value="microscope_overview.htm">
+    <param name="Name" value="Realtime_overview.htm">
+    <param name="Local" value="Realtime_overview.htm">
+    <param name="Name" value="Region scan overview">
+    <param name="Local" value="region_scan_overview.htm">
+    <param name="Name" value="Timelapse overview">
+    <param name="Local" value="timelapse_overview.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Path">
+    <param name="Name" value="Optical Path">
+    <param name="Local" value="Optical_path.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Piezo">
+    <param name="Name" value="Piezo Z-drive">
+    <param name="Local" value="Piezo_Z-drive.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="pixel">
+    <param name="Name" value="objective_pixel_calibration">
+    <param name="Local" value="objective_pixel_calibration.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="plane">
+    <param name="Name" value="Focal plane">
+    <param name="Local" value="focal_plane.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="plate">
+    <param name="Name" value="Well plate define">
+    <param name="Local" value="well_plate_define.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Plates">
+    <param name="Name" value="Stage Plates">
+    <param name="Local" value="Stage Plates.htm">
+    <param name="Name" value="Stage Plates">
+    <param name="Local" value="Stage_plates.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Pmts">
+    <param name="Name" value="Pmts">
+    <param name="Local" value="Pmts.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Power">
+    <param name="Name" value="Power Switch">
+    <param name="Local" value="Power_switch.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Prompt">
+    <param name="Name" value="FLIM Instrument Respoense (Prompt) Measurement">
+    <param name="Local" value="prompt_measurement.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Python">
+    <param name="Name" value="Python Microscopy API">
+    <param name="Local" value="timelapse_scripting_api.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Realtime">
+    <param name="Name" value="Realtime_overview.htm">
+    <param name="Local" value="Realtime_overview.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Region">
+    <param name="Name" value="Region scan overview">
+    <param name="Local" value="region_scan_overview.htm">
+    <param name="Name" value="Setting a region of interest">
+    <param name="Local" value="region_scan_set_ROI.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Reinitialize">
+    <param name="Name" value="Reinitialize devices">
+    <param name="Local" value="Reinitialize_devices.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Respoense">
+    <param name="Name" value="FLIM Instrument Respoense (Prompt) Measurement">
+    <param name="Local" value="prompt_measurement.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="save">
+    <param name="Name" value="Load and save settings">
+    <param name="Local" value="Load_and_save_setttings.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="scan">
+    <param name="Name" value="Region scan overview">
+    <param name="Local" value="region_scan_overview.htm">
+    <param name="Name" value="Stage Scan">
+    <param name="Local" value="Stage_Scan.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Scanner">
+    <param name="Name" value="Scanner">
+    <param name="Local" value="manual_scanner.htm">
+    <param name="Name" value="Scanner">
+    <param name="Local" value="Scanner.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="script">
+    <param name="Name" value="Timelapse script example">
+    <param name="Local" value="timelapse_scripting_example.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Scripting">
+    <param name="Name" value="Timelapse Scripting">
+    <param name="Local" value="timelapse_scripting.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Setting">
+    <param name="Name" value="Setting a region of interest">
+    <param name="Local" value="region_scan_set_ROI.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Settings">
+    <param name="Name" value="Camera Advanced Settings">
+    <param name="Local" value="Camera_more.htm">
+    <param name="Name" value="Load and save settings">
+    <param name="Local" value="Load_and_save_setttings.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Shutter">
+    <param name="Name" value="Shutter">
+    <param name="Local" value="manual_shutter.htm">
+    <param name="Name" value="Shutter">
+    <param name="Local" value="Shutter.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Snap">
+    <param name="Name" value="Automatic Snap">
+    <param name="Local" value="Automatic_snap.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Stage">
+    <param name="Name" value="Stage Plates">
+    <param name="Local" value="Stage Plates.htm">
+    <param name="Name" value="Stage">
+    <param name="Local" value="stage.htm">
+    <param name="Name" value="Stage Plates">
+    <param name="Local" value="Stage_plates.htm">
+    <param name="Name" value="Stage Scan">
+    <param name="Local" value="Stage_Scan.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Switch">
+    <param name="Name" value="Power Switch">
+    <param name="Local" value="Power_switch.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Temperature">
+    <param name="Name" value="Temperature monitor">
+    <param name="Local" value="temperature_monitor.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="the">
+    <param name="Name" value="Editing the help files">
+    <param name="Local" value="Editing_the_help_files.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Timelapse">
+    <param name="Name" value="Timelapse">
+    <param name="Local" value="timelapse.htm">
+    <param name="Name" value="Timelapse overview">
+    <param name="Local" value="timelapse_overview.htm">
+    <param name="Name" value="Timelapse Scripting">
+    <param name="Local" value="timelapse_scripting.htm">
+    <param name="Name" value="Timelapse script example">
+    <param name="Local" value="timelapse_scripting_example.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Troubleshooting">
+    <param name="Name" value="Troubleshooting">
+    <param name="Local" value="troubleshooting.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Well">
+    <param name="Name" value="Well plate define">
+    <param name="Local" value="well_plate_define.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="White">
+    <param name="Name" value="White Laser">
+    <param name="Local" value="White_laser.htm">
+    </object>
+    </li>
+<li><object type="text/sitemap">
+    <param name="Name" value="Z-drive">
+    <param name="Name" value="Coarse Z-drive">
+    <param name="Local" value="Coarse_Z-drive.htm">
+    <param name="Name" value="Piezo Z-drive">
+    <param name="Local" value="Piezo_Z-drive.htm">
+    </object>
+    </li>
+</ul>
+</body>
+</html>

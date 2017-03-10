@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
+<script type="text/javascript" src="/files/jquery.js"></script>
+<script type="text/javascript" src="/files/jquery-json.js"></script>
+<script type="text/javascript" src="/files/microscope.js"></script>
+
+<script>
+window.onload = function()
+{ 
+	var counter = 0;
+	
+	format_contents();
+	
+	window.setInterval(function() {
+		//document.getElementById('contents').innerHTML = (counter++).toString();
+		// On page load, call application's JSONP endpoint
+		format_contents();
+	   
+	}, 5000);
+} 
+</Script>
+
+<title>Microscope</title>
+<link rel="stylesheet" type="text/css" href="/files/accman.css">
+</head>
+<body>
+<table class="banner" summary="Account management banner and top-level navigation." border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody><tr valign="top">
+    <td bgcolor="#010066" nowrap="nowrap" width="100%">
+	<img src="/files/ox-banner.png" alt="Open Microscopy" align="left" height="85" width="600">
+	<img src="/files/top-crest.jpg" alt="crest" align="right" height="85" width="83">    </td>
+  </tr></tbody></table>
+
+ <div class="contents">
+  <h2><a href="/"><span id="microscope_name"></span></a></h2>
+  <div class="ox_border">Uptime: <span id="uptime"></span>  </div>
+	
+    <div class="ox_border">	
+	<span id="timelapse_details"></span>
+    </div>    
+    <div class="ox_border">	
+	<span id="region_scan_details"></span>
+    </div>
+    <br>
+	<a href="/log.html">Log</a>
+  </div>
+	
+<div>
+
+</div>
+
+<div>
+</div>
+ </div>
+
+</body></html>

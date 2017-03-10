@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+  <meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+  <title>Region scan overview</title>
+</head>
+<body>
+<h2>Region Scan overview</h2>
+The region scan function allows the user to image an area via a
+succession of camera snaps that can be tiled together to form a complete image of the region.
+The images are automatically acquired once the <a
+ href="region_scan_set_ROI.htm">set&nbsp; region of interest</a> has
+been defined.<br>
+<br>
+The user has the option to simply image the area of interest or, in
+addition, perform object-finding as the scan progresses. The images
+themselves, as well as details of the objects found, can be saved for
+later use.<br>
+<br>
+<img src="images%5CROImain.bmp" alt="" border="1"><br>
+<br>
+
+After 'Start' is pressed the software asks for a location and format (ics is recommended) 
+for the image files to be saved. Output is a set of image files 
+(ics, tif, etc.), an overview image at reduced resolution and a metadata text file.<br>
+<br>
+<b>overlap</b><br>
+There is an option to specify the amount of overlap between images. The
+reason for this is to allow the image tiles to be seamlessly stitched together, 
+for instance using our Mosaic program (available seperately). The larger the overlap
+the easier the stiching is, but the longer the scanning takes.<br>
+
+Another reason for the overlap is related to objectfinding, as follows. 
+Imagine a succession of images which
+side by side give a composite picture of the larger area. If an object
+lies on an image edge then part of it will appear in one image and part
+in another (or if at a corner, it may appear in 4 separate images).
+When object finding is enabled this situation would identify these
+parts as separate objects. To correct this, the stage moves so that a
+certain degree of overlap exists in adjacent images. Now, an object
+which lies on the edge of one image is completely captured in the
+neighbouring one (if the degree of overlap is sufficiently large) and
+the object-recognition algorithm can uniquely identify it. How much
+overlap to use depends on the size of the objects which may be
+encountered. The default value is set to 10% of the image dimenstion.
+Too high a figure slows down the scan time as more frames are needed to
+cover the ROI, whereas too low a figure risks large objects still
+hitting the edges of adjacent images. Bear in mind that high power
+objectives will generally necessitate a larger overlap.<br>
+<br>
+<b>cell finding</b><br>
+To enable cell-finding ensure the box is checked and press 'Configure'
+to bring up the <a href="cell_finding_options.htm"> cell-finding
+options panel.</a> When all settings are correct 'Start' begins the
+scan, and options to pause or abort the scan become available.
+</body>
+</html>

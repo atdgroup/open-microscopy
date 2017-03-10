@@ -1,0 +1,364 @@
+[Project Header]
+Version = 801
+Pathname Line0001 = "/c/Documents and Settings/Pierce/Desktop/Working Area/Hardware Control/Stage/bra"
+Pathname Line0002 = "nches/AbstractedStage/OpenLoopCorvusXY/OpenLoopCorvusXY.prj"
+Project Label = "Stage Test"
+CVI Dir = "/c/program files/national instruments/cvi80"
+IVI Standard Root Dir = "/C/Program Files/IVI"
+VXIplug&play Framework Dir = "/c/vxipnp/winnt"
+Number of Files = 20
+Target Type = "Executable"
+Flags = 16
+
+[File 0001]
+File Type = "Library"
+Res Id = 1
+Path Is Rel = False
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/bin/dcamapi.lib"
+Exclude = False
+Project Flags = 0
+Folder = "libs"
+
+[File 0002]
+File Type = "Library"
+Res Id = 2
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../../../../DeviceFinder/trunk/DeviceFinder.lib"
+Path Line0001 = "/c/Documents and Settings/Pierce/Desktop/Working Area/Hardware Control/DeviceFin"
+Path Line0002 = "der/trunk/DeviceFinder.lib"
+Exclude = False
+Project Flags = 0
+Folder = "libs"
+
+[File 0003]
+File Type = "Library"
+Res Id = 3
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../../../../../bin/gci_utilities.lib"
+Path = "/c/Documents and Settings/Pierce/Desktop/Working Area/bin/gci_utilities.lib"
+Exclude = False
+Project Flags = 0
+Folder = "libs"
+
+[File 0004]
+File Type = "Library"
+Res Id = 4
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../../../../../bin/lowlevel_hardware_control.lib"
+Path Line0001 = "/c/Documents and Settings/Pierce/Desktop/Working Area/bin/lowlevel_hardware_cont"
+Path Line0002 = "rol.lib"
+Exclude = False
+Project Flags = 0
+Folder = "libs"
+
+[File 0005]
+File Type = "Library"
+Res Id = 5
+Path Is Rel = True
+Path Rel To = "CVI"
+Path Rel Path = "sdk/lib/ole32.lib"
+Path = "/c/program files/national instruments/cvi80/sdk/lib/ole32.lib"
+Exclude = False
+Project Flags = 0
+Folder = "libs"
+
+[File 0006]
+File Type = "CSource"
+Res Id = 6
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "OpenLoopCorvus_Communication.c"
+Path Line0001 = "/c/Documents and Settings/Pierce/Desktop/Working Area/Hardware Control/Stage/bra"
+Path Line0002 = "nches/AbstractedStage/OpenLoopCorvusXY/OpenLoopCorvus_Communication.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "OpenLoopCorvusXY"
+
+[File 0007]
+File Type = "Include"
+Res Id = 7
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "OpenLoopCorvus_Communication.h"
+Path Line0001 = "/c/Documents and Settings/Pierce/Desktop/Working Area/Hardware Control/Stage/bra"
+Path Line0002 = "nches/AbstractedStage/OpenLoopCorvusXY/OpenLoopCorvus_Communication.h"
+Exclude = False
+Project Flags = 0
+Folder = "OpenLoopCorvusXY"
+
+[File 0008]
+File Type = "CSource"
+Res Id = 8
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "OpenLoopCorvusXY.c"
+Path Line0001 = "/c/Documents and Settings/Pierce/Desktop/Working Area/Hardware Control/Stage/bra"
+Path Line0002 = "nches/AbstractedStage/OpenLoopCorvusXY/OpenLoopCorvusXY.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "OpenLoopCorvusXY"
+
+[File 0009]
+File Type = "Include"
+Res Id = 9
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "OpenLoopCorvusXY.h"
+Path Line0001 = "/c/Documents and Settings/Pierce/Desktop/Working Area/Hardware Control/Stage/bra"
+Path Line0002 = "nches/AbstractedStage/OpenLoopCorvusXY/OpenLoopCorvusXY.h"
+Exclude = False
+Project Flags = 0
+Folder = "OpenLoopCorvusXY"
+
+[File 0010]
+File Type = "Include"
+Res Id = 10
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "OpenLoopCorvusXY_UserInterface.h"
+Path Line0001 = "/c/Documents and Settings/Pierce/Desktop/Working Area/Hardware Control/Stage/bra"
+Path Line0002 = "nches/AbstractedStage/OpenLoopCorvusXY/OpenLoopCorvusXY_UserInterface.h"
+Exclude = False
+Project Flags = 0
+Folder = "OpenLoopCorvusXY"
+
+[File 0011]
+File Type = "User Interface Resource"
+Res Id = 11
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "OpenLoopCorvusXY_UserInterface.uir"
+Path Line0001 = "/c/Documents and Settings/Pierce/Desktop/Working Area/Hardware Control/Stage/bra"
+Path Line0002 = "nches/AbstractedStage/OpenLoopCorvusXY/OpenLoopCorvusXY_UserInterface.uir"
+Exclude = False
+Project Flags = 0
+Folder = "OpenLoopCorvusXY"
+
+[File 0012]
+File Type = "Library"
+Res Id = 12
+Path Is Rel = True
+Path Rel To = "CVI"
+Path Rel Path = "sdk/lib/Shell32.Lib"
+Path = "/c/program files/national instruments/cvi80/sdk/lib/Shell32.Lib"
+Exclude = False
+Project Flags = 0
+Folder = "libs"
+
+[File 0013]
+File Type = "CSource"
+Res Id = 13
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../stage/stage.c"
+Path Line0001 = "/c/Documents and Settings/Pierce/Desktop/Working Area/Hardware Control/Stage/bra"
+Path Line0002 = "nches/AbstractedStage/stage/stage.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "stage"
+
+[File 0014]
+File Type = "Include"
+Res Id = 14
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../stage/stage.h"
+Path Line0001 = "/c/Documents and Settings/Pierce/Desktop/Working Area/Hardware Control/Stage/bra"
+Path Line0002 = "nches/AbstractedStage/stage/stage.h"
+Exclude = False
+Project Flags = 0
+Folder = "stage"
+
+[File 0015]
+File Type = "CSource"
+Res Id = 15
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../stage/stage_ui.c"
+Path Line0001 = "/c/Documents and Settings/Pierce/Desktop/Working Area/Hardware Control/Stage/bra"
+Path Line0002 = "nches/AbstractedStage/stage/stage_ui.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "stage"
+
+[File 0016]
+File Type = "Include"
+Res Id = 16
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../stage/stage_ui.h"
+Path Line0001 = "/c/Documents and Settings/Pierce/Desktop/Working Area/Hardware Control/Stage/bra"
+Path Line0002 = "nches/AbstractedStage/stage/stage_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "stage"
+
+[File 0017]
+File Type = "User Interface Resource"
+Res Id = 17
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../stage/stage_ui.uir"
+Path Line0001 = "/c/Documents and Settings/Pierce/Desktop/Working Area/Hardware Control/Stage/bra"
+Path Line0002 = "nches/AbstractedStage/stage/stage_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "stage"
+
+[File 0018]
+File Type = "Library"
+Res Id = 18
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../../../../../bin/StringUtils.lib"
+Path = "/c/Documents and Settings/Pierce/Desktop/Working Area/bin/StringUtils.lib"
+Exclude = False
+Project Flags = 0
+Folder = "libs"
+
+[File 0019]
+File Type = "CSource"
+Res Id = 19
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "test.c"
+Path Line0001 = "/c/Documents and Settings/Pierce/Desktop/Working Area/Hardware Control/Stage/bra"
+Path Line0002 = "nches/AbstractedStage/OpenLoopCorvusXY/test.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Source Files"
+
+[File 0020]
+File Type = "Library"
+Res Id = 20
+Path Is Rel = True
+Path Rel To = "CVI"
+Path Rel Path = "sdk/lib/Vfw32.Lib"
+Path = "/c/program files/national instruments/cvi80/sdk/lib/Vfw32.Lib"
+Exclude = False
+Project Flags = 0
+Folder = "libs"
+
+[Folders]
+Include Files Folder Not Added Yet = True
+User Interface Files Folder Not Added Yet = True
+Instrument Files Folder Not Added Yet = True
+Folder 0 = "stage"
+Folder 1 = "Source Files"
+Folder 2 = "OpenLoopCorvusXY"
+Folder 3 = "libs"
+
+[Compiler Options]
+Default Calling Convention = "cdecl"
+Require Prototypes = True
+Require Return Values = True
+Enable Pointer Mismatch Warning = False
+Enable Unreachable Code Warning = False
+Enable Unreferenced Identifiers Warning = True
+Enable Assignment In Conditional Warning = False
+O Option Compatible With 5.0 = False
+Uninitialized Locals Compile Warning = "Conservative"
+
+[Run Options]
+Stack Size = 250000
+Image Base Address = 4194304
+
+[Compiler Defines]
+Compiler Defines = "/DWIN32_LEAN_AND_MEAN"
+
+[Include Paths]
+Include Path 1 Is Rel = False
+Include Path 1 = "/c/Documents and Settings/Pierce/Desktop/Working Area/Libraries/XML utils/trunk"
+Include Path 2 Is Rel = False
+Include Path 2 = "/c/Documents and Settings/Pierce/Desktop/Working Area/Libraries/Password/trunk"
+Include Path 3 Is Rel = False
+Include Path 3 Line0001 = "/c/Documents and Settings/Pierce/Desktop/Working Area/Libraries/String Utils/tru"
+Include Path 3 Line0002 = "nk/include"
+Include Path 4 Is Rel = False
+Include Path 4 = "/c/Documents and Settings/Pierce/Desktop/Working Area/Libraries/Signals/trunk"
+Include Path 5 Is Rel = False
+Include Path 5 = "/c/Documents and Settings/Pierce/Desktop/Working Area/Libraries/Status/trunk"
+Include Path 6 Is Rel = False
+Include Path 6 Line0001 = "/c/Documents and Settings/Pierce/Desktop/Working Area/Libraries/GCI Registry/tru"
+Include Path 6 Line0002 = "nk"
+Include Path 7 Is Rel = False
+Include Path 7 = "/c/Documents and Settings/Pierce/Desktop/Working Area/Libraries/GCI Utils/trunk"
+Include Path 8 Is Rel = False
+Include Path 8 Line0001 = "/c/Documents and Settings/Pierce/Desktop/Working Area/Hardware Control/DeviceFin"
+Include Path 8 Line0002 = "der/trunk"
+Include Path 9 Is Rel = False
+Include Path 9 Line0001 = "/c/Documents and Settings/Pierce/Desktop/Working Area/Hardware Control/Com Port "
+Include Path 9 Line0002 = "Control/trunk"
+Include Path 10 Is Rel = False
+Include Path 10 = "/c/Documents and Settings/Pierce/Desktop/Working Area/IcsViewer/Fortify"
+Include Path 11 Is Rel = False
+Include Path 11 = "/c/Documents and Settings/Pierce/Desktop/Working Area/IcsViewer/Tools"
+Include Path 12 Is Rel = False
+Include Path 12 = "/c/Documents and Settings/Pierce/Desktop/Working Area/IcsViewer/Plugins"
+Include Path 13 Is Rel = False
+Include Path 13 = "/c/Documents and Settings/Pierce/Desktop/Working Area/IcsViewer/Shell"
+Include Path 14 Is Rel = False
+Include Path 14 Line0001 = "/c/Documents and Settings/Pierce/Desktop/Working Area/Libraries/FreeImageIcs/tru"
+Include Path 14 Line0002 = "nk/include"
+Include Path 15 Is Rel = False
+Include Path 15 Line0001 = "/c/Documents and Settings/Pierce/Desktop/Working Area/Libraries/FreeImageAlgorit"
+Include Path 15 Line0002 = "hms/trunk/include"
+
+[Create Executable]
+Executable File_Debug Is Rel = False
+Executable File_Debug = "../../../../../bin/stage_test.exe"
+Executable File_Release Is Rel = False
+Executable File_Release = "../../../../../bin/stage_test.exe"
+Icon File Is Rel = False
+Icon File = ""
+Application Title = ""
+DLL Exports = "Include File Symbols"
+DLL Import Library Choice = "Gen Lib For Current Mode"
+Use IVI Subdirectories for Import Libraries = False
+Use VXIPNP Subdirectories for Import Libraries = False
+Use Dflt Import Lib Base Name = True
+Where to Copy DLL = "Do not copy"
+Add Type Lib To DLL = False
+Include Type Lib Help Links = False
+Type Lib FP File Is Rel = False
+Type Lib FP File = ""
+Type Lib Guid = ""
+Runtime Support = "Full Runtime Support"
+Instrument Driver Support Only = False
+Embed Project .UIRs = True
+Generate Map File = False
+
+[External Compiler Support]
+UIR Callbacks File Option = 0
+Using LoadExternalModule = False
+Create Project Symbols File = True
+UIR Callbacks Obj File Is Rel = False
+UIR Callbacks Obj File = ""
+Project Symbols H File Is Rel = False
+Project Symbols H File = ""
+Project Symbols Obj File Is Rel = False
+Project Symbols Obj File = ""
+
+[ActiveX Server Options]
+Specification File Is Rel = False
+Specification File = ""
+Source File Is Rel = False
+Source File = ""
+Include File Is Rel = False
+Include File = ""
+IDL File Is Rel = False
+IDL File = ""
+Register ActiveX Server = False
+
+[tpcSection]
+tpcEnabled = 0
+tpcOverrideEnvironment = 0
+

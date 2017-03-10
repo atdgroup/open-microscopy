@@ -1,0 +1,346 @@
+[Workspace Header]
+Version = 810
+Pathname = "/c/cvi8 Applications/2007/HTS/Optical Path/optical_path.cws"
+CVI Dir = "/c/program files/national instruments/cvi81"
+IVI Standard Root Dir = "/C/Program Files/IVI"
+VXIplug&play Framework Dir = "/C/VXIpnp/winnt"
+Number of Projects = 1
+Active Project = 1
+Project 0001 = "optical_path.prj"
+Project 0001 Folder Common Collapsed = True
+Drag Bar Left = 519
+Window Top = 64
+Window Left = 615
+Window Bottom = 714
+Window Right = 1111
+Maximized = False
+Maximized Children = False
+Max Number Of Errors = 20
+Track Include File Dependencies = True
+Prompt For Missing Includes = True
+Stop On First Error File = False
+Bring Up Err Win For Warnings = True
+Show Build Dialog = False
+Save Changes Before Running = "Always"
+Hide Windows = False
+Global Hot Key = False
+Break At First Statement = False
+Sort Type = "File Name"
+Number of Opened Files = 0
+Window Confinement Region Enabled = False
+MainColumnWidth = 316
+FileDateColumnWidth = 95
+FileSizeColumnWidth = 70
+StatusColumnWidth = 52
+
+[Project Header 0001]
+Version = 810
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Debug"
+Warn User If Debugging Release = 1
+Batch Build Release = False
+Batch Build Debug = False
+Force Rebuild = False
+
+[File 0001]
+Path = "/c/cvi8 Applications/2007/HTS/Common/DeviceFinder/DeviceFinder.h"
+File Type = "Include"
+Disk Date = 3259842711
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0002]
+Path = "/c/cvi8 Applications/2007/HTS/Common/DeviceFinder/DeviceFinder.lib"
+File Type = "Library"
+Disk Date = 3259842711
+In Projects = "1,"
+
+[File 0003]
+Path = "/c/cvi8 Applications/2007/HTS/Common/GCI Utils/gci_utils.c"
+File Type = "CSource"
+Disk Date = 3259843079
+In Projects = "1,"
+Window Top = 48
+Window Left = 18
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,9,396,676,0,0,"
+
+[File 0004]
+Path = "/c/cvi8 Applications/2007/HTS/Common/GCI Utils/gci_utils.h"
+File Type = "Include"
+Disk Date = 3259843079
+In Projects = "1,"
+Window Top = 340
+Window Left = 29
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0005]
+Path = "/c/cvi8 Applications/2007/HTS/Common/GCI Registry/GL_CVIRegistry.c"
+File Type = "CSource"
+Disk Date = 3259842942
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0006]
+Path = "/c/cvi8 Applications/2007/HTS/Common/GCI Registry/GL_CVIRegistry.h"
+File Type = "Include"
+Disk Date = 3259842942
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0007]
+Path = "/c/cvi8 Applications/2007/HTS/Optical Path/hts_optical_path.c"
+File Type = "CSource"
+Disk Date = 3260880593
+In Projects = "1,"
+Window Top = 228
+Window Left = 1587
+Source Window State = "1,105,105,105,67,79,67,0,0,109,0,0,0,0,0,52,0,0,23,11,747,906,0,0,"
+
+[File 0008]
+Path = "/c/cvi8 Applications/2007/HTS/Optical Path/hts_optical_path.h"
+File Type = "Include"
+Disk Date = 3260878043
+In Projects = "1,"
+Window Top = 498
+Window Left = 528
+Source Window State = "1,20,20,20,49,80,49,0,0,0,0,0,0,0,0,0,0,0,21,37,396,676,0,0,"
+
+[File 0009]
+Path = "/c/cvi8 Applications/2007/HTS/Common/GCI_I2C/IO_interface_v2.c"
+File Type = "CSource"
+Disk Date = 3260359910
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0010]
+Path = "/c/cvi8 Applications/2007/HTS/Common/GCI_I2C/IO_interface_v2.h"
+File Type = "Include"
+Disk Date = 3260359916
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0011]
+Path = "/c/cvi8 Applications/2007/HTS/Optical Path/main.c"
+File Type = "CSource"
+Disk Date = 3260879815
+In Projects = "1,"
+Window Top = 157
+Window Left = 120
+Source Window State = "1,40,40,40,56,60,60,0,0,126,0,0,0,0,0,52,0,0,13,4,750,1043,0,0,"
+
+[File 0012]
+Path = "/c/cvi8 Applications/2007/HTS/Minipak mirror stepper/minipak mirror stepper.c"
+File Type = "CSource"
+Disk Date = 3260854174
+In Projects = "1,"
+Window Top = 71
+Window Left = 1310
+Source Window State = "1,608,608,608,8,19,19,0,0,80,0,0,0,0,0,25,766,0,775,0,396,676,0,0,"
+
+[File 0013]
+Path = "/c/cvi8 Applications/2007/HTS/Minipak mirror stepper/minipak mirror stepper.h"
+File Type = "Include"
+Disk Date = 3260854174
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0014]
+Path = "/c/cvi8 Applications/2007/HTS/Minipak mirror stepper/minipak mirror stepper_ui.c"
+File Type = "CSource"
+Disk Date = 3260854174
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0015]
+Path = "/c/cvi8 Applications/2007/HTS/Minipak mirror stepper/minipak mirror stepper_ui.h"
+File Type = "Include"
+Disk Date = 3260875528
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0016]
+Path Line0001 = "/c/cvi8 Applications/2007/HTS/Minipak mirror stepper/minipak mirror stepper_ui.u"
+Path Line0002 = "ir"
+File Type = "User Interface Resource"
+Disk Date = 3260875528
+In Projects = "1,"
+
+[File 0017]
+Path = "/c/program files/national instruments/cvi81/sdk/lib/ole32.lib"
+File Type = "Library"
+Disk Date = 3245652000
+In Projects = "1,"
+
+[File 0018]
+Path = "/c/cvi8 Applications/2007/HTS/Optical Path/optical_path.c"
+File Type = "CSource"
+Disk Date = 3260881009
+In Projects = "1,"
+Window Top = 234
+Window Left = 35
+Source Window State = "1,456,456,456,18,20,20,0,3,140,0,0,0,0,0,46,433,0,456,18,671,1152,0,0,"
+
+[File 0019]
+Path = "/c/cvi8 Applications/2007/HTS/Optical Path/optical_path.h"
+File Type = "Include"
+Disk Date = 3260880822
+In Projects = "1,"
+Window Top = 65
+Window Left = 36
+Source Window State = "1,114,114,114,5,46,46,0,0,114,0,0,0,0,0,29,15,0,36,18,454,947,0,0,"
+
+[File 0020]
+Path = "/c/cvi8 Applications/2007/HTS/Optical Path/optical_path_ui.c"
+File Type = "CSource"
+Disk Date = 3260948399
+In Projects = "1,"
+Window Top = 297
+Window Left = 1289
+Source Window State = "1,30,30,30,67,74,74,0,0,127,0,0,0,0,0,43,6,0,27,12,638,1047,0,0,"
+
+[File 0021]
+Path = "/c/cvi8 Applications/2007/HTS/Optical Path/optical_path_ui.h"
+File Type = "Include"
+Disk Date = 3260878573
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0022]
+Path = "/c/cvi8 Applications/2007/HTS/Optical Path/optical_path_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3260949082
+In Projects = "1,"
+Window Top = 90
+Window Left = 1562
+Window Height = 789
+Window Width = 676
+
+[File 0023]
+Path = "/c/cvi8 Applications/2007/HTS/Optical Path/optical_path_xml.c"
+File Type = "CSource"
+Disk Date = 3260949605
+In Projects = "1,"
+Window Top = 145
+Window Left = 143
+Source Window State = "1,0,0,0,0,0,0,0,0,109,0,0,0,0,0,54,30,0,120,80,780,906,0,0,"
+
+[File 0024]
+Path = "/c/cvi8 Applications/2007/HTS/Common/Password/password.c"
+File Type = "CSource"
+Disk Date = 3259842980
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0025]
+Path = "/c/cvi8 Applications/2007/HTS/Common/Password/password.h"
+File Type = "Include"
+Disk Date = 3259842980
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0026]
+Path = "/c/cvi8 Applications/2007/HTS/Common/Password/password_ui.h"
+File Type = "Include"
+Disk Date = 3259842980
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0027]
+Path = "/c/cvi8 Applications/2007/HTS/Common/Password/password_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3259842980
+In Projects = "1,"
+
+[File 0028]
+Path = "/c/cvi8 Applications/2007/HTS/Common/signals/signals.c"
+File Type = "CSource"
+Disk Date = 3259843015
+In Projects = "1,"
+Window Top = 48
+Window Left = 18
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,25,713,0,730,8,396,676,0,0,"
+
+[File 0029]
+Path = "/c/cvi8 Applications/2007/HTS/Common/signals/signals.h"
+File Type = "Include"
+Disk Date = 3259843015
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0030]
+Path = "/c/cvi8 Applications/2007/HTS/Common/StringUtils/include/string_utils.h"
+File Type = "Include"
+Disk Date = 3260424627
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0031]
+Path = "/c/cvi8 Applications/2007/HTS/bin/StringUtils.lib"
+File Type = "Library"
+Disk Date = 3239010864
+In Projects = "1,"
+
+[File 0032]
+Path = "/c/cvi8 Applications/2007/HTS/Common/GCI_I2C/usbconverter_v2.c"
+File Type = "CSource"
+Disk Date = 3260345868
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0033]
+Path = "/c/cvi8 Applications/2007/HTS/Common/GCI_I2C/usbconverter_v2.h"
+File Type = "Include"
+Disk Date = 3260345868
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0034]
+Path = "/c/cvi8 Applications/2007/HTS/Common/XML utils/xml_utils.c"
+File Type = "CSource"
+Disk Date = 3260855754
+In Projects = "1,"
+Window Top = 104
+Window Left = 586
+Source Window State = "1,173,174,173,0,0,0,0,3,0,0,0,0,0,0,0,158,0,174,0,643,676,0,0,"
+
+[File 0035]
+Path = "/c/cvi8 Applications/2007/HTS/Common/XML utils/xml_utils.h"
+File Type = "Include"
+Disk Date = 3260855754
+In Projects = "1,"
+Window Top = 163
+Window Left = 78
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[Build Options 0001]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Debugging Level = "Standard"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0001]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Perform Same Action For .cds File As For .prj File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = False
+Suppress CVI Error Messages = False
+Always show confirmation dialog = True
+
+[DLL Debugging Support 0001]
+External Process Path = ""
+
+[Command Line Args 0001]
+Command Line Args = ""
+

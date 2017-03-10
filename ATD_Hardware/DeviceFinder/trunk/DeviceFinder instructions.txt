@@ -1,0 +1,30 @@
+FTDI DeviceFinder by Jonathan Stratford 2005
+
+Include DeviceFinder.h, and drag DeviceFinder.lib into project
+
+Call getDevices()
+
+This fills a count variable, an integer array, and a string array. which can be obtained using getNumberOfDevices(), getPorts()[index] and getDescriptions(char *array[MAX_NUMBER_OF_DEVICES]) respectively. index must be less than the value returned by getNumberOfDevices, but it is up to the programmer to ensure this.
+
+Check build options calling convention to _cdelc not std call
+
+RJL 06/11/06
+Added function:-
+ 
+int getPortForDevice(char *device, int *comport);
+
+Enter the serial number of the ftdi device, (e.g. "USA61WDJA"), and it returns with the port number in comport.
+Function returns -1 if the device can't be found.
+
+RJL 20/02/07
+Added function:-
+ 
+int selectPortForDevice(char *filepath, int *port, char *title);
+
+When called for the first time this function pops up a panel with a ring control populated with the IDs of all present FTDI ports. There is also an entry "NOT_FTDI" which should be selected for a device plugged into a real RS232 port.
+The parameter "title" is didplyed in the panel title bar and should describe the device being set up.
+Select the required entry for your device and it returns with the port number in port.
+Function returns -1 if the device can't be found or if the device is "NOT_FTDI".
+If "filepath" is not NULL, the chosen ID is written to the file.
+
+On subsequent calls if "filepath" is not NULL, the device ID is read from the file and the port for that device is returned. -1 is returned if the port cannot be found or the device ID is "NOT_FTDI".

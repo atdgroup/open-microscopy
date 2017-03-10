@@ -1,0 +1,23 @@
+INCLUDE(MAKE_WINDOWS_PATH)
+
+FIND_PATH (HARDWARE_DIR_PATH Shutter ${MICROSCOPY_TOPLEVEL_SOURCE_DIR}/../../../../ATD_Hardware NO_DEFAULT_PATH)
+
+IF (HARDWARE_DIR_PATH-NOTFOUND)
+    MESSAGE(FATAL_ERROR "Could not find Hardware")
+ENDIF (HARDWARE_DIR_PATH-NOTFOUND)
+
+IF (USE_90I_COMPONENTS)
+SET(FIELD_STOP_SRCS ${FIELD_STOP_SRCS}
+
+                ${HARDWARE_DIR_PATH}/FieldStop/trunk/90i_field_stop.c
+				${HARDWARE_DIR_PATH}/FieldStop/trunk/90i_field_stop.h
+				${HARDWARE_DIR_PATH}/FieldStop/trunk/90i_epi_field_stop.c
+				${HARDWARE_DIR_PATH}/FieldStop/trunk/90i_epi_field_stop.h
+)
+ENDIF (USE_90I_COMPONENTS)
+
+INCLUDE_DIRECTORIES(${HARDWARE_DIR_PATH}/FieldStop/trunk/)
+            
+ADD_DEFINITIONS(-D BUILD_MODULE_FIELDSTOP)
+            
+SOURCE_GROUP("Hardware\\FieldStop" FILES ${FIELD_STOP_SRCS})

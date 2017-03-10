@@ -1,0 +1,19 @@
+SET(PS_SRCS 	    ${HARDWARE_DIR_PATH}/Power\ Switch/trunk/PowerSwitch.c
+                    ${HARDWARE_DIR_PATH}/Power\ Switch/trunk/PowerSwitch.h
+					${HARDWARE_DIR_PATH}/Power\ Switch/trunk/ATD_PowerSwitch_A/ATD_PowerSwitch_A.c
+					${HARDWARE_DIR_PATH}/Power\ Switch/trunk/ATD_PowerSwitch_A/ATD_PowerSwitch_A.h
+					${HARDWARE_DIR_PATH}/Power\ Switch/trunk/ATD_PowerSwitch_A/ATD_PowerSwitch_A_UI.uir			
+					${HARDWARE_DIR_PATH}/Power\ Switch/trunk/main.c
+)
+
+# Make sure the compiler can find include files from our library.
+INCLUDE_DIRECTORIES(
+					${HARDWARE_DIR_PATH}/Power\ Switch/trunk/
+					${HARDWARE_DIR_PATH}/Power\ Switch/trunk/ATD_PowerSwitch_A/
+					)
+
+SET(PS_RESOURCES 
+					${HARDWARE_DIR_PATH}/Power\ Switch/trunk/ATD_PowerSwitch_A/ATD_PowerSwitch_A_UI.uir			
+)
+
+LIST(APPEND HARDWARE_RESOURCE_SRCS ${PS_RESOURCES})

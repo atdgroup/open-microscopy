@@ -1,0 +1,369 @@
+[Project Header]
+Version = 800
+Pathname = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Objectives/objectives.prj"
+Project Label = "Nikon Objective"
+CVI Dir = "/c/program files/national instruments/cvi80"
+IVI Standard Root Dir = "/C/Program Files/IVI"
+VXIplug&play Framework Dir = "/C/VXIpnp/winnt"
+Number of Files = 24
+Target Type = "Executable"
+Flags = 16
+
+[File 0001]
+File Type = "CSource"
+Res Id = 1
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "90i_objectives.c"
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Objectives/90i_objectives.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Source Files"
+
+[File 0002]
+File Type = "Include"
+Res Id = 2
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "90i_objectives.h"
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Objectives/90i_objectives.h"
+Exclude = False
+Project Flags = 0
+Folder = "Source Files"
+
+[File 0003]
+File Type = "CSource"
+Res Id = 3
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/GCI Utils/gci_utils.c"
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/GCI Utils/gci_utils.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0004]
+File Type = "Include"
+Res Id = 4
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/GCI Utils/gci_utils.h"
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/GCI Utils/gci_utils.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0005]
+File Type = "CSource"
+Res Id = 5
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/GCI Registry/GL_CVIRegistry.c"
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/GCI Registry/GL_CVIRegistry.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0006]
+File Type = "Include"
+Res Id = 6
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/GCI Registry/GL_CVIRegistry.h"
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/GCI Registry/GL_CVIRegistry.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0007]
+File Type = "Include"
+Res Id = 7
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../hardware.h"
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/hardware.h"
+Exclude = False
+Project Flags = 0
+Folder = "Include Files"
+
+[File 0008]
+File Type = "CSource"
+Res Id = 8
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "main.c"
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Objectives/main.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Source Files"
+
+[File 0009]
+File Type = "CSource"
+Res Id = 9
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "objectives.c"
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Objectives/objectives.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Source Files"
+
+[File 0010]
+File Type = "Include"
+Res Id = 10
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "objectives.h"
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Objectives/objectives.h"
+Exclude = False
+Project Flags = 0
+Folder = "Source Files"
+
+[File 0011]
+File Type = "Include"
+Res Id = 11
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "objectives_private.h"
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Objectives/objectives_private.h"
+Exclude = False
+Project Flags = 0
+Folder = "Source Files"
+
+[File 0012]
+File Type = "CSource"
+Res Id = 12
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "objectives_ui.c"
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Objectives/objectives_ui.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Source Files"
+
+[File 0013]
+File Type = "Include"
+Res Id = 13
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "objectives_ui.h"
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Objectives/objectives_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "Source Files"
+
+[File 0014]
+File Type = "User Interface Resource"
+Res Id = 14
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "objectives_ui.uir"
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Objectives/objectives_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "Source Files"
+
+[File 0015]
+File Type = "CSource"
+Res Id = 15
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "objectives_xml.c"
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Objectives/objectives_xml.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Source Files"
+
+[File 0016]
+File Type = "Library"
+Res Id = 16
+Path Is Rel = True
+Path Rel To = "CVI"
+Path Rel Path = "sdk/lib/ole32.lib"
+Path = "/c/program files/national instruments/cvi80/sdk/lib/ole32.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0017]
+File Type = "CSource"
+Res Id = 17
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/Password/password.c"
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/Password/password.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0018]
+File Type = "Include"
+Res Id = 18
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/Password/password.h"
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/Password/password.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0019]
+File Type = "Include"
+Res Id = 19
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/Password/password_ui.h"
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/Password/password_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0020]
+File Type = "User Interface Resource"
+Res Id = 20
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/Password/password_ui.uir"
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/Password/password_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0021]
+File Type = "CSource"
+Res Id = 21
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/Signals/signals.c"
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/Signals/signals.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0022]
+File Type = "Include"
+Res Id = 22
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/Signals/signals.h"
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/Signals/signals.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0023]
+File Type = "Include"
+Res Id = 23
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/String Utils/include/string_utils.h"
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/String Utils/include/string_utils.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0024]
+File Type = "Library"
+Res Id = 24
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../bin/StringUtils.lib"
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/bin/StringUtils.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[Folders]
+User Interface Files Folder Not Added Yet = True
+Instrument Files Folder Not Added Yet = True
+Folder 0 = "Common"
+Folder 1 = "Source Files"
+Folder 2 = "Include Files"
+
+[Compiler Options]
+Default Calling Convention = "cdecl"
+Require Prototypes = True
+Require Return Values = True
+Enable Pointer Mismatch Warning = False
+Enable Unreachable Code Warning = False
+Enable Unreferenced Identifiers Warning = False
+Enable Assignment In Conditional Warning = False
+O Option Compatible With 5.0 = False
+Uninitialized Locals Compile Warning = "Conservative"
+
+[Run Options]
+Stack Size = 250000
+Image Base Address = 4194304
+
+[Compiler Defines]
+Compiler Defines = "/DWIN32_LEAN_AND_MEAN"
+
+[Include Paths]
+Include Path 1 Is Rel = False
+Include Path 1 = "/p/GROUP9_Adv Tech/Glenn/Microfocus - Components/Common/Camera"
+Include Path 2 Is Rel = False
+Include Path 2 = "/p/GROUP9_Adv Tech/Glenn/Microfocus - Components/Optical Shutter"
+Include Path 3 Is Rel = False
+Include Path 3 = "/c/CVI Applications/Microfocus - Components/Common/GCI_Registry"
+Include Path 4 Is Rel = False
+Include Path 4 = "/c/CVI Applications/Microfocus - Components"
+
+[Create Executable]
+Executable File_Debug Is Rel = False
+Executable File_Debug = "/p/GROUP9_Adv Tech/CVI/GCI_90i/bin/objective_dbg.exe"
+Executable File_Release Is Rel = False
+Executable File_Release = "/p/GROUP9_Adv Tech/CVI/GCI_90i/bin/objective.exe"
+Icon File Is Rel = False
+Icon File = ""
+Application Title = ""
+DLL Exports = "Include File Symbols"
+DLL Import Library Choice = "Gen Lib For Current Mode"
+Use IVI Subdirectories for Import Libraries = False
+Use VXIPNP Subdirectories for Import Libraries = False
+Use Dflt Import Lib Base Name = True
+Where to Copy DLL = "Do not copy"
+Add Type Lib To DLL = False
+Include Type Lib Help Links = False
+Type Lib FP File Is Rel = False
+Type Lib FP File = ""
+Type Lib Guid = ""
+Runtime Support = "Full Runtime Support"
+Instrument Driver Support Only = False
+Embed Project .UIRs = True
+Generate Map File = False
+
+[External Compiler Support]
+UIR Callbacks File Option = 0
+Using LoadExternalModule = False
+Create Project Symbols File = True
+UIR Callbacks Obj File Is Rel = False
+UIR Callbacks Obj File = ""
+Project Symbols H File Is Rel = False
+Project Symbols H File = ""
+Project Symbols Obj File Is Rel = False
+Project Symbols Obj File = ""
+
+[ActiveX Server Options]
+Specification File Is Rel = False
+Specification File = ""
+Source File Is Rel = False
+Source File = ""
+Include File Is Rel = False
+Include File = ""
+IDL File Is Rel = False
+IDL File = ""
+Register ActiveX Server = False
+
+[tpcSection]
+tpcEnabled = 0
+tpcOverrideEnvironment = 0
+

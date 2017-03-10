@@ -1,0 +1,679 @@
+[Workspace Header]
+Version = 801
+Pathname = "/c/Camera/camera.cws"
+CVI Dir = "/c/program files/national instruments/cvi80"
+IVI Standard Root Dir = "/C/Program Files/IVI"
+VXIplug&play Framework Dir = "/c/vxipnp/winnt"
+Number of Projects = 1
+Active Project = 1
+Project 0001 = "camera.prj"
+Drag Bar Left = 340
+Window Top = 148
+Window Left = 102
+Window Bottom = 921
+Window Right = 1142
+Maximized = False
+Maximized Children = True
+Max Number Of Errors = 20
+Track Include File Dependencies = True
+Prompt For Missing Includes = True
+Stop On First Error File = True
+Bring Up Err Win For Warnings = True
+Show Build Dialog = False
+Save Changes Before Running = "Ask"
+Hide Windows = True
+Global Hot Key = True
+Break At First Statement = False
+Sort Type = "File Name"
+Number of Opened Files = 0
+Window Confinement Region Enabled = False
+MainColumnWidth = 1026
+FileDateColumnWidth = 70
+FileSizeColumnWidth = 70
+StatusColumnWidth = 70
+
+[Project Header 0001]
+Version = 801
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Debug"
+Warn User If Debugging Release = 1
+Batch Build Release = False
+Batch Build Debug = False
+Force Rebuild = False
+
+[File 0001]
+Path = "/c/Camera/camera/gci_camera.c"
+File Type = "CSource"
+Disk Date = 3272273103
+In Projects = "1,"
+Window Top = 124
+Window Left = 89
+Source Window State = "1,649,649,649,4,89,4,0,0,129,0,0,0,0,0,50,0,0,6,9,733,1097,0,0,"
+Line Tags = "730,781,846,1358,"
+
+[File 0002]
+Path = "/c/Camera/lynx/gci_lynx_camera.c"
+File Type = "CSource"
+Disk Date = 3272273332
+In Projects = "1,"
+Window Top = 315
+Window Left = -65
+Source Window State = "0,695,697,697,0,7,7,0,0,151,29,302,0,319,6,32,710,0,727,6,870,1272,0,4850,"
+Line Tags = "627,"
+
+[File 0003]
+Path = "/c/Camera/lynx/gci_lynx_lowlevel.c"
+File Type = "CSource"
+Disk Date = 3272266967
+In Projects = "1,"
+Window Top = 219
+Window Left = 4
+Source Window State = "1,481,481,481,48,51,48,0,0,0,0,57,0,57,0,0,553,0,592,0,801,1272,0,0,"
+Line Tags = "632,"
+
+[File 0004]
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyCamImperxLynx.lib"
+File Type = "Library"
+Disk Date = 3236260942
+In Projects = "1,"
+
+[File 0005]
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyCamImperxLynx_Dbg.lib"
+File Type = "Library"
+Disk Date = 3236261002
+In Projects = "1,"
+
+[File 0006]
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyCamLib.lib"
+File Type = "Library"
+Disk Date = 3233789884
+In Projects = "1,"
+
+[File 0007]
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyCamLib_Dbg.lib"
+File Type = "Library"
+Disk Date = 3233789646
+In Projects = "1,"
+
+[File 0008]
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyComLib.lib"
+File Type = "Library"
+Disk Date = 3233789860
+In Projects = "1,"
+
+[File 0009]
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyComLib_Dbg.lib"
+File Type = "Library"
+Disk Date = 3233789616
+In Projects = "1,"
+
+[File 0010]
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyDispExLib.lib"
+File Type = "Library"
+Disk Date = 3236260934
+In Projects = "1,"
+
+[File 0011]
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyDispExLib_Dbg.lib"
+File Type = "Library"
+Disk Date = 3236260994
+In Projects = "1,"
+
+[File 0012]
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyEngineLib.lib"
+File Type = "Library"
+Disk Date = 3233789886
+In Projects = "1,"
+
+[File 0013]
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyEngineLib_Dbg.lib"
+File Type = "Library"
+Disk Date = 3233789650
+In Projects = "1,"
+
+[File 0014]
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyImgLib.lib"
+File Type = "Library"
+Disk Date = 3233789864
+In Projects = "1,"
+
+[File 0015]
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyImgLib_Dbg.lib"
+File Type = "Library"
+Disk Date = 3233789622
+In Projects = "1,"
+
+[File 0016]
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyMediumLib.lib"
+File Type = "Library"
+Disk Date = 3233789890
+In Projects = "1,"
+
+[File 0017]
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyMediumLib_Dbg.lib"
+File Type = "Library"
+Disk Date = 3233789654
+In Projects = "1,"
+
+[File 0018]
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyMILDriver.lib"
+File Type = "Library"
+Disk Date = 3233790048
+In Projects = "1,"
+
+[File 0019]
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyMILDriver_Dbg.lib"
+File Type = "Library"
+Disk Date = 3233789830
+In Projects = "1,"
+
+[File 0020]
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyUtilsLib.lib"
+File Type = "Library"
+Disk Date = 3233789854
+In Projects = "1,"
+
+[File 0021]
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyUtilsLib_Dbg.lib"
+File Type = "Library"
+Disk Date = 3233789098
+In Projects = "1,"
+
+[File 0022]
+Path = "/c/Camera/camera/gci_camera.h"
+File Type = "Include"
+Disk Date = 3272272851
+In Projects = "1,"
+Window Top = 270
+Window Left = 90
+Source Window State = "1,58,58,58,7,23,7,0,0,117,0,0,0,0,0,49,0,0,3,9,714,1004,0,0,"
+
+[File 0023]
+Path = "/c/Camera/camera/gci_camera_callbacks.h"
+File Type = "Include"
+Disk Date = 3272266965
+In Projects = "1,"
+Window Top = 421
+Window Left = 1005
+Source Window State = "1,0,46,46,0,0,15,0,3,0,0,0,0,0,0,0,0,0,0,0,844,1079,0,0,"
+
+[File 0024]
+Path = "/c/Camera/camera/gci_camera_ui.c"
+File Type = "CSource"
+Disk Date = 3272266965
+In Projects = "1,"
+Window Top = 81
+Window Left = 1335
+Source Window State = "1,121,121,121,27,31,31,0,0,0,0,0,0,0,0,0,238,0,254,48,773,1113,0,0,"
+
+[File 0025]
+Path = "/c/Camera/uir_files/gci_camera_ui.h"
+File Type = "Include"
+Disk Date = 3272266965
+In Projects = "1,"
+Window Top = 255
+Window Left = 1406
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,708,0,0,"
+
+[File 0026]
+Path = "/c/Camera/uir_files/gci_camera_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3272266965
+In Projects = "1,"
+Window Top = 161
+Window Left = -44
+Window Height = 885
+Window Width = 1204
+
+[File 0027]
+Path = "/c/Camera/lynx/gci_lynx_camera.h"
+File Type = "Include"
+Disk Date = 3272266967
+In Projects = "1,"
+Window Top = 252
+Window Left = 1225
+Source Window State = "1,90,90,90,62,70,70,0,0,0,0,0,0,0,0,0,57,0,90,68,616,1021,0,0,"
+
+[File 0028]
+Path = "/c/Camera/lynx/gci_lynx_camera_callbacks.h"
+File Type = "Include"
+Disk Date = 3272266967
+In Projects = "1,"
+Window Top = 393
+Window Left = 75
+Source Window State = "1,48,48,48,33,34,33,0,0,0,0,18,0,18,0,0,27,0,48,34,396,708,0,0,"
+
+[File 0029]
+Path = "/c/Camera/lynx/gci_lynx_camera_ui.c"
+File Type = "CSource"
+Disk Date = 3272266967
+In Projects = "1,"
+Window Top = 311
+Window Left = 5
+Source Window State = "1,424,425,425,0,10,10,0,0,0,0,0,0,0,0,0,199,0,227,12,646,1197,0,0,"
+
+[File 0030]
+Path = "/c/Camera/uir_files/gci_lynx_camera_ui.h"
+File Type = "Include"
+Disk Date = 3272266965
+In Projects = "1,"
+Window Top = 433
+Window Left = 314
+Source Window State = "1,38,38,38,9,32,32,0,3,0,0,0,0,0,0,0,27,0,38,9,396,708,0,0,"
+
+[File 0031]
+Path = "/c/Camera/uir_files/gci_lynx_camera_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3272266965
+In Projects = "1,"
+Window Top = 254
+Window Left = 243
+Window Height = 773
+Window Width = 919
+
+[File 0032]
+Path = "/c/Camera/lynx/gci_lynx_lowlevel.h"
+File Type = "Include"
+Disk Date = 3272266967
+In Projects = "1,"
+Window Top = 187
+Window Left = 975
+Source Window State = "1,41,41,41,48,54,54,0,0,0,0,74,0,74,0,0,21,0,41,56,773,1272,0,0,"
+
+[File 0033]
+Path = "/c/Camera/lynx/gci_lynx_smart_exposure.c"
+File Type = "CSource"
+Disk Date = 3272266967
+In Projects = "1,"
+Window Top = 137
+Window Left = 1509
+Source Window State = "1,39,39,39,24,51,24,0,0,0,0,143,0,143,0,0,9,0,39,17,835,732,0,0,"
+
+[File 0034]
+Path = "/c/Camera/main.c"
+File Type = "CSource"
+Disk Date = 3272266967
+In Projects = "1,"
+Window Top = 84
+Window Left = 290
+Source Window State = "1,13,13,13,27,64,27,0,0,0,0,0,0,0,0,0,11,0,30,8,773,845,0,0,"
+
+[File 0035]
+Path = "/c/program files/national instruments/cvi80/sdk/lib/ole32.lib"
+File Type = "Library"
+Disk Date = 3227504400
+In Projects = "1,"
+
+[File 0036]
+Path = "/c/program files/national instruments/cvi80/sdk/lib/Shell32.Lib"
+File Type = "Library"
+Disk Date = 3227504400
+In Projects = "1,"
+
+[File 0037]
+Path = "/c/Camera/test.c"
+File Type = "CSource"
+Disk Date = 3272266967
+In Projects = "1,"
+Window Top = 78
+Window Left = 474
+Source Window State = "1,157,180,157,4,40,4,0,0,0,0,532,0,532,0,0,134,0,163,50,870,1103,0,0,"
+
+[File 0038]
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms.h"
+File Type = "Include"
+Disk Date = 3272266956
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0039]
+Path = "/c/Camera/Libraries/FreeImageIcs/include/FreeImageIcs_MetaData.h"
+File Type = "Include"
+Disk Date = 3272266953
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0040]
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Arithmetic.h"
+File Type = "Include"
+Disk Date = 3272266956
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0041]
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Colour.h"
+File Type = "Include"
+Disk Date = 3272266956
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0042]
+Path Line0001 = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Convolution."
+Path Line0002 = "h"
+File Type = "Include"
+Disk Date = 3272266956
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0043]
+Path Line0001 = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Convolution_"
+Path Line0002 = "Private.h"
+File Type = "Include"
+Disk Date = 3272266956
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0044]
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Drawing.h"
+File Type = "Include"
+Disk Date = 3272266956
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0045]
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Error.h"
+File Type = "Include"
+Disk Date = 3272266956
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0046]
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_FFT.h"
+File Type = "Include"
+Disk Date = 3272266956
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0047]
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Filters.h"
+File Type = "Include"
+Disk Date = 3272266956
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0048]
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_HBitmap.h"
+File Type = "Include"
+Disk Date = 3272266956
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0049]
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_IO.h"
+File Type = "Include"
+Disk Date = 3272266956
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0050]
+Path Line0001 = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_LinearScale."
+Path Line0002 = "h"
+File Type = "Include"
+Disk Date = 3272266956
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0051]
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Logic.h"
+File Type = "Include"
+Disk Date = 3272266956
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0052]
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Morphology.h"
+File Type = "Include"
+Disk Date = 3272266956
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0053]
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Palettes.h"
+File Type = "Include"
+Disk Date = 3272266956
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0054]
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Particle.h"
+File Type = "Include"
+Disk Date = 3272266956
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0055]
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Statistics.h"
+File Type = "Include"
+Disk Date = 3272266956
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0056]
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Utilities.h"
+File Type = "Include"
+Disk Date = 3272266956
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0057]
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Utils.h"
+File Type = "Include"
+Disk Date = 3272266956
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0058]
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImage.h"
+File Type = "Include"
+Disk Date = 3272266956
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0059]
+Path = "/c/Camera/Libraries/FreeImageIcs/include/FreeImageIcs_IO.h"
+File Type = "Include"
+Disk Date = 3272266953
+In Projects = "1,"
+Window Top = 48
+Window Left = 18
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,25,0,0,9,9,396,708,0,0,"
+
+[File 0060]
+Path = "/c/Camera/Libraries/GCI Registry/GL_CVIRegistry.c"
+File Type = "CSource"
+Disk Date = 3272266948
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0061]
+Path = "/c/Camera/Libraries/GCI Registry/GL_CVIRegistry.h"
+File Type = "Include"
+Disk Date = 3272266948
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0062]
+Path = "/c/Camera/Libraries/GCI Utils/gci_menu_utils.c"
+File Type = "CSource"
+Disk Date = 3272266947
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0063]
+Path = "/c/Camera/Libraries/GCI Utils/gci_menu_utils.h"
+File Type = "Include"
+Disk Date = 3272266947
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0064]
+Path = "/c/Camera/Libraries/GCI Utils/gci_utils.c"
+File Type = "CSource"
+Disk Date = 3272266947
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0065]
+Path = "/c/Camera/Libraries/GCI Utils/gci_utils.h"
+File Type = "Include"
+Disk Date = 3272266947
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0066]
+Path = "/c/Camera/Libraries/Profile/profile.c"
+File Type = "CSource"
+Disk Date = 3272266960
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0067]
+Path = "/c/Camera/Libraries/Profile/profile.h"
+File Type = "Include"
+Disk Date = 3272266960
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0068]
+Path = "/c/Camera/Libraries/Signals/signals.c"
+File Type = "CSource"
+Disk Date = 3272266951
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0069]
+Path = "/c/Camera/Libraries/Signals/signals.h"
+File Type = "Include"
+Disk Date = 3272266951
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0070]
+Path = "/c/Camera/Libraries/String Utils/include/string_utils.h"
+File Type = "Include"
+Disk Date = 3272266950
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0071]
+Path = "/c/Camera/Libraries/UIModule/gci_ui_module.c"
+File Type = "CSource"
+Disk Date = 3272539455
+In Projects = "1,"
+Window Top = 71
+Window Left = 30
+Source Window State = "1,245,246,246,0,18,18,0,0,135,0,0,0,0,0,42,233,0,244,1,618,1145,0,0,"
+
+[File 0072]
+Path = "/c/Camera/Libraries/UIModule/gci_ui_module.h"
+File Type = "Include"
+Disk Date = 3272276105
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0073]
+Path = "/c/Camera/Libraries/XML utils/xml_utils.c"
+File Type = "CSource"
+Disk Date = 3272266961
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0074]
+Path = "/c/Camera/Libraries/XML utils/xml_utils.h"
+File Type = "Include"
+Disk Date = 3272266961
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0075]
+Path = "/c/Camera/Libraries/FreeImageIcs/libics-1.5.1/libics.h"
+File Type = "Include"
+Disk Date = 3272266953
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0076]
+Path = "/c/Camera/Libraries/Status/status.c"
+File Type = "CSource"
+Disk Date = 3272266949
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0077]
+Path = "/c/Camera/Libraries/Status/status.h"
+File Type = "Include"
+Disk Date = 3272266949
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0078]
+Path = "/c/dlls/FreeImage.lib"
+File Type = "Library"
+Disk Date = 3254061060
+In Projects = "1,"
+
+[File 0079]
+Path = "/c/dlls/freeimagealgorithms.lib"
+File Type = "Library"
+Disk Date = 3272435677
+In Projects = "1,"
+
+[File 0080]
+Path = "/c/dlls/FreeImageIcs.lib"
+File Type = "Library"
+Disk Date = 3270029401
+In Projects = "1,"
+
+[File 0081]
+Path = "/c/dlls/IcsViewer.lib"
+File Type = "Library"
+Disk Date = 3271675803
+In Projects = "1,"
+
+[File 0082]
+Path = "/c/dlls/StringUtils.lib"
+File Type = "Library"
+Disk Date = 3263369430
+In Projects = "1,"
+
+[Build Options 0001]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Debugging Level = "No Run-time Checking"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0001]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = True
+Suppress CVI Error Messages = False
+
+[DLL Debugging Support 0001]
+External Process Path = ""
+
+[DLLs Used By Executable 0001]
+DLL 0001 = "/C/Program Files/ImperX/LYNX GigE/BINARIES/CyCamLib.dll"
+DLL 0002 = "/C/Program Files/ImperX/LYNX GigE/BINARIES/CyComLib.dll"
+DLL 0003 = "/C/Program Files/ImperX/LYNX GigE/BINARIES/CyDispExLib.dll"
+DLL 0004 = "/C/Program Files/ImperX/LYNX GigE/BINARIES/CyUtilsLib.dll"
+DLL 0005 = "/c/dlls/FreeImage.dll"
+DLL 0006 = "/c/dlls/freeimagealgorithms.dll"
+DLL 0007 = "/c/dlls/FreeImageIcs.dll"
+DLL 0008 = "/c/dlls/IcsViewer.dll"
+DLL 0009 = "/c/dlls/StringUtils.dll"
+
+[Command Line Args 0001]
+Command Line Args = ""
+

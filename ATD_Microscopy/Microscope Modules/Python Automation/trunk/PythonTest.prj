@@ -1,0 +1,392 @@
+[Project Header]
+Version = 801
+Pathname = "/c/Documents and Settings/Pierce/Desktop/New Folder (5)/trunk/PythonTest.prj"
+Project Label = "PythonTest"
+CVI Dir = "/c/program files/national instruments/cvi80"
+IVI Standard Root Dir = "/C/Program Files/IVI"
+VXIplug&play Framework Dir = "/C/VXIPNP/winnt"
+Number of Files = 25
+Target Type = "Executable"
+Flags = 16
+
+[File 0001]
+File Type = "CSource"
+Res Id = 1
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "AutomationEditor.c"
+Path = "/c/Documents and Settings/Pierce/Desktop/New Folder (5)/trunk/AutomationEditor.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Source Files"
+
+[File 0002]
+File Type = "Include"
+Res Id = 2
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "AutomationEditor.h"
+Path = "/c/Documents and Settings/Pierce/Desktop/New Folder (5)/trunk/AutomationEditor.h"
+Exclude = False
+Project Flags = 0
+Folder = "Source Files"
+
+[File 0003]
+File Type = "CSource"
+Res Id = 3
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/GCIUtils/gci_menu_utils.c"
+Path Line0001 = "/c/Documents and Settings/Pierce/Desktop/New Folder (5)/trunk/Libraries/GCIUtils"
+Path Line0002 = "/gci_menu_utils.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0004]
+File Type = "Include"
+Res Id = 4
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/GCIUtils/gci_menu_utils.h"
+Path Line0001 = "/c/Documents and Settings/Pierce/Desktop/New Folder (5)/trunk/Libraries/GCIUtils"
+Path Line0002 = "/gci_menu_utils.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0005]
+File Type = "CSource"
+Res Id = 5
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "gci_python_wrappers.c"
+Path Line0001 = "/c/Documents and Settings/Pierce/Desktop/New Folder (5)/trunk/gci_python_wrapper"
+Path Line0002 = "s.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Source Files"
+
+[File 0006]
+File Type = "CSource"
+Res Id = 6
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/UIModule/gci_ui_module.c"
+Path Line0001 = "/c/Documents and Settings/Pierce/Desktop/New Folder (5)/trunk/Libraries/UIModule"
+Path Line0002 = "/gci_ui_module.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0007]
+File Type = "Include"
+Res Id = 7
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/UIModule/gci_ui_module.h"
+Path Line0001 = "/c/Documents and Settings/Pierce/Desktop/New Folder (5)/trunk/Libraries/UIModule"
+Path Line0002 = "/gci_ui_module.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0008]
+File Type = "CSource"
+Res Id = 8
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/GCIUtils/gci_utils.c"
+Path Line0001 = "/c/Documents and Settings/Pierce/Desktop/New Folder (5)/trunk/Libraries/GCIUtils"
+Path Line0002 = "/gci_utils.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0009]
+File Type = "Include"
+Res Id = 9
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/GCIUtils/gci_utils.h"
+Path Line0001 = "/c/Documents and Settings/Pierce/Desktop/New Folder (5)/trunk/Libraries/GCIUtils"
+Path Line0002 = "/gci_utils.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0010]
+File Type = "CSource"
+Res Id = 10
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/GCIRegistry/GL_CVIRegistry.c"
+Path Line0001 = "/c/Documents and Settings/Pierce/Desktop/New Folder (5)/trunk/Libraries/GCIRegis"
+Path Line0002 = "try/GL_CVIRegistry.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0011]
+File Type = "Include"
+Res Id = 11
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/GCIRegistry/GL_CVIRegistry.h"
+Path Line0001 = "/c/Documents and Settings/Pierce/Desktop/New Folder (5)/trunk/Libraries/GCIRegis"
+Path Line0002 = "try/GL_CVIRegistry.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0012]
+File Type = "CSource"
+Res Id = 12
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "main.c"
+Path = "/c/Documents and Settings/Pierce/Desktop/New Folder (5)/trunk/main.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Source Files"
+
+[File 0013]
+File Type = "Library"
+Res Id = 13
+Path Is Rel = True
+Path Rel To = "CVI"
+Path Rel Path = "sdk/lib/ole32.lib"
+Path = "/c/Program Files/National Instruments/CVI80/sdk/lib/ole32.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0014]
+File Type = "Include"
+Res Id = 14
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "pyconfig.h"
+Path = "/c/Documents and Settings/Pierce/Desktop/New Folder (5)/trunk/pyconfig.h"
+Exclude = False
+Project Flags = 0
+Folder = "Source Files"
+
+[File 0015]
+File Type = "Library"
+Res Id = 15
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../../../../../Python25/libs/python25.lib"
+Path = "/c/Python25/libs/python25.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0016]
+File Type = "Include"
+Res Id = 16
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "PythonEditor.h"
+Path = "/c/Documents and Settings/Pierce/Desktop/New Folder (5)/trunk/PythonEditor.h"
+Exclude = False
+Project Flags = 0
+Folder = "Source Files"
+
+[File 0017]
+File Type = "User Interface Resource"
+Res Id = 17
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "PythonEditor.uir"
+Path = "/c/Documents and Settings/Pierce/Desktop/New Folder (5)/trunk/PythonEditor.uir"
+Exclude = False
+Project Flags = 0
+Folder = "Source Files"
+
+[File 0018]
+File Type = "CSource"
+Res Id = 18
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/Signals/signals.c"
+Path Line0001 = "/c/Documents and Settings/Pierce/Desktop/New Folder (5)/trunk/Libraries/Signals/"
+Path Line0002 = "signals.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0019]
+File Type = "Include"
+Res Id = 19
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/Signals/signals.h"
+Path Line0001 = "/c/Documents and Settings/Pierce/Desktop/New Folder (5)/trunk/Libraries/Signals/"
+Path Line0002 = "signals.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0020]
+File Type = "CSource"
+Res Id = 20
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/Status/status.c"
+Path Line0001 = "/c/Documents and Settings/Pierce/Desktop/New Folder (5)/trunk/Libraries/Status/s"
+Path Line0002 = "tatus.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0021]
+File Type = "Include"
+Res Id = 21
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/Status/status.h"
+Path Line0001 = "/c/Documents and Settings/Pierce/Desktop/New Folder (5)/trunk/Libraries/Status/s"
+Path Line0002 = "tatus.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0022]
+File Type = "Include"
+Res Id = 22
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/StringUtils/include/string_utils.h"
+Path Line0001 = "/c/Documents and Settings/Pierce/Desktop/New Folder (5)/trunk/Libraries/StringUt"
+Path Line0002 = "ils/include/string_utils.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0023]
+File Type = "Library"
+Res Id = 23
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../../Working Area/bin/StringUtils.lib"
+Path = "/c/Documents and Settings/Pierce/Desktop/Working Area/bin/StringUtils.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0024]
+File Type = "Include"
+Res Id = 24
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Test.h"
+Path = "/c/Documents and Settings/Pierce/Desktop/New Folder (5)/trunk/Test.h"
+Exclude = False
+Project Flags = 0
+Folder = "Source Files"
+
+[File 0025]
+File Type = "User Interface Resource"
+Res Id = 25
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Test.uir"
+Path = "/c/Documents and Settings/Pierce/Desktop/New Folder (5)/trunk/Test.uir"
+Exclude = False
+Project Flags = 0
+Folder = "Source Files"
+
+[Folders]
+Include Files Folder Not Added Yet = True
+User Interface Files Folder Not Added Yet = True
+Instrument Files Folder Not Added Yet = True
+Folder 0 = "Source Files"
+Folder 1 = "Common"
+
+[Compiler Options]
+Default Calling Convention = "cdecl"
+Require Prototypes = True
+Require Return Values = True
+Enable Pointer Mismatch Warning = False
+Enable Unreachable Code Warning = False
+Enable Unreferenced Identifiers Warning = False
+Enable Assignment In Conditional Warning = False
+O Option Compatible With 5.0 = False
+Uninitialized Locals Compile Warning = "Conservative"
+
+[Run Options]
+Stack Size = 250000
+Image Base Address = 4194304
+
+[Compiler Defines]
+Compiler Defines = "/DWIN32_LEAN_AND_MEAN"
+
+[Include Paths]
+Include Path 1 Is Rel = False
+Include Path 1 = "/c/Python25/include"
+
+[Create Executable]
+Executable File_Debug Is Rel = True
+Executable File_Debug Rel To = "Project"
+Executable File_Debug Rel Path = "PythonTest_dbg.exe"
+Executable File_Debug = "/c/Documents and Settings/Pierce/Desktop/New Folder (5)/trunk/PythonTest_dbg.exe"
+Executable File_Release Is Rel = True
+Executable File_Release Rel To = "Project"
+Executable File_Release Rel Path = "PythonTest.exe"
+Executable File_Release = "/c/Documents and Settings/Pierce/Desktop/New Folder (5)/trunk/PythonTest.exe"
+Icon File Is Rel = False
+Icon File = ""
+Application Title = ""
+DLL Exports = "Include File Symbols"
+DLL Import Library Choice = "Gen Lib For Current Mode"
+Use IVI Subdirectories for Import Libraries = False
+Use VXIPNP Subdirectories for Import Libraries = False
+Use Dflt Import Lib Base Name = True
+Where to Copy DLL = "Do not copy"
+Add Type Lib To DLL = False
+Include Type Lib Help Links = False
+Type Lib FP File Is Rel = False
+Type Lib FP File = ""
+Type Lib Guid = ""
+Runtime Support = "Full Runtime Support"
+Instrument Driver Support Only = False
+Embed Project .UIRs = False
+Generate Map File = False
+
+[External Compiler Support]
+UIR Callbacks File Option = 0
+Using LoadExternalModule = False
+Create Project Symbols File = True
+UIR Callbacks Obj File Is Rel = False
+UIR Callbacks Obj File = ""
+Project Symbols H File Is Rel = False
+Project Symbols H File = ""
+Project Symbols Obj File Is Rel = False
+Project Symbols Obj File = ""
+
+[ActiveX Server Options]
+Specification File Is Rel = False
+Specification File = ""
+Source File Is Rel = False
+Source File = ""
+Include File Is Rel = False
+Include File = ""
+IDL File Is Rel = False
+IDL File = ""
+Register ActiveX Server = False
+
+[tpcSection]
+tpcEnabled = 1
+tpcOverrideEnvironment = 0
+

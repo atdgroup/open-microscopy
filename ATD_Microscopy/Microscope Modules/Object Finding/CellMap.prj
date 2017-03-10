@@ -1,0 +1,278 @@
+[Project Header]
+Version = 711
+Pathname = "/p/GROUP9_Adv Tech/CVI/Microfocus - Components/Cell Map/CellMap.prj"
+CVI Dir = "/c/program files/national instruments/cvi71"
+IVI Standard Root Dir = "/C/Program Files/IVI"
+VXIplug&play Framework Dir = "/C/VXIPNP/winnt"
+Number of Files = 17
+Target Type = "Executable"
+Flags = 16
+
+[File 0001]
+File Type = "CSource"
+Res Id = 1
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Cell/cell.c"
+Path = "/p/GROUP9_Adv Tech/CVI/Microfocus - Components/Cell/cell.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Cell"
+
+[File 0002]
+File Type = "Include"
+Res Id = 2
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Cell/cell.h"
+Path = "/p/GROUP9_Adv Tech/CVI/Microfocus - Components/Cell/cell.h"
+Exclude = False
+Project Flags = 0
+Folder = "Cell"
+
+[File 0003]
+File Type = "User Interface Resource"
+Res Id = 3
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "cell_info_ui.uir"
+Path = "/p/GROUP9_Adv Tech/CVI/Microfocus - Components/Cell Map/cell_info_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "CellMap"
+
+[File 0004]
+File Type = "CSource"
+Res Id = 4
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "celllinklist.c"
+Path = "/p/GROUP9_Adv Tech/CVI/Microfocus - Components/Cell Map/celllinklist.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "CellMap"
+
+[File 0005]
+File Type = "Include"
+Res Id = 5
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "celllinklist.h"
+Path = "/p/GROUP9_Adv Tech/CVI/Microfocus - Components/Cell Map/celllinklist.h"
+Exclude = False
+Project Flags = 0
+Folder = "CellMap"
+
+[File 0006]
+File Type = "CSource"
+Res Id = 6
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "cellmap.c"
+Path = "/p/GROUP9_Adv Tech/CVI/Microfocus - Components/Cell Map/cellmap.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "CellMap"
+
+[File 0007]
+File Type = "Include"
+Res Id = 7
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "cellmap.h"
+Path = "/p/GROUP9_Adv Tech/CVI/Microfocus - Components/Cell Map/cellmap.h"
+Exclude = False
+Project Flags = 0
+Folder = "CellMap"
+
+[File 0008]
+File Type = "Include"
+Res Id = 8
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "cellmap_ui.h"
+Path = "/p/GROUP9_Adv Tech/CVI/Microfocus - Components/Cell Map/cellmap_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "CellMap"
+
+[File 0009]
+File Type = "CSource"
+Res Id = 9
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "example.c"
+Path = "/p/GROUP9_Adv Tech/CVI/Microfocus - Components/Cell Map/example.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "CellMap"
+
+[File 0010]
+File Type = "Function Panel"
+Res Id = 10
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Cell/ExcelAutomation/ExcelAutomation.fp"
+Path Line0001 = "/p/GROUP9_Adv Tech/CVI/Microfocus - Components/Cell/ExcelAutomation/ExcelAutomat"
+Path Line0002 = "ion.fp"
+Exclude = False
+Project Flags = 0
+Folder = "Cell"
+
+[File 0011]
+File Type = "Include"
+Res Id = 11
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Cell/ExcelAutomation/ExcelAutomation.h"
+Path Line0001 = "/p/GROUP9_Adv Tech/CVI/Microfocus - Components/Cell/ExcelAutomation/ExcelAutomat"
+Path Line0002 = "ion.h"
+Exclude = False
+Project Flags = 0
+Folder = "Cell"
+
+[File 0012]
+File Type = "CSource"
+Res Id = 12
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Cell/SaveToExcel.c"
+Path = "/p/GROUP9_Adv Tech/CVI/Microfocus - Components/Cell/SaveToExcel.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Cell"
+
+[File 0013]
+File Type = "Include"
+Res Id = 13
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Cell/SaveToExcel.h"
+Path = "/p/GROUP9_Adv Tech/CVI/Microfocus - Components/Cell/SaveToExcel.h"
+Exclude = False
+Project Flags = 0
+Folder = "Cell"
+
+[File 0014]
+File Type = "CSource"
+Res Id = 14
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../signals/signals.c"
+Path = "/p/GROUP9_Adv Tech/CVI/Microfocus - Components/signals/signals.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0015]
+File Type = "Include"
+Res Id = 15
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../signals/signals.h"
+Path = "/p/GROUP9_Adv Tech/CVI/Microfocus - Components/signals/signals.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0016]
+File Type = "CSource"
+Res Id = 16
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../String Utils/string_utils.c"
+Path = "/p/GROUP9_Adv Tech/CVI/Microfocus - Components/String Utils/string_utils.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0017]
+File Type = "Include"
+Res Id = 17
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../String Utils/string_utils.h"
+Path = "/p/GROUP9_Adv Tech/CVI/Microfocus - Components/String Utils/string_utils.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[Folders]
+Include Files Folder Not Added Yet = True
+User Interface Files Folder Not Added Yet = True
+Instrument Files Folder Not Added Yet = True
+Folder 0 = "CellMap"
+Folder 1 = "Common"
+Folder 2 = "Cell"
+
+[Compiler Options]
+Default Calling Convention = "cdecl"
+Require Prototypes = True
+Require Return Values = True
+Enable Pointer Mismatch Warning = False
+Enable Unreachable Code Warning = False
+Enable Unreferenced Identifiers Warning = False
+Enable Assignment In Conditional Warning = False
+O Option Compatible With 5.0 = False
+Uninitialized Locals Compile Warning = "Conservative"
+
+[Run Options]
+Stack Size = 250000
+Image Base Address = 4194304
+
+[Compiler Defines]
+Compiler Defines = "/DWIN32_LEAN_AND_MEAN"
+
+[Create Executable]
+Executable File_Debug Is Rel = False
+Executable File_Debug = "../bin/CellMap_dbg.exe"
+Executable File_Release Is Rel = False
+Executable File_Release = "../bin/CellMap.exe"
+Icon File Is Rel = False
+Icon File = ""
+Application Title = ""
+DLL Exports = "Include File Symbols"
+DLL Import Library Choice = "Gen Lib For Current Mode"
+Use IVI Subdirectories for Import Libraries = False
+Use VXIPNP Subdirectories for Import Libraries = False
+Use Dflt Import Lib Base Name = True
+Where to Copy DLL = "Do not copy"
+Add Type Lib To DLL = False
+Include Type Lib Help Links = False
+Type Lib FP File Is Rel = False
+Type Lib FP File = ""
+Type Lib Guid = ""
+Runtime Support = "Full Runtime Support"
+Instrument Driver Support Only = False
+Embed Project .UIRs = False
+Generate Map File = False
+
+[External Compiler Support]
+UIR Callbacks File Option = 0
+Using LoadExternalModule = False
+Create Project Symbols File = True
+UIR Callbacks Obj File Is Rel = False
+UIR Callbacks Obj File = ""
+Project Symbols H File Is Rel = False
+Project Symbols H File = ""
+Project Symbols Obj File Is Rel = False
+Project Symbols Obj File = ""
+
+[ActiveX Server Options]
+Specification File Is Rel = False
+Specification File = ""
+Source File Is Rel = False
+Source File = ""
+Include File Is Rel = False
+Include File = ""
+IDL File Is Rel = False
+IDL File = ""
+Register ActiveX Server = False
+

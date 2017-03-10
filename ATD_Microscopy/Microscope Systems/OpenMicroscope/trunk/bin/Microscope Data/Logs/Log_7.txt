@@ -1,0 +1,305 @@
+05:10:56 Log file created: C:\Devel\ATD\OpenMicroscope\ATD_Microscopy\Microscope Systems\OpenMicroscope\trunk\bin\Microscope Data\Logs\Log_7.txt
+05:10:57 Manual Shutter computer control set to 1
+05:10:57 Dummy Camera exposure to 10.000000
+05:10:57 Dummy Colour Camera exposure to 10.000000
+05:11:05 Dummy Stage limits are significantly different to previous session. 2e+308 2e+308 2e+308 2e+308
+05:11:08 Dummy Camera data mode to 12 bit
+05:11:08 Dummy Colour Camera data mode to 12 bit
+05:11:08 Stage Plate changed
+05:11:08 FL Cube move to pos 1
+05:11:08 Objective Lens move to pos 1
+05:11:08 Optical Path move to pos 3
+05:11:09 Filter Set move to pos 1
+05:11:12 PMT move to pos 1
+05:11:12 Stage Plate changed
+05:11:12 Microscope switch to Fluorescence mode
+05:11:12 Optical Path move to pos 3
+05:11:12 FL Cube move to pos 1
+05:11:12 Manual Shutter computer control set to 1
+05:11:17 Dummy Microscope started by pbarber on 05\06\15
+05:11:48 Dummy Camera save state
+05:11:52 Dummy Camera snap image
+05:11:52 Dummy Camera get image.
+05:11:53 Dummy Camera snap image
+05:11:53 Dummy Camera get image.
+05:11:54 Dummy Camera snap image
+05:11:54 Dummy Camera get image.
+05:11:55 Dummy Camera snap image
+05:11:55 Dummy Camera get image.
+05:11:56 Dummy Camera live
+05:11:56 Dummy Camera trigger mode to CAMERA_NO_TRIG
+05:12:03 Dummy Camera snap image
+05:12:03 Dummy Camera get image.
+05:12:42 Dummy Camera snap image
+05:12:42 Dummy Camera get image.
+05:12:42 Dummy Camera snap image
+05:12:42 Dummy Camera get image.
+05:12:43 Dummy Camera snap image
+05:12:43 Dummy Camera get image.
+05:12:43 Dummy Camera snap image
+05:12:43 Dummy Camera get image.
+05:12:44 Dummy Camera snap image
+05:12:44 Dummy Camera get image.
+05:12:44 Dummy Camera snap image
+05:12:44 Dummy Camera get image.
+05:12:45 Dummy Camera snap image
+05:12:45 Dummy Camera get image.
+05:12:46 Dummy Camera snap image
+05:12:46 Dummy Camera get image.
+05:12:47 Dummy Camera snap image
+05:12:47 Dummy Camera get image.
+05:12:48 Dummy Camera snap image
+05:12:48 Dummy Camera get image.
+05:12:49 Dummy Camera snap image
+05:12:49 Dummy Camera get image.
+05:12:50 Dummy Camera snap image
+05:12:50 Dummy Camera get image.
+05:12:51 Dummy Camera snap image
+05:12:51 Dummy Camera get image.
+05:12:52 Dummy Camera snap image
+05:12:52 Dummy Camera get image.
+05:13:00 Microscope switch to LaserScanning mode
+05:13:00 Manual Shutter computer control set to 1
+05:13:00 FL Cube move to pos 3
+05:13:00 Optical Path move to pos 1
+05:13:11 Microscope switch to Fluorescence mode
+05:13:11 Manual Shutter computer control set to 1
+05:13:11 FL Cube move to pos 1
+05:13:11 Optical Path move to pos 3
+05:14:56 Dummy Colour Camera snap image
+05:14:56 Dummy Colour Camera get image.
+05:18:00 Dummy Colour Camera get image.
+Error: 05:18:00 Critical Error With FreeImageAlgorithms: FreeImage_Load: failed to open file C:\Devel\ATD\OpenMicroscope\ATD_Microscopy\Microscope Systems\OpenMicroscope\trunk\bin\Microscope Data\ColourCameraImages\fedora.jpg
+Warning: 05:18:00 Dummy Colour Camera get image failed.
+05:18:00 Dummy Colour Camera get image.
+Error: 05:18:00 Critical Error With FreeImageAlgorithms: FreeImage_Load: failed to open file C:\Devel\ATD\OpenMicroscope\ATD_Microscopy\Microscope Systems\OpenMicroscope\trunk\bin\Microscope Data\ColourCameraImages\fedora.jpg
+Warning: 05:18:00 Dummy Colour Camera get image failed.
+Warning: 05:18:00 Dummy Colour Camera recovery failed.
+05:18:00 Dummy Colour Camera get image.
+Error: 05:18:00 Critical Error With FreeImageAlgorithms: FreeImage_Load: failed to open file C:\Devel\ATD\OpenMicroscope\ATD_Microscopy\Microscope Systems\OpenMicroscope\trunk\bin\Microscope Data\ColourCameraImages\fedora.jpg
+Warning: 05:18:00 Dummy Colour Camera get image failed.
+05:18:00 Dummy Colour Camera get image.
+Error: 05:18:00 Critical Error With FreeImageAlgorithms: FreeImage_Load: failed to open file C:\Devel\ATD\OpenMicroscope\ATD_Microscopy\Microscope Systems\OpenMicroscope\trunk\bin\Microscope Data\ColourCameraImages\fedora.jpg
+Warning: 05:18:00 Dummy Colour Camera get image failed.
+05:18:00 Dummy Colour Camera get image.
+Error: 05:18:00 Critical Error With FreeImageAlgorithms: FreeImage_Load: failed to open file C:\Devel\ATD\OpenMicroscope\ATD_Microscopy\Microscope Systems\OpenMicroscope\trunk\bin\Microscope Data\ColourCameraImages\fedora.jpg
+Warning: 05:18:00 Dummy Colour Camera get image failed.
+Warning: 05:18:00 Dummy Colour Camera recovery failed.
+05:18:00 Dummy Colour Camera get image.
+Error: 05:18:00 Critical Error With FreeImageAlgorithms: FreeImage_Load: failed to open file C:\Devel\ATD\OpenMicroscope\ATD_Microscopy\Microscope Systems\OpenMicroscope\trunk\bin\Microscope Data\ColourCameraImages\fedora.jpg
+Warning: 05:18:00 Dummy Colour Camera get image failed.
+05:18:00 Dummy Colour Camera get image.
+Error: 05:18:00 Critical Error With FreeImageAlgorithms: FreeImage_Load: failed to open file C:\Devel\ATD\OpenMicroscope\ATD_Microscopy\Microscope Systems\OpenMicroscope\trunk\bin\Microscope Data\ColourCameraImages\fedora.jpg
+Warning: 05:18:00 Dummy Colour Camera get image failed.
+05:18:00 Dummy Colour Camera get image.
+Error: 05:18:00 Critical Error With FreeImageAlgorithms: FreeImage_Load: failed to open file C:\Devel\ATD\OpenMicroscope\ATD_Microscopy\Microscope Systems\OpenMicroscope\trunk\bin\Microscope Data\ColourCameraImages\fedora.jpg
+Warning: 05:18:00 Dummy Colour Camera get image failed.
+Warning: 05:18:00 Dummy Colour Camera recovery failed.
+05:18:03 Dummy Colour Camera get image.
+Error: 05:18:03 Critical Error With FreeImageAlgorithms: FreeImage_Load: failed to open file C:\Devel\ATD\OpenMicroscope\ATD_Microscopy\Microscope Systems\OpenMicroscope\trunk\bin\Microscope Data\ColourCameraImages\fedora.jpg
+Warning: 05:18:03 Dummy Colour Camera get image failed.
+05:18:03 Dummy Colour Camera get image.
+Error: 05:18:03 Critical Error With FreeImageAlgorithms: FreeImage_Load: failed to open file C:\Devel\ATD\OpenMicroscope\ATD_Microscopy\Microscope Systems\OpenMicroscope\trunk\bin\Microscope Data\ColourCameraImages\fedora.jpg
+Warning: 05:18:03 Dummy Colour Camera get image failed.
+Warning: 05:18:03 Dummy Colour Camera recovery failed.
+05:18:03 Dummy Colour Camera get image.
+Error: 05:18:03 Critical Error With FreeImageAlgorithms: FreeImage_Load: failed to open file C:\Devel\ATD\OpenMicroscope\ATD_Microscopy\Microscope Systems\OpenMicroscope\trunk\bin\Microscope Data\ColourCameraImages\fedora.jpg
+Warning: 05:18:03 Dummy Colour Camera get image failed.
+05:18:03 Dummy Colour Camera get image.
+Error: 05:18:03 Critical Error With FreeImageAlgorithms: FreeImage_Load: failed to open file C:\Devel\ATD\OpenMicroscope\ATD_Microscopy\Microscope Systems\OpenMicroscope\trunk\bin\Microscope Data\ColourCameraImages\fedora.jpg
+Warning: 05:18:03 Dummy Colour Camera get image failed.
+05:18:03 Dummy Colour Camera get image.
+Error: 05:18:03 Critical Error With FreeImageAlgorithms: FreeImage_Load: failed to open file C:\Devel\ATD\OpenMicroscope\ATD_Microscopy\Microscope Systems\OpenMicroscope\trunk\bin\Microscope Data\ColourCameraImages\fedora.jpg
+Warning: 05:18:03 Dummy Colour Camera get image failed.
+Warning: 05:18:03 Dummy Colour Camera recovery failed.
+05:18:03 Dummy Colour Camera get image.
+Error: 05:18:03 Critical Error With FreeImageAlgorithms: FreeImage_Load: failed to open file C:\Devel\ATD\OpenMicroscope\ATD_Microscopy\Microscope Systems\OpenMicroscope\trunk\bin\Microscope Data\ColourCameraImages\fedora.jpg
+Warning: 05:18:03 Dummy Colour Camera get image failed.
+05:18:03 Dummy Colour Camera get image.
+Error: 05:18:03 Critical Error With FreeImageAlgorithms: FreeImage_Load: failed to open file C:\Devel\ATD\OpenMicroscope\ATD_Microscopy\Microscope Systems\OpenMicroscope\trunk\bin\Microscope Data\ColourCameraImages\fedora.jpg
+Warning: 05:18:03 Dummy Colour Camera get image failed.
+05:18:03 Dummy Colour Camera get image.
+Error: 05:18:03 Critical Error With FreeImageAlgorithms: FreeImage_Load: failed to open file C:\Devel\ATD\OpenMicroscope\ATD_Microscopy\Microscope Systems\OpenMicroscope\trunk\bin\Microscope Data\ColourCameraImages\fedora.jpg
+Warning: 05:18:03 Dummy Colour Camera get image failed.
+Warning: 05:18:03 Dummy Colour Camera recovery failed.
+05:18:04 Dummy Colour Camera get image.
+Error: 05:18:04 Critical Error With FreeImageAlgorithms: FreeImage_Load: failed to open file C:\Devel\ATD\OpenMicroscope\ATD_Microscopy\Microscope Systems\OpenMicroscope\trunk\bin\Microscope Data\ColourCameraImages\fedora.jpg
+Warning: 05:18:04 Dummy Colour Camera get image failed.
+05:18:04 Dummy Colour Camera get image.
+Error: 05:18:04 Critical Error With FreeImageAlgorithms: FreeImage_Load: failed to open file C:\Devel\ATD\OpenMicroscope\ATD_Microscopy\Microscope Systems\OpenMicroscope\trunk\bin\Microscope Data\ColourCameraImages\fedora.jpg
+Warning: 05:18:04 Dummy Colour Camera get image failed.
+Warning: 05:18:04 Dummy Colour Camera recovery failed.
+05:18:04 Dummy Colour Camera get image.
+Error: 05:18:04 Critical Error With FreeImageAlgorithms: FreeImage_Load: failed to open file C:\Devel\ATD\OpenMicroscope\ATD_Microscopy\Microscope Systems\OpenMicroscope\trunk\bin\Microscope Data\ColourCameraImages\fedora.jpg
+Warning: 05:18:04 Dummy Colour Camera get image failed.
+05:18:04 Dummy Colour Camera get image.
+Error: 05:18:04 Critical Error With FreeImageAlgorithms: FreeImage_Load: failed to open file C:\Devel\ATD\OpenMicroscope\ATD_Microscopy\Microscope Systems\OpenMicroscope\trunk\bin\Microscope Data\ColourCameraImages\fedora.jpg
+Warning: 05:18:04 Dummy Colour Camera get image failed.
+05:18:04 Dummy Colour Camera get image.
+Error: 05:18:04 Critical Error With FreeImageAlgorithms: FreeImage_Load: failed to open file C:\Devel\ATD\OpenMicroscope\ATD_Microscopy\Microscope Systems\OpenMicroscope\trunk\bin\Microscope Data\ColourCameraImages\fedora.jpg
+Warning: 05:18:04 Dummy Colour Camera get image failed.
+Warning: 05:18:04 Dummy Colour Camera recovery failed.
+05:18:04 Dummy Colour Camera get image.
+Error: 05:18:04 Critical Error With FreeImageAlgorithms: FreeImage_Load: failed to open file C:\Devel\ATD\OpenMicroscope\ATD_Microscopy\Microscope Systems\OpenMicroscope\trunk\bin\Microscope Data\ColourCameraImages\fedora.jpg
+Warning: 05:18:04 Dummy Colour Camera get image failed.
+05:18:04 Dummy Colour Camera get image.
+Error: 05:18:04 Critical Error With FreeImageAlgorithms: FreeImage_Load: failed to open file C:\Devel\ATD\OpenMicroscope\ATD_Microscopy\Microscope Systems\OpenMicroscope\trunk\bin\Microscope Data\ColourCameraImages\fedora.jpg
+Warning: 05:18:04 Dummy Colour Camera get image failed.
+05:18:04 Dummy Colour Camera get image.
+Error: 05:18:04 Critical Error With FreeImageAlgorithms: FreeImage_Load: failed to open file C:\Devel\ATD\OpenMicroscope\ATD_Microscopy\Microscope Systems\OpenMicroscope\trunk\bin\Microscope Data\ColourCameraImages\fedora.jpg
+Warning: 05:18:04 Dummy Colour Camera get image failed.
+Warning: 05:18:04 Dummy Colour Camera recovery failed.
+05:18:15 Dummy Colour Camera snap image
+05:18:15 Dummy Colour Camera get image.
+05:18:19 Dummy Colour Camera snap image
+05:18:19 Dummy Colour Camera get image.
+05:19:12 Dummy Colour Camera snap image
+05:19:12 Dummy Colour Camera get image.
+05:19:13 Dummy Colour Camera snap image
+05:19:13 Dummy Colour Camera get image.
+05:19:14 Dummy Colour Camera snap image
+05:19:14 Dummy Colour Camera get image.
+05:19:15 Dummy Colour Camera snap image
+05:19:15 Dummy Colour Camera get image.
+05:19:15 Dummy Colour Camera snap image
+05:19:15 Dummy Colour Camera get image.
+05:19:16 Dummy Colour Camera snap image
+05:19:16 Dummy Colour Camera get image.
+05:19:45 Dummy Camera live
+05:19:45 Dummy Camera trigger mode to CAMERA_NO_TRIG
+05:19:48 Dummy Camera snap image
+05:19:48 Dummy Camera get image.
+05:21:02 Dummy Camera snap image
+05:21:02 Dummy Camera get image.
+05:21:03 Dummy Camera snap image
+05:21:03 Dummy Camera get image.
+05:21:04 Dummy Camera snap image
+05:21:04 Dummy Camera get image.
+05:21:04 Dummy Camera snap image
+05:21:04 Dummy Camera get image.
+05:21:05 Dummy Camera snap image
+05:21:05 Dummy Camera get image.
+05:21:06 Dummy Camera snap image
+05:21:06 Dummy Camera get image.
+05:21:06 Dummy Camera snap image
+05:21:06 Dummy Camera get image.
+05:21:08 Dummy Camera snap image
+05:21:08 Dummy Camera get image.
+05:21:17 Dummy Camera snap image
+05:21:17 Dummy Camera get image.
+05:21:45 FL Cube move to pos 2
+05:21:48 Dummy Camera snap image
+05:21:48 Dummy Camera get image.
+05:21:49 Dummy Camera snap image
+05:21:49 Dummy Camera get image.
+05:21:49 Dummy Camera snap image
+05:21:49 Dummy Camera get image.
+05:21:50 Dummy Camera snap image
+05:21:50 Dummy Camera get image.
+05:22:46 Dummy Camera snap image
+05:22:46 Dummy Camera get image.
+05:22:47 Dummy Camera snap image
+05:22:47 Dummy Camera get image.
+05:22:48 Dummy Camera snap image
+05:22:48 Dummy Camera get image.
+05:22:48 Dummy Camera snap image
+05:22:48 Dummy Camera get image.
+05:22:49 Dummy Camera snap image
+05:22:49 Dummy Camera get image.
+05:22:50 Dummy Camera snap image
+05:22:50 Dummy Camera get image.
+05:22:51 Dummy Camera snap image
+05:22:51 Dummy Camera get image.
+05:22:52 Dummy Camera snap image
+05:22:52 Dummy Camera get image.
+05:22:53 Dummy Camera live
+05:22:53 Dummy Camera trigger mode to CAMERA_NO_TRIG
+05:22:57 Dummy Camera snap image
+05:22:57 Dummy Camera get image.
+05:23:18 Dummy Camera snap image
+05:23:18 Dummy Camera get image.
+05:23:41 Dummy Camera snap image
+05:23:41 Dummy Camera get image.
+05:23:42 Dummy Camera snap image
+05:23:42 Dummy Camera get image.
+05:23:42 Dummy Camera snap image
+05:23:42 Dummy Camera get image.
+05:23:50 Dummy Camera snap image
+05:23:50 Dummy Camera get image.
+05:23:51 Dummy Camera snap image
+05:23:51 Dummy Camera get image.
+05:23:51 Dummy Camera snap image
+05:23:51 Dummy Camera get image.
+05:23:52 Dummy Camera live
+05:23:52 Dummy Camera trigger mode to CAMERA_NO_TRIG
+05:23:54 Dummy Camera snap image
+05:23:54 Dummy Camera get image.
+05:23:57 FL Cube move to pos 1
+05:24:00 Dummy Camera snap image
+05:24:00 Dummy Camera get image.
+05:24:01 Dummy Camera snap image
+05:24:01 Dummy Camera get image.
+05:24:01 Dummy Camera snap image
+05:24:01 Dummy Camera get image.
+05:24:01 Dummy Camera snap image
+05:24:01 Dummy Camera get image.
+05:24:02 Dummy Camera snap image
+05:24:02 Dummy Camera get image.
+05:24:02 Dummy Camera snap image
+05:24:02 Dummy Camera get image.
+05:24:02 Dummy Camera snap image
+05:24:02 Dummy Camera get image.
+05:24:10 Dummy Camera snap image
+05:24:10 Dummy Camera get image.
+05:24:10 Dummy Camera snap image
+05:24:10 Dummy Camera get image.
+05:24:11 Dummy Camera snap image
+05:24:11 Dummy Camera get image.
+05:24:11 Dummy Camera snap image
+05:24:11 Dummy Camera get image.
+05:24:20 Dummy Camera snap image
+05:24:20 Dummy Camera get image.
+05:24:20 Dummy Camera snap image
+05:24:20 Dummy Camera get image.
+05:24:21 Dummy Camera snap image
+05:24:21 Dummy Camera get image.
+05:24:21 Dummy Camera snap image
+05:24:21 Dummy Camera get image.
+05:24:23 FL Cube move to pos 2
+05:24:26 Dummy Camera snap image
+05:24:26 Dummy Camera get image.
+05:24:26 Dummy Camera snap image
+05:24:26 Dummy Camera get image.
+05:24:26 Dummy Camera snap image
+05:24:26 Dummy Camera get image.
+05:24:27 Dummy Camera snap image
+05:24:27 Dummy Camera get image.
+05:24:27 Dummy Camera snap image
+05:24:27 Dummy Camera get image.
+05:24:29 FL Cube move to pos 1
+05:24:31 Dummy Camera snap image
+05:24:31 Dummy Camera get image.
+05:24:32 Dummy Camera snap image
+05:24:32 Dummy Camera get image.
+05:24:32 Dummy Camera snap image
+05:24:32 Dummy Camera get image.
+05:24:32 Dummy Camera snap image
+05:24:32 Dummy Camera get image.
+05:26:45 Manual Scanner On
+05:26:48 Manual Scanner Off
+05:28:55 Timelapse started
+05:28:56 Timelapse call script OnStart
+05:29:26 Manual_Z_Drive to pos -39.78
+05:29:29 Manual_Z_Drive to pos 69.89
+05:29:30 Manual_Z_Drive to pos -5.38
+05:29:34 Manual_Z_Drive to pos -67.74
+05:29:34 Dummy Camera snap image
+05:29:34 Dummy Camera get image.
+05:29:36 Manual_Z_Drive to pos 33.33
+05:29:36 Dummy Camera snap image
+05:29:36 Dummy Camera get image.
+05:34:06 Dummy Stage goto (x,y) position (0.00,0.00)
+05:34:06 Manual Scanner Off
+05:34:06 Manual Scanner Off
+05:34:06 Manual Shutter inhibit set to 0
+05:34:06 Manual Shutter computer control set to 0

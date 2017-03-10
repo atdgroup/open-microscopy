@@ -1,0 +1,101 @@
+[Workspace Header]
+Version = 711
+Pathname = "/p/GROUP9_Adv Tech/CVI/GCI_I2C/GCI_I2C.cws"
+CVI Dir = "/c/program files/national instruments/cvi71"
+IVI Standard Root Dir = "/C/Program Files/IVI"
+VXIplug&play Framework Dir = "/C/VXIpnp/winnt"
+Number of Projects = 1
+Active Project = 1
+Project 0001 = "GCI_I2C.prj"
+Drag Bar Left = 300
+Window Top = 71
+Window Left = 101
+Window Bottom = 994
+Window Right = 616
+Maximized = False
+Maximized Children = True
+Max Number Of Errors = 20
+Track Include File Dependencies = True
+Prompt For Missing Includes = True
+Stop On First Error File = False
+Bring Up Err Win For Warnings = True
+Show Build Dialog = False
+Save Changes Before Running = "Always"
+Hide Windows = False
+Global Hot Key = False
+Break At First Statement = False
+Sort Type = "File Name"
+Number of Opened Files = 0
+Window Confinement Region Enabled = False
+MainColumnWidth = 189
+FileDateColumnWidth = 90
+FileSizeColumnWidth = 70
+StatusColumnWidth = 52
+
+[Project Header 0001]
+Version = 711
+Platform Code = 4
+Build Configuration = "Debug"
+Warn User If Debugging Release = 1
+Batch Build Release = False
+Batch Build Debug = False
+
+[File 0001]
+Path Line0001 = "/c/Program Files/National Instruments/CVI71/PROGRAMS/2005/Mosaic V2.6/ImageStitc"
+Path Line0002 = "hing.c"
+File Type = "CSource"
+Disk Date = 3203415442
+In Projects = ""
+Window Top = 71
+Window Left = 408
+Source Window State = "1,449,478,449,0,0,0,0,3,0,0,0,0,0,0,0,445,0,478,0,776,676,0,0,"
+Breakpoint 0001 = "485,0,enabled,"
+
+[File 0002]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_I2C/IO_interface_v2.c"
+File Type = "CSource"
+Disk Date = 3206532704
+In Projects = "1,"
+Window Top = 34
+Window Left = 539
+Source Window State = "1,511,512,511,36,0,36,0,3,80,0,0,0,0,0,31,495,0,511,36,477,676,0,0,"
+
+[File 0003]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_I2C/usbconverter_v2.c"
+File Type = "CSource"
+Disk Date = 3203598130
+In Projects = "1,"
+Window Top = 34
+Window Left = 20
+Source Window State = "1,216,221,216,0,0,0,0,3,0,0,0,0,0,0,0,200,0,216,0,477,676,0,0,"
+
+[Build Options 0001]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Debugging Level = "Standard"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+Enable Remote Debugging = False
+Remote Debugger Address = "localhost"
+Remote Target Address = ""
+Remote Debugging Port = 3291
+
+[SCC Options 0001]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = True
+Suppress CVI Error Messages = False
+
+[DLL Debugging Support 0001]
+External Process Path = ""
+
+[Command Line Args 0001]
+Command Line Args = ""
+

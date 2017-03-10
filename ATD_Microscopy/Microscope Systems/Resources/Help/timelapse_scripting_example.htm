@@ -1,0 +1,141 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+  <meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+  <title>Timelapse script example</title>
+</head>
+<body>
+<h2>Timelapse script example</h2>
+<p>
+Here we provide a simple timelapse script example.<br>
+</p>
+<p>Using this script we move through the list of points defined by the
+user.&nbsp;<br>
+For each cycle of points the system&nbsp;will change the
+cube to a position defined in the script and change the camera exposure
+time for each cube. <br>
+For each point we make an adjustment to the focus position and then
+snap an image.<br>
+The script filename can be anything as it is not displayed in the user
+interface.<br>
+The name that is displayed in the timelapse dropdown list is taken from
+the first line of the script which is a Python comment. <br>
+<br>
+<b><font color="#008000"># Move and display</font> <br>
+<br>
+</b>As the first line. This is the string that is used as the script
+identifier the next step is to import any required Python modules. <br>
+In this case we only need access to the Python wrapper API for the
+microscope so we only import the microscope module.<br>
+<br>
+<b><font color="#0000ff">import</font> microscope<br>
+<br>
+</b>
+Here we define a Python list of cube positions to cycle through. In
+this case we wish to cycle between cube positions 2 and 3.<br>
+<br>
+<b><font color="#008000">
+# Cubes that we will cycle through<br>
+# You can extend this list with any valid cube positions<br>
+# Here we have two cube positions 2 and 3</font> <br>
+cubes = [2, 3] <br>
+</b>
+<br>
+For each of the cube positions defined in the list above we now define
+the camera exposure that we would like.<br>
+The position of the exposure in the list corresponds to the cube
+position in the cubes list.<br>
+<br>
+<b><font color="#008000">
+# This is the exposure setting for each cube in the cubes list<br>
+# For example the cubes in position 2 and 3 above both should have
+exposure<br>
+# set to 15 ms</font> <br>
+exposures = [15.0, 15.0]<br>
+<br>
+</b>
+As with the exposure list this focus_offsets list is used to provide an
+offset to the focus position for each cube.,<br>
+<b><font color="#008000"># These are the offsets that will be applied
+to the zdrive for each cube.</font> <br>
+focus_offsets = [0.0, 1.0]<br>
+<br>
+</b>Here we define the OnStart method that is called when the user
+presses start on the timelapse panel. This method is only called once.
+In this example we simply pass as we do not need to do anything at this
+point.</p>
+<p>
+This global variable holds the current cube index into the cubes list
+defined above.</p>
+<p><strong>current_cube_index = 0</strong></p>
+<p>
+<b><font color="#008000"># OnStart is called once when the user presses
+start to begin the timelapse.</font> <br>
+<font color="#0000ff">def</font> OnStart():<br>
+<font color="#0000ff">&nbsp;&nbsp;&nbsp; pass</font> </b></p>
+<p>Here the OnAbort method is defined. This is called when a timelapse
+experiment is stopped by a user. As
+with the OnStart method we don't need to do anything here.
+<br>
+<br>
+<b><font color="#0000ff">def</font> OnAbort():<br>
+<font color="#0000ff">&nbsp;&nbsp;&nbsp; pass</font> <br>
+<br>
+</b>Here OnCycleStart is defined. This is called every time a new cycle
+of points is started. It is at this point that we start visiting points
+after changing cubes
+and setting the correct exposure.
+<br>
+<br>
+<b><font color="#008000"># Called once at the start of each cycle of
+points. Should contain at least one call to
+microscope.MicroscopeVisitPoints() to start the cycle.</font> <br>
+<font color="#0000ff">def</font> OnCycleStart():
+</b></p>
+<p>
+<b>&nbsp;&nbsp;&nbsp; global current_cube_index<br>
+&nbsp;&nbsp;&nbsp; current_cube_index = 0
+</b></p>
+<p><strong>&nbsp;&nbsp;&nbsp;<font color="#0000ff"> print</font> "Back
+to start."<br>
+<font color="#008000">&nbsp;&nbsp;&nbsp; # Here for each cube in the
+cubes list we move to the cube position and set the corresponding
+exposure setting. ,</font><br>
+&nbsp;&nbsp;&nbsp; <font color="#0000ff">for</font> cube <font
+ color="#0000ff">in</font> cubes:<br>
+<font color="#0000ff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print</font>
+"Moving to cube position ", cube<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+microscope.MoveCubeToPosition(current_cube_index)<br>
+<font color="#0000ff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print</font>
+"Setting camera exposure to ", exposures[current_cube_index]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+microscope.SetExposure(exposures[current_cube_index])<br>
+</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>microscope.VisitPoints()<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>current_cube_index
+= current_cube_index + 1</strong> <br>
+<br>
+Finally we define OnNewPoint. This is called every time a new point is
+reached. It is at this point that we adjust the focus position and then
+<br>
+snap an image..
+<br>
+<br>
+<b><font color="#008000"># Called each time the stage moves to a new
+point.</font> <br>
+<font color="#0000ff">def</font> OnNewPoint(x, y, z, position):<br>
+&nbsp;&nbsp;&nbsp; global current_cube_index<br>
+<font color="#0000ff">&nbsp;&nbsp;&nbsp; print</font> "Setting focus
+offset to ", focus_offsets[current_cube_index]<br>
+&nbsp;&nbsp;&nbsp; microscope.SetStagePosition(x, y, z +
+focus_offsets[current_cube_index])<br>
+<br>
+<font color="#008000">&nbsp;&nbsp;&nbsp; # Wait for stage to finish
+moving (additional delay= 0.1 seconds, time out= 1.0 seconds)&lt; /FONT
+&gt; <br>
+&nbsp;&nbsp;&nbsp; <font color="#000000"> microscope.WaitForStage(0.0,
+1.0)<br>
+&nbsp;&nbsp;&nbsp; microscope.SnapImage()<br>
+</font></font></b></p>
+</body>
+</html>

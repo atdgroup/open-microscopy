@@ -1,0 +1,1027 @@
+[Project Header]
+Version = 801
+Pathname = "/c/Camera/camera.prj"
+Project Label = "Camera"
+CVI Dir = "/c/program files/national instruments/cvi80"
+IVI Standard Root Dir = "/C/Program Files/IVI"
+VXIplug&play Framework Dir = "/c/vxipnp/winnt"
+Number of Files = 82
+Target Type = "Executable"
+Flags = 16
+
+[File 0001]
+File Type = "Library"
+Res Id = 1
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Program Files/ImperX/LYNX GigE/Libraries/CyCamImperxLynx.lib"
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyCamImperxLynx.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0002]
+File Type = "Library"
+Res Id = 2
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Program Files/ImperX/LYNX GigE/Libraries/CyCamImperxLynx_Dbg.lib"
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyCamImperxLynx_Dbg.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0003]
+File Type = "Library"
+Res Id = 3
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Program Files/ImperX/LYNX GigE/Libraries/CyCamLib.lib"
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyCamLib.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0004]
+File Type = "Library"
+Res Id = 4
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Program Files/ImperX/LYNX GigE/Libraries/CyCamLib_Dbg.lib"
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyCamLib_Dbg.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0005]
+File Type = "Library"
+Res Id = 5
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Program Files/ImperX/LYNX GigE/Libraries/CyComLib.lib"
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyComLib.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0006]
+File Type = "Library"
+Res Id = 6
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Program Files/ImperX/LYNX GigE/Libraries/CyComLib_Dbg.lib"
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyComLib_Dbg.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0007]
+File Type = "Library"
+Res Id = 7
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Program Files/ImperX/LYNX GigE/Libraries/CyDispExLib.lib"
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyDispExLib.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0008]
+File Type = "Library"
+Res Id = 8
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Program Files/ImperX/LYNX GigE/Libraries/CyDispExLib_Dbg.lib"
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyDispExLib_Dbg.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0009]
+File Type = "Library"
+Res Id = 9
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Program Files/ImperX/LYNX GigE/Libraries/CyEngineLib.lib"
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyEngineLib.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0010]
+File Type = "Library"
+Res Id = 10
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Program Files/ImperX/LYNX GigE/Libraries/CyEngineLib_Dbg.lib"
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyEngineLib_Dbg.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0011]
+File Type = "Library"
+Res Id = 11
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Program Files/ImperX/LYNX GigE/Libraries/CyImgLib.lib"
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyImgLib.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0012]
+File Type = "Library"
+Res Id = 12
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Program Files/ImperX/LYNX GigE/Libraries/CyImgLib_Dbg.lib"
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyImgLib_Dbg.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0013]
+File Type = "Library"
+Res Id = 13
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Program Files/ImperX/LYNX GigE/Libraries/CyMediumLib.lib"
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyMediumLib.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0014]
+File Type = "Library"
+Res Id = 14
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Program Files/ImperX/LYNX GigE/Libraries/CyMediumLib_Dbg.lib"
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyMediumLib_Dbg.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0015]
+File Type = "Library"
+Res Id = 15
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Program Files/ImperX/LYNX GigE/Libraries/CyMILDriver.lib"
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyMILDriver.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0016]
+File Type = "Library"
+Res Id = 16
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Program Files/ImperX/LYNX GigE/Libraries/CyMILDriver_Dbg.lib"
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyMILDriver_Dbg.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0017]
+File Type = "Library"
+Res Id = 17
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Program Files/ImperX/LYNX GigE/Libraries/CyUtilsLib.lib"
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyUtilsLib.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0018]
+File Type = "Library"
+Res Id = 18
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Program Files/ImperX/LYNX GigE/Libraries/CyUtilsLib_Dbg.lib"
+Path = "/c/Program Files/ImperX/LYNX GigE/Libraries/CyUtilsLib_Dbg.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0019]
+File Type = "Include"
+Res Id = 19
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/FreeImageAlgorithms/include/FreeImage.h"
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImage.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0020]
+File Type = "Library"
+Res Id = 20
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../dlls/FreeImage.lib"
+Path = "/c/dlls/FreeImage.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0021]
+File Type = "Include"
+Res Id = 21
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms.h"
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0022]
+File Type = "Library"
+Res Id = 22
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../dlls/freeimagealgorithms.lib"
+Path = "/c/dlls/freeimagealgorithms.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0023]
+File Type = "Include"
+Res Id = 23
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Arithmetic.h"
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Arithmetic.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0024]
+File Type = "Include"
+Res Id = 24
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Colour.h"
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Colour.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0025]
+File Type = "Include"
+Res Id = 25
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Convolution.h"
+Path Line0001 = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Convolution."
+Path Line0002 = "h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0026]
+File Type = "Include"
+Res Id = 26
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Convolution_Private.h"
+Path Line0001 = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Convolution_"
+Path Line0002 = "Private.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0027]
+File Type = "Include"
+Res Id = 27
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Drawing.h"
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Drawing.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0028]
+File Type = "Include"
+Res Id = 28
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Error.h"
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Error.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0029]
+File Type = "Include"
+Res Id = 29
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_FFT.h"
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_FFT.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0030]
+File Type = "Include"
+Res Id = 30
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Filters.h"
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Filters.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0031]
+File Type = "Include"
+Res Id = 31
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_HBitmap.h"
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_HBitmap.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0032]
+File Type = "Include"
+Res Id = 32
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_IO.h"
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_IO.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0033]
+File Type = "Include"
+Res Id = 33
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_LinearScale.h"
+Path Line0001 = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_LinearScale."
+Path Line0002 = "h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0034]
+File Type = "Include"
+Res Id = 34
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Logic.h"
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Logic.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0035]
+File Type = "Include"
+Res Id = 35
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Morphology.h"
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Morphology.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0036]
+File Type = "Include"
+Res Id = 36
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Palettes.h"
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Palettes.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0037]
+File Type = "Include"
+Res Id = 37
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Particle.h"
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Particle.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0038]
+File Type = "Include"
+Res Id = 38
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Statistics.h"
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Statistics.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0039]
+File Type = "Include"
+Res Id = 39
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Utilities.h"
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Utilities.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0040]
+File Type = "Include"
+Res Id = 40
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Utils.h"
+Path = "/c/Camera/Libraries/FreeImageAlgorithms/include/FreeImageAlgorithms_Utils.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0041]
+File Type = "Library"
+Res Id = 41
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../dlls/FreeImageIcs.lib"
+Path = "/c/dlls/FreeImageIcs.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0042]
+File Type = "Include"
+Res Id = 42
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/FreeImageIcs/include/FreeImageIcs_IO.h"
+Path = "/c/Camera/Libraries/FreeImageIcs/include/FreeImageIcs_IO.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0043]
+File Type = "Include"
+Res Id = 43
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/FreeImageIcs/include/FreeImageIcs_MetaData.h"
+Path = "/c/Camera/Libraries/FreeImageIcs/include/FreeImageIcs_MetaData.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0044]
+File Type = "CSource"
+Res Id = 44
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "camera/gci_camera.c"
+Path = "/c/Camera/camera/gci_camera.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Camera"
+
+[File 0045]
+File Type = "Include"
+Res Id = 45
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "camera/gci_camera.h"
+Path = "/c/Camera/camera/gci_camera.h"
+Exclude = False
+Project Flags = 0
+Folder = "Camera"
+
+[File 0046]
+File Type = "Include"
+Res Id = 46
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "camera/gci_camera_callbacks.h"
+Path = "/c/Camera/camera/gci_camera_callbacks.h"
+Exclude = False
+Project Flags = 0
+Folder = "Camera"
+
+[File 0047]
+File Type = "CSource"
+Res Id = 47
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "camera/gci_camera_ui.c"
+Path = "/c/Camera/camera/gci_camera_ui.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Camera"
+
+[File 0048]
+File Type = "Include"
+Res Id = 48
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "uir_files/gci_camera_ui.h"
+Path = "/c/Camera/uir_files/gci_camera_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "Camera"
+
+[File 0049]
+File Type = "User Interface Resource"
+Res Id = 49
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "uir_files/gci_camera_ui.uir"
+Path = "/c/Camera/uir_files/gci_camera_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "Camera"
+
+[File 0050]
+File Type = "CSource"
+Res Id = 50
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "lynx/gci_lynx_camera.c"
+Path = "/c/Camera/lynx/gci_lynx_camera.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Lynx"
+
+[File 0051]
+File Type = "Include"
+Res Id = 51
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "lynx/gci_lynx_camera.h"
+Path = "/c/Camera/lynx/gci_lynx_camera.h"
+Exclude = False
+Project Flags = 0
+Folder = "Lynx"
+
+[File 0052]
+File Type = "Include"
+Res Id = 52
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "lynx/gci_lynx_camera_callbacks.h"
+Path = "/c/Camera/lynx/gci_lynx_camera_callbacks.h"
+Exclude = False
+Project Flags = 0
+Folder = "Lynx"
+
+[File 0053]
+File Type = "CSource"
+Res Id = 53
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "lynx/gci_lynx_camera_ui.c"
+Path = "/c/Camera/lynx/gci_lynx_camera_ui.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Lynx"
+
+[File 0054]
+File Type = "Include"
+Res Id = 54
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "uir_files/gci_lynx_camera_ui.h"
+Path = "/c/Camera/uir_files/gci_lynx_camera_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "Lynx"
+
+[File 0055]
+File Type = "User Interface Resource"
+Res Id = 55
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "uir_files/gci_lynx_camera_ui.uir"
+Path = "/c/Camera/uir_files/gci_lynx_camera_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "Lynx"
+
+[File 0056]
+File Type = "CSource"
+Res Id = 56
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "lynx/gci_lynx_lowlevel.c"
+Path = "/c/Camera/lynx/gci_lynx_lowlevel.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Lynx"
+
+[File 0057]
+File Type = "Include"
+Res Id = 57
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "lynx/gci_lynx_lowlevel.h"
+Path = "/c/Camera/lynx/gci_lynx_lowlevel.h"
+Exclude = False
+Project Flags = 0
+Folder = "Lynx"
+
+[File 0058]
+File Type = "CSource"
+Res Id = 58
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "lynx/gci_lynx_smart_exposure.c"
+Path = "/c/Camera/lynx/gci_lynx_smart_exposure.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Lynx"
+
+[File 0059]
+File Type = "CSource"
+Res Id = 59
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/GCI Utils/gci_menu_utils.c"
+Path = "/c/Camera/Libraries/GCI Utils/gci_menu_utils.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0060]
+File Type = "Include"
+Res Id = 60
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/GCI Utils/gci_menu_utils.h"
+Path = "/c/Camera/Libraries/GCI Utils/gci_menu_utils.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0061]
+File Type = "CSource"
+Res Id = 61
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/UIModule/gci_ui_module.c"
+Path = "/c/Camera/Libraries/UIModule/gci_ui_module.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0062]
+File Type = "Include"
+Res Id = 62
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/UIModule/gci_ui_module.h"
+Path = "/c/Camera/Libraries/UIModule/gci_ui_module.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0063]
+File Type = "CSource"
+Res Id = 63
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/GCI Utils/gci_utils.c"
+Path = "/c/Camera/Libraries/GCI Utils/gci_utils.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0064]
+File Type = "Include"
+Res Id = 64
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/GCI Utils/gci_utils.h"
+Path = "/c/Camera/Libraries/GCI Utils/gci_utils.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0065]
+File Type = "CSource"
+Res Id = 65
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/GCI Registry/GL_CVIRegistry.c"
+Path = "/c/Camera/Libraries/GCI Registry/GL_CVIRegistry.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0066]
+File Type = "Include"
+Res Id = 66
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/GCI Registry/GL_CVIRegistry.h"
+Path = "/c/Camera/Libraries/GCI Registry/GL_CVIRegistry.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0067]
+File Type = "Library"
+Res Id = 67
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../dlls/IcsViewer.lib"
+Path = "/c/dlls/IcsViewer.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0068]
+File Type = "Include"
+Res Id = 68
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/FreeImageIcs/libics-1.5.1/libics.h"
+Path = "/c/Camera/Libraries/FreeImageIcs/libics-1.5.1/libics.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0069]
+File Type = "CSource"
+Res Id = 69
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "main.c"
+Path = "/c/Camera/main.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Source Files"
+
+[File 0070]
+File Type = "Library"
+Res Id = 70
+Path Is Rel = True
+Path Rel To = "CVI"
+Path Rel Path = "sdk/lib/ole32.lib"
+Path = "/c/program files/national instruments/cvi80/sdk/lib/ole32.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0071]
+File Type = "CSource"
+Res Id = 71
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/Profile/profile.c"
+Path = "/c/Camera/Libraries/Profile/profile.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0072]
+File Type = "Include"
+Res Id = 72
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/Profile/profile.h"
+Path = "/c/Camera/Libraries/Profile/profile.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0073]
+File Type = "Library"
+Res Id = 73
+Path Is Rel = True
+Path Rel To = "CVI"
+Path Rel Path = "sdk/lib/Shell32.Lib"
+Path = "/c/program files/national instruments/cvi80/sdk/lib/Shell32.Lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0074]
+File Type = "CSource"
+Res Id = 74
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/Signals/signals.c"
+Path = "/c/Camera/Libraries/Signals/signals.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0075]
+File Type = "Include"
+Res Id = 75
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/Signals/signals.h"
+Path = "/c/Camera/Libraries/Signals/signals.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0076]
+File Type = "CSource"
+Res Id = 76
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/Status/status.c"
+Path = "/c/Camera/Libraries/Status/status.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0077]
+File Type = "Include"
+Res Id = 77
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/Status/status.h"
+Path = "/c/Camera/Libraries/Status/status.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0078]
+File Type = "Include"
+Res Id = 78
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/String Utils/include/string_utils.h"
+Path = "/c/Camera/Libraries/String Utils/include/string_utils.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0079]
+File Type = "Library"
+Res Id = 79
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../dlls/StringUtils.lib"
+Path = "/c/dlls/StringUtils.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0080]
+File Type = "CSource"
+Res Id = 80
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "test.c"
+Path = "/c/Camera/test.c"
+Exclude = True
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Source Files"
+
+[File 0081]
+File Type = "CSource"
+Res Id = 81
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/XML utils/xml_utils.c"
+Path = "/c/Camera/Libraries/XML utils/xml_utils.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0082]
+File Type = "Include"
+Res Id = 82
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Libraries/XML utils/xml_utils.h"
+Path = "/c/Camera/Libraries/XML utils/xml_utils.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[Folders]
+Include Files Folder Not Added Yet = True
+User Interface Files Folder Not Added Yet = True
+Instrument Files Folder Not Added Yet = True
+Folder 0 = "Camera"
+Folder 1 = "Source Files"
+Folder 2 = "Lynx"
+Folder 3 = "Common"
+
+[Compiler Options]
+Default Calling Convention = "cdecl"
+Require Prototypes = True
+Require Return Values = True
+Enable Pointer Mismatch Warning = False
+Enable Unreachable Code Warning = True
+Enable Unreferenced Identifiers Warning = True
+Enable Assignment In Conditional Warning = True
+O Option Compatible With 5.0 = False
+Uninitialized Locals Compile Warning = "Conservative"
+
+[Run Options]
+Stack Size = 250000
+Image Base Address = 4194304
+
+[Compiler Defines]
+Compiler Defines = "/DWIN32_LEAN_AND_MEAN"
+
+[Include Paths]
+Include Path 1 Is Rel = True
+Include Path 1 Rel To = "Project"
+Include Path 1 Rel Path = "lynx/Includes"
+Include Path 1 = "/c/Camera/lynx/Includes"
+Include Path 2 Is Rel = False
+Include Path 2 = "/c/HTS/IcsViewer/Fortify"
+Include Path 3 Is Rel = False
+Include Path 3 = "/c/HTS/IcsViewer/Tools"
+Include Path 4 Is Rel = False
+Include Path 4 = "/c/HTS/IcsViewer/Plugins"
+Include Path 5 Is Rel = False
+Include Path 5 = "/c/HTS/IcsViewer/Shell/Twain"
+Include Path 6 Is Rel = False
+Include Path 6 = "/c/HTS/IcsViewer/Shell"
+Include Path 7 Is Rel = False
+Include Path 7 = "/c/Program Files/ImperX/LYNX GigE/Includes"
+
+[Create Executable]
+Executable File_Debug Is Rel = False
+Executable File_Debug = "LynxCamera.exe"
+Executable File_Release Is Rel = False
+Executable File_Release = "LynxCamera.exe"
+Icon File Is Rel = False
+Icon File = ""
+Application Title = ""
+DLL Exports = "Include File Symbols"
+DLL Import Library Choice = "Gen Lib For Current Mode"
+Use IVI Subdirectories for Import Libraries = False
+Use VXIPNP Subdirectories for Import Libraries = False
+Use Dflt Import Lib Base Name = True
+Where to Copy DLL = "Do not copy"
+Add Type Lib To DLL = False
+Include Type Lib Help Links = False
+Type Lib FP File Is Rel = False
+Type Lib FP File = ""
+Type Lib Guid = ""
+Runtime Support = "Full Runtime Support"
+Instrument Driver Support Only = False
+Embed Project .UIRs = True
+Generate Map File = False
+
+[External Compiler Support]
+UIR Callbacks File Option = 0
+Using LoadExternalModule = False
+Create Project Symbols File = True
+UIR Callbacks Obj File Is Rel = False
+UIR Callbacks Obj File = ""
+Project Symbols H File Is Rel = False
+Project Symbols H File = ""
+Project Symbols Obj File Is Rel = False
+Project Symbols Obj File = ""
+
+[ActiveX Server Options]
+Specification File Is Rel = False
+Specification File = ""
+Source File Is Rel = False
+Source File = ""
+Include File Is Rel = False
+Include File = ""
+IDL File Is Rel = False
+IDL File = ""
+Register ActiveX Server = False
+
+[tpcSection]
+tpcEnabled = 0
+tpcOverrideEnvironment = 0
+

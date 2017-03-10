@@ -1,0 +1,28 @@
+SET(CUBE_SRCS 	${HARDWARE_DIR_PATH}/CubeSlider/trunk/CubeSliderUI.uir
+				${HARDWARE_DIR_PATH}/CubeSlider/trunk/CubeSliderUI.h
+				${HARDWARE_DIR_PATH}/CubeSlider/trunk/CubeSliderUI.c
+				${HARDWARE_DIR_PATH}/CubeSlider/trunk/CubeSlider.h
+				${HARDWARE_DIR_PATH}/CubeSlider/trunk/CubeSlider.c
+                ${HARDWARE_DIR_PATH}/CubeSlider/trunk/main.c
+				${HARDWARE_DIR_PATH}/CubeSlider/trunk/ATD_CubeSlider_Dummy/ATD_CubeSlider_Dummy.h
+				${HARDWARE_DIR_PATH}/CubeSlider/trunk/ATD_CubeSlider_Dummy/ATD_CubeSlider_Dummy.c
+				${HARDWARE_DIR_PATH}/CubeSlider/trunk/ATD_CubeSlider_A/ATD_CubeSlider_A.c
+				${HARDWARE_DIR_PATH}/CubeSlider/trunk/ATD_CubeSlider_A/ATD_CubeSlider_A.h
+				#${HARDWARE_DIR_PATH}/CubeSlider/trunk/Nikon_CubeSlider_90i/Nikon_CubeSlider_90i.c
+				#${HARDWARE_DIR_PATH}/CubeSlider/trunk/Nikon_CubeSlider_90i/Nikon_CubeSlider_90i.h
+)
+
+# Make sure the compiler can find include files from our library.
+INCLUDE_DIRECTORIES(
+					${HARDWARE_DIR_PATH}/CubeSlider/trunk/
+					${HARDWARE_DIR_PATH}/CubeSlider/trunk/ATD_CubeSlider_Dummy/
+					${HARDWARE_DIR_PATH}/CubeSlider/trunk/ATD_CubeSlider_A/
+					#${HARDWARE_DIR_PATH}/CubeSlider/trunk/Nikon_CubeSlider_90i/
+					)
+                 
+SET(CUBE_RESOURCES 
+					${HARDWARE_DIR_PATH}/CubeSlider/trunk/CubeSliderUI.uir
+)
+
+LIST(APPEND HARDWARE_RESOURCE_SRCS ${CUBE_RESOURCES})
+                   

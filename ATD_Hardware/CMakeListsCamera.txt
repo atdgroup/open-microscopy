@@ -1,0 +1,75 @@
+SET(CAMERA_SRCS 	${HARDWARE_DIR_PATH}/Camera/trunk/camera/gci_camera.c
+					${HARDWARE_DIR_PATH}/Camera/trunk/camera/gci_camera.h
+					${HARDWARE_DIR_PATH}/Camera/trunk/camera/gci_camera_autoexposure.c
+					${HARDWARE_DIR_PATH}/Camera/trunk/camera/gci_camera_callbacks.h
+					${HARDWARE_DIR_PATH}/Camera/trunk/camera/gci_camera_ui.c	
+					${HARDWARE_DIR_PATH}/Camera/trunk/uir_files/gci_camera_ui.uir	
+					${HARDWARE_DIR_PATH}/Camera/trunk/uir_files/gci_camera_ui.h	
+					${HARDWARE_DIR_PATH}/Camera/trunk/dummy/gci_dummy_camera.c
+					${HARDWARE_DIR_PATH}/Camera/trunk/dummy/gci_dummy_camera.h
+					${HARDWARE_DIR_PATH}/Camera/trunk/dummy/gci_dummy_camera_ui.c
+					${HARDWARE_DIR_PATH}/Camera/trunk/uir_files/gci_camera_jvc_ui.h
+					${HARDWARE_DIR_PATH}/Camera/trunk/uir_files/gci_camera_jvc_ui.uir
+					${HARDWARE_DIR_PATH}/Camera/trunk/jvc/gci_camera_jvc_ui.c
+					${HARDWARE_DIR_PATH}/Camera/trunk/jvc/gci_jvc_camera.c
+					${HARDWARE_DIR_PATH}/Camera/trunk/jvc/gci_jvc_camera.h
+					${HARDWARE_DIR_PATH}/Camera/trunk/jvc/KYF75.c
+					${HARDWARE_DIR_PATH}/Camera/trunk/jvc/KYF75.h
+					${HARDWARE_DIR_PATH}/Camera/trunk/dcam/gci_dcam_camera.c
+					${HARDWARE_DIR_PATH}/Camera/trunk/dcam/gci_dcam_camera.h
+					${HARDWARE_DIR_PATH}/Camera/trunk/dcam/gci_dcam_camera_lowlevel.c
+					${HARDWARE_DIR_PATH}/Camera/trunk/dcam/gci_dcam_camera_lowlevel.h
+					${HARDWARE_DIR_PATH}/Camera/trunk/dcam/gci_dcam_camera_settings.c
+					${HARDWARE_DIR_PATH}/Camera/trunk/dcam/gci_dcam_camera_settings.h
+					${HARDWARE_DIR_PATH}/Camera/trunk/dcam/gci_dcam_camera_properties.c
+					${HARDWARE_DIR_PATH}/Camera/trunk/dcam/gci_dcam_camera_ui.c
+					${HARDWARE_DIR_PATH}/Camera/trunk/dcam/gci_dcam_camera_ui.h
+					${HARDWARE_DIR_PATH}/Camera/trunk/dcam/gci_dcam_camera_ui.uir		
+					#${HARDWARE_DIR_PATH}/Camera/trunk/pixellink/gci_pixellink_camera.c
+					#${HARDWARE_DIR_PATH}/Camera/trunk/pixellink/gci_camera_pixellink_ui.c
+					#${HARDWARE_DIR_PATH}/Camera/trunk/pixellink/gci_pixellink_camera_settings.c	
+					#${HARDWARE_DIR_PATH}/Camera/trunk/Upix-UC1311/gci_upix_uc1311_camera.c
+					#${HARDWARE_DIR_PATH}/Camera/trunk/Upix-UC1311/gci_upix_uc1311_camera.h
+					#${HARDWARE_DIR_PATH}/Camera/trunk/Upix-UC1311/gci_upix_uc1311_camera_lowlevel.c
+					#${HARDWARE_DIR_PATH}/Camera/trunk/Upix-UC1311/gci_upix_uc1311_camera_ui.c
+					#${HARDWARE_DIR_PATH}/Camera/trunk/Upix-UC1311/gci_upix_uc1311_camera_ui.h
+                    ${HARDWARE_DIR_PATH}/Camera/trunk/Upix-UC3010/gci_upix_uc3010_camera.c
+					${HARDWARE_DIR_PATH}/Camera/trunk/Upix-UC3010/gci_upix_uc3010_camera.h
+					${HARDWARE_DIR_PATH}/Camera/trunk/Upix-UC3010/gci_upix_uc3010_camera_lowlevel.c
+					${HARDWARE_DIR_PATH}/Camera/trunk/Upix-UC3010/gci_upix_uc3010_camera_ui.c
+					${HARDWARE_DIR_PATH}/Camera/trunk/Upix-UC3010/gci_upix_uc3010_camera_ui.h	
+                    ${HARDWARE_DIR_PATH}/microscope/trunk/OpticalCalibrationDevice.c      
+                    ${HARDWARE_DIR_PATH}/microscope/trunk/OpticalCalibrationDevice.h      
+					${HARDWARE_DIR_PATH}/Camera/trunk/main.c
+                    
+                    ${MS_MODULES_DIR_PATH}/Focus/trunk/focus.c
+                    ${MS_MODULES_DIR_PATH}/Focus/trunk/focus.h
+                    ${MS_MODULES_DIR_PATH}/Focus/trunk/focus_ui.h
+                    ${MS_MODULES_DIR_PATH}/Focus/trunk/focus_ui.uir
+)
+
+# Make sure the compiler can find include files from our library.
+INCLUDE_DIRECTORIES(
+					${HARDWARE_DIR_PATH}/Camera/trunk/
+					${HARDWARE_DIR_PATH}/Camera/trunk/camera/
+					${HARDWARE_DIR_PATH}/Camera/trunk/dummy/
+					${HARDWARE_DIR_PATH}/Camera/trunk/jvc/
+					${HARDWARE_DIR_PATH}/Camera/trunk/dcam/
+					${HARDWARE_DIR_PATH}/Camera/trunk/pixellink/
+					#${HARDWARE_DIR_PATH}/Camera/trunk/Upix-UC1311/
+					#${HARDWARE_DIR_PATH}/Camera/trunk/Upix-UC1311/UC1311-SDK/
+					${HARDWARE_DIR_PATH}/Camera/trunk/Upix-UC3010/
+					${HARDWARE_DIR_PATH}/Camera/trunk/Upix-UC3010/UC3010-SDK/
+					${HARDWARE_DIR_PATH}/Camera/trunk/uir_files
+					${HARDWARE_DIR_PATH}/microscope/trunk
+                    ${HARDWARE_DIR_PATH}/Objectives/trunk
+                    ${MS_MODULES_DIR_PATH}/Focus/trunk/
+					)
+
+SET(CAMERA_RESOURCES 
+					${HARDWARE_DIR_PATH}/Camera/trunk/uir_files/gci_camera_ui.uir	
+                    ${HARDWARE_DIR_PATH}/Camera/trunk/uir_files/gci_camera_jvc_ui.uir
+                    ${HARDWARE_DIR_PATH}/Camera/trunk/dcam/gci_dcam_camera_ui.uir		
+)
+
+LIST(APPEND HARDWARE_RESOURCE_SRCS ${CAMERA_RESOURCES})

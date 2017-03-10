@@ -1,0 +1,2312 @@
+[Workspace Header]
+Version = 801
+Pathname = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Region Scan/RegionScan.cws"
+CVI Dir = "/c/program files/national instruments/cvi80"
+IVI Standard Root Dir = "/C/Program Files/IVI"
+VXIplug&play Framework Dir = "/c/vxipnp/winnt"
+Number of Projects = 1
+Active Project = 1
+Project 0001 = "RegionScan.prj"
+Project 0001 Folder Common Collapsed = True
+Project 0001 Folder Analyzer Collapsed = True
+Project 0001 Folder Objectives Collapsed = True
+Project 0001 Folder Fluor Cubes Collapsed = True
+Project 0001 Folder Optical Path Collapsed = True
+Project 0001 Folder Condenser Collapsed = True
+Project 0001 Folder Lamp Collapsed = True
+Project 0001 Folder Optical Shutter Collapsed = True
+Project 0001 Folder Aperture Stop Collapsed = True
+Project 0001 Folder Field Stop Collapsed = True
+Project 0001 Folder Epi-field Stop Collapsed = True
+Project 0001 Folder Optical Zoom Collapsed = True
+Project 0001 Folder Instrument Files Collapsed = True
+Project 0001 Folder Camera Collapsed = True
+Project 0001 Folder IcsViewer Collapsed = True
+Project 0001 Folder Dummy Camera Collapsed = True
+Project 0001 Folder C9100 Camera Collapsed = True
+Project 0001 Folder Imaging Collapsed = True
+Project 0001 Folder Focus Collapsed = True
+Project 0001 Folder OpticalCalibration Collapsed = True
+Project 0001 Folder Autofocus Collapsed = True
+Project 0001 Folder ImageCorrections Collapsed = True
+Project 0001 Folder DistortionCorrection Collapsed = True
+Project 0001 Folder TimeLapse Collapsed = True
+Drag Bar Left = 519
+Window Top = 107
+Window Left = 219
+Window Bottom = 763
+Window Right = 1151
+Maximized = False
+Maximized Children = True
+Max Number Of Errors = 20
+Track Include File Dependencies = True
+Prompt For Missing Includes = True
+Stop On First Error File = False
+Bring Up Err Win For Warnings = True
+Show Build Dialog = False
+Save Changes Before Running = "Always"
+Hide Windows = False
+Global Hot Key = False
+Break At First Statement = False
+Sort Type = "File Name"
+Number of Opened Files = 0
+Window Confinement Region Enabled = False
+MainColumnWidth = 528
+FileDateColumnWidth = 70
+FileSizeColumnWidth = 70
+StatusColumnWidth = 70
+
+[Project Header 0001]
+Version = 801
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Release"
+Warn User If Debugging Release = 1
+Batch Build Release = False
+Batch Build Debug = False
+Force Rebuild = False
+
+[File 0001]
+Path = "/c/Program Files/Nikon/90i-SDK/cvi/iscope90i.fp"
+File Type = "Function Panel"
+Disk Date = 3232433142
+In Projects = "1,"
+
+[File 0002]
+Path = "/c/Program Files/Nikon/90i-SDK/cvi/mipparam90i.fp"
+File Type = "Function Panel"
+Disk Date = 3232433208
+In Projects = "1,"
+
+[File 0003]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Region Scan/RegionScan.c"
+File Type = "CSource"
+Disk Date = 3234777401
+In Projects = "1,"
+Window Top = 350
+Window Left = 175
+Source Window State = "1,28,28,28,6,16,16,0,3,127,0,1,0,1,0,39,9,0,28,6,585,1045,0,0,"
+Line Tags = "1036,"
+
+[File 0004]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Analyzer/90i_analyzer.c"
+File Type = "CSource"
+Disk Date = 3233126532
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0005]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Analyzer/90i_analyzer.h"
+File Type = "Include"
+Disk Date = 3232529835
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0006]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Aperture Stop/90i_aperture_stop.c"
+File Type = "CSource"
+Disk Date = 3233126053
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0007]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Aperture Stop/90i_aperture_stop.h"
+File Type = "Include"
+Disk Date = 3232531299
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0008]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Condensers/90i_condensers.c"
+File Type = "CSource"
+Disk Date = 3233126403
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0009]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Condensers/90i_condensers.h"
+File Type = "Include"
+Disk Date = 3232527721
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0010]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/EpiField Stop/90i_epi_field_stop.c"
+File Type = "CSource"
+Disk Date = 3233126257
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0011]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/EpiField Stop/90i_epi_field_stop.h"
+File Type = "Include"
+Disk Date = 3232520942
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0012]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Field Stop/90i_field_stop.c"
+File Type = "CSource"
+Disk Date = 3234340702
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0013]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Field Stop/90i_field_stop.h"
+File Type = "Include"
+Disk Date = 3232363113
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0014]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Fluorescent Cubes/90i_fluorescent_cubes.c"
+File Type = "CSource"
+Disk Date = 3233126462
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0015]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Fluorescent Cubes/90i_fluorescent_cubes.h"
+File Type = "Include"
+Disk Date = 3232528550
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0016]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Focus Drive/90i_focus_drive.c"
+File Type = "CSource"
+Disk Date = 3234340918
+In Projects = "1,"
+Window Top = 163
+Window Left = 78
+Source Window State = "1,30,30,30,11,33,33,0,3,0,0,0,0,0,0,0,18,0,30,11,396,676,0,0,"
+
+[File 0017]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Focus Drive/90i_focus_drive.h"
+File Type = "Include"
+Disk Date = 3232532646
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0018]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Lamp/90i_lamp.c"
+File Type = "CSource"
+Disk Date = 3233058981
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0019]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Lamp/90i_lamp.h"
+File Type = "Include"
+Disk Date = 3232525657
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0020]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/microscope/90i_microscope.c"
+File Type = "CSource"
+Disk Date = 3233732083
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0021]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/microscope/90i_microscope.h"
+File Type = "Include"
+Disk Date = 3231393495
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0022]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Objectives/90i_objectives.c"
+File Type = "CSource"
+Disk Date = 3232518740
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0023]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Objectives/90i_objectives.h"
+File Type = "Include"
+Disk Date = 3232516110
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0024]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Optical Path/90i_optical_path.c"
+File Type = "CSource"
+Disk Date = 3233126435
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0025]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Optical Path/90i_optical_path.h"
+File Type = "Include"
+Disk Date = 3232519990
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0026]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Optical Zoom/90i_optical_zoom.c"
+File Type = "CSource"
+Disk Date = 3233126298
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0027]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Optical Zoom/90i_optical_zoom.h"
+File Type = "Include"
+Disk Date = 3232524581
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0028]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Shutter/90i_shutter.c"
+File Type = "CSource"
+Disk Date = 3234772735
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0029]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Shutter/90i_shutter.h"
+File Type = "Include"
+Disk Date = 3232532697
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0030]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Analyzer/analyzer.c"
+File Type = "CSource"
+Disk Date = 3234161248
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0031]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Analyzer/analyzer.h"
+File Type = "Include"
+Disk Date = 3232529751
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0032]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Analyzer/analyzer_ui.c"
+File Type = "CSource"
+Disk Date = 3230029187
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0033]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Analyzer/analyzer_ui.h"
+File Type = "Include"
+Disk Date = 3230029187
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0034]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Analyzer/analyzer_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3230029187
+In Projects = "1,"
+
+[File 0035]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Aperture Stop/aperture_stop.c"
+File Type = "CSource"
+Disk Date = 3234161209
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0036]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Aperture Stop/aperture_stop.h"
+File Type = "Include"
+Disk Date = 3232531291
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0037]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Aperture Stop/aperture_stop_ui.c"
+File Type = "CSource"
+Disk Date = 3229505380
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0038]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Aperture Stop/aperture_stop_ui.h"
+File Type = "Include"
+Disk Date = 3231499994
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0039]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Aperture Stop/aperture_stop_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3231499994
+In Projects = "1,"
+
+[File 0040]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Autofocus/autoFocus.c"
+File Type = "CSource"
+Disk Date = 3234179176
+In Projects = "1,"
+Window Top = 209
+Window Left = 102
+Source Window State = "1,42,42,42,15,25,25,0,3,80,0,0,0,0,0,25,26,0,42,15,396,676,0,0,"
+
+[File 0041]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Autofocus/autoFocus.h"
+File Type = "Include"
+Disk Date = 3195721886
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0042]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Autofocus/autoFocus_ui.h"
+File Type = "Include"
+Disk Date = 3211885134
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0043]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Autofocus/autoFocus_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3212051818
+In Projects = "1,"
+
+[File 0044]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/Com Port Control/com_port_control.c"
+File Type = "CSource"
+Disk Date = 3231506379
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0045]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/Com Port Control/com_port_control.h"
+File Type = "Include"
+Disk Date = 3231506379
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0046]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/Com Port Control/comport_hash.c"
+File Type = "CSource"
+Disk Date = 3231506379
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0047]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/Com Port Control/comport_hash.h"
+File Type = "Include"
+Disk Date = 3231506380
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0048]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Condensers/condensers.c"
+File Type = "CSource"
+Disk Date = 3234160999
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0049]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Condensers/condensers.h"
+File Type = "Include"
+Disk Date = 3233575555
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0050]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Condensers/condensers_ui.c"
+File Type = "CSource"
+Disk Date = 3231332142
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0051]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Condensers/condensers_ui.h"
+File Type = "Include"
+Disk Date = 3231141497
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0052]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Condensers/condensers_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3231141497
+In Projects = "1,"
+
+[File 0053]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Condensers/condensers_xml.c"
+File Type = "CSource"
+Disk Date = 3229411743
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0054]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Stage/Corvus/Corvus_stage.c"
+File Type = "CSource"
+Disk Date = 3234781961
+In Projects = "1,"
+Window Top = 23
+Window Left = 30
+Source Window State = "1,819,820,819,0,0,0,0,0,80,0,0,0,0,0,59,738,0,767,22,842,676,0,0,"
+
+[File 0055]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Stage/Corvus/Corvus_stage.h"
+File Type = "Include"
+Disk Date = 3230626333
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0056]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Tools/crosshair_tool.c"
+File Type = "CSource"
+Disk Date = 3234263345
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0057]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Tools/crosshair_tool.h"
+File Type = "Include"
+Disk Date = 3230626613
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0058]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/bin/dcamapi.lib"
+File Type = "Library"
+Disk Date = 3114491686
+In Projects = "1,"
+
+[File 0059]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Camera/C9100/drawTools.c"
+File Type = "CSource"
+Disk Date = 3228905308
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0060]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Camera/C9100/drawTools.h"
+File Type = "Include"
+Disk Date = 3228905309
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0061]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/EpiField Stop/epi_field_stop.c"
+File Type = "CSource"
+Disk Date = 3234161101
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0062]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/EpiField Stop/epi_field_stop.h"
+File Type = "Include"
+Disk Date = 3232521989
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0063]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/EpiField Stop/epi_field_stop_ui.c"
+File Type = "CSource"
+Disk Date = 3229683400
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0064]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/EpiField Stop/epi_field_stop_ui.h"
+File Type = "Include"
+Disk Date = 3231500123
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0065]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/EpiField Stop/epi_field_stop_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3231500123
+In Projects = "1,"
+
+[File 0066]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Plugins/false_colour_dialog.c"
+File Type = "CSource"
+Disk Date = 3232533916
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0067]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Plugins/fft_plugin.c"
+File Type = "CSource"
+Disk Date = 3232533916
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0068]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Plugins/fft_plugin.h"
+File Type = "Include"
+Disk Date = 3232533915
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0069]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Field Stop/field_stop.c"
+File Type = "CSource"
+Disk Date = 3234161161
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0070]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Field Stop/field_stop.h"
+File Type = "Include"
+Disk Date = 3232450462
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0071]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Field Stop/field_stop_ui.c"
+File Type = "CSource"
+Disk Date = 3229503856
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0072]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Field Stop/field_stop_ui.h"
+File Type = "Include"
+Disk Date = 3231500106
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0073]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Field Stop/field_stop_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3231500106
+In Projects = "1,"
+
+[File 0074]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/Filename Utils/FilenameUtils.c"
+File Type = "CSource"
+Disk Date = 3233134412
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0075]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/Filename Utils/FilenameUtils.h"
+File Type = "Include"
+Disk Date = 3233134412
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0076]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Fluorescent Cubes/fluorescent_cubes.c"
+File Type = "CSource"
+Disk Date = 3234768913
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0077]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Fluorescent Cubes/fluorescent_cubes.h"
+File Type = "Include"
+Disk Date = 3234769266
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0078]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Fluorescent Cubes/fluorescent_cubes_ui.c"
+File Type = "CSource"
+Disk Date = 3231332073
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0079]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Fluorescent Cubes/fluorescent_cubes_ui.h"
+File Type = "Include"
+Disk Date = 3230814079
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0080]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Fluorescent Cubes/fluorescent_cubes_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3230814078
+In Projects = "1,"
+
+[File 0081]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Fluorescent Cubes/fluorescent_cubes_xml.c"
+File Type = "CSource"
+Disk Date = 3229595291
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0082]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Focus/focus.c"
+File Type = "CSource"
+Disk Date = 3234270519
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0083]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Focus/focus.h"
+File Type = "Include"
+Disk Date = 3221139066
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0084]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Focus Drive/focus_drive.c"
+File Type = "CSource"
+Disk Date = 3234161177
+In Projects = "1,"
+Window Top = 140
+Window Left = 66
+Source Window State = "1,658,658,658,4,23,23,0,3,0,0,0,0,0,0,0,654,0,658,4,396,676,0,0,"
+
+[File 0085]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Focus Drive/focus_drive.h"
+File Type = "Include"
+Disk Date = 3233060271
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0086]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Focus Drive/focus_drive_ui.c"
+File Type = "CSource"
+Disk Date = 3230023353
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0087]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Focus Drive/focus_drive_ui.h"
+File Type = "Include"
+Disk Date = 3230023353
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0088]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Focus Drive/focus_drive_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3230023353
+In Projects = "1,"
+
+[File 0089]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Focus/focus_ui.h"
+File Type = "Include"
+Disk Date = 3188215248
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0090]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Focus/focus_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3212051834
+In Projects = "1,"
+
+[File 0091]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/FreeImageAlgorithms/include/FreeImage.h"
+File Type = "Include"
+Disk Date = 3233134473
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0092]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/bin/FreeImage.lib"
+File Type = "Library"
+Disk Date = 3226574186
+In Projects = "1,"
+
+[File 0093]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Shell/freeimage_imaq.c"
+File Type = "CSource"
+Disk Date = 3233661232
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0094]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Shell/freeimage_imaq.h"
+File Type = "Include"
+Disk Date = 3232533912
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0095]
+Path Line0001 = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/FreeImageAlgorithms/include/FreeImageAlgor"
+Path Line0002 = "ithms.h"
+File Type = "Include"
+Disk Date = 3233659348
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0096]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/bin/FreeImageAlgorithms.lib"
+File Type = "Library"
+Disk Date = 3233642888
+In Projects = "1,"
+
+[File 0097]
+Path Line0001 = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/FreeImageAlgorithms/include/FreeImageAlgor"
+Path Line0002 = "ithms_Arithmetic.h"
+File Type = "Include"
+Disk Date = 3233134474
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0098]
+Path Line0001 = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/FreeImageAlgorithms/include/FreeImageAlgor"
+Path Line0002 = "ithms_Colour.h"
+File Type = "Include"
+Disk Date = 3233134473
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0099]
+Path Line0001 = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/FreeImageAlgorithms/include/FreeImageAlgor"
+Path Line0002 = "ithms_FFT.h"
+File Type = "Include"
+Disk Date = 3233134473
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0100]
+Path Line0001 = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/FreeImageAlgorithms/include/FreeImageAlgor"
+Path Line0002 = "ithms_HBitmap.h"
+File Type = "Include"
+Disk Date = 3233134473
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0101]
+Path Line0001 = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/FreeImageAlgorithms/include/FreeImageAlgor"
+Path Line0002 = "ithms_IO.h"
+File Type = "Include"
+Disk Date = 3233134473
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0102]
+Path Line0001 = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/FreeImageAlgorithms/include/FreeImageAlgor"
+Path Line0002 = "ithms_IO_Utils.h"
+File Type = "Include"
+Disk Date = 3233134474
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0103]
+Path Line0001 = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/FreeImageAlgorithms/include/FreeImageAlgor"
+Path Line0002 = "ithms_LinearScale.h"
+File Type = "Include"
+Disk Date = 3233134473
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0104]
+Path Line0001 = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/FreeImageAlgorithms/include/FreeImageAlgor"
+Path Line0002 = "ithms_Palettes.h"
+File Type = "Include"
+Disk Date = 3233134473
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0105]
+Path Line0001 = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/FreeImageAlgorithms/include/FreeImageAlgor"
+Path Line0002 = "ithms_Statistics.h"
+File Type = "Include"
+Disk Date = 3233134474
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0106]
+Path Line0001 = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/FreeImageAlgorithms/include/FreeImageAlgor"
+Path Line0002 = "ithms_Utilities.h"
+File Type = "Include"
+Disk Date = 3233659349
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0107]
+Path Line0001 = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/FreeImageAlgorithms/include/FreeImageAlgor"
+Path Line0002 = "ithms_Utils.h"
+File Type = "Include"
+Disk Date = 3233134473
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0108]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/bin/FreeImageIcs.lib"
+File Type = "Library"
+Disk Date = 3233737084
+In Projects = "1,"
+
+[File 0109]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/FreeImageIcs/include/FreeImageIcs_IO.h"
+File Type = "Include"
+Disk Date = 3233134519
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0110]
+Path Line0001 = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/FreeImageIcs/include/FreeImageIcs_MetaData"
+Path Line0002 = ".h"
+File Type = "Include"
+Disk Date = 3233134519
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0111]
+Path Line0001 = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/FreeImageIcs/include/FreeImageIcs_Private."
+Path Line0002 = "h"
+File Type = "Include"
+Disk Date = 3233738434
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0112]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Camera/C9100/gci_C9100_camera.c"
+File Type = "CSource"
+Disk Date = 3234251715
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0113]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Camera/C9100/gci_C9100_camera.h"
+File Type = "Include"
+Disk Date = 3228905310
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0114]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Camera/C9100/gci_C9100_camera_settings.c"
+File Type = "CSource"
+Disk Date = 3230640372
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0115]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Camera/C9100/gci_C9100_camera_settings.h"
+File Type = "Include"
+Disk Date = 3228905310
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0116]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Camera/C9100/gci_C9100_camera_ui.c"
+File Type = "CSource"
+Disk Date = 3228905309
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0117]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Camera/C9100/gci_C9100_camera_ui.h"
+File Type = "Include"
+Disk Date = 3228905310
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0118]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Camera/C9100/gci_C9100_camera_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3228905309
+In Projects = "1,"
+
+[File 0119]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Camera/camera/gci_camera.c"
+File Type = "CSource"
+Disk Date = 3234345483
+In Projects = "1,"
+Window Top = 182
+Window Left = 454
+Source Window State = "1,179,179,179,4,68,4,0,0,0,0,0,0,0,0,0,1126,0,1162,0,639,1081,0,0,"
+
+[File 0120]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Camera/camera/gci_camera.h"
+File Type = "Include"
+Disk Date = 3234249167
+In Projects = "1,"
+Window Top = 163
+Window Left = 78
+Source Window State = "1,123,123,123,5,87,87,0,0,0,0,0,0,0,0,0,0,0,3,9,576,974,0,0,"
+
+[File 0121]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Camera/camera/gci_camera_ui.c"
+File Type = "CSource"
+Disk Date = 3233580867
+In Projects = "1,"
+Window Top = 71
+Window Left = 30
+Source Window State = "1,14,14,14,15,25,25,0,3,80,0,0,0,0,0,25,0,0,14,15,396,676,0,0,"
+
+[File 0122]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Camera/camera/gci_camera_ui.h"
+File Type = "Include"
+Disk Date = 3228905303
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0123]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Camera/camera/gci_camera_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3228905303
+In Projects = "1,"
+
+[File 0124]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Camera/dummy/gci_dummy_camera.c"
+File Type = "CSource"
+Disk Date = 3229935453
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0125]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Camera/dummy/gci_dummy_camera.h"
+File Type = "Include"
+Disk Date = 3228905306
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0126]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Shell/Twain/GCI_EZTWAIN.C"
+File Type = "CSource"
+Disk Date = 3233143162
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0127]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Shell/Twain/GCI_EZTWAIN.H"
+File Type = "Include"
+Disk Date = 3230626623
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0128]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/GCI Utils/gci_menu_utils.c"
+File Type = "CSource"
+Disk Date = 3229425749
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0129]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/GCI Utils/gci_menu_utils.h"
+File Type = "Include"
+Disk Date = 3229425749
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0130]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/GCI Utils/gci_utils.c"
+File Type = "CSource"
+Disk Date = 3231502210
+In Projects = "1,"
+Window Top = 140
+Window Left = 66
+Source Window State = "1,408,408,408,31,41,41,0,3,80,0,0,0,0,0,25,396,0,408,31,396,676,0,0,"
+
+[File 0131]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/GCI Utils/gci_utils.h"
+File Type = "Include"
+Disk Date = 3230629932
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0132]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/GCI Utils/gci_utils_progress_feedback.h"
+File Type = "Include"
+Disk Date = 3229425748
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0133]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/GCI Utils/gci_utils_progress_feedback.uir"
+File Type = "User Interface Resource"
+Disk Date = 3229425749
+In Projects = "1,"
+
+[File 0134]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/GCI Registry/GL_CVIRegistry.c"
+File Type = "CSource"
+Disk Date = 3233138853
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0135]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/GCI Registry/GL_CVIRegistry.h"
+File Type = "Include"
+Disk Date = 3233138853
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0136]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Plugins/grid_plugin.c"
+File Type = "CSource"
+Disk Date = 3232533915
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0137]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Plugins/grid_plugin.h"
+File Type = "Include"
+Disk Date = 3230626618
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0138]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/hardware.h"
+File Type = "Include"
+Disk Date = 3233230495
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0139]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Plugins/histogram_equalisation_plugin.c"
+File Type = "CSource"
+Disk Date = 3232533915
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0140]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Plugins/histogram_equalisation_plugin.h"
+File Type = "Include"
+Disk Date = 3230626617
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0141]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Plugins/histogram_plugin.c"
+File Type = "CSource"
+Disk Date = 3232533915
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0142]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Plugins/histogram_plugin.h"
+File Type = "Include"
+Disk Date = 3232533915
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0143]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/bin/ics.lib"
+File Type = "Library"
+Disk Date = 3233639283
+In Projects = "1,"
+
+[File 0144]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Shell/icsviewer_com_utils.h"
+File Type = "Include"
+Disk Date = 3230626626
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0145]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Shell/icsviewer_droptarget.c"
+File Type = "CSource"
+Disk Date = 3230626627
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0146]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Shell/icsviewer_event_handlers.c"
+File Type = "CSource"
+Disk Date = 3233730850
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0147]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Shell/icsviewer_plugin.c"
+File Type = "CSource"
+Disk Date = 3230626626
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0148]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Shell/icsviewer_plugin.h"
+File Type = "Include"
+Disk Date = 3232533912
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0149]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Shell/icsviewer_plugin_menu.c"
+File Type = "CSource"
+Disk Date = 3230626626
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0150]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Shell/icsviewer_plugin_menu.h"
+File Type = "Include"
+Disk Date = 3230626626
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0151]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Shell/icsviewer_private.h"
+File Type = "Include"
+Disk Date = 3230626625
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0152]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Shell/icsviewer_signals.c"
+File Type = "CSource"
+Disk Date = 3234350591
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0153]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Shell/icsviewer_signals.h"
+File Type = "Include"
+Disk Date = 3234350644
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0154]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Shell/icsviewer_tools.c"
+File Type = "CSource"
+Disk Date = 3233659127
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0155]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Shell/icsviewer_tools.h"
+File Type = "Include"
+Disk Date = 3233659128
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0156]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Shell/icsviewer_uir.h"
+File Type = "Include"
+Disk Date = 3232533912
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0157]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Shell/icsviewer_uir.uir"
+File Type = "User Interface Resource"
+Disk Date = 3232533913
+In Projects = "1,"
+
+[File 0158]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Shell/icsviewer_window.c"
+File Type = "CSource"
+Disk Date = 3234262675
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0159]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Shell/icsviewer_window.h"
+File Type = "Include"
+Disk Date = 3233659816
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0160]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/Image Utils/image_utils.c"
+File Type = "CSource"
+Disk Date = 3234264617
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0161]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/Image Utils/image_utils.h"
+File Type = "Include"
+Disk Date = 3234264617
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0162]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/ImageViewer/ImageViewer.c"
+File Type = "CSource"
+Disk Date = 3233136023
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0163]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/ImageViewer/ImageViewer.h"
+File Type = "Include"
+Disk Date = 3233136024
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0164]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Shell/ImageViewer_Drawing.c"
+File Type = "CSource"
+Disk Date = 3230626626
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0165]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Shell/ImageViewer_Drawing.h"
+File Type = "Include"
+Disk Date = 3230626627
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0166]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/ImageViewer/ImageViewerBuffer.c"
+File Type = "CSource"
+Disk Date = 3233136023
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0167]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/ImageViewer/ImageViewerBuffer.h"
+File Type = "Include"
+Disk Date = 3233136023
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0168]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/ImageViewer/ImageViewerMouse.c"
+File Type = "CSource"
+Disk Date = 3233136024
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0169]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/ImageViewer/ImageViewerMouse.h"
+File Type = "Include"
+Disk Date = 3233136024
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0170]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/ImageViewer/ImageViewerUtils.c"
+File Type = "CSource"
+Disk Date = 3233136024
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0171]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/ImageViewer/ImageViewerUtils.h"
+File Type = "Include"
+Disk Date = 3233136025
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0172]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/ImageViewer/ImageViewerWndProc.c"
+File Type = "CSource"
+Disk Date = 3233136023
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0173]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/ImageViewer/ImageViewerWndProc.h"
+File Type = "Include"
+Disk Date = 3233136024
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0174]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Imaging UI/Imaging.c"
+File Type = "CSource"
+Disk Date = 3234265511
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0175]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Imaging UI/Imaging.h"
+File Type = "Include"
+Disk Date = 3234340391
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0176]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Imaging UI/imaging_ui.h"
+File Type = "Include"
+Disk Date = 3234264117
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0177]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Imaging UI/imaging_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3234265647
+In Projects = "1,"
+
+[File 0178]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Imaging Facade/ImagingC9100CameraFacade.c"
+File Type = "CSource"
+Disk Date = 3234772001
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0179]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Imaging Facade/ImagingCondensersFacade.c"
+File Type = "CSource"
+Disk Date = 3233575750
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0180]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Imaging Facade/ImagingFacade.h"
+File Type = "Include"
+Disk Date = 3234180712
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0181]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Imaging Facade/ImagingFluoCubesFacade.c"
+File Type = "CSource"
+Disk Date = 3234180694
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0182]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Imaging Facade/ImagingLampFacade.c"
+File Type = "CSource"
+Disk Date = 3233561349
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0183]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Imaging Facade/ImagingObjectivesFacade.c"
+File Type = "CSource"
+Disk Date = 3233832855
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0184]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Imaging Facade/ImagingShutterFacade.c"
+File Type = "CSource"
+Disk Date = 3233319487
+In Projects = "1,"
+Window Top = 278
+Window Left = 138
+Source Window State = "1,26,26,26,40,50,50,0,3,80,0,0,0,0,0,25,13,0,26,40,396,676,0,0,"
+
+[File 0185]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Imaging Facade/ImagingStageFacade.c"
+File Type = "CSource"
+Disk Date = 3234352859
+In Projects = "1,"
+Window Top = 94
+Window Left = 42
+Source Window State = "1,170,170,170,20,24,24,0,0,0,0,0,0,0,0,0,158,0,172,24,528,676,0,0,"
+
+[File 0186]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Lamp/lamp.c"
+File Type = "CSource"
+Disk Date = 3234160778
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0187]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Lamp/lamp.h"
+File Type = "Include"
+Disk Date = 3232532103
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0188]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Lamp/lamp_ui.c"
+File Type = "CSource"
+Disk Date = 3228898059
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0189]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Lamp/lamp_ui.h"
+File Type = "Include"
+Disk Date = 3228898060
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0190]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Lamp/lamp_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3228898059
+In Projects = "1,"
+
+[File 0191]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/FreeImageIcs/include/libics.h"
+File Type = "Include"
+Disk Date = 3233659360
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0192]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/FreeImageIcs/include/libics_conf.h"
+File Type = "Include"
+Disk Date = 3233659359
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0193]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Tools/line_tool.c"
+File Type = "CSource"
+Disk Date = 3232533910
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0194]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Tools/line_tool.h"
+File Type = "Include"
+Disk Date = 3230626614
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0195]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Plugins/linearscale_plugin.c"
+File Type = "CSource"
+Disk Date = 3232533915
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0196]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Plugins/linearscale_plugin.h"
+File Type = "Include"
+Disk Date = 3232533915
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0197]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Plugins/metadata_editable_cell_tree.c"
+File Type = "CSource"
+Disk Date = 3230626620
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0198]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Plugins/metadata_plugin.c"
+File Type = "CSource"
+Disk Date = 3232533914
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0199]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Plugins/metadata_plugin.h"
+File Type = "Include"
+Disk Date = 3230626617
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0200]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/microscope/Microscope.c"
+File Type = "CSource"
+Disk Date = 3234341599
+In Projects = "1,"
+Window Top = 1176
+Window Left = 70
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,713,0,725,0,400,708,0,0,"
+
+[File 0201]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/microscope/Microscope.h"
+File Type = "Include"
+Disk Date = 3231411431
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0202]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/microscope/microscope_ui.c"
+File Type = "CSource"
+Disk Date = 3233232140
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0203]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/microscope/Microscope_ui.h"
+File Type = "Include"
+Disk Date = 3231500049
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0204]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/microscope/Microscope_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3231501041
+In Projects = "1,"
+
+[File 0205]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/microscope/MicroscopeFacade.c"
+File Type = "CSource"
+Disk Date = 3234769002
+In Projects = "1,"
+Window Top = 72
+Window Left = 51
+Source Window State = "1,16,16,16,12,22,22,0,3,80,0,0,0,0,0,41,0,0,16,12,611,676,0,0,"
+
+[File 0206]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/microscope/MicroscopeFacade.h"
+File Type = "Include"
+Disk Date = 3234180659
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0207]
+Path Line0001 = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Image Corrections/ModDistortionMeasuremen"
+Path Line0002 = "t.c"
+File Type = "CSource"
+Disk Date = 3234787789
+In Projects = "1,"
+Window Top = 232
+Window Left = 114
+Source Window State = "1,12,12,12,11,21,21,0,3,80,0,0,0,0,0,25,0,0,12,11,396,676,0,0,"
+
+[File 0208]
+Path Line0001 = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Image Corrections/ModDistortionMeasuremen"
+Path Line0002 = "t.h"
+File Type = "Include"
+Disk Date = 3216903018
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0209]
+Path Line0001 = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Image Corrections/ModDistortionMeasuremen"
+Path Line0002 = "t_ui.h"
+File Type = "Include"
+Disk Date = 3199257105
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0210]
+Path Line0001 = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Image Corrections/ModDistortionMeasuremen"
+Path Line0002 = "t_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3217339905
+In Projects = "1,"
+
+[File 0211]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Mosaic/mosaic.c"
+File Type = "CSource"
+Disk Date = 3234787666
+In Projects = "1,"
+Window Top = 48
+Window Left = 18
+Source Window State = "1,22,22,22,37,47,47,0,3,80,0,0,0,0,0,25,10,35,22,37,396,676,0,0,"
+
+[File 0212]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Mosaic/mosaic.h"
+File Type = "Include"
+Disk Date = 3234348511
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0213]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Image Corrections/NR.H"
+File Type = "Include"
+Disk Date = 2994251316
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0214]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Image Corrections/NR_SVDutils.c"
+File Type = "CSource"
+Disk Date = 3043410262
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0215]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Image Corrections/NRUTIL.H"
+File Type = "Include"
+Disk Date = 2994251316
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0216]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Objectives/objectives.c"
+File Type = "CSource"
+Disk Date = 3234776282
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0217]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Objectives/objectives.h"
+File Type = "Include"
+Disk Date = 3234768417
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0218]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Objectives/objectives_ui.c"
+File Type = "CSource"
+Disk Date = 3234341269
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0219]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Objectives/objectives_ui.h"
+File Type = "Include"
+Disk Date = 3231144418
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0220]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Objectives/objectives_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3231310715
+In Projects = "1,"
+
+[File 0221]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Objectives/objectives_xml.c"
+File Type = "CSource"
+Disk Date = 3234341383
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0222]
+Path = "/c/program files/national instruments/cvi80/sdk/lib/ole32.lib"
+File Type = "Library"
+Disk Date = 3227504400
+In Projects = "1,"
+
+[File 0223]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Optical Calibration/optical_calibration.c"
+File Type = "CSource"
+Disk Date = 3234341410
+In Projects = "1,"
+Window Top = 301
+Window Left = 150
+Source Window State = "1,20,20,20,16,26,26,0,3,80,0,0,0,0,0,25,0,0,20,16,396,676,0,0,"
+
+[File 0224]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Optical Calibration/optical_calibration.h"
+File Type = "Include"
+Disk Date = 3233836740
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0225]
+Path Line0001 = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Optical Calibration/optical_calibration_u"
+Path Line0002 = "ir.h"
+File Type = "Include"
+Disk Date = 3226470710
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0226]
+Path Line0001 = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Optical Calibration/optical_calibration_u"
+Path Line0002 = "ir.uir"
+File Type = "User Interface Resource"
+Disk Date = 3226470710
+In Projects = "1,"
+
+[File 0227]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Optical Path/optical_path.c"
+File Type = "CSource"
+Disk Date = 3234160740
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0228]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Optical Path/optical_path.h"
+File Type = "Include"
+Disk Date = 3232520569
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0229]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Optical Path/optical_path_ui.c"
+File Type = "CSource"
+Disk Date = 3231332027
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0230]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Optical Path/optical_path_ui.h"
+File Type = "Include"
+Disk Date = 3231137390
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0231]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Optical Path/optical_path_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3231137390
+In Projects = "1,"
+
+[File 0232]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Optical Path/optical_path_xml.c"
+File Type = "CSource"
+Disk Date = 3229425060
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0233]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Optical Zoom/optical_zoom.c"
+File Type = "CSource"
+Disk Date = 3234160722
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0234]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Optical Zoom/optical_zoom.h"
+File Type = "Include"
+Disk Date = 3232522908
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0235]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Optical Zoom/optical_zoom_ui.c"
+File Type = "CSource"
+Disk Date = 3229931099
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0236]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Optical Zoom/optical_zoom_ui.h"
+File Type = "Include"
+Disk Date = 3229931098
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0237]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Optical Zoom/optical_zoom_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3229931098
+In Projects = "1,"
+
+[File 0238]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Plugins/palette_plugin.c"
+File Type = "CSource"
+Disk Date = 3233659125
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0239]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Plugins/palette_plugin.h"
+File Type = "Include"
+Disk Date = 3233659125
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0240]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Tools/palettebar_tool.c"
+File Type = "CSource"
+Disk Date = 3233732836
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0241]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Tools/palettebar_tool.h"
+File Type = "Include"
+Disk Date = 3230626614
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0242]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/Password/password.c"
+File Type = "CSource"
+Disk Date = 3229507826
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0243]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/Password/password.h"
+File Type = "Include"
+Disk Date = 3229507826
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0244]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/Password/password_ui.h"
+File Type = "Include"
+Disk Date = 3229507826
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0245]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/Password/password_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3229507826
+In Projects = "1,"
+
+[File 0246]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/Profile/trunk/profile.c"
+File Type = "CSource"
+Disk Date = 3233731222
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0247]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/Profile/trunk/profile.h"
+File Type = "Include"
+Disk Date = 3233731222
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0248]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Plugins/profile_plugin.c"
+File Type = "CSource"
+Disk Date = 3233904680
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0249]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Plugins/profile_plugin.h"
+File Type = "Include"
+Disk Date = 3230626619
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0250]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Image Corrections/RefImages.c"
+File Type = "CSource"
+Disk Date = 3234776792
+In Projects = "1,"
+Window Top = 255
+Window Left = 126
+Source Window State = "1,30,30,30,15,25,25,0,3,80,0,0,0,0,0,25,15,0,30,15,396,676,0,0,"
+
+[File 0251]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Image Corrections/refImages.h"
+File Type = "Include"
+Disk Date = 3234247235
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0252]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Image Corrections/RefImages_ui.h"
+File Type = "Include"
+Disk Date = 3199257255
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0253]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Image Corrections/RefImages_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3217339922
+In Projects = "1,"
+
+[File 0254]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/RegionOfInterest/RegionOfInterest.c"
+File Type = "CSource"
+Disk Date = 3234355407
+In Projects = "1,"
+Window Top = 209
+Window Left = 102
+Source Window State = "1,20,20,20,49,59,59,0,3,80,0,0,0,0,0,25,8,0,20,49,396,676,0,0,"
+
+[File 0255]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/RegionOfInterest/RegionOfInterest.h"
+File Type = "Include"
+Disk Date = 3223905326
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0256]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/RegionOfInterest/RegionOfInterest_ui.h"
+File Type = "Include"
+Disk Date = 3223907544
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0257]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/RegionOfInterest/RegionOfInterest_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3223907544
+In Projects = "1,"
+
+[File 0258]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Region Scan/RegionScan.h"
+File Type = "Include"
+Disk Date = 3216903190
+In Projects = "1,"
+Window Top = 256
+Window Left = 444
+Source Window State = "1,3,3,3,4,22,22,0,0,0,0,0,0,0,0,0,0,0,6,19,399,676,0,0,"
+
+[File 0259]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Region Scan/RegionScan_ui.h"
+File Type = "Include"
+Disk Date = 3212149542
+In Projects = "1,"
+Window Top = 48
+Window Left = 18
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,399,708,0,0,"
+
+[File 0260]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Region Scan/RegionScan_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3216109151
+In Projects = "1,"
+Window Top = 71
+Window Left = 30
+Window Height = 848
+Window Width = 559
+
+[File 0261]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Image Corrections/RemoveQuadraticBg16.c"
+File Type = "CSource"
+Disk Date = 3195816719
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0262]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Imaging/Image Corrections/RemoveQuadraticBg16.h"
+File Type = "Include"
+Disk Date = 3100670856
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0263]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Plugins/resample_menu_plugin.c"
+File Type = "CSource"
+Disk Date = 3232533915
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0264]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Plugins/resample_menu_plugin.h"
+File Type = "Include"
+Disk Date = 3230626619
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0265]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Tools/roi_tool.c"
+File Type = "CSource"
+Disk Date = 3232533910
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0266]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Tools/roi_tool.h"
+File Type = "Include"
+Disk Date = 3230626614
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0267]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Plugins/rotate_menu_plugin.c"
+File Type = "CSource"
+Disk Date = 3232533915
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0268]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Plugins/rotate_menu_plugin.h"
+File Type = "Include"
+Disk Date = 3230626618
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0269]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Plugins/save_plugin.c"
+File Type = "CSource"
+Disk Date = 3233742156
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0270]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Plugins/save_plugin.h"
+File Type = "Include"
+Disk Date = 3230626619
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0271]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Plugins/scalebar_plugin.c"
+File Type = "CSource"
+Disk Date = 3230626620
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0272]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Plugins/scalebar_plugin.h"
+File Type = "Include"
+Disk Date = 3230626617
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0273]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Plugins/screenshot_plugin.c"
+File Type = "CSource"
+Disk Date = 3232533916
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0274]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Plugins/screenshot_plugin.h"
+File Type = "Include"
+Disk Date = 3230626617
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0275]
+Path = "/c/program files/national instruments/cvi80/sdk/lib/Shell32.Lib"
+File Type = "Library"
+Disk Date = 3227504400
+In Projects = "1,"
+
+[File 0276]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Shutter/shutter.c"
+File Type = "CSource"
+Disk Date = 3234772738
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0277]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Shutter/shutter.h"
+File Type = "Include"
+Disk Date = 3234772757
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0278]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Shutter/shutter_ui.c"
+File Type = "CSource"
+Disk Date = 3229680108
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0279]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Shutter/shutter_ui.h"
+File Type = "Include"
+Disk Date = 3229680108
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0280]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Shutter/shutter_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3229680108
+In Projects = "1,"
+
+[File 0281]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/signals/signals.c"
+File Type = "CSource"
+Disk Date = 3229504549
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0282]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/signals/signals.h"
+File Type = "Include"
+Disk Date = 3229504550
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0283]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Stage/stage/stage.c"
+File Type = "CSource"
+Disk Date = 3234786797
+In Projects = "1,"
+Window Top = 91
+Window Left = 499
+Source Window State = "1,1904,1905,1904,0,0,0,0,0,0,0,0,0,0,0,0,1882,0,1886,72,862,676,0,0,"
+
+[File 0284]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Stage/stage/stage.h"
+File Type = "Include"
+Disk Date = 3234770889
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0285]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Stage/stage/stage_ui.c"
+File Type = "CSource"
+Disk Date = 3234763698
+In Projects = "1,"
+Window Top = 486
+Window Left = 480
+Source Window State = "1,548,549,548,0,0,0,0,0,0,0,0,0,0,0,0,527,0,537,8,396,676,0,0,"
+
+[File 0286]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Stage/stage/stage_ui.h"
+File Type = "Include"
+Disk Date = 3231306699
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0287]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Stage/stage/stage_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3231306699
+In Projects = "1,"
+Window Top = 299
+Window Left = 77
+Window Height = 660
+Window Width = 676
+
+[File 0288]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/Status/status.c"
+File Type = "CSource"
+Disk Date = 3231506947
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0289]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/Status/status.h"
+File Type = "Include"
+Disk Date = 3231506947
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0290]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/Status/status_ui.h"
+File Type = "Include"
+Disk Date = 3231506947
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0291]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/Status/status_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3231506947
+In Projects = "1,"
+
+[File 0292]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/String Utils/include/string_utils.h"
+File Type = "Include"
+Disk Date = 3229507872
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0293]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/bin/StringUtils.lib"
+File Type = "Library"
+Disk Date = 3226989402
+In Projects = "1,"
+
+[File 0294]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/TimeLapse/TimeLapse.c"
+File Type = "CSource"
+Disk Date = 3234355335
+In Projects = "1,"
+Window Top = 324
+Window Left = 162
+Source Window State = "1,38,38,38,15,25,25,0,3,80,0,0,0,0,0,25,26,0,38,15,396,676,0,0,"
+
+[File 0295]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/TimeLapse/TimeLapse.h"
+File Type = "Include"
+Disk Date = 3216903366
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0296]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/TimeLapse/TimeLapse_ui.h"
+File Type = "Include"
+Disk Date = 3212053600
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0297]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/TimeLapse/TimeLapse_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3216109196
+In Projects = "1,"
+
+[File 0298]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Plugins/titlebar_plugin.c"
+File Type = "CSource"
+Disk Date = 3233906913
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0299]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Plugins/titlebar_plugin.h"
+File Type = "Include"
+Disk Date = 3230626620
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0300]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Shell/Twain/TWAIN.H"
+File Type = "Include"
+Disk Date = 3230626623
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0301]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Plugins/twain_plugin.c"
+File Type = "CSource"
+Disk Date = 3232533914
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0302]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Plugins/twain_plugin.h"
+File Type = "Include"
+Disk Date = 3230626618
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0303]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Shell/Twain/TwainDriver.c"
+File Type = "CSource"
+Disk Date = 3232533911
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0304]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Shell/Twain/TwainDriver.h"
+File Type = "Include"
+Disk Date = 3232533911
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0305]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Shell/Twain/TwainDriver_UI.c"
+File Type = "CSource"
+Disk Date = 3232533911
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0306]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Shell/Twain/TwainDriver_UI.h"
+File Type = "Include"
+Disk Date = 3230626622
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0307]
+Path = "/c/program files/national instruments/cvi80/sdk/lib/Vfw32.Lib"
+File Type = "Library"
+Disk Date = 3227504400
+In Projects = "1,"
+
+[File 0308]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/XML utils/xml_utils.c"
+File Type = "CSource"
+Disk Date = 3229508001
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0309]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/XML utils/xml_utils.h"
+File Type = "Include"
+Disk Date = 3229508001
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0310]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Tools/zoom_tool.c"
+File Type = "CSource"
+Disk Date = 3230626613
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0311]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/icsviewer/Tools/zoom_tool.h"
+File Type = "Include"
+Disk Date = 3230626614
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[Build Options 0001]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Debugging Level = "Standard"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0001]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = True
+Suppress CVI Error Messages = False
+
+[DLL Debugging Support 0001]
+External Process Path = ""
+
+[DLLs Used By Executable 0001]
+DLL 0001 = "/C/WINDOWS/system32/dcamapi.dll"
+
+[Command Line Args 0001]
+Command Line Args = ""
+

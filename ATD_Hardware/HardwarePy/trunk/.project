@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>GciPy</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.python.pydev.PyDevBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.python.pydev.pythonNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>ImageViewer</name>
+			<type>2</type>
+			<location>C:/Documents and Settings/Pierce/Desktop/Working Area/GciPy/ImageViewer</location>
+		</link>
+		<link>
+			<name>Hardware</name>
+			<type>2</type>
+			<location>C:/Documents and Settings/Pierce/Desktop/Working Area/GciPy/trunk/Hardware</location>
+		</link>
+		<link>
+			<name>FreeImageAlgorithmsPy</name>
+			<type>2</type>
+			<location>C:/Documents and Settings/Pierce/Desktop/Working Area/GciPy/trunk/FreeImageAlgorithmsPy</location>
+		</link>
+		<link>
+			<name>FreeImagePy</name>
+			<type>2</type>
+			<location>C:/Documents and Settings/Pierce/Desktop/Working Area/GciPy/trunk/FreeImagePy</location>
+		</link>
+		<link>
+			<name>FreeImageIcsPy</name>
+			<type>2</type>
+			<location>C:/Documents and Settings/Pierce/Desktop/Working Area/GciPy/trunk/FreeImageIcsPy</location>
+		</link>
+	</linkedResources>
+</projectDescription>

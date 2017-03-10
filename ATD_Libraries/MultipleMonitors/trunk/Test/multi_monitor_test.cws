@@ -1,0 +1,124 @@
+[Workspace Header]
+Version = 710
+Pathname Line0001 = "/c/Documents and Settings/Pierce/Desktop/Multiple Monitors/Test/multi_monitor_te"
+Pathname Line0002 = "st.cws"
+CVI Dir = "/c/program files/national instruments/cvi71"
+IVI Standard Root Dir = "/C/Program Files/IVI"
+VXIplug&play Framework Dir = "/C/VXIPNP/winnt"
+Number of Projects = 1
+Active Project = 1
+Project 0001 = "multi_monitor_test.prj"
+Drag Bar Left = 1400
+Window Top = 159
+Window Left = 663
+Window Bottom = 997
+Window Right = 1250
+Maximized = False
+Maximized Children = True
+Max Number Of Errors = 20
+Track Include File Dependencies = True
+Prompt For Missing Includes = True
+Stop On First Error File = False
+Bring Up Err Win For Warnings = True
+Show Build Dialog = False
+Save Changes Before Running = "Always"
+Hide Windows = False
+Global Hot Key = False
+Break At First Statement = False
+Sort Type = "File Name"
+Number of Opened Files = 0
+Window Confinement Region Enabled = False
+MainColumnWidth = 573
+FileDateColumnWidth = 70
+FileSizeColumnWidth = 70
+StatusColumnWidth = 70
+
+[Project Header 0001]
+Version = 710
+Platform Code = 4
+Build Configuration = "Debug"
+Warn User If Debugging Release = 1
+Batch Build Release = False
+Batch Build Debug = False
+
+[File 0001]
+Path = "/c/Documents and Settings/Pierce/Desktop/Multiple Monitors/multiple-monitors.fp"
+File Type = "Function Panel"
+Disk Date = 3188802742
+In Projects = "1,"
+
+[File 0002]
+Path = "/c/Documents and Settings/Pierce/Desktop/Multiple Monitors/multiple-monitors.h"
+File Type = "Include"
+Disk Date = 3188804717
+In Projects = "1,"
+Window Top = 293
+Window Left = 195
+Source Window State = "1,4,5,4,0,23,0,0,0,102,0,0,0,0,0,35,0,0,33,44,539,851,0,0,"
+
+[File 0003]
+Path = "/c/Documents and Settings/Pierce/Desktop/Multiple Monitors/multiple-monitors.obj"
+File Type = "Object"
+Disk Date = 3188804747
+In Projects = "1,"
+
+[File 0004]
+Path Line0001 = "/c/Documents and Settings/Pierce/Desktop/Multiple Monitors/Test/multiple_monitor"
+Path Line0002 = "_test.c"
+File Type = "CSource"
+Disk Date = 3188805920
+In Projects = "1,"
+Window Top = 69
+Window Left = 246
+Source Window State = "1,0,0,0,10,11,10,0,0,110,0,7,0,10,0,41,0,0,37,4,612,914,0,73,"
+
+[File 0005]
+Path Line0001 = "/c/Documents and Settings/Pierce/Desktop/GCI Imaging/Multiple Monitors/Test/mult"
+Path Line0002 = "iple_monitor_test2.c"
+File Type = "CSource"
+Disk Date = 3188805570
+In Projects = "1,"
+Window Top = 248
+Window Left = 102
+Source Window State = "1,8,18,8,0,43,0,0,0,0,0,13,0,13,0,0,0,0,9,7,399,676,0,0,"
+
+[File 0006]
+Path Line0001 = "/c/Documents and Settings/Pierce/Desktop/GCI Imaging/Multiple Monitors/Test/mult"
+Path Line0002 = "iple_monitor_test2.h"
+File Type = "Include"
+Disk Date = 3188805802
+In Projects = "1,"
+Window Top = 424
+Window Left = 439
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,25,0,0,3,54,399,676,0,0,"
+
+[Build Options 0001]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Debugging Level = "Standard"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+Enable Remote Debugging = False
+Remote Debugger Address = "localhost"
+Remote Target Address = ""
+Remote Debugging Port = 3291
+
+[SCC Options 0001]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = True
+Suppress CVI Error Messages = False
+
+[DLL Debugging Support 0001]
+External Process Path = ""
+
+[Command Line Args 0001]
+Command Line Args = ""
+

@@ -1,0 +1,147 @@
+[Workspace Header]
+Version = 711
+Pathname Line0001 = "/p/GROUP9_Adv Tech/CVI/Microfocus - Components/Com Port Control/comport_control."
+Pathname Line0002 = "cws"
+CVI Dir = "/c/program files/national instruments/cvi71"
+IVI Standard Root Dir = "/C/Program Files/IVI"
+VXIplug&play Framework Dir = "/C/VXIPNP/winnt"
+Number of Projects = 1
+Active Project = 1
+Project 0001 = "comport_control.prj"
+Drag Bar Left = 1083
+Window Top = 35
+Window Left = 76
+Window Bottom = 813
+Window Right = 1223
+Maximized = False
+Maximized Children = True
+Max Number Of Errors = 20
+Track Include File Dependencies = True
+Prompt For Missing Includes = True
+Stop On First Error File = False
+Bring Up Err Win For Warnings = True
+Show Build Dialog = False
+Save Changes Before Running = "Always"
+Hide Windows = False
+Global Hot Key = False
+Break At First Statement = False
+Sort Type = "File Name"
+Number of Opened Files = 0
+Window Confinement Region Enabled = False
+MainColumnWidth = 264
+FileDateColumnWidth = 102
+FileSizeColumnWidth = 70
+StatusColumnWidth = 52
+
+[Project Header 0001]
+Version = 711
+Platform Code = 4
+Build Configuration = "Debug"
+Warn User If Debugging Release = 1
+Batch Build Release = False
+Batch Build Debug = False
+
+[File 0001]
+Path Line0001 = "/p/GROUP9_Adv Tech/CVI/Microfocus - Components/Com Port Control/com_port_control"
+Path Line0002 = ".c"
+File Type = "CSource"
+Disk Date = 3195723025
+In Projects = "1,"
+Window Top = 117
+Window Left = 54
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0002]
+Path Line0001 = "/p/GROUP9_Adv Tech/CVI/Microfocus - Components/Com Port Control/com_port_control"
+Path Line0002 = ".h"
+File Type = "Include"
+Disk Date = 3188983237
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0003]
+Path = "/p/GROUP9_Adv Tech/CVI/Microfocus - Components/Com Port Control/comport_hash.c"
+File Type = "CSource"
+Disk Date = 3181294050
+In Projects = "1,"
+Window Top = 186
+Window Left = 90
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0004]
+Path = "/p/GROUP9_Adv Tech/CVI/Microfocus - Components/Com Port Control/comport_hash.h"
+File Type = "Include"
+Disk Date = 3181126458
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0005]
+Path = "/p/GROUP9_Adv Tech/CVI/Microfocus - Components/Com Port Control/comport_ui.h"
+File Type = "Include"
+Disk Date = 3199253642
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0006]
+Path = "/p/GROUP9_Adv Tech/CVI/Microfocus - Components/Com Port Control/comport_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3206343512
+In Projects = "1,"
+Window Top = 255
+Window Left = 126
+Window Height = 630
+Window Width = 811
+
+[File 0007]
+Path = "/p/GROUP9_Adv Tech/CVI/Microfocus - Components/Com Port Control/string_utils.c"
+File Type = "CSource"
+Disk Date = 0
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0008]
+Path = "/p/GROUP9_Adv Tech/CVI/Microfocus - Components/Com Port Control/string_utils.h"
+File Type = "Include"
+Disk Date = 0
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0009]
+Path = "/p/GROUP9_Adv Tech/CVI/Microfocus - Components/Com Port Control/test.c"
+File Type = "CSource"
+Disk Date = 3181286798
+In Projects = "1,"
+Window Top = 190
+Window Left = 100
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[Build Options 0001]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Debugging Level = "Standard"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+Enable Remote Debugging = False
+Remote Debugger Address = "localhost"
+Remote Target Address = ""
+Remote Debugging Port = 3291
+
+[SCC Options 0001]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = True
+Suppress CVI Error Messages = False
+
+[DLL Debugging Support 0001]
+External Process Path = ""
+
+[Command Line Args 0001]
+Command Line Args = ""
+

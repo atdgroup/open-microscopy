@@ -1,0 +1,20 @@
+INCLUDE(MAKE_WINDOWS_PATH)
+
+FIND_PATH (HARDWARE_DIR_PATH Shutter ${MICROSCOPY_TOPLEVEL_SOURCE_DIR}/../../../../ATD_Hardware NO_DEFAULT_PATH)
+
+IF (HARDWARE_DIR_PATH-NOTFOUND)
+    MESSAGE(FATAL_ERROR "Could not find Hardware")
+ENDIF (HARDWARE_DIR_PATH-NOTFOUND)
+
+IF (USE_90I_COMPONENTS)
+SET(OPTICAL_ZOOM_SRCS 	
+                        ${HARDWARE_DIR_PATH}/OpticalZoom/trunk/90i_optical_zoom.c
+                        ${HARDWARE_DIR_PATH}/OpticalZoom/trunk/90i_optical_zoom.h
+)
+ENDIF (USE_90I_COMPONENTS)
+
+INCLUDE_DIRECTORIES(${HARDWARE_DIR_PATH}/OpticalZoom/trunk/)
+            
+ADD_DEFINITIONS(-D BUILD_MODULE_OPTICAL_ZOOM)
+            
+SOURCE_GROUP("Hardware\\OpticalZoom" FILES ${OPTICAL_ZOOM_SRCS})

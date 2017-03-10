@@ -1,0 +1,203 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="OpenMicroscopy">
+		<param name="Local" value="OpenMicroscope_GUI.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Where are the help files">
+			<param name="Local" value="Where_are_software_files.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Editing the help files">
+			<param name="Local" value="Editing_the_help_files.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Optical Alignment">
+			<param name="Local" value="open_microscope_alignment.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Prompt Measurement">
+			<param name="Local" value="prompt_measurement.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Restoring settings files">
+			<param name="Local" value="restoring_settings_file.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Microscope">
+			<param name="Local" value="microsope.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Components">
+				<param name="Local" value="Components.htm">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Log">
+					<param name="Local" value="log.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Software autofocus">
+					<param name="Local" value="Software_autofocous.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Realtime overview">
+					<param name="Local" value="Realtime_overview.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Wellplate definer">
+					<param name="Local" value="well_plate_define.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Hardware">
+					<param name="Local" value="Hardware.htm">
+					</OBJECT>
+				<UL>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Camera">
+						<param name="Local" value="camera.htm">
+						</OBJECT>
+					<UL>
+						<LI> <OBJECT type="text/sitemap">
+							<param name="Name" value="Camera Advanced Settings">
+							<param name="Local" value="Camera_more.htm">
+							</OBJECT>
+					</UL>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Coarse Z-drive">
+						<param name="Local" value="Coarse_Z-drive.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Filters">
+						<param name="Local" value="Filters.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Flour cubes">
+						<param name="Local" value="Flour_cubes.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Excitation Monitor">
+						<param name="Local" value="Laser_power.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Objectives">
+						<param name="Local" value="objectives.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Optical Path">
+						<param name="Local" value="Optical_path.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Piezo Z-drive">
+						<param name="Local" value="Piezo_Z-drive.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Pmts">
+						<param name="Local" value="Pmts.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Power Switch">
+						<param name="Local" value="Power_switch.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Scanner">
+						<param name="Local" value="Scanner.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Shutter">
+						<param name="Local" value="Shutter.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Stage">
+						<param name="Local" value="Stage.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Stage Plates">
+						<param name="Local" value="Stage_Plates.html">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="White Laser">
+						<param name="Local" value="White_laser.htm">
+						</OBJECT>
+				</UL>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Configure">
+				<param name="Local" value="Configure.htm">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Load and save settings">
+					<param name="Local" value="Load_and_save_setttings.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Objective pixel calibration">
+					<param name="Local" value="objective_pixel_calibration.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Background correction">
+					<param name="Local" value="background.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Automatic Snap">
+					<param name="Local" value="Automatic_snap.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Reinitialize devices">
+					<param name="Local" value="Reinitialize_devices.htm">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Timelapse">
+			<param name="Local" value="timelapse_overview.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Timelapse scripting">
+				<param name="Local" value="timelapse_scripting.htm">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Timelapse script Example">
+					<param name="Local" value="timelapse_scripting_example.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Python API">
+					<param name="Local" value="timelapse_scripting_api.htm">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Region Scan">
+			<param name="Local" value="region_scan_overview.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Set region of interest">
+				<param name="Local" value="region_scan_set_ROI.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Cell finding">
+				<param name="Local" value="cell_finding_options.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Stage Scan">
+			<param name="Local" value="Stage_Scan.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Exit">
+			<param name="Local" value="Exit.htm">
+			</OBJECT>
+	</UL>
+</UL>
+</BODY></HTML>

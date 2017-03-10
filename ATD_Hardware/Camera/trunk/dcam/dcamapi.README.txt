@@ -1,0 +1,19 @@
+The dcamapi.lib file used in ATD_Dlls\trunk must match the h files in ATD_Hardware\Camera\trunk\dcam and be appropriate for the driver (API) installed.
+Extract appropriate matching files from the dcamapi folder.
+
+The API will install dcamapi.dll in system32 and so it should not be present here.
+
+Matching sets are:
+
+2008 - known to work for older Orca ER(G) cameras
+API March 2008
+SDK Oct 2008
+
+
+2010 - required for newer cameras
+API Nov 2010
+SDK May 2010 beta
+
+2013 - required for WIndows 7 ? - This seems to be different, e.g. does not have features.h, so far using ver 2010 on Win7 32 bit.
+DCAM-API for Windows (14.3.4514)
+DCAM SDK for Windows (13.10.4418), 2013-10

@@ -1,0 +1,38 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 12 (filtered)">
+<title>How to restore a corrupt settings file.</title>
+
+</head>
+
+<body lang=EN-GB link=blue vlink=purple>
+
+<p>
+This page tells you how to restore a corrupt settings file to the last known working version.
+In fact any file that is stored on the version control SVN server can be restored this way.
+You may want to do this is you have been playing with the settings but things have gone wrong and you
+want to start again from known working versions, or if the settings file has become corrupt due to some file system error.
+It all depends on good working settings being committed to the SVN server after major changes in the settings, which has
+been the practice of developers on this project.
+</p>
+
+<p>
+All ATD microscopes will have the code located in C:\Devel\ATD\
+Use Explorer to navigate to the settings directory of the microscope you are on, i.e. for Abbe, go to:<br>
+C:\Devel\ATD\ATD_Microscopy\Microscope Systems\Abbe\trunk\bin\Microscope Data
+</p>
+
+<p>
+Rename or recycle the offending file. In a space in the Explorer main window panel, away from the files, right-click and select "SVN Update"<br>
+This will restore the last known working version of the file.
+</p>
+<br>
+<img src="images%5CRestoreSettingsFile.png" alt="" border="1"><br>
+<br>
+These instructions require the code to be checked out from an SVN server and the computer to have TortoiseSVN installed. All microscopes should be this way.
+
+</body>
+
+</html>

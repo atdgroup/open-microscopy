@@ -1,0 +1,7 @@
+Change to toplevel directory
+
+mkdir build
+cd build
+ccmake ..
+make
+

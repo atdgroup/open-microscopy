@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="cvi"
+	IntermediateDirectory="./Build"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="&quot;C:\Program Files\National Instruments\CVI80\toolslib\toolbox\&quot;;&quot;C:\Program Files\National Instruments\CVI80\toolslib\reportgen\&quot;;&quot;C:\Program Files\National Instruments\CVI80\toolslib\printing\&quot;;&quot;C:\Program Files\National Instruments\CVI80\toolslib\localui\&quot;;&quot;C:\Program Files\National Instruments\CVI80\toolslib\datasock\&quot;;&quot;C:\Program Files\National Instruments\CVI80\toolslib\cvirtsup\&quot;;&quot;C:\Program Files\National Instruments\CVI80\toolslib\custctrl\&quot;;&quot;C:\Program Files\National Instruments\CVI80\toolslib\activex\&quot;;&quot;C:\Program Files\National Instruments\CVI80\include\&quot;"
+		PreprocessorDefinitions="_NI_mswin32_"
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		AdditionalDependencies="analysis.lib cviauto.lib cviddc.lib cvidotnet.lib cvintwrk.lib cvirt.lib cvisupp.lib cviwmain.lib gpib.lib visa.lib &quot;c:\Program Files\National Instruments\CVI80\toolslib\custctrl\scroll.obj&quot; &quot;c:\Program Files\National Instruments\CVI80\toolslib\custctrl\3DGraphCtrl.obj&quot; &quot;c:\Program Files\National Instruments\CVI80\toolslib\custctrl\cviogl.lib&quot; &quot;c:\Program Files\National Instruments\CVI80\toolslib\custctrl\easytab.obj&quot; &quot;c:\Program Files\National Instruments\CVI80\toolslib\custctrl\editableCellTree.obj&quot; &quot;c:\Program Files\National Instruments\CVI80\toolslib\custctrl\pwctrl.obj&quot; &quot;c:\Program Files\National Instruments\CVI80\toolslib\custctrl\radioGroup.obj&quot; &quot;c:\Program Files\National Instruments\CVI80\toolslib\custctrl\toolbar.obj&quot; &quot;c:\Program Files\National Instruments\CVI80\toolslib\toolbox\msxmldom.obj&quot; &quot;c:\Program Files\National Instruments\CVI80\toolslib\toolbox\cvixml.obj&quot; &quot;c:\Program Files\National Instruments\CVI80\toolslib\toolbox\asynctmr.obj&quot; &quot;c:\Program Files\National Instruments\CVI80\toolslib\toolbox\toolbox.obj&quot; &quot;c:\Program Files\National Instruments\CVI80\toolslib\toolbox\inifile.obj&quot; &quot;c:\Program Files\National Instruments\CVI80\toolslib\toolbox\regexpr.obj&quot;"
+		AdditionalLibraryDirectories="&quot;C:\Program Files\National Instruments\CVI80\extlib\&quot;"
+	/>
+</VisualStudioPropertySheet>

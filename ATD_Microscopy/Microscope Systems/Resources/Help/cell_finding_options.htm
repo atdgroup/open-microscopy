@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+  <meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+  <title>Cell finding</title>
+</head>
+<body>
+<h2>Cell finding</h2>
+Identifying objects in an image is an area that offers a range of
+choices. The ideal outcome is to find objects of interest, such as the
+nuclei of cells, and reject everything else in the image. The more
+sophisticated an algorithm used, the better the result will be. The
+trade-off is that with increased processing the slower the scan becomes
+because of the time spent making calculations. On the other hand the
+user may not be too worried about false identification of objects or
+missing too many objects of interest, just wanting to process samples
+as quickly as possible with decent results. Therefore options exist to
+cover these situations.&nbsp;<br>
+<br>
+<img src="images%5Cobject%20finding.bmp" alt="" border="1"><br>
+<br>
+<b>Why pre-process?</b><br>
+The result of pre-processing is to generate areas containing objects
+whose general features suggest they are what we are looking for. From
+this point more sophisticated analysis can be carried out (by the CHARM
+algorithm) on these areas to accurately calculate the loci of what we
+are after. Without pre-processing the CHARM algorithm has the entire
+image to work on and this will require time, leading to a slower scan.
+On the other hand, why not pre-process all the time? The answer is that
+when illumination conditions aren't ideal the thresholding technique
+can fail. Good contrast and uniform illumination is needed for basic
+thresholding to work, and when this isn't the case then other methods,
+like edge detection, perform better. If objects are being missed with
+pre-processing then it might be worth allowing more time for the scan
+and unchecking this option.<br>
+<br>
+<span style="text-decoration: underline;">Pre-process images</span> -
+If this is selected then after a snapped image is taken, thresholding
+is applied. This essentially separates out bright objects from the rest
+of the image. If 'simple threshold' is checked then the numerical value
+set by the user on the slider is used to determine which pixels to be
+treated as bright (and thus form part of an object) and which to be
+ignored. Unchecking this box hands control of threshold setting to the
+program which looks at the intensity information in each image to
+determine the level to set.<br>
+<span style="text-decoration: underline;">Minimum/Maximum cell diameter</span>
+- We may know that the objects we are interested in tend to have a
+limited range of sizes. So to narrow down the objects found so far we
+can apply a size filter, based on minimum and maximum diameters, to
+retain only those which fall between the 2 limits specified.<br>
+<span style="text-decoration: underline;">Threshold</span> - To know
+what threshold to set move to an area on the sample and take a camera
+snap. Now, moving the threshold slider will show what lies above and
+below the threshold limit.<br>
+<br>
+<span style="text-decoration: underline;">Save cell data</span> - It is
+usual that the user will want to save details of the objects found. The
+most obvious details are the co-ordinates of the stage needed to bring
+the object back into the field of view (at the cross-hairs). Other data
+is saved too, such as object size, average intensity, etc. However,
+this option may not always be needed, for example when simply the total
+number of objects in a region is all that is needed.<br>
+<span style="text-decoration: underline;">Show processing</span> - At
+the expense of a small amount of time it is possible to show some steps
+in the object-finding procedure as the scan progresses. This may be an
+aid in judging whether pre-processing is performing adequately or not.<br>
+<span style="text-decoration: underline;"></span><br>
+Simple object-finding can be carried out by identifying the centers of
+objects found through thresholding. For well defined and well spaced
+single objects this approach can be very successful. When, however,
+objects are touching or appear wrongly shaped then the loci assigned to
+them will be incorrect. Another method of analysis is needed.<br>
+<br>
+<span style="text-decoration: underline;">Enable CHARM</span> - An
+algorithm called CHARM (compact Hough and radial map) can be used. The
+essence of the technique is as follows. Edge detection is performed on
+the image, i.e. areas are identified where the intensity changes
+sharply (such as at the boundary of a cell). The assumption is then
+made that the center of an object of interest lies somewhere along a
+line perpendicular to this edge (just as the center of a circle lies on
+a line, a radius, which is perpendicular to an edge, a tangent, of the
+circle). Now, imagining all the edges forming the boundary of an object
+and all the lines perpendicular to these edges, it can be seen that
+they should all point in the same direction and cross at the object's
+center. This is how object centers are found. There are two marked
+advantages of this method over conventional thresholding. Firstly,
+absolute brightness of the object is not critical - all that matters is
+the degree of contrast between the object and the background. So dimly
+lit areas of the field are not such a problem. Secondly, the algorithm
+is robust against incomplete information. For example when two objects
+join, as in a cell doublet, and part of the boundary is missing, the
+radii which remain will still point correctly toward the cells' centers
+and indicate 2 points where 'radii crossing' is maximum.<br>
+<br>
+So to get the best object-finding available, tick the 'Enable CHARM'
+box. If desired the 'Advanced' button brings up the options to set the
+CHARM parameters numerically or use the optimizer to visulaize the
+action of the CHARM algorithm based on selected settings.
+</body>
+</html>

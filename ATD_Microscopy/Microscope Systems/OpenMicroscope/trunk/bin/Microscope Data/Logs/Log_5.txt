@@ -1,0 +1,26 @@
+20:32:35 Log file created: C:\Devel\ATD\OpenMicroscope\ATD_Microscopy\Microscope Systems\OpenMicroscope\trunk\bin\Microscope Data\Logs\Log_5.txt
+20:32:36 Manual Shutter computer control set to 1
+20:32:36 Dummy Camera exposure to 10.000000
+20:32:36 Dummy Colour Camera exposure to 10.000000
+20:32:39 Dummy Stage limits are significantly different to previous session. 2e+308 2e+308 2e+308 2e+308
+20:32:42 Dummy Camera data mode to 12 bit
+20:32:42 Dummy Colour Camera data mode to 12 bit
+20:32:42 Stage Plate changed
+20:32:42 FL Cube move to pos 1
+20:32:42 Objective Lens move to pos 1
+20:32:42 Optical Path move to pos 3
+20:32:44 Filter Set move to pos 1
+20:32:46 PMT move to pos 1
+20:32:46 Stage Plate changed
+20:32:46 Microscope switch to Fluorescence mode
+20:32:46 Manual Shutter computer control set to 1
+20:32:46 FL Cube move to pos 1
+20:32:46 Optical Path move to pos 3
+20:32:47 Dummy Microscope started by pbarber on 22\05\15
+20:32:51 Dummy Camera snap image
+20:32:51 Dummy Camera get image.
+20:33:13 Dummy Stage goto (x,y) position (0.00,0.00)
+20:33:13 Manual Scanner Off
+20:33:13 Manual Scanner Off
+20:33:13 Manual Shutter inhibit set to 0
+20:33:13 Manual Shutter computer control set to 0

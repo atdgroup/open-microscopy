@@ -1,0 +1,646 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<title>Python Microscopy API</title>
+</head>
+<body>
+	<h2>Timelapse API functions</h2>
+
+	For use in the timelapse scripts a Python API for some of the microscope functions has been created.<br>
+	Listed below for each is the name of the function, the arguments it takes, the values it returns, and what it does.<br><br>
+
+	<b>Function: GetTimeLapsePoints<br> 
+	Parameters: None<br >
+	Returns:  A tuple of points wach of which is also a tuple</b> <br >
+	Gets the points defined in the timelapse module. 
+	<br>
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	points = microscope.GetTimeLapsePoints()<br />
+	<font color=#0000ff>print</font> "First Point", points[0]
+	<br ><br >
+
+    	<b>Function: VisitPoints <br> 
+	Parameters: None<br >
+	Returns:  None</b> <br >
+	Starts the cycle of visiting the timelapse points.
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	points = microscope.VisitPoints ()
+	<br ><br >
+
+
+	<b>Function: AbortTimeLapseVisitPoints<br> 
+	 Parameters: None<br >
+	 Returns:  None</b> <br >
+	 Aborts the cycle of visiting the timelapse points
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	points = microscope.AbortTimeLapseVisitPoints()
+	<br ><br >
+
+
+	<b>Function: HasTimeLapseBeenAborted<br> 
+	 Parameters: None<br >
+	 Returns:  Boolean</b> <br >
+	 Indicates that the timelapse has been aborted.,
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	<font color=#0000ff>if</font>  microscope.HasTimeLapseBeenAborted():<br />
+	&nbsp;&nbsp;&nbsp;&nbsp;<font color=#0000ff>print</font>  "Yes"
+	<br ><br >
+
+	<h2>Camera API functions</h2>
+    	
+	<b>Function: GetMicronsPerPixel<br> 
+	 Parameters:  None <br >
+	 Returns:  Double </b> <br >
+	 Returns the microns per pixel of the currently used camera.
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	micronsPerPixel = microscope.GetMicronsPerPixel():<br />
+	<font color=#0000ff>print</font>  micronsPerPixel
+	<br ><br >
+
+	<b>Function: SetCameraLiveMode <br> 
+	 Parameters:  takes one integer: 1 for live and 0 for snap mode <br >
+	 Returns:  None</b> <br >
+	 Sets the camera to live or snap mode.
+	 <br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	microscope.SetCameraLiveMode (1)<br />
+	<br ><br >
+
+
+	<b>Function: SnapImage <br> 
+	 Parameters: None <br >
+	 Returns:  None</b> <br >
+	Instructs the camera to take an picture.
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	microscope.SnapImage ()<br />
+	<br ><br >
+
+
+	<b>Function: SetExposure <br> 
+	 Parameters: takes one float: exposure time in milli seconds <br >
+	 Returns:  One integer: 1 for success 0 for fail </b> <br >
+	 Sets the camera to a specific exposure time in milliseconds
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	microscope.SetExposure (10.0)<br />
+	<br ><br >
+
+
+	<b>Function: SetGain <br> 
+	 Parameters: takes one float: gain. Camera dependant <br >
+	 Returns:  One integer: 1 for success 0 for fail </b> <br >
+	 Sets all the camera channels to the same gain if the camera has more than one channel
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	microscope.SetGain (200.0)<br />
+	<br ><br >
+	
+	<b>Function: PerformAutoExposure <br> 
+	 Parameters: None 
+	 Returns:  None</b> <br >
+	 Attempts to calculate a good exposure automatically using the values on the autofocus panel.</b>
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	microscope.PerformAutoExposure ()<br />
+	<br ><br >
+	
+	<b>Function: AbortSoftwareAutoFocus <br> 
+	 Parameters: None. 
+	 Returns:  None</b> <br >
+	 Attempts to abort a previous software autofocus</b>
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	microscope.AbortSoftwareAutoFocus ()<br />
+	<br ><br >
+ 	
+	<h2>Cube Slider API functions</h2>
+
+	<b>Function: GetCubes<br>
+	Parameters: None<br >
+	Returns:  A list of dictionaries: contains cube data</b> <br >
+	Retrieves information on the cubes on the microscope
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	cubes = microscope.GetCubes()<br />
+	<font color=#0000ff>print</font> "First Cube Info", cubes [0]
+	<br ><br >
+
+
+	<b>Function: MoveCubeToPosition<br> 
+	Parameters: takes one integer: cube position index starts at 1.<br > 
+	Returns:  None </b> <br >
+	Changes the cube position on the microscope. 
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	microscope.MoveCubeToPosition(1)<br />
+	<br ><br >
+
+
+	<b>Function: WaitForCube <br> 
+	Parameters: None  <br > 
+	Returns:  None </b> <br >
+	Waits for the cubes to stop moving
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	microscope.WaitForCube ():<br />
+	<br ><br >
+	 
+	<h2>Stage API functions</h2>
+
+	<b>Function: GetStagePosition<br> 
+	Parameters: None  <br > 
+	Returns:  Tuple (x,y,z)</b> <br >
+	Gets the position of the stage 
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	position = microscope.GetStagePosition()<br />
+	<font color=#0000ff>print</font> "Position: ", position
+	<br ><br >
+
+	 
+	<b>Function: SetStagePosition <br> 
+	Parameters: Three doubles: x, y, z<br > 
+	Returns:  None </b> <br >
+	 Sets the position of the stage to the x y and z co-ordinates given.
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	position = microscope.SetStagePosition (200.0, 100.0, 70.0)<br />
+	<br ><br >
+
+	 <b>Function:  WaitForStage <br> 
+	Parameters: takes two doubles: The amount of time to delay in seconds after the stage has stopped<br >
+	and the comport timeout.<br> 
+	Returns: None </b> <br >
+	 Waits for the stage to stop moving.
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	microscope.WaitForStage (1.0, 5.0)<br />
+	<br ><br >
+
+
+	<b>Function: SetStageRelativeZPosition<br> 
+	Parameters: Takes one double: z offset to apply <br > 
+	Returns:  None </b> <br >
+	Sets the position of the z stage relative to the current position.
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	position = microscope.SetStageRelativeZPosition(20.0)<br />
+	<br ><br >
+
+
+	<h2>Function: Lamp API functions</h2>
+
+	<b>Function:  TurnLampOn <br> 
+	 Parameters: None <br > 
+	Returns: None </b> <br >
+	Turns the microscope lamp on.
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	position = microscope.TurnLampOn ()<br />
+	<br ><br >
+
+
+	<b>Function:  TurnLampOff <br> 
+	Parameters: None<br > 
+	Returns:  None</b> <br >
+	Turns the microscope lamp off. 
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	position = microscope.TurnLampOff ()<br />
+	<br ><br >
+	
+
+	<b>Function:  SetLampIntensity<br> 
+	Parameters: takes one double: lamp intensity as a percentage of maximum <br > 
+	Returns:  None</b> <br >
+	Sets the intensity of the lamp on the microscope.
+	 <br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	position = microscope.SetLampIntensity(100.0)<br />
+	<br ><br >
+
+
+	<h2>Optical Path API functions</h2>
+
+	<b>Function: GetOpticalPaths<br> 
+	Parameters: None <br > 
+	Returns: A list of dictionaries: contains optical path data</b> <br >
+	Retrieves information on the optical paths on the microscope.
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	paths = microscope.GetOpticalPaths()<br />
+	<font color=#0000ff>print</font> "First path Info", paths [0]
+	<br ><br >
+
+
+	<b>Function:  MoveOpticalPathToPosition<br> 
+	Parameters: One integer: path position. Index starts at 1.<br > 
+	Returns:  None</b> <br >
+	Changes the optical path on the microscope.
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	microscope.MoveOpticalPathToPosition(1)<br />
+	<br ><br >
+
+	 
+	<b> Function: MicroscopeSetMode<br> 
+	Parameters: takes one integer: Mode constants are:
+	<br ><b>  FLUORESCENCE_MODE</b>  
+	<br > <b> BRIGHT_FIELD_MODE</b>  
+	<br ><b>  PHASE_CONTRAST_MODE</b>  
+	<br > <b> LASER_SCANNING_MODE</b>  
+	<br ><b>  FLUOR_NO_SHUTTER_MODE </b>  <br>
+	Returns:  None</b> <br >
+	Changes the mode of the microscope.
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	microscope.MicroscopeSetMode(microscope.FLUORESCENCE_MODE)<br />
+	<br ><br >
+	 
+
+	<h2>Shutter API functions</h2>
+
+	<b>Function:  OpenShutter <br> 
+	Parameters: None<br > 
+	Returns:  None</b> <br >
+	Opens the microscope shutter.
+	 <br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	microscope.OpenShutter ()<br />
+	<br ><br >
+
+
+	 <b>Function: CloseShutter<br> 
+	 Parameters: None<br > 
+	Returns:  None</b> <br >
+	Closes the microscope shutter.
+	  <br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	microscope.CloseShutter()<br />
+	<br ><br >
+
+
+	<b>Function:  IsShutterOpen<br> 
+	Parameters: None  <br > 
+	Returns:  One integer: 1 if open 0 if closed</b> <br >
+	Checks if the microscope shutter is open or closed.
+	 <br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	isShutterOpen = microscope.IsShutterOpen()<br />
+	<br ><br >
+	 
+
+	<b>Function:  SetShutterOpenTime <br> 
+	Parameters: takes one double: Open time in milliseconds<br > 
+	Returns:  None</b> <br >
+	Sets the open time of the shutter in milli seconds. 0 is considered infinity. 
+	 <br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	microscope.SetShutterOpenTime (10.0)<br />
+	<br ><br >
+		 	
+
+	<h2>Saving and filename passing API functions</h2>
+
+	 <b>Function: GetUserDataDirectory <br> 
+	Parameters: None  <br > 
+	Returns:  one string: The directory containing data files for the microscope</b> <br >
+  	Gets the directory where user data is saved.
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	dir = microscope.GetUserDataDirectory ()<br />
+	<br ><br >
+
+	 
+	<b>Function: SnapAndSaveImage <br> 
+	Parameters: one string, one integer: Filepath to save to, average frame count<br > 
+	Returns:  None </b> <br >
+ 	Snaps an Image and then saves it to the desired location.
+	If the optional integer is passed then that number of frames is acquired and the average saved.
+	 <br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	microscope.SnapAndSaveImage ("C:\\test.ics", 5)<br />
+	<br ><br >
+
+
+	<b>Function:  SaveCurrentDisplayedImage <br> 
+	Parameters: One string: Filepath to save to. <br > 
+	Returns:  None</b> <br >
+	Saves the currently displayed image to the desired location. 
+	 <br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	microscope.SaveCurrentDisplayedImage ("C:\\test.ics")<br />
+	<br ><br >
+
+
+	<b>Function:  ParseSequenceFilename <br> 
+	Parameters: One string, one integer: filename and sequence number<br > 
+	Returns:  String passed filename</b> <br >
+  	Parses a sequence filename, substituting in the current date time and sequence number.
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	filename = microscope.ParseSequenceFilename ("C:\\test%d.ics", 5)<br />
+	<br ><br >
+	 
+	 <b>Function: ShowFileSequenceSaveDialog<br> 
+	Parameters: One string: default directory<br > 
+	Returns:  Tuple containing the output directory and filename</b> <br >
+	Asks the user for the desired filename format.
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	(outdir, filename) = microscope.ShowFileSequenceSaveDialog("C:\\")<br />
+	<br ><br >
+
+
+	 <b>Function: ShowSimpleFileSequenceSaveDialog <br> 
+	Parameters: one string: Default directory<br > 
+	Returns:  Tuple containing the output directory, filename and extension</b> <br >
+	 Asks the user for the desired filename prefix.
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	(outdir, filename, ext) = microscope.ShowSimpleFileSequenceSaveDialog ("C:\\")<br />
+	<br ><br >
+
+
+	<b>Function: InsertCubeIntoFilename<br> 
+	Parameters: one string: filename string, integer cube number<br > 
+	Returns:  string: Replaced Filename</b> <br >
+	Takes a cube index and inserts it's name into a filename surrounded by underscores ('_').
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	filename = microscope.InsertCubeIntoFilename("C:\\filename.ics", 6)<br />
+	<br ><br >
+
+
+	<b>Function: InsertTextIntoFilename<br> 
+	Parameters: string: filename string text<br > 
+	Returns:  string: Replaced Filename</b> <br >
+	Takes some text and inserts it into a filename surrounded by underscores ('_').
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	filename = microscope.InsertTextIntoFilename("C:\\filename.ics", "test")<br />
+	<br ><br >
+
+
+	<h2>Autofocus</h2>
+	 
+	<b>Function:  PerformSoftwareAutoFocus <br> 
+	 Parameters: None  <br > 
+	Returns:  None</b> <br >
+	Performs a software based auto focus and the snaps and image.
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	microscope.PerformSoftwareAutoFocus()<br />
+	<br ><br >
+
+
+	<h2>SPC  API functions</h2>
+
+	SPC functions are encapsulated within an object.
+	
+	To use this object import the package MicroscopeModules
+	and construct the object with
+	spc = MicroscopeModules.Spc()
+
+	The methods of this object are<br><br>  
+
+	<b>Function:  Start<br> 
+	Parameters: SPC_ACQ_LIMIT_TYPE_SECONDS=1<br >
+	SPC_ACQ_LIMIT_TYPE_FRAMES=2<br >
+	SPC_ACQ_LIMIT_TYPE_MAX_COUNT=3<br >
+	SPC_ACQ_LIMIT_TYPE_MEAN_COUNT=4<br >
+	Defaults to 2
+	 <br > 
+	Integer (repeat) Default to 0<br > 
+	double (repeat_time) Defaults to 10.0<br > 
+	Integer (should display) Defaults to 1<br > 
+	double (Display time) Defaults to 2.0 <br > 
+	int (accumulate) Defaults to 0<br > 
+	int (auto save) Defaults to 0 <br > 
+	string or None (filepath) Defaults to None<br >  <br > 
+	Returns:  None</b> <br >
+	Start the acquisition of a time resolved image using values from the user interface.
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> MicroscopeModules<br />
+	spc = MicroscopeModules.Spc()<br />
+	spc.Start(spc.SPC_ACQ_LIMIT_TYPE_SECONDS,  repeat = 0, repeat_time = 10.0, should_display = 1, display_time = 2.0, accumulate = 0, autosave = 0) <br />
+	<br ><br >
+
+
+	<b>Function:  AcquireAndSaveToFileUsingUIValues<br> 
+	Parameters: one integer and one string: Save 3D and filepath<br >
+	Returns:  None</b> <br >
+	Start the acquisition of a time resolved image. Using values from the user interface 
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> MicroscopeModules<br />
+	spc = MicroscopeModules.Spc()<br />
+	spc.AcquireAndSaveToFileUsingUIValues(1, "C:\\test.ics")<br />
+	<br ><br >
+
+	 
+	<b>Function:  ClearBoardMemory<br> 
+	Parameters: None  <br > 
+	Returns:  None</b> <br >
+	Clears the memory of the spc board.<br ><br >
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> MicroscopeModules<br />
+	spc = MicroscopeModules.Spc()<br />
+	spc.ClearBoardMemory()<br />
+	<br ><br >
+
+	 <b>Function: SetSpcResolution <br> 
+	Parameters: one integer: from 4096, 1024,  256, 64, 16, 4, 1<br > 
+	Returns:  None</b> <br >
+	Sets the ADC resolution of the SPC module.
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> MicroscopeModules<br />
+	spc = MicroscopeModules.Spc()<br />
+	spc.SetSpcResolution (256)<br />
+	<br ><br >
+
+
+	 <!--
+	<b>Function: SetSpcAcquisitionLimit <br> 
+	Parameters: None <br > 
+	Returns:  None</b> <br >
+	Sets the acquisition limit of the SPC module.	
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	microscope.SetSpcAcquisitionLimit (256)<br />
+	<br ><br >
+ 	-->
+
+	<h2>Scanner API functions</h2>
+
+	<b>Function:  SetScannerProperties <br> 
+	Parameters: Five Integers: resolution, zoom, xshift, yshift, scan_type  <br > 
+	Returns:  None</b> <br >
+	 Sets the properties of the scanner module.
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	microscope.SetScannerProperties (256, 1, 0, 0, 1)<br />
+
+	 
+	<b>Function:  StartScanner <br> 
+	Parameters: None <br > 
+	Returns:  None</b> <br >
+	Starts the scanner<br ><br >
+	 <br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	microscope.StartScanner ()<br />
+
+
+	<b>Function:  StopScanner Stops<br> 
+	Parameters: None <br > 
+	Returns:  None</b> <br >
+	Stops the scanner.
+	 <br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	microscope.StopScanner ()<br />
+
+
+	<h2>Regionscan API functions</h2><br >
+
+	Regionscan functions are encapsulated within an object.
+	
+	To use this object import the package MicroscopeModules
+	and construct the object with
+	rs = MicroscopeModules.RegionScan()
+
+	The methods of this object are<br><br>  
+	
+	<b>Function:  Start<br> 
+	Parameters: one integer, three strings: action, directory where images are saved, <br >
+	filename prefix, filename extension<br >
+	Returns:  None</b> <br >
+	Starts the region scan. 
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> MicroscopeModules<br />
+	rs = MicroscopeModules.RegionScan()<br />
+	rs .Start(MicroscopeModules.RegionScan.SAVE_DISPLAY, subdir, filename, filename_ext) <br />
+	<br ><br >
+
+
+	<b>Function:  Stop<br> 
+	Parameters: None<br >
+	Returns:  None</b> <br >
+	Stops the region scan.<br><br>  
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> MicroscopeModules<br />
+	rs = MicroscopeModules.RegionScan()<br />
+	rs .Stop() <br />
+	<br ><br >
+
+	<b>Function:  SetRoi<br> 
+	Parameters: four integers: left, top, width, height, in microns<br >
+	Returns:  None</b> <br >
+	Sets the region of interest for the region scan.
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> MicroscopeModules<br />
+	rs = MicroscopeModules.RegionScan()<br />
+	rs .SetRoi(-1000, -1000, 1000, 1000) <br />
+	<br ><br >
+
+
+	<b>Function:  SetRelativeRoi<br> 
+	Parameters: two integers: width, height, in microns<br >
+	Returns:  None</b> <br >
+	Set the region of interest in microns relative from the current stage position.
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> MicroscopeModules<br />
+	rs = MicroscopeModules.RegionScan()<br />
+	rs .SetRelativeRoi(2000,2000) <br />
+	<br ><br >
+
+	<b>Function:  SetSoftwareAutofocus<br> 
+	Parameters: One integer: Turn it on<br >
+	Returns:  None</b> <br >
+	Turn on or off the software autofocus on every point in the scan
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> MicroscopeModules<br />
+	rs = MicroscopeModules.RegionScan()<br />
+	rs .SetSoftwareAutofocus(1) <br />
+	<br ><br >
+
+	<h2>Background Correction API functions</h2>
+
+	<b>Function:  BackgroundCorrectionEnable <br> 
+	 Parameters: one integer: 1 to enable background correction. <br > 
+	Returns:  None</b> <br >
+  	Enables background correction.
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	microscope.BackgroundCorrectionEnable (1)<br /><br />
+
+
+	 <b>Function: BackgroundCorrectionCanProcess <br> 
+	 Parameters: None <br > 
+	 Returns:  one integer</b> <br >
+	 Returns true if background correction can be performed.
+	Enables background correction.
+	<br />Example:
+	<br />
+	<font color=#0000ff>import</font> microscope<br />
+	canProcess = microscope.BackgroundCorrectionCanProcess ()<br />
+
+
+</body>
+</html>

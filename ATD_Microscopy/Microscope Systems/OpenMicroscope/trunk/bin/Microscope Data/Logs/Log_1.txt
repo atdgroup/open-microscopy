@@ -1,0 +1,12 @@
+20:08:30 Log file created: C:\Devel\ATD\OpenMicroscope\ATD_Microscopy\Microscope Systems\OpenMicroscope\trunk\bin\Microscope Data\Logs\Log_1.txt
+20:08:34 Manual Shutter computer control set to 1
+20:08:34 Dummy Camera exposure to 10.000000
+20:08:34 Dummy Colour Camera exposure to 10.000000
+20:08:38 Dummy Stage limits are significantly different to previous session. 2e+308 2e+308 2e+308 2e+308
+Error: 20:08:41 Can not find file DummyMicroscopeUI.uir
+Error: 20:08:47 Objective Lens Error: hardware_get_current_value_text failed
+Error: 20:08:48 Optical Path Error: hardware_get_current_value_text failed
+Error: 20:08:48 hardware_get_current_value_text failed
+Error: 20:08:49 Filter Set Error: hardware_get_current_value_text failed
+Error: 20:08:49 hardware_get_current_value_text failed
+Error: 20:08:51 Stage Plate Error: hardware_get_current_value_text failed

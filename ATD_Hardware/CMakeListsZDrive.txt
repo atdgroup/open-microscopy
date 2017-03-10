@@ -1,0 +1,65 @@
+SET(ZDRIVE_SRCS 	${HARDWARE_DIR_PATH}/Z\ Drive/trunk/ZDrive.c
+					${HARDWARE_DIR_PATH}/Z\ Drive/trunk/ZDrive.h
+					${HARDWARE_DIR_PATH}/Z\ Drive/trunk/ZDriveUI.h
+					${HARDWARE_DIR_PATH}/Z\ Drive/trunk/ZDriveUI.uir
+					${HARDWARE_DIR_PATH}/Z\ Drive/trunk/ATD_ZDrive_Dummy/ATD_ZDrive_Dummy.c
+					${HARDWARE_DIR_PATH}/Z\ Drive/trunk/ATD_ZDrive_Dummy/ATD_ZDrive_Dummy.h
+					${HARDWARE_DIR_PATH}/Z\ Drive/trunk/ATD_ZDrive_A/ATD_ZDrive_A.c
+					${HARDWARE_DIR_PATH}/Z\ Drive/trunk/ATD_ZDrive_A/ATD_ZDrive_A.h	
+					${HARDWARE_DIR_PATH}/Z\ Drive/trunk/ATD_ZDrive_A/ATD_ZDriveAutoFocus_A.c
+					${HARDWARE_DIR_PATH}/Z\ Drive/trunk/ATD_ZDrive_A/ATD_ZDriveAutoFocus_A.h
+					${HARDWARE_DIR_PATH}/Z\ Drive/trunk/ATD_ZDrive_A/ATD_ZDriveAutoFocus_A.uir
+					${HARDWARE_DIR_PATH}/Z\ Drive/trunk/ATD_ZDrive_B/ATD_ZDrive_B.c
+					${HARDWARE_DIR_PATH}/Z\ Drive/trunk/ATD_ZDrive_B/ATD_ZDrive_B.h	
+					${HARDWARE_DIR_PATH}/Z\ Drive/trunk/ATD_ZDrive_B/ATD_ZDriveAutoFocus_B.c
+					${HARDWARE_DIR_PATH}/Z\ Drive/trunk/ATD_ZDrive_B/ATD_ZDriveAutoFocus_B.h
+					${HARDWARE_DIR_PATH}/Z\ Drive/trunk/ATD_ZDrive_B/ATD_ZDriveSetup_B.c
+					${HARDWARE_DIR_PATH}/Z\ Drive/trunk/ATD_ZDrive_B/ATD_ZDriveAutoFocus_B.uir
+					${HARDWARE_DIR_PATH}/Z\ Drive/trunk/Marzhauser_ZDrive_LStep/Marzhauser_ZDrive_LStep.c
+					${HARDWARE_DIR_PATH}/Z\ Drive/trunk/Marzhauser_ZDrive_LStep/Marzhauser_ZDrive_LStep.h
+					${HARDWARE_DIR_PATH}/Z\ Drive/trunk/PRIOR_ZDrive_NanoScanZ/prior_piezo_focus.c
+					${HARDWARE_DIR_PATH}/Z\ Drive/trunk/PRIOR_ZDrive_NanoScanZ/prior_piezo_focus.h
+					${HARDWARE_DIR_PATH}/Stage/trunk/stage/stage.c
+					${HARDWARE_DIR_PATH}/Stage/trunk/stage/stage.h
+					${HARDWARE_DIR_PATH}/Stage/trunk/stage/stage_ui.c
+					${HARDWARE_DIR_PATH}/Stage/trunk/stage/stage_ui.h
+					${HARDWARE_DIR_PATH}/Stage/trunk/stage/stage_ui.uir
+                    ${HARDWARE_DIR_PATH}/StagePlate/trunk/StagePlate.c
+                    ${HARDWARE_DIR_PATH}/StagePlate/trunk/StagePlate.h
+                    ${HARDWARE_DIR_PATH}/StagePlate/trunk/StagePlate_Drawing.c
+                    ${HARDWARE_DIR_PATH}/StagePlate/trunk/StagePlateUI.c
+                    ${HARDWARE_DIR_PATH}/StagePlate/trunk/StagePlateUI.h
+                    ${HARDWARE_DIR_PATH}/StagePlate/trunk/StagePlateUI.uir
+					${HARDWARE_DIR_PATH}/Stage/trunk/LStep/LStep4.h
+					${HARDWARE_DIR_PATH}/Stage/trunk/LStep/LStep_Callbacks.c
+					${HARDWARE_DIR_PATH}/Stage/trunk/LStep/LStep_UserInterface.h
+					${HARDWARE_DIR_PATH}/Stage/trunk/LStep/LStep_UserInterface.uir
+					${HARDWARE_DIR_PATH}/Stage/trunk/LStep/LStepXY.c
+					${HARDWARE_DIR_PATH}/Stage/trunk/LStep/LStepXY.h
+					${HARDWARE_DIR_PATH}/Z\ Drive/trunk/main.c
+)
+
+# Make sure the compiler can find include files from our library.
+INCLUDE_DIRECTORIES(
+					${HARDWARE_DIR_PATH}/Stage/trunk/
+                    ${HARDWARE_DIR_PATH}/StagePlate/trunk/
+					${HARDWARE_DIR_PATH}/Z\ Drive/trunk/
+					${HARDWARE_DIR_PATH}/Z\ Drive/trunk/ATD_ZDrive_Dummy/
+					${HARDWARE_DIR_PATH}/Z\ Drive/trunk/ATD_ZDrive_A/
+					${HARDWARE_DIR_PATH}/Z\ Drive/trunk/ATD_ZDrive_B/
+					${HARDWARE_DIR_PATH}/Z\ Drive/trunk/Marzhauser_ZDrive_LStep/
+					${HARDWARE_DIR_PATH}/Z\ Drive/trunk/PRIOR_ZDrive_NanoScanZ/
+					)
+
+
+SET(ZDRIVE_RESOURCES 
+					${HARDWARE_DIR_PATH}/Z\ Drive/trunk/ZDriveUI.uir
+                    ${HARDWARE_DIR_PATH}/Z\ Drive/trunk/ATD_ZDrive_A/ATD_ZDriveAutoFocus_A.uir
+                    ${HARDWARE_DIR_PATH}/Z\ Drive/trunk/ATD_ZDrive_B/ATD_ZDriveAutoFocus_B.uir
+                    ${HARDWARE_DIR_PATH}/Stage/trunk/stage/stage_ui.uir
+                    ${HARDWARE_DIR_PATH}/StagePlate/trunk/StagePlateUI.uir
+                    ${HARDWARE_DIR_PATH}/Stage/trunk/LStep/LStep_UserInterface.uir
+)
+
+
+LIST(APPEND HARDWARE_RESOURCE_SRCS ${ZDRIVE_RESOURCES})

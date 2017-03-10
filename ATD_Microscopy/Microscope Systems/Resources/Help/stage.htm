@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+  <meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+  <title>Stage</title>
+</head>
+<body>
+<h2>Stage</h2>
+The most basic function of the stage panel is to display the current
+stage position, which is constantly being read.<br>
+<br>
+<img src="images%5CStage.png" alt="" border="1"><br>
+<br>
+<span style="text-decoration: underline;">Stage Moving</span> - Light
+is on when the stage is moving.<br>
+<span style="font-weight: bold;"><br>
+Position</span> <b><br>
+</b><span style="text-decoration: underline;">X um</span> -
+Current position of the stage in the X axis.<br>
+<span style="text-decoration: underline;">Y um</span> -&nbsp;Current
+position of the stage in the Y axis.<br>
+<br>
+<span style="font-weight: bold;">Target</span><b><br>
+</b><span style="text-decoration: underline;">Go to</span> - Go to the
+position (Move to X um, Move to Y um).<br>
+<span style="text-decoration: underline;">Move to X um</span> -
+Position to go to in the X axis.<br>
+<span style="text-decoration: underline;">Move to Y um</span>
+-&nbsp;Position to go to in the X axis.<br>
+<span style="text-decoration: underline;">Move by</span> - Go to by
+moving with a step size of <br>
+<span style="text-decoration: underline;">X Increment um</span> -&nbsp;
+Step size in the X axis<br>
+<span style="text-decoration: underline;">Y Increment um</span>&nbsp;-
+Step size in the X axis<b><br>
+<br>
+Datum<br>
+</b><span style="text-decoration: underline;"></span>The datum is the
+center point of the stage and we define it as (0,0) in X and Y; it
+also called a Datum. For convenience, the user may
+want to re-define the Datum. For
+example, suppose a group of cells to be scanned lies away from the
+Datum. Rather than moving the stage around,
+and noting the new X and Y values at the edges of the ROI, it is often
+easier to set the center of the ROI as the new Datum. This enables
+to&nbsp; begin a scan using symmetric edge co-ordinates e.g.
+-2000 to 2000 in both X and Y. If a scan has to be repeated over a
+larger or smaller area it is a simple matter of adjusting these numbers
+(to say -3000 to 3000) rather than re-calculating the new edge
+co-ordinates (in terms of the old Datum).&nbsp;The downside of
+redefining a new Datum is that the absolute co-ordinates have now been
+lost. Therefore, if
+the same sample needs to be revisited while&nbsp;the system has been
+turned off, upon re-initialisation (of the stage) the &nbsp;Datum will
+be set as the center of the X and Y axis. One way of overcoming
+this&nbsp;is to note the X and Y values before the new datum
+was set, then the process can be repeated.<br>
+<br>
+<span style="text-decoration: underline;">Set Datum</span> -
+Sets new Datum position.<br>
+<span style="text-decoration: underline;">GoTo Datum</span> -
+Go the the Datum position.<br>
+<span style="text-decoration: underline;">Datum diagram</span> -
+Clicking the mouse anywhere on this diagram will move the stage to that
+position, green boxes denote the limits of its travel.<br>
+<br>
+<b>Joystick&nbsp;</b><b><br>
+</b><span style="text-decoration: underline;"></span>When the joystick
+is enabled the light is on.&nbsp;It is possible to change the speed of
+the stage.&nbsp;<br>
+<br>
+<span style="text-decoration: underline;">Settings...</span> - This
+will open an extended control panel which is currently password
+protected (contact Administrator to change these settings)<br>
+<span style="text-decoration: underline;">Re-Initialise</span>
+-&nbsp;Re-initialisation drives the stage to its limits, set by limit
+switches (green boxes on Datum diagram). Then it will drive to a
+position, determined by software,
+which will be used as the datum, position (0,0).<br>
+<span style="text-decoration: underline;">Abort</span> - Abort the
+motion the stage is undertaking.<br>
+<span style="text-decoration: underline;">About...</span> - Information
+regarding the stage.<br>
+<span style="text-decoration: underline;">Close</span> - Closes this
+dialog box.<b><br>
+</b>
+</body>
+</html>

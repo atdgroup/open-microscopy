@@ -1,0 +1,9 @@
+[LynxCamera]
+Exposure=10.000000
+Gain1=10.000000
+Gain2=10.000000
+Blacklevel1=0
+Blacklevel2=0
+TapMode=1
+Binning=2
+DataMode=8

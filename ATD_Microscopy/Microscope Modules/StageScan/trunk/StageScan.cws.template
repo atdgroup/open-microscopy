@@ -1,0 +1,3282 @@
+[Workspace Header]
+Version = 801
+Pathname = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/StageScan/StageScan.cws"
+CVI Dir = "/c/program files/national instruments/cvi80"
+IVI Standard Root Dir = "/C/Program Files/IVI"
+VXIplug&play Framework Dir = "/C/VXIpnp/winnt"
+Number of Projects = 1
+Active Project = 1
+Project 0001 = "StageScan.prj"
+Project 0001 Folder Focus Drive Collapsed = True
+Project 0001 Folder Analyzer Collapsed = True
+Project 0001 Folder Microscope Collapsed = True
+Project 0001 Folder Objectives Collapsed = True
+Project 0001 Folder Fluor Cubes Collapsed = True
+Project 0001 Folder Optical Path Collapsed = True
+Project 0001 Folder Condenser Collapsed = True
+Project 0001 Folder Lamp Collapsed = True
+Project 0001 Folder Optical Shutter Collapsed = True
+Project 0001 Folder Aperture Stop Collapsed = True
+Project 0001 Folder Field Stop Collapsed = True
+Project 0001 Folder Epi-field Stop Collapsed = True
+Project 0001 Folder Optical Zoom Collapsed = True
+Project 0001 Folder Camera Collapsed = True
+Project 0001 Folder IcsViewer Collapsed = True
+Project 0001 Folder Dummy Camera Collapsed = True
+Project 0001 Folder C9100 Camera Collapsed = True
+Project 0001 Folder Imaging Collapsed = True
+Project 0001 Folder Focus Collapsed = True
+Project 0001 Folder OpticalCalibration Collapsed = True
+Project 0001 Folder Autofocus Collapsed = True
+Project 0001 Folder ImageCorrections Collapsed = True
+Project 0001 Folder DistortionCorrection Collapsed = True
+Project 0001 Folder TimeLapse Collapsed = True
+Project 0001 Folder RegionScan Collapsed = True
+Project 0001 Folder RegionOfInterest Collapsed = True
+Project 0001 Folder Mosaic Collapsed = True
+Project 0001 Folder MainApplication Collapsed = True
+Project 0001 Folder GeneralPurposeMicroscope Collapsed = True
+Project 0001 Folder Alignment Collapsed = True
+Project 0001 Folder CellFinding Collapsed = True
+Project 0001 Folder CHARM Collapsed = True
+Project 0001 Folder Orca Camera Collapsed = True
+Project 0001 Folder Zstack Collapsed = True
+Project 0001 Folder C9100-13 Camera Collapsed = True
+Drag Bar Left = 519
+Window Top = 24
+Window Left = 730
+Window Bottom = 706
+Window Right = 1201
+Maximized = False
+Maximized Children = True
+Max Number Of Errors = 20
+Track Include File Dependencies = True
+Prompt For Missing Includes = True
+Stop On First Error File = False
+Bring Up Err Win For Warnings = True
+Show Build Dialog = False
+Save Changes Before Running = "Ask"
+Hide Windows = True
+Global Hot Key = True
+Break At First Statement = False
+Sort Type = "File Name"
+Number of Opened Files = 0
+Window Confinement Region Enabled = False
+MainColumnWidth = 300
+FileDateColumnWidth = 95
+FileSizeColumnWidth = 70
+StatusColumnWidth = 52
+
+[Project Header 0001]
+Version = 801
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Release"
+Warn User If Debugging Release = 1
+Batch Build Release = False
+Batch Build Debug = False
+Force Rebuild = False
+
+[File 0001]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Imaging Facade/ImagingSt"
+Path Line0002 = "ageFacade.c"
+File Type = "CSource"
+Disk Date = 3253882004
+In Projects = "1,"
+Window Top = 92
+Window Left = 345
+Source Window State = "1,115,115,115,30,38,30,0,0,0,0,0,0,0,0,0,96,0,113,63,396,676,0,0,"
+Breakpoint 0001 = "82,0,enabled,"
+
+[File 0002]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Alignment/alignment_uir.h"
+File Type = "Include"
+Disk Date = 3236233990
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0003]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Alignment/alignment_uir.uir"
+File Type = "User Interface Resource"
+Disk Date = 3236233990
+In Projects = "1,"
+
+[File 0004]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Analyzer/analyzer.c"
+File Type = "CSource"
+Disk Date = 3234157650
+In Projects = "1,"
+Window Top = 117
+Window Left = 54
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0005]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Analyzer/analyzer.h"
+File Type = "Include"
+Disk Date = 3232526152
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0006]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Analyzer/analyzer_ui.c"
+File Type = "CSource"
+Disk Date = 3230025588
+In Projects = "1,"
+Window Top = 140
+Window Left = 66
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0007]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Analyzer/analyzer_ui.h"
+File Type = "Include"
+Disk Date = 3230025588
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0008]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Analyzer/analyzer_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3230025588
+In Projects = "1,"
+
+[File 0009]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Aperture Stop/aperture_stop.c"
+File Type = "CSource"
+Disk Date = 3248437344
+In Projects = "1,"
+Window Top = 163
+Window Left = 78
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0010]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Aperture Stop/aperture_stop.h"
+File Type = "Include"
+Disk Date = 3232527692
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0011]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Aperture Stop/aperture_stop_ui.c"
+File Type = "CSource"
+Disk Date = 3229501782
+In Projects = "1,"
+Window Top = 186
+Window Left = 90
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0012]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Aperture Stop/aperture_stop_ui.h"
+File Type = "Include"
+Disk Date = 3231496396
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0013]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Aperture Stop/aperture_stop_ui.u"
+Path Line0002 = "ir"
+File Type = "User Interface Resource"
+Disk Date = 3231496396
+In Projects = "1,"
+
+[File 0014]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Autofocus/autoFocus.c"
+File Type = "CSource"
+Disk Date = 3241592350
+In Projects = "1,"
+Window Top = 48
+Window Left = 18
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,9,396,676,0,0,"
+
+[File 0015]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Autofocus/autoFocus.h"
+File Type = "Include"
+Disk Date = 3234846110
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0016]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Autofocus/autoFocus_ui.h"
+File Type = "Include"
+Disk Date = 3234846110
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0017]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Autofocus/autoFocus_ui.u"
+Path Line0002 = "ir"
+File Type = "User Interface Resource"
+Disk Date = 3234846110
+In Projects = "1,"
+
+[File 0018]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell/cell.c"
+File Type = "CSource"
+Disk Date = 3238402722
+In Projects = "1,"
+Window Top = 209
+Window Left = 102
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0019]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell/cell.h"
+File Type = "Include"
+Disk Date = 3238403296
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0020]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Finding/cell_boxing.c"
+File Type = "CSource"
+Disk Date = 3241415002
+In Projects = "1,"
+Window Top = 232
+Window Left = 114
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0021]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Finding/cell_dish_region.c"
+File Type = "CSource"
+Disk Date = 3240468464
+In Projects = "1,"
+Window Top = 255
+Window Left = 126
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0022]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Finding/cell_finding.c"
+File Type = "CSource"
+Disk Date = 3253199158
+In Projects = "1,"
+Window Top = 278
+Window Left = 138
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0023]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Finding/cell_finding.h"
+File Type = "Include"
+Disk Date = 3243930380
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0024]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Finding/cell_finding_ui.c"
+File Type = "CSource"
+Disk Date = 3253176685
+In Projects = "1,"
+Window Top = 301
+Window Left = 150
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0025]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Finding/cell_finding_ui.h"
+File Type = "Include"
+Disk Date = 3242022632
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0026]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Finding/cell_finding_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3242022990
+In Projects = "1,"
+
+[File 0027]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Map/cell_info_ui.h"
+File Type = "Include"
+Disk Date = 3236234242
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0028]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Map/cell_info_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3236234188
+In Projects = "1,"
+
+[File 0029]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Map/celllinklist.c"
+File Type = "CSource"
+Disk Date = 3241507584
+In Projects = "1,"
+Window Top = 324
+Window Left = 162
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0030]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Map/celllinklist.h"
+File Type = "Include"
+Disk Date = 3236234188
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0031]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Map/cellmap.c"
+File Type = "CSource"
+Disk Date = 3241508436
+In Projects = "1,"
+Window Top = 347
+Window Left = 174
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0032]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Map/cellmap.h"
+File Type = "Include"
+Disk Date = 3236234188
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0033]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Map/cellmap_ui.h"
+File Type = "Include"
+Disk Date = 3236234188
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0034]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Map/cellmap_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3236234226
+In Projects = "1,"
+
+[File 0035]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Revisiting/CellRevisit.c"
+File Type = "CSource"
+Disk Date = 3244198236
+In Projects = "1,"
+Window Top = 25
+Window Left = 6
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0036]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Revisiting/CellRevisit.h"
+File Type = "Include"
+Disk Date = 3236234268
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0037]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Revisiting/CellRevisit_ui.h"
+File Type = "Include"
+Disk Date = 3239942504
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0038]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Revisiting/CellRevisit_ui.u"
+Path Line0002 = "ir"
+File Type = "User Interface Resource"
+Disk Date = 3240382890
+In Projects = "1,"
+
+[File 0039]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/CHARM Module_ui.h"
+File Type = "Include"
+Disk Date = 3253198982
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0040]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/CHARM Module_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3251971013
+In Projects = "1,"
+
+[File 0041]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/CHARM Optimizer_ui.h"
+File Type = "Include"
+Disk Date = 3253198982
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0042]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/CHARM Optimizer_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3253009286
+In Projects = "1,"
+
+[File 0043]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/CHARM.c"
+File Type = "CSource"
+Disk Date = 3253198983
+In Projects = "1,"
+Window Top = 48
+Window Left = 18
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0044]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/CHARM.h"
+File Type = "Include"
+Disk Date = 3253198982
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0045]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/CHARM_code.c"
+File Type = "CSource"
+Disk Date = 3253198983
+In Projects = "1,"
+Window Top = 71
+Window Left = 30
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0046]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/CHARM_code.h"
+File Type = "Include"
+Disk Date = 3253198983
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0047]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/CHARM_optimizeParamPanel.c"
+File Type = "CSource"
+Disk Date = 3253198982
+In Projects = "1,"
+Window Top = 94
+Window Left = 42
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0048]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/CHARM_parameters.c"
+File Type = "CSource"
+Disk Date = 3253198982
+In Projects = "1,"
+Window Top = 117
+Window Left = 54
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0049]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/CHARM_parameters.h"
+File Type = "Include"
+Disk Date = 3253198983
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0050]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/CHARM_paramPanel.c"
+File Type = "CSource"
+Disk Date = 3253198983
+In Projects = "1,"
+Window Top = 140
+Window Left = 66
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0051]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/CHARM_private.h"
+File Type = "Include"
+Disk Date = 3253198983
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0052]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/CHARM_reducedParamPanel.c"
+File Type = "CSource"
+Disk Date = 3253198983
+In Projects = "1,"
+Window Top = 163
+Window Left = 78
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0053]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/CHARM_shapes.c"
+File Type = "CSource"
+Disk Date = 3253198983
+In Projects = "1,"
+Window Top = 186
+Window Left = 90
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0054]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/CHARM_shapes.h"
+File Type = "Include"
+Disk Date = 3253198982
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0055]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Com Port Control/com_port"
+Path Line0002 = "_control.c"
+File Type = "CSource"
+Disk Date = 3231502780
+In Projects = "1,"
+Window Top = 209
+Window Left = 102
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0056]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Com Port Control/com_port"
+Path Line0002 = "_control.h"
+File Type = "Include"
+Disk Date = 3231502780
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0057]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Com Port Control/comport_"
+Path Line0002 = "hash.c"
+File Type = "CSource"
+Disk Date = 3231502780
+In Projects = "1,"
+Window Top = 232
+Window Left = 114
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0058]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Com Port Control/comport_"
+Path Line0002 = "hash.h"
+File Type = "Include"
+Disk Date = 3231502782
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0059]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Com Port Control/comport_"
+Path Line0002 = "ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3253188130
+In Projects = "1,"
+Window Top = 48
+Window Left = 18
+Window Height = 396
+Window Width = 676
+
+[File 0060]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Condensers/condensers.c"
+File Type = "CSource"
+Disk Date = 3235110748
+In Projects = "1,"
+Window Top = 255
+Window Left = 126
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0061]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Condensers/condensers.h"
+File Type = "Include"
+Disk Date = 3248961940
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0062]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Condensers/condensers_ui.c"
+File Type = "CSource"
+Disk Date = 3231328544
+In Projects = "1,"
+Window Top = 278
+Window Left = 138
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0063]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Condensers/condensers_ui.h"
+File Type = "Include"
+Disk Date = 3231137898
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0064]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Condensers/condensers_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3237891074
+In Projects = "1,"
+
+[File 0065]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Condensers/condensers_xml.c"
+File Type = "CSource"
+Disk Date = 3229408144
+In Projects = "1,"
+Window Top = 301
+Window Left = 150
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0066]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Stage/Corvus/Corvus_stage.c"
+File Type = "CSource"
+Disk Date = 3254829201
+In Projects = "1,"
+Window Top = 75
+Window Left = 578
+Source Window State = "1,421,432,421,0,0,0,0,0,0,0,0,0,0,0,0,426,0,427,4,616,676,0,0,"
+
+[File 0067]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Stage/Corvus/Corvus_stage.h"
+File Type = "Include"
+Disk Date = 3230622734
+In Projects = "1,"
+Window Top = 163
+Window Left = 78
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0068]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Stage/Corvus/Corvus_ui.h"
+File Type = "Include"
+Disk Date = 3254380266
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0069]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Stage/Corvus/Corvus_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3254380744
+In Projects = "1,"
+Window Top = 191
+Window Left = 487
+Window Height = 767
+Window Width = 676
+
+[File 0070]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/counter_plugin"
+Path Line0002 = ".c"
+File Type = "CSource"
+Disk Date = 3243920856
+In Projects = "1,"
+Window Top = 324
+Window Left = 162
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0071]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/counter_plugin"
+Path Line0002 = ".h"
+File Type = "Include"
+Disk Date = 3243920856
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0072]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Tools/crosshair_tool.c"
+File Type = "CSource"
+Disk Date = 3243920854
+In Projects = "1,"
+Window Top = 347
+Window Left = 174
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0073]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Tools/crosshair_tool.h"
+File Type = "Include"
+Disk Date = 3243920854
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0074]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/bin/dcamapi.lib"
+File Type = "Library"
+Disk Date = 3242717660
+In Projects = "1,"
+
+[File 0075]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/DeviceFinder/DeviceFinder"
+Path Line0002 = ".h"
+File Type = "Include"
+Disk Date = 3254828338
+In Projects = "1,"
+Window Top = 48
+Window Left = 18
+Source Window State = "1,13,14,13,0,0,0,0,3,0,0,0,0,0,0,0,0,0,14,0,396,676,0,0,"
+
+[File 0076]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/DeviceFinder/DeviceFinder"
+Path Line0002 = ".lib"
+File Type = "Library"
+Disk Date = 3254828338
+In Projects = "1,"
+
+[File 0077]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/DeviceFinder/DeviceFinder"
+Path Line0002 = "_ui.h"
+File Type = "Include"
+Disk Date = 3254828338
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0078]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/DeviceFinder/DeviceFinder"
+Path Line0002 = "_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3254828338
+In Projects = "1,"
+Window Top = 48
+Window Left = 18
+Window Height = 396
+Window Width = 676
+
+[File 0079]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/C9100/drawTools.c"
+File Type = "CSource"
+Disk Date = 3228901710
+In Projects = "1,"
+Window Top = 25
+Window Left = 6
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0080]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/C9100/drawTools.h"
+File Type = "Include"
+Disk Date = 3228901710
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0081]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/DTYPE.C"
+File Type = "CSource"
+Disk Date = 3253198983
+In Projects = "1,"
+Window Top = 48
+Window Left = 18
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0082]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/DTYPE.H"
+File Type = "Include"
+Disk Date = 3253198983
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0083]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Focus Drive/dummy_focus_drive.c"
+File Type = "CSource"
+Disk Date = 3245933642
+In Projects = "1,"
+Window Top = 71
+Window Left = 30
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0084]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Focus Drive/dummy_focus_drive.h"
+File Type = "Include"
+Disk Date = 3245676896
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0085]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/EpiField Stop/epi_field_stop.c"
+File Type = "CSource"
+Disk Date = 3248437242
+In Projects = "1,"
+Window Top = 94
+Window Left = 42
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0086]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/EpiField Stop/epi_field_stop.h"
+File Type = "Include"
+Disk Date = 3232518390
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0087]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/EpiField Stop/epi_field_stop_ui."
+Path Line0002 = "c"
+File Type = "CSource"
+Disk Date = 3229679802
+In Projects = "1,"
+Window Top = 117
+Window Left = 54
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0088]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/EpiField Stop/epi_field_stop_ui."
+Path Line0002 = "h"
+File Type = "Include"
+Disk Date = 3231496524
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0089]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/EpiField Stop/epi_field_stop_ui."
+Path Line0002 = "uir"
+File Type = "User Interface Resource"
+Disk Date = 3243845530
+In Projects = "1,"
+
+[File 0090]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/false_colour_d"
+Path Line0002 = "ialog.c"
+File Type = "CSource"
+Disk Date = 3243920856
+In Projects = "1,"
+Window Top = 140
+Window Left = 66
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0091]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/fft_plugin.c"
+File Type = "CSource"
+Disk Date = 3249039838
+In Projects = "1,"
+Window Top = 163
+Window Left = 78
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0092]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/fft_plugin.h"
+File Type = "Include"
+Disk Date = 3245745494
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0093]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Field Stop/field_stop.c"
+File Type = "CSource"
+Disk Date = 3248437218
+In Projects = "1,"
+Window Top = 186
+Window Left = 90
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0094]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Field Stop/field_stop.h"
+File Type = "Include"
+Disk Date = 3232446864
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0095]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Field Stop/field_stop_ui.c"
+File Type = "CSource"
+Disk Date = 3229500258
+In Projects = "1,"
+Window Top = 209
+Window Left = 102
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0096]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Field Stop/field_stop_ui.h"
+File Type = "Include"
+Disk Date = 3231496508
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0097]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Field Stop/field_stop_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3231496508
+In Projects = "1,"
+
+[File 0098]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Filename Utils/FilenameUt"
+Path Line0002 = "ils.c"
+File Type = "CSource"
+Disk Date = 3233130814
+In Projects = "1,"
+Window Top = 232
+Window Left = 114
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0099]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Filename Utils/FilenameUt"
+Path Line0002 = "ils.h"
+File Type = "Include"
+Disk Date = 3233130814
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0100]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Fluorescent Cubes/fluorescent_cu"
+Path Line0002 = "bes.c"
+File Type = "CSource"
+Disk Date = 3237810200
+In Projects = "1,"
+Window Top = 255
+Window Left = 126
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0101]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Fluorescent Cubes/fluorescent_cu"
+Path Line0002 = "bes.h"
+File Type = "Include"
+Disk Date = 3237804656
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0102]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Fluorescent Cubes/fluorescent_cu"
+Path Line0002 = "bes_ui.c"
+File Type = "CSource"
+Disk Date = 3237804014
+In Projects = "1,"
+Window Top = 278
+Window Left = 138
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0103]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Fluorescent Cubes/fluorescent_cu"
+Path Line0002 = "bes_ui.h"
+File Type = "Include"
+Disk Date = 3237802882
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0104]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Fluorescent Cubes/fluorescent_cu"
+Path Line0002 = "bes_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3237802880
+In Projects = "1,"
+
+[File 0105]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Fluorescent Cubes/fluorescent_cu"
+Path Line0002 = "bes_xml.c"
+File Type = "CSource"
+Disk Date = 3237810328
+In Projects = "1,"
+Window Top = 301
+Window Left = 150
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0106]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Focus/focus.c"
+File Type = "CSource"
+Disk Date = 3253187006
+In Projects = "1,"
+Window Top = 324
+Window Left = 162
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0107]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Focus/focus.h"
+File Type = "Include"
+Disk Date = 3234846104
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0108]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Focus Drive/focus_drive.c"
+File Type = "CSource"
+Disk Date = 3248437058
+In Projects = "1,"
+Window Top = 96
+Window Left = 92
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,315,0,327,4,396,676,0,0,"
+
+[File 0109]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Focus Drive/focus_drive.h"
+File Type = "Include"
+Disk Date = 3241169432
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0110]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Focus Drive/focus_drive_ui.c"
+File Type = "CSource"
+Disk Date = 3230019754
+In Projects = "1,"
+Window Top = 347
+Window Left = 174
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0111]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Focus Drive/focus_drive_ui.h"
+File Type = "Include"
+Disk Date = 3230019754
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0112]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Focus Drive/focus_drive_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3230019754
+In Projects = "1,"
+
+[File 0113]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Focus/focus_ui.h"
+File Type = "Include"
+Disk Date = 3234846104
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0114]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Focus/focus_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3234846104
+In Projects = "1,"
+
+[File 0115]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageAlgorithms/inclu"
+Path Line0002 = "de/FreeImage.h"
+File Type = "Include"
+Disk Date = 3245745372
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0116]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/bin/FreeImage.lib"
+File Type = "Library"
+Disk Date = 3235056324
+In Projects = "1,"
+
+[File 0117]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/freeimage_imaq.c"
+File Type = "CSource"
+Disk Date = 3248864136
+In Projects = "1,"
+Window Top = 25
+Window Left = 6
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0118]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/freeimage_imaq.h"
+File Type = "Include"
+Disk Date = 3248350828
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0119]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageAlgorithms/inclu"
+Path Line0002 = "de/FreeImageAlgorithms.h"
+File Type = "Include"
+Disk Date = 3249038726
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0120]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/bin/FreeImageAlgorithms.lib"
+File Type = "Library"
+Disk Date = 3247663602
+In Projects = "1,"
+
+[File 0121]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageAlgorithms/inclu"
+Path Line0002 = "de/FreeImageAlgorithms_Arithmetic.h"
+File Type = "Include"
+Disk Date = 3249038726
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0122]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageAlgorithms/inclu"
+Path Line0002 = "de/FreeImageAlgorithms_Colour.h"
+File Type = "Include"
+Disk Date = 3249038726
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0123]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageAlgorithms/inclu"
+Path Line0002 = "de/FreeImageAlgorithms_FFT.h"
+File Type = "Include"
+Disk Date = 3249038726
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0124]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageAlgorithms/inclu"
+Path Line0002 = "de/FreeImageAlgorithms_HBitmap.h"
+File Type = "Include"
+Disk Date = 3249038726
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0125]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageAlgorithms/inclu"
+Path Line0002 = "de/FreeImageAlgorithms_IO.h"
+File Type = "Include"
+Disk Date = 3249038726
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0126]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageAlgorithms/inclu"
+Path Line0002 = "de/FreeImageAlgorithms_LinearScale.h"
+File Type = "Include"
+Disk Date = 3249038726
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0127]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageAlgorithms/inclu"
+Path Line0002 = "de/FreeImageAlgorithms_Palettes.h"
+File Type = "Include"
+Disk Date = 3249038726
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0128]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageAlgorithms/inclu"
+Path Line0002 = "de/FreeImageAlgorithms_Statistics.h"
+File Type = "Include"
+Disk Date = 3249038726
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0129]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageAlgorithms/inclu"
+Path Line0002 = "de/FreeImageAlgorithms_Utilities.h"
+File Type = "Include"
+Disk Date = 3249038726
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0130]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageAlgorithms/inclu"
+Path Line0002 = "de/FreeImageAlgorithms_Utils.h"
+File Type = "Include"
+Disk Date = 3249038726
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0131]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/bin/FreeImageIcs.lib"
+File Type = "Library"
+Disk Date = 3236589134
+In Projects = "1,"
+
+[File 0132]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageIcs/include/Free"
+Path Line0002 = "ImageIcs_IO.h"
+File Type = "Include"
+Disk Date = 3236586022
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0133]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageIcs/include/Free"
+Path Line0002 = "ImageIcs_MetaData.h"
+File Type = "Include"
+Disk Date = 3245745380
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0134]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageIcs/include/Free"
+Path Line0002 = "ImageIcs_Private.h"
+File Type = "Include"
+Disk Date = 3235469812
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0135]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/C9100-13/gci_C9100-13_cam"
+Path Line0002 = "era.c"
+File Type = "CSource"
+Disk Date = 3252572123
+In Projects = "1,"
+Window Top = 48
+Window Left = 18
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0136]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/C9100-13/gci_C9100-13_cam"
+Path Line0002 = "era.h"
+File Type = "Include"
+Disk Date = 3250602918
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0137]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/C9100-13/gci_C9100-13_cam"
+Path Line0002 = "era_settings.c"
+File Type = "CSource"
+Disk Date = 3250597428
+In Projects = "1,"
+Window Top = 71
+Window Left = 30
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0138]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/C9100-13/gci_C9100-13_cam"
+Path Line0002 = "era_settings.h"
+File Type = "Include"
+Disk Date = 3250597230
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0139]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/C9100-13/gci_C9100-13_cam"
+Path Line0002 = "era_ui.c"
+File Type = "CSource"
+Disk Date = 3250681942
+In Projects = "1,"
+Window Top = 94
+Window Left = 42
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0140]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/C9100-13/gci_C9100-13_cam"
+Path Line0002 = "era_ui.h"
+File Type = "Include"
+Disk Date = 3250681832
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0141]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/C9100-13/gci_C9100-13_cam"
+Path Line0002 = "era_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3254221084
+In Projects = "1,"
+
+[File 0142]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/C9100/gci_C9100_camera.c"
+File Type = "CSource"
+Disk Date = 3250750704
+In Projects = "1,"
+Window Top = 117
+Window Left = 54
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0143]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/C9100/gci_C9100_camera.h"
+File Type = "Include"
+Disk Date = 3248682156
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0144]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/C9100/gci_C9100_camera_se"
+Path Line0002 = "ttings.c"
+File Type = "CSource"
+Disk Date = 3241592672
+In Projects = "1,"
+Window Top = 140
+Window Left = 66
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0145]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/C9100/gci_C9100_camera_se"
+Path Line0002 = "ttings.h"
+File Type = "Include"
+Disk Date = 3228901712
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0146]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/C9100/gci_C9100_camera_ui"
+Path Line0002 = ".c"
+File Type = "CSource"
+Disk Date = 3236316828
+In Projects = "1,"
+Window Top = 163
+Window Left = 78
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0147]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/C9100/gci_C9100_camera_ui"
+Path Line0002 = ".h"
+File Type = "Include"
+Disk Date = 3250590408
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0148]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/C9100/gci_C9100_camera_ui"
+Path Line0002 = ".uir"
+File Type = "User Interface Resource"
+Disk Date = 3250590788
+In Projects = "1,"
+
+[File 0149]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/camera/gci_camera.c"
+File Type = "CSource"
+Disk Date = 3254231489
+In Projects = "1,"
+Window Top = 232
+Window Left = 114
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,576,0,591,4,396,676,0,0,"
+
+[File 0150]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/camera/gci_camera.h"
+File Type = "Include"
+Disk Date = 3254221597
+In Projects = "1,"
+Window Top = 209
+Window Left = 102
+Source Window State = "1,18,19,18,0,0,0,0,3,0,0,0,0,0,0,0,0,0,19,0,396,676,0,0,"
+
+[File 0151]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/camera/gci_camera_ui.c"
+File Type = "CSource"
+Disk Date = 3254223308
+In Projects = "1,"
+Window Top = 186
+Window Left = 90
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0152]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/camera/gci_camera_ui.h"
+File Type = "Include"
+Disk Date = 3228901704
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0153]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/camera/gci_camera_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3228901704
+In Projects = "1,"
+
+[File 0154]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/dummy/gci_dummy_camera.c"
+File Type = "CSource"
+Disk Date = 3229931854
+In Projects = "1,"
+Window Top = 209
+Window Left = 102
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0155]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/dummy/gci_dummy_camera.h"
+File Type = "Include"
+Disk Date = 3228901708
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0156]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/Twain/GCI_EZTWAI"
+Path Line0002 = "N.C"
+File Type = "CSource"
+Disk Date = 3243920856
+In Projects = "1,"
+Window Top = 232
+Window Left = 114
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0157]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/Twain/GCI_EZTWAI"
+Path Line0002 = "N.H"
+File Type = "Include"
+Disk Date = 3243920856
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0158]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FindImageMaxima/GCI_FindI"
+Path Line0002 = "mageMaxima.c"
+File Type = "CSource"
+Disk Date = 3236079218
+In Projects = "1,"
+Window Top = 255
+Window Left = 126
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0159]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FindImageMaxima/GCI_FindI"
+Path Line0002 = "mageMaxima.h"
+File Type = "Include"
+Disk Date = 3236079218
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0160]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/GCI Utils/gci_menu_utils."
+Path Line0002 = "c"
+File Type = "CSource"
+Disk Date = 3229422150
+In Projects = "1,"
+Window Top = 278
+Window Left = 138
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0161]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/GCI Utils/gci_menu_utils."
+Path Line0002 = "h"
+File Type = "Include"
+Disk Date = 3229422150
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0162]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/orca/gci_orca_camera.c"
+File Type = "CSource"
+Disk Date = 3241592766
+In Projects = "1,"
+Window Top = 301
+Window Left = 150
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0163]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/orca/gci_orca_camera.h"
+File Type = "Include"
+Disk Date = 3236659302
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0164]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/orca/gci_orca_camera_sett"
+Path Line0002 = "ings.c"
+File Type = "CSource"
+Disk Date = 3241592692
+In Projects = "1,"
+Window Top = 324
+Window Left = 162
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0165]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/orca/gci_orca_camera_sett"
+Path Line0002 = "ings.h"
+File Type = "Include"
+Disk Date = 3228901702
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0166]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/orca/gci_orca_camera_ui.c"
+File Type = "CSource"
+Disk Date = 3236659512
+In Projects = "1,"
+Window Top = 347
+Window Left = 174
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0167]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/orca/gci_orca_camera_ui.h"
+File Type = "Include"
+Disk Date = 3236597634
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0168]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/orca/gci_orca_camera_ui.u"
+Path Line0002 = "ir"
+File Type = "User Interface Resource"
+Disk Date = 3238067484
+In Projects = "1,"
+
+[File 0169]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/GCI Utils/gci_utils.c"
+File Type = "CSource"
+Disk Date = 3248432000
+In Projects = "1,"
+Window Top = 315
+Window Left = 404
+Source Window State = "1,221,221,221,19,27,27,0,0,0,0,0,0,0,0,0,207,0,222,11,396,676,0,0,"
+
+[File 0170]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/GCI Utils/gci_utils.h"
+File Type = "Include"
+Disk Date = 3246257532
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0171]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/GCI Utils/gci_utils_progr"
+Path Line0002 = "ess_feedback.h"
+File Type = "Include"
+Disk Date = 3246257532
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0172]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/GCI Utils/gci_utils_progr"
+Path Line0002 = "ess_feedback.uir"
+File Type = "User Interface Resource"
+Disk Date = 3246257532
+In Projects = "1,"
+
+[File 0173]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/GeneralPurposeMicroscope/General"
+Path Line0002 = "PurposeMicroscope.c"
+File Type = "CSource"
+Disk Date = 3253280384
+In Projects = "1,"
+Window Top = 140
+Window Left = 66
+Source Window State = "1,295,295,295,6,18,18,0,3,0,0,0,0,0,0,0,283,0,295,6,396,676,0,0,"
+
+[File 0174]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/GeneralPurposeMicroscope/General"
+Path Line0002 = "PurposeMicroscope.h"
+File Type = "Include"
+Disk Date = 3235987518
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0175]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/GeneralPurposeMicroscope/General"
+Path Line0002 = "PurposeMicroscope_ui.h"
+File Type = "Include"
+Disk Date = 3252066061
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0176]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/GeneralPurposeMicroscope/General"
+Path Line0002 = "PurposeMicroscope_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3252066061
+In Projects = "1,"
+Window Top = 117
+Window Left = 54
+Window Height = 396
+Window Width = 676
+
+[File 0177]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/GCI Registry/GL_CVIRegist"
+Path Line0002 = "ry.c"
+File Type = "CSource"
+Disk Date = 3241602160
+In Projects = "1,"
+Window Top = 25
+Window Left = 6
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0178]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/GCI Registry/GL_CVIRegist"
+Path Line0002 = "ry.h"
+File Type = "Include"
+Disk Date = 3241602160
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0179]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/grid_plugin.c"
+File Type = "CSource"
+Disk Date = 3243920856
+In Projects = "1,"
+Window Top = 48
+Window Left = 18
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0180]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/grid_plugin.h"
+File Type = "Include"
+Disk Date = 3243920856
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0181]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/hardware.h"
+File Type = "Include"
+Disk Date = 3242124428
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0182]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/histogram_equa"
+Path Line0002 = "lisation_plugin.c"
+File Type = "CSource"
+Disk Date = 3243920856
+In Projects = "1,"
+Window Top = 71
+Window Left = 30
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0183]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/histogram_equa"
+Path Line0002 = "lisation_plugin.h"
+File Type = "Include"
+Disk Date = 3243920856
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0184]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/histogram_plug"
+Path Line0002 = "in.c"
+File Type = "CSource"
+Disk Date = 3243920856
+In Projects = "1,"
+Window Top = 94
+Window Left = 42
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0185]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/histogram_plug"
+Path Line0002 = "in.h"
+File Type = "Include"
+Disk Date = 3243920856
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0186]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/icsviewer_com_ut"
+Path Line0002 = "ils.h"
+File Type = "Include"
+Disk Date = 3243920858
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0187]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/icsviewer_dropta"
+Path Line0002 = "rget.c"
+File Type = "CSource"
+Disk Date = 3243920858
+In Projects = "1,"
+Window Top = 117
+Window Left = 54
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0188]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/icsviewer_event_"
+Path Line0002 = "handlers.c"
+File Type = "CSource"
+Disk Date = 3249039838
+In Projects = "1,"
+Window Top = 140
+Window Left = 66
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0189]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/icsviewer_plugin"
+Path Line0002 = ".c"
+File Type = "CSource"
+Disk Date = 3243920858
+In Projects = "1,"
+Window Top = 163
+Window Left = 78
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0190]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/icsviewer_plugin"
+Path Line0002 = ".h"
+File Type = "Include"
+Disk Date = 3243920858
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0191]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/icsviewer_plugin"
+Path Line0002 = "_menu.c"
+File Type = "CSource"
+Disk Date = 3243920858
+In Projects = "1,"
+Window Top = 186
+Window Left = 90
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0192]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/icsviewer_plugin"
+Path Line0002 = "_menu.h"
+File Type = "Include"
+Disk Date = 3243920858
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0193]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/icsviewer_privat"
+Path Line0002 = "e.h"
+File Type = "Include"
+Disk Date = 3249039838
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0194]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/icsviewer_signal"
+Path Line0002 = "s.c"
+File Type = "CSource"
+Disk Date = 3243920858
+In Projects = "1,"
+Window Top = 209
+Window Left = 102
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0195]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/icsviewer_signal"
+Path Line0002 = "s.h"
+File Type = "Include"
+Disk Date = 3243920858
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0196]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/icsviewer_tools."
+Path Line0002 = "c"
+File Type = "CSource"
+Disk Date = 3243920858
+In Projects = "1,"
+Window Top = 232
+Window Left = 114
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0197]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/icsviewer_tools."
+Path Line0002 = "h"
+File Type = "Include"
+Disk Date = 3243920858
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0198]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/icsviewer_uir.h"
+File Type = "Include"
+Disk Date = 3243920858
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0199]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/icsviewer_uir.ui"
+Path Line0002 = "r"
+File Type = "User Interface Resource"
+Disk Date = 3243920858
+In Projects = "1,"
+
+[File 0200]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/icsviewer_window"
+Path Line0002 = ".c"
+File Type = "CSource"
+Disk Date = 3249039838
+In Projects = "1,"
+Window Top = 255
+Window Left = 126
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0201]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/icsviewer_window"
+Path Line0002 = ".h"
+File Type = "Include"
+Disk Date = 3245745672
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0202]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Image Utils/image_utils.c"
+File Type = "CSource"
+Disk Date = 3246257538
+In Projects = "1,"
+Window Top = 278
+Window Left = 138
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0203]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Image Utils/image_utils.h"
+File Type = "Include"
+Disk Date = 3234261018
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0204]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/ImageViewer/ImageViewer.c"
+File Type = "CSource"
+Disk Date = 3233132424
+In Projects = "1,"
+Window Top = 301
+Window Left = 150
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0205]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/ImageViewer/ImageViewer.h"
+File Type = "Include"
+Disk Date = 3233132426
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0206]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/ImageViewer_Draw"
+Path Line0002 = "ing.c"
+File Type = "CSource"
+Disk Date = 3243920858
+In Projects = "1,"
+Window Top = 324
+Window Left = 162
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0207]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/ImageViewer_Draw"
+Path Line0002 = "ing.h"
+File Type = "Include"
+Disk Date = 3243920858
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0208]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/ImageViewer/ImageViewerBu"
+Path Line0002 = "ffer.c"
+File Type = "CSource"
+Disk Date = 3233132424
+In Projects = "1,"
+Window Top = 347
+Window Left = 174
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0209]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/ImageViewer/ImageViewerBu"
+Path Line0002 = "ffer.h"
+File Type = "Include"
+Disk Date = 3233132424
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0210]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/ImageViewer/ImageViewerMo"
+Path Line0002 = "use.c"
+File Type = "CSource"
+Disk Date = 3241602028
+In Projects = "1,"
+Window Top = 25
+Window Left = 6
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0211]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/ImageViewer/ImageViewerMo"
+Path Line0002 = "use.h"
+File Type = "Include"
+Disk Date = 3233132426
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0212]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/ImageViewer/ImageViewerUt"
+Path Line0002 = "ils.c"
+File Type = "CSource"
+Disk Date = 3233132426
+In Projects = "1,"
+Window Top = 48
+Window Left = 18
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0213]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/ImageViewer/ImageViewerUt"
+Path Line0002 = "ils.h"
+File Type = "Include"
+Disk Date = 3233132426
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0214]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/ImageViewer/ImageViewerWn"
+Path Line0002 = "dProc.c"
+File Type = "CSource"
+Disk Date = 3233132424
+In Projects = "1,"
+Window Top = 71
+Window Left = 30
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0215]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/ImageViewer/ImageViewerWn"
+Path Line0002 = "dProc.h"
+File Type = "Include"
+Disk Date = 3233132426
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0216]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Imaging UI/Imaging.c"
+File Type = "CSource"
+Disk Date = 3253280418
+In Projects = "1,"
+Window Top = 264
+Window Left = 84
+Source Window State = "1,567,567,567,24,36,36,0,3,0,0,0,0,0,0,0,555,0,567,24,396,676,0,0,"
+
+[File 0217]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Imaging UI/Imaging.h"
+File Type = "Include"
+Disk Date = 3244108020
+In Projects = "1,"
+Window Top = 209
+Window Left = 102
+Source Window State = "1,32,32,32,4,31,31,0,3,0,0,0,0,0,0,0,18,0,32,4,396,676,0,0,"
+
+[File 0218]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Imaging Facade/Imaging90"
+Path Line0002 = "iDevicesFacade.c"
+File Type = "CSource"
+Disk Date = 3245852024
+In Projects = "1,"
+Window Top = 94
+Window Left = 42
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0219]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Imaging UI/imaging_ui.h"
+File Type = "Include"
+Disk Date = 3250684866
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0220]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Imaging UI/imaging_ui.ui"
+Path Line0002 = "r"
+File Type = "User Interface Resource"
+Disk Date = 3250684864
+In Projects = "1,"
+
+[File 0221]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Imaging Facade/ImagingCa"
+Path Line0002 = "meraFacade.c"
+File Type = "CSource"
+Disk Date = 3252498429
+In Projects = "1,"
+Window Top = 163
+Window Left = 1190
+Source Window State = "1,431,431,431,11,34,34,0,0,0,0,0,0,0,0,0,419,0,436,38,396,676,0,0,"
+
+[File 0222]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Imaging Facade/ImagingCo"
+Path Line0002 = "ndensersFacade.c"
+File Type = "CSource"
+Disk Date = 3235105594
+In Projects = "1,"
+Window Top = 117
+Window Left = 54
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0223]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Imaging Facade/ImagingFa"
+Path Line0002 = "cade.h"
+File Type = "Include"
+Disk Date = 3253881714
+In Projects = "1,"
+Window Top = 282
+Window Left = 507
+Source Window State = "1,96,97,96,0,0,0,0,3,0,0,0,0,0,0,0,90,0,97,0,396,676,0,0,"
+
+[File 0224]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Imaging Facade/ImagingFl"
+Path Line0002 = "uoCubesFacade.c"
+File Type = "CSource"
+Disk Date = 3235106288
+In Projects = "1,"
+Window Top = 140
+Window Left = 66
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0225]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Imaging Facade/ImagingLa"
+Path Line0002 = "mpFacade.c"
+File Type = "CSource"
+Disk Date = 3237809914
+In Projects = "1,"
+Window Top = 163
+Window Left = 78
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0226]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Imaging Facade/ImagingOb"
+Path Line0002 = "jectivesFacade.c"
+File Type = "CSource"
+Disk Date = 3253112051
+In Projects = "1,"
+Window Top = 186
+Window Left = 90
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0227]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Imaging Facade/ImagingSh"
+Path Line0002 = "utterFacade.c"
+File Type = "CSource"
+Disk Date = 3253279663
+In Projects = "1,"
+Window Top = 202
+Window Left = 236
+Source Window State = "1,37,37,37,2,8,8,0,0,0,0,0,0,0,0,0,30,0,54,2,396,676,0,0,"
+
+[File 0228]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/ipi_object_drawing/ipi_ob"
+Path Line0002 = "ject_drawing.c"
+File Type = "CSource"
+Disk Date = 3236079336
+In Projects = "1,"
+Window Top = 232
+Window Left = 114
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0229]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/ipi_object_drawing/ipi_ob"
+Path Line0002 = "ject_drawing.h"
+File Type = "Include"
+Disk Date = 3236079336
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0230]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Lamp/lamp.c"
+File Type = "CSource"
+Disk Date = 3236168226
+In Projects = "1,"
+Window Top = 255
+Window Left = 126
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0231]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Lamp/lamp.h"
+File Type = "Include"
+Disk Date = 3232528504
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0232]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Lamp/lamp_ui.c"
+File Type = "CSource"
+Disk Date = 3228894460
+In Projects = "1,"
+Window Top = 278
+Window Left = 138
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0233]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Lamp/lamp_ui.h"
+File Type = "Include"
+Disk Date = 3228894462
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0234]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Lamp/lamp_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3237801852
+In Projects = "1,"
+
+[File 0235]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageIcs/include/libi"
+Path Line0002 = "cs.h"
+File Type = "Include"
+Disk Date = 3234023528
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0236]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/bin/libics.lib"
+File Type = "Library"
+Disk Date = 3235031198
+In Projects = "1,"
+
+[File 0237]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageIcs/include/libi"
+Path Line0002 = "cs_conf.h"
+File Type = "Include"
+Disk Date = 3233625960
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0238]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Tools/line_tool.c"
+File Type = "CSource"
+Disk Date = 3243920854
+In Projects = "1,"
+Window Top = 301
+Window Left = 150
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0239]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Tools/line_tool.h"
+File Type = "Include"
+Disk Date = 3243920854
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0240]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/linearscale_pl"
+Path Line0002 = "ugin.c"
+File Type = "CSource"
+Disk Date = 3243920856
+In Projects = "1,"
+Window Top = 324
+Window Left = 162
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0241]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/linearscale_pl"
+Path Line0002 = "ugin.h"
+File Type = "Include"
+Disk Date = 3243920856
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0242]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Condensers/manual_condensers.c"
+File Type = "CSource"
+Disk Date = 3245326854
+In Projects = "1,"
+Window Top = 347
+Window Left = 174
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0243]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Condensers/manual_condensers.h"
+File Type = "Include"
+Disk Date = 3245320928
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0244]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Fluorescent Cubes/manual_fluores"
+Path Line0002 = "cent_cubes.c"
+File Type = "CSource"
+Disk Date = 3245326602
+In Projects = "1,"
+Window Top = 25
+Window Left = 6
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0245]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Fluorescent Cubes/manual_fluores"
+Path Line0002 = "cent_cubes.h"
+File Type = "Include"
+Disk Date = 3245310230
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0246]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Lamp/manual_lamp.c"
+File Type = "CSource"
+Disk Date = 3245328482
+In Projects = "1,"
+Window Top = 48
+Window Left = 18
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0247]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Lamp/manual_lamp.h"
+File Type = "Include"
+Disk Date = 3245313062
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0248]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/microscope/manual_microscope.c"
+File Type = "CSource"
+Disk Date = 3248355736
+In Projects = "1,"
+Window Top = 472
+Window Left = 18
+Source Window State = "1,136,137,136,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,65,396,676,0,0,"
+
+[File 0249]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/microscope/manual_microscope.h"
+File Type = "Include"
+Disk Date = 3245312068
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0250]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Objectives/manual_objectives.c"
+File Type = "CSource"
+Disk Date = 3245315338
+In Projects = "1,"
+Window Top = 71
+Window Left = 30
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0251]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Objectives/manual_objectives.h"
+File Type = "Include"
+Disk Date = 3245309942
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0252]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Shutter/manual_shutter.c"
+File Type = "CSource"
+Disk Date = 3245328548
+In Projects = "1,"
+Window Top = 94
+Window Left = 42
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0253]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Shutter/manual_shutter.h"
+File Type = "Include"
+Disk Date = 3245311436
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0254]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/microscope/ManualMicroscopeFacad"
+Path Line0002 = "e.c"
+File Type = "CSource"
+Disk Date = 3253881652
+In Projects = "1,"
+Window Top = 77
+Window Left = 13
+Source Window State = "1,850,850,850,11,40,40,0,3,0,0,0,0,0,0,0,830,0,850,11,607,676,0,0,"
+
+[File 0255]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/metadata_edita"
+Path Line0002 = "ble_cell_tree.c"
+File Type = "CSource"
+Disk Date = 3243920856
+In Projects = "1,"
+Window Top = 117
+Window Left = 54
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0256]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/metadata_plugi"
+Path Line0002 = "n.c"
+File Type = "CSource"
+Disk Date = 3243920856
+In Projects = "1,"
+Window Top = 140
+Window Left = 66
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0257]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/metadata_plugi"
+Path Line0002 = "n.h"
+File Type = "Include"
+Disk Date = 3243920856
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0258]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/microscope/Microscope.c"
+File Type = "CSource"
+Disk Date = 3253279392
+In Projects = "1,"
+Window Top = 290
+Window Left = 1342
+Source Window State = "1,870,870,870,8,37,37,0,3,0,0,0,0,0,0,0,848,0,870,8,666,676,0,0,"
+
+[File 0259]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/microscope/Microscope.h"
+File Type = "Include"
+Disk Date = 3253275863
+In Projects = "1,"
+Window Top = 48
+Window Left = 18
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,75,0,88,4,396,676,0,0,"
+
+[File 0260]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/microscope/microscope_ui.c"
+File Type = "CSource"
+Disk Date = 3253279391
+In Projects = "1,"
+Window Top = 325
+Window Left = 376
+Source Window State = "1,84,84,84,8,29,29,0,0,0,0,0,0,0,0,0,225,0,238,60,396,676,0,0,"
+
+[File 0261]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/microscope/Microscope_ui.h"
+File Type = "Include"
+Disk Date = 3252585696
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0262]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/microscope/Microscope_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3252585696
+In Projects = "1,"
+Window Top = 140
+Window Left = 66
+Window Height = 520
+Window Width = 676
+
+[File 0263]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/microscope/MicroscopeFacade.h"
+File Type = "Include"
+Disk Date = 3253881688
+In Projects = "1,"
+Window Top = 152
+Window Left = 579
+Source Window State = "1,194,195,194,0,0,0,0,3,0,0,0,0,0,0,0,176,0,195,0,494,676,0,0,"
+
+[File 0264]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/MainApplication/Microscopy.c"
+File Type = "CSource"
+Disk Date = 3240830224
+In Projects = "1,"
+Window Top = 71
+Window Left = 30
+Source Window State = "1,146,146,146,11,25,25,0,0,0,0,0,0,0,0,0,165,0,182,12,396,676,0,0,"
+
+[File 0265]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/MainApplication/Microscopy.h"
+File Type = "Include"
+Disk Date = 3239782592
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0266]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/MainApplication/Microscopy_ui.h"
+File Type = "Include"
+Disk Date = 3240486238
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0267]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/MainApplication/Microscopy_ui.ui"
+Path Line0002 = "r"
+File Type = "User Interface Resource"
+Disk Date = 3240486296
+In Projects = "1,"
+
+[File 0268]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Image Corrections/ModDis"
+Path Line0002 = "tortionMeasurement.c"
+File Type = "CSource"
+Disk Date = 3248437144
+In Projects = "1,"
+Window Top = 163
+Window Left = 78
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0269]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Image Corrections/ModDis"
+Path Line0002 = "tortionMeasurement.h"
+File Type = "Include"
+Disk Date = 3234846114
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0270]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Image Corrections/ModDis"
+Path Line0002 = "tortionMeasurement_ui.h"
+File Type = "Include"
+Disk Date = 3234846114
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0271]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Image Corrections/ModDis"
+Path Line0002 = "tortionMeasurement_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3234846112
+In Projects = "1,"
+
+[File 0272]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Mosaic/mosaic.c"
+File Type = "CSource"
+Disk Date = 3245912018
+In Projects = "1,"
+Window Top = 186
+Window Left = 90
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0273]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Mosaic/mosaic.h"
+File Type = "Include"
+Disk Date = 3239097992
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0274]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Image Corrections/NR.H"
+File Type = "Include"
+Disk Date = 3234846114
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0275]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Image Corrections/NR_SVD"
+Path Line0002 = "utils.c"
+File Type = "CSource"
+Disk Date = 3234846114
+In Projects = "1,"
+Window Top = 209
+Window Left = 102
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0276]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Image Corrections/NRUTIL"
+Path Line0002 = ".H"
+File Type = "Include"
+Disk Date = 3234846112
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0277]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Objectives/objectives.c"
+File Type = "CSource"
+Disk Date = 3245324848
+In Projects = "1,"
+Window Top = 232
+Window Left = 114
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0278]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Objectives/objectives.h"
+File Type = "Include"
+Disk Date = 3244113946
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0279]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Objectives/objectives_ui.c"
+File Type = "CSource"
+Disk Date = 3243844084
+In Projects = "1,"
+Window Top = 255
+Window Left = 126
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0280]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Objectives/objectives_ui.h"
+File Type = "Include"
+Disk Date = 3238131310
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0281]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Objectives/objectives_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3243843786
+In Projects = "1,"
+
+[File 0282]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Objectives/objectives_xml.c"
+File Type = "CSource"
+Disk Date = 3238140900
+In Projects = "1,"
+Window Top = 278
+Window Left = 138
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0283]
+Path = "/c/Program Files/National Instruments/CVI80/sdk/lib/ole32.lib"
+File Type = "Library"
+Disk Date = 3227500800
+In Projects = "1,"
+
+[File 0284]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Optical Calibration/opti"
+Path Line0002 = "cal_calibration.c"
+File Type = "CSource"
+Disk Date = 3243849836
+In Projects = "1,"
+Window Top = 301
+Window Left = 150
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0285]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Optical Calibration/opti"
+Path Line0002 = "cal_calibration.h"
+File Type = "Include"
+Disk Date = 3234846108
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0286]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Optical Calibration/opti"
+Path Line0002 = "cal_calibration_uir.h"
+File Type = "Include"
+Disk Date = 3234846108
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0287]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Optical Calibration/opti"
+Path Line0002 = "cal_calibration_uir.uir"
+File Type = "User Interface Resource"
+Disk Date = 3234846108
+In Projects = "1,"
+
+[File 0288]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Optical Path/optical_path.c"
+File Type = "CSource"
+Disk Date = 3235109612
+In Projects = "1,"
+Window Top = 324
+Window Left = 162
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0289]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Optical Path/optical_path.h"
+File Type = "Include"
+Disk Date = 3235040502
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0290]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Optical Path/optical_path_ui.c"
+File Type = "CSource"
+Disk Date = 3231328428
+In Projects = "1,"
+Window Top = 347
+Window Left = 174
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0291]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Optical Path/optical_path_ui.h"
+File Type = "Include"
+Disk Date = 3231133792
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0292]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Optical Path/optical_path_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3231133792
+In Projects = "1,"
+
+[File 0293]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Optical Path/optical_path_xml.c"
+File Type = "CSource"
+Disk Date = 3229421462
+In Projects = "1,"
+Window Top = 25
+Window Left = 6
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0294]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Optical Zoom/optical_zoom.c"
+File Type = "CSource"
+Disk Date = 3248437126
+In Projects = "1,"
+Window Top = 48
+Window Left = 18
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0295]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Optical Zoom/optical_zoom.h"
+File Type = "Include"
+Disk Date = 3232519310
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0296]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Optical Zoom/optical_zoom_ui.c"
+File Type = "CSource"
+Disk Date = 3229927500
+In Projects = "1,"
+Window Top = 71
+Window Left = 30
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0297]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Optical Zoom/optical_zoom_ui.h"
+File Type = "Include"
+Disk Date = 3229927500
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0298]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Optical Zoom/optical_zoom_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3229927500
+In Projects = "1,"
+
+[File 0299]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/palette_plugin"
+Path Line0002 = ".c"
+File Type = "CSource"
+Disk Date = 3243920856
+In Projects = "1,"
+Window Top = 94
+Window Left = 42
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0300]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/palette_plugin"
+Path Line0002 = ".h"
+File Type = "Include"
+Disk Date = 3243920856
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0301]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Tools/palettebar_tool."
+Path Line0002 = "c"
+File Type = "CSource"
+Disk Date = 3243920854
+In Projects = "1,"
+Window Top = 117
+Window Left = 54
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0302]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Tools/palettebar_tool."
+Path Line0002 = "h"
+File Type = "Include"
+Disk Date = 3243920854
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0303]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Password/password.c"
+File Type = "CSource"
+Disk Date = 3229504228
+In Projects = "1,"
+Window Top = 117
+Window Left = 54
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0304]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Password/password.h"
+File Type = "Include"
+Disk Date = 3229504228
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0305]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Password/password_ui.h"
+File Type = "Include"
+Disk Date = 3229504228
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0306]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Password/password_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3229504228
+In Projects = "1,"
+
+[File 0307]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Profile/trunk/profile.c"
+File Type = "CSource"
+Disk Date = 3246257566
+In Projects = "1,"
+Window Top = 140
+Window Left = 66
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0308]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Profile/trunk/profile.h"
+File Type = "Include"
+Disk Date = 3233727624
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0309]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/profile_plugin"
+Path Line0002 = ".c"
+File Type = "CSource"
+Disk Date = 3243920856
+In Projects = "1,"
+Window Top = 163
+Window Left = 78
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0310]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/profile_plugin"
+Path Line0002 = ".h"
+File Type = "Include"
+Disk Date = 3243920856
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0311]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Image Corrections/RefIma"
+Path Line0002 = "ges.c"
+File Type = "CSource"
+Disk Date = 3248955366
+In Projects = "1,"
+Window Top = 186
+Window Left = 90
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0312]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Image Corrections/refIma"
+Path Line0002 = "ges.h"
+File Type = "Include"
+Disk Date = 3234846114
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0313]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Image Corrections/RefIma"
+Path Line0002 = "ges_ui.h"
+File Type = "Include"
+Disk Date = 3234846114
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0314]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Image Corrections/RefIma"
+Path Line0002 = "ges_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3234846114
+In Projects = "1,"
+
+[File 0315]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/RegionOfInterest/RegionOfInteres"
+Path Line0002 = "t.c"
+File Type = "CSource"
+Disk Date = 3245745734
+In Projects = "1,"
+Window Top = 209
+Window Left = 102
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0316]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/RegionOfInterest/RegionOfInteres"
+Path Line0002 = "t.h"
+File Type = "Include"
+Disk Date = 3241414924
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0317]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/RegionOfInterest/RegionOfInteres"
+Path Line0002 = "t_ui.h"
+File Type = "Include"
+Disk Date = 3234846314
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0318]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/RegionOfInterest/RegionOfInteres"
+Path Line0002 = "t_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3234846314
+In Projects = "1,"
+
+[File 0319]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Region Scan/RegionScan.c"
+File Type = "CSource"
+Disk Date = 3248437096
+In Projects = "1,"
+Window Top = 232
+Window Left = 114
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0320]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Region Scan/RegionScan.h"
+File Type = "Include"
+Disk Date = 3235988346
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0321]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Region Scan/RegionScan_ui.h"
+File Type = "Include"
+Disk Date = 3234846284
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0322]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Region Scan/RegionScan_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3234846282
+In Projects = "1,"
+
+[File 0323]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Image Corrections/Remove"
+Path Line0002 = "QuadraticBg16.c"
+File Type = "CSource"
+Disk Date = 3234846114
+In Projects = "1,"
+Window Top = 255
+Window Left = 126
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0324]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Image Corrections/Remove"
+Path Line0002 = "QuadraticBg16.h"
+File Type = "Include"
+Disk Date = 3234846112
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0325]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/resample_menu_"
+Path Line0002 = "plugin.c"
+File Type = "CSource"
+Disk Date = 3243920856
+In Projects = "1,"
+Window Top = 278
+Window Left = 138
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0326]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/resample_menu_"
+Path Line0002 = "plugin.h"
+File Type = "Include"
+Disk Date = 3243920856
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0327]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Tools/roi_tool.c"
+File Type = "CSource"
+Disk Date = 3243920854
+In Projects = "1,"
+Window Top = 301
+Window Left = 150
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0328]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Tools/roi_tool.h"
+File Type = "Include"
+Disk Date = 3243920854
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0329]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/rotate_menu_pl"
+Path Line0002 = "ugin.c"
+File Type = "CSource"
+Disk Date = 3243920856
+In Projects = "1,"
+Window Top = 324
+Window Left = 162
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0330]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/rotate_menu_pl"
+Path Line0002 = "ugin.h"
+File Type = "Include"
+Disk Date = 3243920856
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0331]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/save_plugin.c"
+File Type = "CSource"
+Disk Date = 3243920856
+In Projects = "1,"
+Window Top = 347
+Window Left = 174
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0332]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/save_plugin.h"
+File Type = "Include"
+Disk Date = 3243920856
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0333]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell/SaveToExcel.c"
+File Type = "CSource"
+Disk Date = 3241514192
+In Projects = "1,"
+Window Top = 25
+Window Left = 6
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0334]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell/SaveToExcel.h"
+File Type = "Include"
+Disk Date = 3240562924
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0335]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/scalebar_plugi"
+Path Line0002 = "n.c"
+File Type = "CSource"
+Disk Date = 3243920856
+In Projects = "1,"
+Window Top = 48
+Window Left = 18
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0336]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/scalebar_plugi"
+Path Line0002 = "n.h"
+File Type = "Include"
+Disk Date = 3243920856
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0337]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/screenshot_plu"
+Path Line0002 = "gin.c"
+File Type = "CSource"
+Disk Date = 3243920856
+In Projects = "1,"
+Window Top = 71
+Window Left = 30
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0338]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/screenshot_plu"
+Path Line0002 = "gin.h"
+File Type = "Include"
+Disk Date = 3243920856
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0339]
+Path = "/c/Program Files/National Instruments/CVI80/sdk/lib/Shell32.Lib"
+File Type = "Library"
+Disk Date = 3227500800
+In Projects = "1,"
+
+[File 0340]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Shutter/shutter.c"
+File Type = "CSource"
+Disk Date = 3241170600
+In Projects = "1,"
+Window Top = 94
+Window Left = 42
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0341]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Shutter/shutter.h"
+File Type = "Include"
+Disk Date = 3241170594
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0342]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Shutter/shutter_ui.c"
+File Type = "CSource"
+Disk Date = 3234870404
+In Projects = "1,"
+Window Top = 117
+Window Left = 54
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0343]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Shutter/shutter_ui.h"
+File Type = "Include"
+Disk Date = 3234870234
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0344]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Shutter/shutter_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3234870234
+In Projects = "1,"
+
+[File 0345]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/signals/signals.c"
+File Type = "CSource"
+Disk Date = 3229500950
+In Projects = "1,"
+Window Top = 140
+Window Left = 66
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0346]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/signals/signals.h"
+File Type = "Include"
+Disk Date = 3229500952
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0347]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Stage/stage/stage.c"
+File Type = "CSource"
+Disk Date = 3254381110
+In Projects = "1,"
+Window Top = 161
+Window Left = 256
+Source Window State = "1,299,299,299,66,73,73,0,3,0,0,0,0,0,0,0,275,1,299,66,718,931,0,54,"
+
+[File 0348]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Stage/stage/stage.h"
+File Type = "Include"
+Disk Date = 3254380361
+In Projects = "1,"
+Window Top = 102
+Window Left = 1408
+Source Window State = "1,87,87,87,9,21,21,0,3,0,0,0,0,0,0,0,72,0,87,9,749,676,0,0,"
+
+[File 0349]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Stage/stage/stage_ui.c"
+File Type = "CSource"
+Disk Date = 3254384074
+In Projects = "1,"
+Window Top = 48
+Window Left = 141
+Source Window State = "1,1579,1579,1579,16,26,26,0,0,0,0,0,0,0,0,0,1553,9,1588,95,616,791,0,0,"
+
+[File 0350]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Stage/stage/stage_ui.h"
+File Type = "Include"
+Disk Date = 3251722752
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0351]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Stage/stage/stage_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3251722752
+In Projects = "1,"
+Window Top = 31
+Window Left = 468
+Window Height = 590
+Window Width = 676
+
+[File 0352]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/StageScan/StageScan.c"
+File Type = "CSource"
+Disk Date = 3254385970
+In Projects = "1,"
+Window Top = 23
+Window Left = 346
+Source Window State = "1,1186,1186,1186,41,43,43,0,0,0,0,0,0,0,0,0,1166,0,1186,88,616,880,0,0,"
+
+[File 0353]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/StageScan/StageScan.h"
+File Type = "Include"
+Disk Date = 3253781887
+In Projects = "1,"
+Window Top = 44
+Window Left = 57
+Source Window State = "1,31,31,31,11,24,24,0,3,0,0,0,0,0,0,0,10,0,31,11,741,579,0,0,"
+
+[File 0354]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/StageScan/StageScan_ui.h"
+File Type = "Include"
+Disk Date = 3253864010
+In Projects = "1,"
+Window Top = 71
+Window Left = 30
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0355]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/StageScan/StageScan_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3254384562
+In Projects = "1,"
+Window Top = 95
+Window Left = 249
+Window Height = 663
+Window Width = 580
+
+[File 0356]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Status/status.c"
+File Type = "CSource"
+Disk Date = 3253186650
+In Projects = "1,"
+Window Top = 54
+Window Left = 162
+Source Window State = "1,12,12,12,5,19,19,0,0,0,0,0,0,0,0,0,9,0,17,43,396,676,0,0,"
+
+[File 0357]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Status/status.h"
+File Type = "Include"
+Disk Date = 3231503348
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0358]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Status/status_ui.h"
+File Type = "Include"
+Disk Date = 3231503348
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0359]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Status/status_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3231503348
+In Projects = "1,"
+Window Top = 71
+Window Left = 30
+Window Height = 396
+Window Width = 676
+
+[File 0360]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Alignment/step_sampled_alignment"
+Path Line0002 = ".c"
+File Type = "CSource"
+Disk Date = 3253199155
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0361]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Alignment/step_sampled_alignment"
+Path Line0002 = ".h"
+File Type = "Include"
+Disk Date = 3236233990
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0362]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/String Utils/include/stri"
+Path Line0002 = "ng_utils.h"
+File Type = "Include"
+Disk Date = 3245745440
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0363]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/bin/StringUtils.lib"
+File Type = "Library"
+Disk Date = 3239007266
+In Projects = "1,"
+
+[File 0364]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/StageScan/test.c"
+File Type = "CSource"
+Disk Date = 3252655834
+In Projects = "1,"
+Window Top = 52
+Window Left = 531
+Source Window State = "1,42,43,42,0,0,0,0,0,0,0,0,0,0,0,0,1,0,40,4,640,676,0,0,"
+
+[File 0365]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/TimeLapse/TimeLapse.h"
+File Type = "Include"
+Disk Date = 3235989086
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0366]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/TimeLapse/TimeLapse_single_point"
+Path Line0002 = ".c"
+File Type = "CSource"
+Disk Date = 3245842678
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0367]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/TimeLapse/TimeLapse_single_point"
+Path Line0002 = "_ui.h"
+File Type = "Include"
+Disk Date = 3245841996
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0368]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/TimeLapse/TimeLapse_single_point"
+Path Line0002 = "_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3245841994
+In Projects = "1,"
+
+[File 0369]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/titlebar_plugi"
+Path Line0002 = "n.c"
+File Type = "CSource"
+Disk Date = 3243918268
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0370]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/titlebar_plugi"
+Path Line0002 = "n.h"
+File Type = "Include"
+Disk Date = 3243920856
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0371]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/Twain/TWAIN.H"
+File Type = "Include"
+Disk Date = 3243920856
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0372]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/twain_plugin.c"
+File Type = "CSource"
+Disk Date = 3243920856
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0373]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/twain_plugin.h"
+File Type = "Include"
+Disk Date = 3243920856
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0374]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/Twain/TwainDrive"
+Path Line0002 = "r.c"
+File Type = "CSource"
+Disk Date = 3243920856
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0375]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/Twain/TwainDrive"
+Path Line0002 = "r.h"
+File Type = "Include"
+Disk Date = 3243920856
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0376]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/Twain/TwainDrive"
+Path Line0002 = "r_UI.c"
+File Type = "CSource"
+Disk Date = 3243920856
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0377]
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/Twain/TwainDrive"
+Path Line0002 = "r_UI.h"
+File Type = "Include"
+Disk Date = 3243920856
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0378]
+Path = "/c/Program Files/National Instruments/CVI80/sdk/lib/Vfw32.Lib"
+File Type = "Library"
+Disk Date = 3227500800
+In Projects = "1,"
+
+[File 0379]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/XML utils/xml_utils.c"
+File Type = "CSource"
+Disk Date = 3241602224
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0380]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/XML utils/xml_utils.h"
+File Type = "Include"
+Disk Date = 3229504402
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0381]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/StageScan/xy_scan.bmp"
+File Type = "Unknown"
+Disk Date = 3253695179
+In Projects = "1,"
+
+[File 0382]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/StageScan/yx_scan.bmp"
+File Type = "Unknown"
+Disk Date = 3253695274
+In Projects = "1,"
+
+[File 0383]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Zstack/z_stack.c"
+File Type = "CSource"
+Disk Date = 3237371572
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0384]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Zstack/z_stack.h"
+File Type = "Include"
+Disk Date = 3237371572
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0385]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Zstack/z_stack_ui.h"
+File Type = "Include"
+Disk Date = 3237371572
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0386]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Zstack/z_stack_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3237371572
+In Projects = "1,"
+
+[File 0387]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Tools/zoom_tool.c"
+File Type = "CSource"
+Disk Date = 3243920854
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0388]
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Tools/zoom_tool.h"
+File Type = "Include"
+Disk Date = 3243920854
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[Build Options 0001]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Debugging Level = "Standard"
+Break On Library Errors = False
+Break On First Chance Exceptions = False
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0001]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = False
+Suppress CVI Error Messages = False
+
+[DLL Debugging Support 0001]
+External Process Path = ""
+
+[DLLs Used By Executable 0001]
+DLL 0001 = "/C/WINDOWS/system32/AVICAP32.dll"
+DLL 0002 = "/C/WINDOWS/system32/MSVFW32.dll"
+DLL 0003 = "/C/WINDOWS/system32/AVIFIL32.dll"
+
+[Command Line Args 0001]
+Command Line Args = ""
+
+[Distributions]
+Active Index = 1
+AbsCDSPath 0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/StageScan/StageScan.cds"
+RelCDSPath 0001 = "StageScan.cds"
+

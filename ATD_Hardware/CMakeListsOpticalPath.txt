@@ -1,0 +1,37 @@
+SET(OP_SRCS 	${HARDWARE_DIR_PATH}/StepperMotor/trunk/ATD_StepperMotor_A/ATD_StepperMotor_A.c
+				${HARDWARE_DIR_PATH}/StepperMotor/trunk/ATD_StepperMotor_A/ATD_StepperMotor_A.h
+				${HARDWARE_DIR_PATH}/StepperMotor/trunk/ATD_StepperMotor_A/ATD_StepperMotorUI_A.c
+				${HARDWARE_DIR_PATH}/StepperMotor/trunk/ATD_StepperMotor_A/ATD_StepperMotorUI_A.h
+				${HARDWARE_DIR_PATH}/StepperMotor/trunk/ATD_StepperMotor_A/ATD_StepperMotorUI_A.uir
+				${HARDWARE_DIR_PATH}/OpticalPath/trunk/OpticalPathUI.uir
+				${HARDWARE_DIR_PATH}/OpticalPath/trunk/OpticalPathUI.h
+				${HARDWARE_DIR_PATH}/OpticalPath/trunk/OpticalPathUI.c
+				${HARDWARE_DIR_PATH}/OpticalPath/trunk/OpticalPath.h
+				${HARDWARE_DIR_PATH}/OpticalPath/trunk/OpticalPath.c
+                ${HARDWARE_DIR_PATH}/OpticalPath/trunk/main.c
+				${HARDWARE_DIR_PATH}/OpticalPath/trunk/ATD_OpticalPath_Dummy/ATD_OpticalPath_Dummy.h
+				${HARDWARE_DIR_PATH}/OpticalPath/trunk/ATD_OpticalPath_Dummy/ATD_OpticalPath_Dummy.c
+				${HARDWARE_DIR_PATH}/OpticalPath/trunk/ATD_OpticalPath_A/ATD_OpticalPath_A.c
+				${HARDWARE_DIR_PATH}/OpticalPath/trunk/ATD_OpticalPath_A/ATD_OpticalPath_A.h
+				${HARDWARE_DIR_PATH}/OpticalPath/trunk/ATD_OpticalPath_B/ATD_OpticalPath_B.c
+				${HARDWARE_DIR_PATH}/OpticalPath/trunk/ATD_OpticalPath_B/ATD_OpticalPath_B.h
+				${HARDWARE_DIR_PATH}/OpticalPath/trunk/ATD_OpticalPath_B/ATD_OpticalPath_B_UI.uir
+)
+
+# Make sure the compiler can find include files from our library.
+INCLUDE_DIRECTORIES(
+					${HARDWARE_DIR_PATH}/OpticalPath/trunk/
+					${HARDWARE_DIR_PATH}/OpticalPath/trunk/ATD_OpticalPath_Dummy/
+					${HARDWARE_DIR_PATH}/StepperMotor/trunk/
+					${HARDWARE_DIR_PATH}/StepperMotor/trunk/ATD_StepperMotor_A/
+					${HARDWARE_DIR_PATH}/OpticalPath/trunk/ATD_OpticalPath_A/
+					${HARDWARE_DIR_PATH}/OpticalPath/trunk/ATD_OpticalPath_B/
+					)
+
+SET(OP_RESOURCES 
+                    ${HARDWARE_DIR_PATH}/OpticalPath/trunk/OpticalPathUI.uir
+					${HARDWARE_DIR_PATH}/StepperMotor/trunk/ATD_StepperMotor_A/ATD_StepperMotorUI_A.uir
+                    ${HARDWARE_DIR_PATH}/OpticalPath/trunk/ATD_OpticalPath_B/ATD_OpticalPath_B_UI.uir
+)
+
+LIST(APPEND HARDWARE_RESOURCE_SRCS ${OP_RESOURCES})

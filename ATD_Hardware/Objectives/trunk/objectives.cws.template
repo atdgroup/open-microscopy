@@ -1,0 +1,285 @@
+[Workspace Header]
+Version = 800
+Pathname = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Objectives/objectives.cws"
+CVI Dir = "/c/program files/national instruments/cvi80"
+IVI Standard Root Dir = "/C/Program Files/IVI"
+VXIplug&play Framework Dir = "/C/VXIpnp/winnt"
+Number of Projects = 1
+Active Project = 1
+Project 0001 = "objectives.prj"
+Drag Bar Left = 165
+Window Top = 88
+Window Left = 345
+Window Bottom = 814
+Window Right = 836
+Maximized = False
+Maximized Children = False
+Max Number Of Errors = 20
+Track Include File Dependencies = True
+Prompt For Missing Includes = True
+Stop On First Error File = False
+Bring Up Err Win For Warnings = True
+Show Build Dialog = False
+Save Changes Before Running = "Ask"
+Hide Windows = True
+Global Hot Key = True
+Break At First Statement = False
+Sort Type = "File Name"
+Number of Opened Files = 0
+Window Confinement Region Enabled = False
+MainColumnWidth = 327
+FileDateColumnWidth = 70
+FileSizeColumnWidth = 70
+StatusColumnWidth = 70
+
+[Project Header 0001]
+Version = 800
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Debug"
+Warn User If Debugging Release = 1
+Batch Build Release = False
+Batch Build Debug = False
+Force Rebuild = False
+
+[File 0001]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Objectives/90i_objectives.h"
+File Type = "Include"
+Disk Date = 3228898149
+In Projects = "1,"
+Window Top = 481
+Window Left = 77
+Source Window State = "1,11,11,11,49,60,60,0,3,0,0,0,0,0,0,0,0,0,11,49,399,708,0,0,"
+
+[File 0002]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/GCI Utils/gci_utils.h"
+File Type = "Include"
+Disk Date = 3229426496
+In Projects = "1,"
+Window Top = 340
+Window Left = 29
+Source Window State = "1,3,5,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,396,676,0,0,"
+
+[File 0003]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/GCI Registry/GL_CVIRegistry.h"
+File Type = "Include"
+Disk Date = 3228897859
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0004]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Objectives/objectives.h"
+File Type = "Include"
+Disk Date = 3229594715
+In Projects = "1,"
+Window Top = 203
+Window Left = 583
+Source Window State = "1,84,84,84,13,25,25,0,0,67,0,0,0,0,0,45,60,0,84,0,667,569,0,0,"
+
+[File 0005]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Objectives/objectives_private.h"
+File Type = "Include"
+Disk Date = 3228898149
+In Projects = "1,"
+Window Top = 301
+Window Left = 150
+Source Window State = "1,3,3,3,12,43,43,0,3,0,0,0,0,0,0,0,0,0,3,12,396,676,0,0,"
+
+[File 0006]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Objectives/objectives_ui.h"
+File Type = "Include"
+Disk Date = 3228898148
+In Projects = "1,"
+Window Top = 48
+Window Left = 18
+Source Window State = "1,2,2,2,41,42,42,0,3,0,0,0,0,0,0,0,0,0,2,41,399,676,0,0,"
+
+[File 0007]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/Password/password.h"
+File Type = "Include"
+Disk Date = 3229507826
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0008]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/Password/password_ui.h"
+File Type = "Include"
+Disk Date = 3229507826
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0009]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/Signals/signals.h"
+File Type = "Include"
+Disk Date = 3229504550
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0010]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/String Utils/include/string_utils.h"
+File Type = "Include"
+Disk Date = 3229507872
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0011]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/XML utils/xml_utils.h"
+File Type = "Include"
+Disk Date = 3229508001
+In Projects = "1,"
+Window Top = 163
+Window Left = 78
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,396,676,0,0,"
+
+[File 0012]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/hardware.h"
+File Type = "Include"
+Disk Date = 3226312262
+In Projects = "1,"
+Window Top = 255
+Window Left = 126
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0013]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Objectives/90i_objectives.c"
+File Type = "CSource"
+Disk Date = 3228898148
+In Projects = "1,"
+Window Top = 294
+Window Left = 551
+Source Window State = "1,14,14,14,7,18,18,0,0,0,0,0,0,0,0,0,0,0,0,9,396,676,0,0,"
+
+[File 0014]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/GCI Utils/gci_utils.c"
+File Type = "CSource"
+Disk Date = 3229426454
+In Projects = "1,"
+Window Top = 492
+Window Left = 194
+Source Window State = "1,14,16,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,57,393,676,0,0,"
+
+[File 0015]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/GCI Registry/GL_CVIRegistry.c"
+File Type = "CSource"
+Disk Date = 3228897859
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0016]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Objectives/main.c"
+File Type = "CSource"
+Disk Date = 3229594146
+In Projects = "1,"
+Window Top = 95
+Window Left = 33
+Source Window State = "1,32,32,32,54,75,54,0,0,0,0,0,0,0,0,0,15,0,29,4,396,676,0,0,"
+
+[File 0017]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Objectives/objectives.c"
+File Type = "CSource"
+Disk Date = 3229594670
+In Projects = "1,"
+Window Top = 60
+Window Left = 306
+Source Window State = "1,159,159,159,105,117,117,0,0,0,0,0,0,0,0,0,133,0,151,30,765,894,0,0,"
+
+[File 0018]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Objectives/objectives_ui.c"
+File Type = "CSource"
+Disk Date = 3229578107
+In Projects = "1,"
+Window Top = 127
+Window Left = 272
+Source Window State = "1,492,493,492,0,0,0,0,0,0,0,0,0,0,0,0,476,0,489,76,642,870,0,0,"
+
+[File 0019]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Objectives/objectives_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3229491932
+In Projects = "1,"
+Window Top = 275
+Window Left = 201
+Window Height = 653
+Window Width = 1028
+
+[File 0020]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Objectives/objectives_xml.c"
+File Type = "CSource"
+Disk Date = 3229517976
+In Projects = "1,"
+Window Top = 49
+Window Left = 281
+Source Window State = "1,212,212,212,58,80,58,0,0,0,0,0,0,0,0,0,237,0,254,4,537,904,0,0,"
+
+[File 0021]
+Path = "/c/program files/national instruments/cvi80/sdk/lib/ole32.lib"
+File Type = "Library"
+Disk Date = 3212470800
+In Projects = "1,"
+
+[File 0022]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/Password/password.c"
+File Type = "CSource"
+Disk Date = 3229507826
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0023]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/Password/password_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3229507826
+In Projects = "1,"
+
+[File 0024]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/Signals/signals.c"
+File Type = "CSource"
+Disk Date = 3229504549
+In Projects = "1,"
+Window Top = 94
+Window Left = 42
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,713,0,730,8,396,676,0,0,"
+
+[File 0025]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/bin/StringUtils.lib"
+File Type = "Library"
+Disk Date = 3214490686
+In Projects = "1,"
+
+[File 0026]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i/Common/XML utils/xml_utils.c"
+File Type = "CSource"
+Disk Date = 3229508001
+In Projects = "1,"
+Window Top = 140
+Window Left = 66
+Source Window State = "1,69,69,69,4,20,20,0,0,0,0,0,0,0,0,0,57,0,78,4,396,676,0,0,"
+
+[Build Options 0001]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Debugging Level = "Standard"
+Break On Library Errors = False
+Break On First Chance Exceptions = False
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0001]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = True
+Suppress CVI Error Messages = False
+
+[DLL Debugging Support 0001]
+External Process Path = ""
+
+[Command Line Args 0001]
+Command Line Args = ""
+

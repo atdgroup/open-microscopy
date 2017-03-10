@@ -1,0 +1,15 @@
+SET(FTDI_SRCS 	${HARDWARE_DIR_PATH}/FTDI/trunk/FTDI_Utils.c
+			${HARDWARE_DIR_PATH}/FTDI/trunk/FTDI_Utils.h
+			${HARDWARE_DIR_PATH}/FTDI/trunk/ATD_CoarseZDrive_A.c
+			${HARDWARE_DIR_PATH}/FTDI/trunk/ATD_CoarseZDrive_A.h
+			${HARDWARE_DIR_PATH}/FTDI/trunk/ATD_CoarseZDrive_A_UI.h
+			${HARDWARE_DIR_PATH}/FTDI/trunk/ATD_CoarseZDrive_A_UI.uir
+			${HARDWARE_DIR_PATH}/FTDI/trunk/main.c
+	
+)
+
+# Make sure the compiler can find include files from our library.
+INCLUDE_DIRECTORIES(
+					${HARDWARE_DIR_PATH}/FTDI/trunk/
+					)
+

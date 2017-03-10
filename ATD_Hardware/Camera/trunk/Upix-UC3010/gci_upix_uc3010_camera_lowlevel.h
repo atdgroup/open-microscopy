@@ -1,0 +1,26 @@
+
+void upix_camera_release_flag_lock(Upix3010Camera* upix_camera);
+void upix_camera_get_lock(Upix3010Camera* upix_camera);
+void upix_camera_release_lock(Upix3010Camera* upix_camera);
+void ErrorString(LPTSTR buffer);
+FIBITMAP* get_image(Upix3010Camera* upix_camera);
+int upix_get_serial_number(Upix3010Camera* upix_camera, BYTE *serial_number);
+int get_real_exposure_from_upix_exposure(Upix3010Camera *upix_camera, int upix_exposure, double *real_exposure);
+int get_upix_exposure_from_real_exposure(Upix3010Camera *upix_camera, double real_exposure, int *upix_exposure);
+int get_exposure(Upix3010Camera *upix_camera, double *exposure);
+int set_exposure(Upix3010Camera *upix_camera, double exposure);
+int set_colour_enhancement(Upix3010Camera *upix_camera, int status);
+int set_colour_gain(Upix3010Camera *upix_camera, int red_gain, int green_gain, int blue_gain);
+int get_colour_gain(Upix3010Camera *upix_camera, int *red_gain, int *green_gain, int *blue_gain);
+int set_one_time_auto_white_balance(Upix3010Camera *upix_camera);
+int set_gain(Upix3010Camera *upix_camera, int gain);
+int get_gain(Upix3010Camera *upix_camera, double *gain);
+int upix_hardware_initialise (Upix3010Camera* upix_camera);
+int upix_initialise (Upix3010Camera* upix_camera);
+int upix_uninitialise (Upix3010Camera* upix_camera);
+int upix_set_sensor_mode(Upix3010Camera* upix_camera, DS_FRAME_SPEED speed);
+int upix_get_sensor_mode(Upix3010Camera* upix_camera, DS_FRAME_SPEED* speed);
+int upix_set_resolution (Upix3010Camera* upix_camera, DS_RESOLUTION resolution);
+int camera_play(Upix3010Camera* upix_camera, int live);
+int camera_stop(Upix3010Camera* upix_camera);
+int start_live(Upix3010Camera* upix_camera);

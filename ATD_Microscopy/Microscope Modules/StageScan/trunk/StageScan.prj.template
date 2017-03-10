@@ -1,0 +1,4710 @@
+[Project Header]
+Version = 801
+Pathname = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/StageScan/StageScan.prj"
+Project Label = "StageScan"
+CVI Dir = "/c/program files/national instruments/cvi80"
+IVI Standard Root Dir = "/C/Program Files/IVI"
+VXIplug&play Framework Dir = "/C/VXIpnp/winnt"
+Number of Files = 388
+Target Type = "Executable"
+Flags = 16
+
+[File 0001]
+File Type = "Include"
+Res Id = 1
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Alignment/alignment_uir.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Alignment/alignment_uir.h"
+Exclude = False
+Project Flags = 0
+Folder = "Alignment"
+
+[File 0002]
+File Type = "User Interface Resource"
+Res Id = 2
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Alignment/alignment_uir.uir"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Alignment/alignment_uir.uir"
+Exclude = False
+Project Flags = 0
+Folder = "Alignment"
+
+[File 0003]
+File Type = "CSource"
+Res Id = 3
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Analyzer/analyzer.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Analyzer/analyzer.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Analyzer"
+
+[File 0004]
+File Type = "Include"
+Res Id = 4
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Analyzer/analyzer.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Analyzer/analyzer.h"
+Exclude = False
+Project Flags = 0
+Folder = "Analyzer"
+
+[File 0005]
+File Type = "CSource"
+Res Id = 5
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Analyzer/analyzer_ui.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Analyzer/analyzer_ui.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Analyzer"
+
+[File 0006]
+File Type = "Include"
+Res Id = 6
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Analyzer/analyzer_ui.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Analyzer/analyzer_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "Analyzer"
+
+[File 0007]
+File Type = "User Interface Resource"
+Res Id = 7
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Analyzer/analyzer_ui.uir"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Analyzer/analyzer_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "Analyzer"
+
+[File 0008]
+File Type = "CSource"
+Res Id = 8
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Aperture Stop/aperture_stop.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Aperture Stop/aperture_stop.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Aperture Stop"
+
+[File 0009]
+File Type = "Include"
+Res Id = 9
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Aperture Stop/aperture_stop.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Aperture Stop/aperture_stop.h"
+Exclude = False
+Project Flags = 0
+Folder = "Aperture Stop"
+
+[File 0010]
+File Type = "CSource"
+Res Id = 10
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Aperture Stop/aperture_stop_ui.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Aperture Stop/aperture_stop_ui.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Aperture Stop"
+
+[File 0011]
+File Type = "Include"
+Res Id = 11
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Aperture Stop/aperture_stop_ui.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Aperture Stop/aperture_stop_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "Aperture Stop"
+
+[File 0012]
+File Type = "User Interface Resource"
+Res Id = 12
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Aperture Stop/aperture_stop_ui.uir"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Aperture Stop/aperture_stop_ui.u"
+Path Line0002 = "ir"
+Exclude = False
+Project Flags = 0
+Folder = "Aperture Stop"
+
+[File 0013]
+File Type = "CSource"
+Res Id = 13
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Autofocus/autoFocus.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Autofocus/autoFocus.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Autofocus"
+
+[File 0014]
+File Type = "Include"
+Res Id = 14
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Autofocus/autoFocus.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Autofocus/autoFocus.h"
+Exclude = False
+Project Flags = 0
+Folder = "Autofocus"
+
+[File 0015]
+File Type = "Include"
+Res Id = 15
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Autofocus/autoFocus_ui.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Autofocus/autoFocus_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "Autofocus"
+
+[File 0016]
+File Type = "User Interface Resource"
+Res Id = 16
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Autofocus/autoFocus_ui.uir"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Autofocus/autoFocus_ui.u"
+Path Line0002 = "ir"
+Exclude = False
+Project Flags = 0
+Folder = "Autofocus"
+
+[File 0017]
+File Type = "CSource"
+Res Id = 17
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Cell/cell.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell/cell.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "CellFinding"
+
+[File 0018]
+File Type = "Include"
+Res Id = 18
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Cell/cell.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell/cell.h"
+Exclude = False
+Project Flags = 0
+Folder = "CellFinding"
+
+[File 0019]
+File Type = "CSource"
+Res Id = 19
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Cell Finding/cell_boxing.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Finding/cell_boxing.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "CellFinding"
+
+[File 0020]
+File Type = "CSource"
+Res Id = 20
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Cell Finding/cell_dish_region.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Finding/cell_dish_region.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "CellFinding"
+
+[File 0021]
+File Type = "CSource"
+Res Id = 21
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Cell Finding/cell_finding.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Finding/cell_finding.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "CellFinding"
+
+[File 0022]
+File Type = "Include"
+Res Id = 22
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Cell Finding/cell_finding.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Finding/cell_finding.h"
+Exclude = False
+Project Flags = 0
+Folder = "CellFinding"
+
+[File 0023]
+File Type = "CSource"
+Res Id = 23
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Cell Finding/cell_finding_ui.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Finding/cell_finding_ui.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "CellFinding"
+
+[File 0024]
+File Type = "Include"
+Res Id = 24
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Cell Finding/cell_finding_ui.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Finding/cell_finding_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "CellFinding"
+
+[File 0025]
+File Type = "User Interface Resource"
+Res Id = 25
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Cell Finding/cell_finding_ui.uir"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Finding/cell_finding_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "CellFinding"
+
+[File 0026]
+File Type = "Include"
+Res Id = 26
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Cell Map/cell_info_ui.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Map/cell_info_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "CellFinding"
+
+[File 0027]
+File Type = "User Interface Resource"
+Res Id = 27
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Cell Map/cell_info_ui.uir"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Map/cell_info_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "CellFinding"
+
+[File 0028]
+File Type = "CSource"
+Res Id = 28
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Cell Map/celllinklist.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Map/celllinklist.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "CellFinding"
+
+[File 0029]
+File Type = "Include"
+Res Id = 29
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Cell Map/celllinklist.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Map/celllinklist.h"
+Exclude = False
+Project Flags = 0
+Folder = "CellFinding"
+
+[File 0030]
+File Type = "CSource"
+Res Id = 30
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Cell Map/cellmap.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Map/cellmap.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "CellFinding"
+
+[File 0031]
+File Type = "Include"
+Res Id = 31
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Cell Map/cellmap.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Map/cellmap.h"
+Exclude = False
+Project Flags = 0
+Folder = "CellFinding"
+
+[File 0032]
+File Type = "Include"
+Res Id = 32
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Cell Map/cellmap_ui.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Map/cellmap_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "CellFinding"
+
+[File 0033]
+File Type = "User Interface Resource"
+Res Id = 33
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Cell Map/cellmap_ui.uir"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Map/cellmap_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "CellFinding"
+
+[File 0034]
+File Type = "CSource"
+Res Id = 34
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Cell Revisiting/CellRevisit.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Revisiting/CellRevisit.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "CellFinding"
+
+[File 0035]
+File Type = "Include"
+Res Id = 35
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Cell Revisiting/CellRevisit.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Revisiting/CellRevisit.h"
+Exclude = False
+Project Flags = 0
+Folder = "CellFinding"
+
+[File 0036]
+File Type = "Include"
+Res Id = 36
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Cell Revisiting/CellRevisit_ui.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Revisiting/CellRevisit_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "CellFinding"
+
+[File 0037]
+File Type = "User Interface Resource"
+Res Id = 37
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Cell Revisiting/CellRevisit_ui.uir"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell Revisiting/CellRevisit_ui.u"
+Path Line0002 = "ir"
+Exclude = False
+Project Flags = 0
+Folder = "CellFinding"
+
+[File 0038]
+File Type = "Include"
+Res Id = 38
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../CHARM/CHARM Module_ui.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/CHARM Module_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "CHARM"
+
+[File 0039]
+File Type = "User Interface Resource"
+Res Id = 39
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../CHARM/CHARM Module_ui.uir"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/CHARM Module_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "CHARM"
+
+[File 0040]
+File Type = "Include"
+Res Id = 40
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../CHARM/CHARM Optimizer_ui.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/CHARM Optimizer_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "CHARM"
+
+[File 0041]
+File Type = "User Interface Resource"
+Res Id = 41
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../CHARM/CHARM Optimizer_ui.uir"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/CHARM Optimizer_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "CHARM"
+
+[File 0042]
+File Type = "CSource"
+Res Id = 42
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../CHARM/CHARM.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/CHARM.c"
+Exclude = False
+Compile Into Object File = True
+Project Flags = 0
+Folder = "CHARM"
+
+[File 0043]
+File Type = "Include"
+Res Id = 43
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../CHARM/CHARM.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/CHARM.h"
+Exclude = False
+Project Flags = 0
+Folder = "CHARM"
+
+[File 0044]
+File Type = "CSource"
+Res Id = 44
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../CHARM/CHARM_code.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/CHARM_code.c"
+Exclude = False
+Compile Into Object File = True
+Project Flags = 0
+Folder = "CHARM"
+
+[File 0045]
+File Type = "Include"
+Res Id = 45
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../CHARM/CHARM_code.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/CHARM_code.h"
+Exclude = False
+Project Flags = 0
+Folder = "CHARM"
+
+[File 0046]
+File Type = "CSource"
+Res Id = 46
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../CHARM/CHARM_optimizeParamPanel.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/CHARM_optimizeParamPanel.c"
+Exclude = False
+Compile Into Object File = True
+Project Flags = 0
+Folder = "CHARM"
+
+[File 0047]
+File Type = "CSource"
+Res Id = 47
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../CHARM/CHARM_parameters.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/CHARM_parameters.c"
+Exclude = False
+Compile Into Object File = True
+Project Flags = 0
+Folder = "CHARM"
+
+[File 0048]
+File Type = "Include"
+Res Id = 48
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../CHARM/CHARM_parameters.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/CHARM_parameters.h"
+Exclude = False
+Project Flags = 0
+Folder = "CHARM"
+
+[File 0049]
+File Type = "CSource"
+Res Id = 49
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../CHARM/CHARM_paramPanel.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/CHARM_paramPanel.c"
+Exclude = False
+Compile Into Object File = True
+Project Flags = 0
+Folder = "CHARM"
+
+[File 0050]
+File Type = "Include"
+Res Id = 50
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../CHARM/CHARM_private.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/CHARM_private.h"
+Exclude = False
+Project Flags = 0
+Folder = "CHARM"
+
+[File 0051]
+File Type = "CSource"
+Res Id = 51
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../CHARM/CHARM_reducedParamPanel.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/CHARM_reducedParamPanel.c"
+Exclude = False
+Compile Into Object File = True
+Project Flags = 0
+Folder = "CHARM"
+
+[File 0052]
+File Type = "CSource"
+Res Id = 52
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../CHARM/CHARM_shapes.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/CHARM_shapes.c"
+Exclude = False
+Compile Into Object File = True
+Project Flags = 0
+Folder = "CHARM"
+
+[File 0053]
+File Type = "Include"
+Res Id = 53
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../CHARM/CHARM_shapes.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/CHARM_shapes.h"
+Exclude = False
+Project Flags = 0
+Folder = "CHARM"
+
+[File 0054]
+File Type = "CSource"
+Res Id = 54
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/Com Port Control/com_port_control.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Com Port Control/com_port"
+Path Line0002 = "_control.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0055]
+File Type = "Include"
+Res Id = 55
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/Com Port Control/com_port_control.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Com Port Control/com_port"
+Path Line0002 = "_control.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0056]
+File Type = "CSource"
+Res Id = 56
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/Com Port Control/comport_hash.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Com Port Control/comport_"
+Path Line0002 = "hash.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0057]
+File Type = "Include"
+Res Id = 57
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/Com Port Control/comport_hash.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Com Port Control/comport_"
+Path Line0002 = "hash.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0058]
+File Type = "User Interface Resource"
+Res Id = 58
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/Com Port Control/comport_ui.uir"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Com Port Control/comport_"
+Path Line0002 = "ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0059]
+File Type = "CSource"
+Res Id = 59
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Condensers/condensers.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Condensers/condensers.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Condenser"
+
+[File 0060]
+File Type = "Include"
+Res Id = 60
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Condensers/condensers.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Condensers/condensers.h"
+Exclude = False
+Project Flags = 0
+Folder = "Condenser"
+
+[File 0061]
+File Type = "CSource"
+Res Id = 61
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Condensers/condensers_ui.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Condensers/condensers_ui.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Condenser"
+
+[File 0062]
+File Type = "Include"
+Res Id = 62
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Condensers/condensers_ui.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Condensers/condensers_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "Condenser"
+
+[File 0063]
+File Type = "User Interface Resource"
+Res Id = 63
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Condensers/condensers_ui.uir"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Condensers/condensers_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "Condenser"
+
+[File 0064]
+File Type = "CSource"
+Res Id = 64
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Condensers/condensers_xml.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Condensers/condensers_xml.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Condenser"
+
+[File 0065]
+File Type = "CSource"
+Res Id = 65
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Stage/Corvus/Corvus_stage.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Stage/Corvus/Corvus_stage.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "stage"
+
+[File 0066]
+File Type = "Include"
+Res Id = 66
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Stage/Corvus/Corvus_stage.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Stage/Corvus/Corvus_stage.h"
+Exclude = False
+Project Flags = 0
+Folder = "stage"
+
+[File 0067]
+File Type = "Include"
+Res Id = 67
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Stage/Corvus/Corvus_ui.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Stage/Corvus/Corvus_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "stage"
+
+[File 0068]
+File Type = "User Interface Resource"
+Res Id = 68
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Stage/Corvus/Corvus_ui.uir"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Stage/Corvus/Corvus_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "stage"
+
+[File 0069]
+File Type = "CSource"
+Res Id = 69
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/counter_plugin.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/counter_plugin"
+Path Line0002 = ".c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0070]
+File Type = "Include"
+Res Id = 70
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/counter_plugin.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/counter_plugin"
+Path Line0002 = ".h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0071]
+File Type = "CSource"
+Res Id = 71
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Tools/crosshair_tool.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Tools/crosshair_tool.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0072]
+File Type = "Include"
+Res Id = 72
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Tools/crosshair_tool.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Tools/crosshair_tool.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0073]
+File Type = "Library"
+Res Id = 73
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../bin/dcamapi.lib"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/bin/dcamapi.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0074]
+File Type = "Include"
+Res Id = 74
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/DeviceFinder/DeviceFinder.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/DeviceFinder/DeviceFinder"
+Path Line0002 = ".h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0075]
+File Type = "Library"
+Res Id = 75
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/DeviceFinder/DeviceFinder.lib"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/DeviceFinder/DeviceFinder"
+Path Line0002 = ".lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0076]
+File Type = "Include"
+Res Id = 76
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/DeviceFinder/DeviceFinder_ui.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/DeviceFinder/DeviceFinder"
+Path Line0002 = "_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0077]
+File Type = "User Interface Resource"
+Res Id = 77
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/DeviceFinder/DeviceFinder_ui.uir"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/DeviceFinder/DeviceFinder"
+Path Line0002 = "_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0078]
+File Type = "CSource"
+Res Id = 78
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Camera/C9100/drawTools.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/C9100/drawTools.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "C9100 Camera"
+
+[File 0079]
+File Type = "Include"
+Res Id = 79
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Camera/C9100/drawTools.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/C9100/drawTools.h"
+Exclude = False
+Project Flags = 0
+Folder = "C9100 Camera"
+
+[File 0080]
+File Type = "CSource"
+Res Id = 80
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../CHARM/DTYPE.C"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/DTYPE.C"
+Exclude = False
+Compile Into Object File = True
+Project Flags = 0
+Folder = "CHARM"
+
+[File 0081]
+File Type = "Include"
+Res Id = 81
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../CHARM/DTYPE.H"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/CHARM/DTYPE.H"
+Exclude = False
+Project Flags = 0
+Folder = "CHARM"
+
+[File 0082]
+File Type = "CSource"
+Res Id = 82
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Focus Drive/dummy_focus_drive.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Focus Drive/dummy_focus_drive.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Focus Drive"
+
+[File 0083]
+File Type = "Include"
+Res Id = 83
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Focus Drive/dummy_focus_drive.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Focus Drive/dummy_focus_drive.h"
+Exclude = False
+Project Flags = 0
+Folder = "Focus Drive"
+
+[File 0084]
+File Type = "CSource"
+Res Id = 84
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../EpiField Stop/epi_field_stop.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/EpiField Stop/epi_field_stop.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Epi-field Stop"
+
+[File 0085]
+File Type = "Include"
+Res Id = 85
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../EpiField Stop/epi_field_stop.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/EpiField Stop/epi_field_stop.h"
+Exclude = False
+Project Flags = 0
+Folder = "Epi-field Stop"
+
+[File 0086]
+File Type = "CSource"
+Res Id = 86
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../EpiField Stop/epi_field_stop_ui.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/EpiField Stop/epi_field_stop_ui."
+Path Line0002 = "c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Epi-field Stop"
+
+[File 0087]
+File Type = "Include"
+Res Id = 87
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../EpiField Stop/epi_field_stop_ui.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/EpiField Stop/epi_field_stop_ui."
+Path Line0002 = "h"
+Exclude = False
+Project Flags = 0
+Folder = "Epi-field Stop"
+
+[File 0088]
+File Type = "User Interface Resource"
+Res Id = 88
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../EpiField Stop/epi_field_stop_ui.uir"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/EpiField Stop/epi_field_stop_ui."
+Path Line0002 = "uir"
+Exclude = False
+Project Flags = 0
+Folder = "Epi-field Stop"
+
+[File 0089]
+File Type = "CSource"
+Res Id = 89
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/false_colour_dialog.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/false_colour_d"
+Path Line0002 = "ialog.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0090]
+File Type = "CSource"
+Res Id = 90
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/fft_plugin.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/fft_plugin.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0091]
+File Type = "Include"
+Res Id = 91
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/fft_plugin.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/fft_plugin.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0092]
+File Type = "CSource"
+Res Id = 92
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Field Stop/field_stop.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Field Stop/field_stop.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Field Stop"
+
+[File 0093]
+File Type = "Include"
+Res Id = 93
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Field Stop/field_stop.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Field Stop/field_stop.h"
+Exclude = False
+Project Flags = 0
+Folder = "Field Stop"
+
+[File 0094]
+File Type = "CSource"
+Res Id = 94
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Field Stop/field_stop_ui.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Field Stop/field_stop_ui.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Field Stop"
+
+[File 0095]
+File Type = "Include"
+Res Id = 95
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Field Stop/field_stop_ui.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Field Stop/field_stop_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "Field Stop"
+
+[File 0096]
+File Type = "User Interface Resource"
+Res Id = 96
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Field Stop/field_stop_ui.uir"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Field Stop/field_stop_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "Field Stop"
+
+[File 0097]
+File Type = "CSource"
+Res Id = 97
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/Filename Utils/FilenameUtils.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Filename Utils/FilenameUt"
+Path Line0002 = "ils.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0098]
+File Type = "Include"
+Res Id = 98
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/Filename Utils/FilenameUtils.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Filename Utils/FilenameUt"
+Path Line0002 = "ils.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0099]
+File Type = "CSource"
+Res Id = 99
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Fluorescent Cubes/fluorescent_cubes.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Fluorescent Cubes/fluorescent_cu"
+Path Line0002 = "bes.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Fluor Cubes"
+
+[File 0100]
+File Type = "Include"
+Res Id = 100
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Fluorescent Cubes/fluorescent_cubes.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Fluorescent Cubes/fluorescent_cu"
+Path Line0002 = "bes.h"
+Exclude = False
+Project Flags = 0
+Folder = "Fluor Cubes"
+
+[File 0101]
+File Type = "CSource"
+Res Id = 101
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Fluorescent Cubes/fluorescent_cubes_ui.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Fluorescent Cubes/fluorescent_cu"
+Path Line0002 = "bes_ui.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Fluor Cubes"
+
+[File 0102]
+File Type = "Include"
+Res Id = 102
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Fluorescent Cubes/fluorescent_cubes_ui.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Fluorescent Cubes/fluorescent_cu"
+Path Line0002 = "bes_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "Fluor Cubes"
+
+[File 0103]
+File Type = "User Interface Resource"
+Res Id = 103
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Fluorescent Cubes/fluorescent_cubes_ui.uir"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Fluorescent Cubes/fluorescent_cu"
+Path Line0002 = "bes_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "Fluor Cubes"
+
+[File 0104]
+File Type = "CSource"
+Res Id = 104
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Fluorescent Cubes/fluorescent_cubes_xml.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Fluorescent Cubes/fluorescent_cu"
+Path Line0002 = "bes_xml.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Fluor Cubes"
+
+[File 0105]
+File Type = "CSource"
+Res Id = 105
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Focus/focus.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Focus/focus.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Focus"
+
+[File 0106]
+File Type = "Include"
+Res Id = 106
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Focus/focus.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Focus/focus.h"
+Exclude = False
+Project Flags = 0
+Folder = "Focus"
+
+[File 0107]
+File Type = "CSource"
+Res Id = 107
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Focus Drive/focus_drive.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Focus Drive/focus_drive.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Focus Drive"
+
+[File 0108]
+File Type = "Include"
+Res Id = 108
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Focus Drive/focus_drive.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Focus Drive/focus_drive.h"
+Exclude = False
+Project Flags = 0
+Folder = "Focus Drive"
+
+[File 0109]
+File Type = "CSource"
+Res Id = 109
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Focus Drive/focus_drive_ui.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Focus Drive/focus_drive_ui.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Focus Drive"
+
+[File 0110]
+File Type = "Include"
+Res Id = 110
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Focus Drive/focus_drive_ui.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Focus Drive/focus_drive_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "Focus Drive"
+
+[File 0111]
+File Type = "User Interface Resource"
+Res Id = 111
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Focus Drive/focus_drive_ui.uir"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Focus Drive/focus_drive_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "Focus Drive"
+
+[File 0112]
+File Type = "Include"
+Res Id = 112
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Focus/focus_ui.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Focus/focus_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "Focus"
+
+[File 0113]
+File Type = "User Interface Resource"
+Res Id = 113
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Focus/focus_ui.uir"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Focus/focus_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "Focus"
+
+[File 0114]
+File Type = "Include"
+Res Id = 114
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/FreeImageAlgorithms/include/FreeImage.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageAlgorithms/inclu"
+Path Line0002 = "de/FreeImage.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0115]
+File Type = "Library"
+Res Id = 115
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../bin/FreeImage.lib"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/bin/FreeImage.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0116]
+File Type = "CSource"
+Res Id = 116
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Shell/freeimage_imaq.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/freeimage_imaq.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0117]
+File Type = "Include"
+Res Id = 117
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Shell/freeimage_imaq.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/freeimage_imaq.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0118]
+File Type = "Include"
+Res Id = 118
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/FreeImageAlgorithms/include/FreeImageAlgorithms.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageAlgorithms/inclu"
+Path Line0002 = "de/FreeImageAlgorithms.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0119]
+File Type = "Library"
+Res Id = 119
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../bin/FreeImageAlgorithms.lib"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/bin/FreeImageAlgorithms.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0120]
+File Type = "Include"
+Res Id = 120
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/FreeImageAlgorithms/include/FreeImageAlgorithms_Arithmetic.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageAlgorithms/inclu"
+Path Line0002 = "de/FreeImageAlgorithms_Arithmetic.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0121]
+File Type = "Include"
+Res Id = 121
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/FreeImageAlgorithms/include/FreeImageAlgorithms_Colour.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageAlgorithms/inclu"
+Path Line0002 = "de/FreeImageAlgorithms_Colour.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0122]
+File Type = "Include"
+Res Id = 122
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/FreeImageAlgorithms/include/FreeImageAlgorithms_FFT.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageAlgorithms/inclu"
+Path Line0002 = "de/FreeImageAlgorithms_FFT.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0123]
+File Type = "Include"
+Res Id = 123
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/FreeImageAlgorithms/include/FreeImageAlgorithms_HBitmap.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageAlgorithms/inclu"
+Path Line0002 = "de/FreeImageAlgorithms_HBitmap.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0124]
+File Type = "Include"
+Res Id = 124
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/FreeImageAlgorithms/include/FreeImageAlgorithms_IO.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageAlgorithms/inclu"
+Path Line0002 = "de/FreeImageAlgorithms_IO.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0125]
+File Type = "Include"
+Res Id = 125
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/FreeImageAlgorithms/include/FreeImageAlgorithms_LinearScale.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageAlgorithms/inclu"
+Path Line0002 = "de/FreeImageAlgorithms_LinearScale.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0126]
+File Type = "Include"
+Res Id = 126
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/FreeImageAlgorithms/include/FreeImageAlgorithms_Palettes.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageAlgorithms/inclu"
+Path Line0002 = "de/FreeImageAlgorithms_Palettes.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0127]
+File Type = "Include"
+Res Id = 127
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/FreeImageAlgorithms/include/FreeImageAlgorithms_Statistics.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageAlgorithms/inclu"
+Path Line0002 = "de/FreeImageAlgorithms_Statistics.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0128]
+File Type = "Include"
+Res Id = 128
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/FreeImageAlgorithms/include/FreeImageAlgorithms_Utilities.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageAlgorithms/inclu"
+Path Line0002 = "de/FreeImageAlgorithms_Utilities.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0129]
+File Type = "Include"
+Res Id = 129
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/FreeImageAlgorithms/include/FreeImageAlgorithms_Utils.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageAlgorithms/inclu"
+Path Line0002 = "de/FreeImageAlgorithms_Utils.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0130]
+File Type = "Library"
+Res Id = 130
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../bin/FreeImageIcs.lib"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/bin/FreeImageIcs.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0131]
+File Type = "Include"
+Res Id = 131
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/FreeImageIcs/include/FreeImageIcs_IO.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageIcs/include/Free"
+Path Line0002 = "ImageIcs_IO.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0132]
+File Type = "Include"
+Res Id = 132
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/FreeImageIcs/include/FreeImageIcs_MetaData.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageIcs/include/Free"
+Path Line0002 = "ImageIcs_MetaData.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0133]
+File Type = "Include"
+Res Id = 133
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/FreeImageIcs/include/FreeImageIcs_Private.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageIcs/include/Free"
+Path Line0002 = "ImageIcs_Private.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0134]
+File Type = "CSource"
+Res Id = 134
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Camera/C9100-13/gci_C9100-13_camera.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/C9100-13/gci_C9100-13_cam"
+Path Line0002 = "era.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "C9100-13 Camera"
+
+[File 0135]
+File Type = "Include"
+Res Id = 135
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Camera/C9100-13/gci_C9100-13_camera.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/C9100-13/gci_C9100-13_cam"
+Path Line0002 = "era.h"
+Exclude = False
+Project Flags = 0
+Folder = "C9100-13 Camera"
+
+[File 0136]
+File Type = "CSource"
+Res Id = 136
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Camera/C9100-13/gci_C9100-13_camera_settings.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/C9100-13/gci_C9100-13_cam"
+Path Line0002 = "era_settings.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "C9100-13 Camera"
+
+[File 0137]
+File Type = "Include"
+Res Id = 137
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Camera/C9100-13/gci_C9100-13_camera_settings.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/C9100-13/gci_C9100-13_cam"
+Path Line0002 = "era_settings.h"
+Exclude = False
+Project Flags = 0
+Folder = "C9100-13 Camera"
+
+[File 0138]
+File Type = "CSource"
+Res Id = 138
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Camera/C9100-13/gci_C9100-13_camera_ui.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/C9100-13/gci_C9100-13_cam"
+Path Line0002 = "era_ui.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "C9100-13 Camera"
+
+[File 0139]
+File Type = "Include"
+Res Id = 139
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Camera/C9100-13/gci_C9100-13_camera_ui.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/C9100-13/gci_C9100-13_cam"
+Path Line0002 = "era_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "C9100-13 Camera"
+
+[File 0140]
+File Type = "User Interface Resource"
+Res Id = 140
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Camera/C9100-13/gci_C9100-13_camera_ui.uir"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/C9100-13/gci_C9100-13_cam"
+Path Line0002 = "era_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "C9100-13 Camera"
+
+[File 0141]
+File Type = "CSource"
+Res Id = 141
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Camera/C9100/gci_C9100_camera.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/C9100/gci_C9100_camera.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "C9100 Camera"
+
+[File 0142]
+File Type = "Include"
+Res Id = 142
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Camera/C9100/gci_C9100_camera.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/C9100/gci_C9100_camera.h"
+Exclude = False
+Project Flags = 0
+Folder = "C9100 Camera"
+
+[File 0143]
+File Type = "CSource"
+Res Id = 143
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Camera/C9100/gci_C9100_camera_settings.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/C9100/gci_C9100_camera_se"
+Path Line0002 = "ttings.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "C9100 Camera"
+
+[File 0144]
+File Type = "Include"
+Res Id = 144
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Camera/C9100/gci_C9100_camera_settings.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/C9100/gci_C9100_camera_se"
+Path Line0002 = "ttings.h"
+Exclude = False
+Project Flags = 0
+Folder = "C9100 Camera"
+
+[File 0145]
+File Type = "CSource"
+Res Id = 145
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Camera/C9100/gci_C9100_camera_ui.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/C9100/gci_C9100_camera_ui"
+Path Line0002 = ".c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "C9100 Camera"
+
+[File 0146]
+File Type = "Include"
+Res Id = 146
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Camera/C9100/gci_C9100_camera_ui.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/C9100/gci_C9100_camera_ui"
+Path Line0002 = ".h"
+Exclude = False
+Project Flags = 0
+Folder = "C9100 Camera"
+
+[File 0147]
+File Type = "User Interface Resource"
+Res Id = 147
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Camera/C9100/gci_C9100_camera_ui.uir"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/C9100/gci_C9100_camera_ui"
+Path Line0002 = ".uir"
+Exclude = False
+Project Flags = 0
+Folder = "C9100 Camera"
+
+[File 0148]
+File Type = "CSource"
+Res Id = 148
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Camera/camera/gci_camera.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/camera/gci_camera.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Camera"
+
+[File 0149]
+File Type = "Include"
+Res Id = 149
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Camera/camera/gci_camera.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/camera/gci_camera.h"
+Exclude = False
+Project Flags = 0
+Folder = "Camera"
+
+[File 0150]
+File Type = "CSource"
+Res Id = 150
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Camera/camera/gci_camera_ui.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/camera/gci_camera_ui.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Camera"
+
+[File 0151]
+File Type = "Include"
+Res Id = 151
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Camera/camera/gci_camera_ui.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/camera/gci_camera_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "Camera"
+
+[File 0152]
+File Type = "User Interface Resource"
+Res Id = 152
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Camera/camera/gci_camera_ui.uir"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/camera/gci_camera_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "Camera"
+
+[File 0153]
+File Type = "CSource"
+Res Id = 153
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Camera/dummy/gci_dummy_camera.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/dummy/gci_dummy_camera.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Dummy Camera"
+
+[File 0154]
+File Type = "Include"
+Res Id = 154
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Camera/dummy/gci_dummy_camera.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/dummy/gci_dummy_camera.h"
+Exclude = False
+Project Flags = 0
+Folder = "Dummy Camera"
+
+[File 0155]
+File Type = "CSource"
+Res Id = 155
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Shell/Twain/GCI_EZTWAIN.C"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/Twain/GCI_EZTWAI"
+Path Line0002 = "N.C"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0156]
+File Type = "Include"
+Res Id = 156
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Shell/Twain/GCI_EZTWAIN.H"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/Twain/GCI_EZTWAI"
+Path Line0002 = "N.H"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0157]
+File Type = "CSource"
+Res Id = 157
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/FindImageMaxima/GCI_FindImageMaxima.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FindImageMaxima/GCI_FindI"
+Path Line0002 = "mageMaxima.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0158]
+File Type = "Include"
+Res Id = 158
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/FindImageMaxima/GCI_FindImageMaxima.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FindImageMaxima/GCI_FindI"
+Path Line0002 = "mageMaxima.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0159]
+File Type = "CSource"
+Res Id = 159
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/GCI Utils/gci_menu_utils.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/GCI Utils/gci_menu_utils."
+Path Line0002 = "c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0160]
+File Type = "Include"
+Res Id = 160
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/GCI Utils/gci_menu_utils.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/GCI Utils/gci_menu_utils."
+Path Line0002 = "h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0161]
+File Type = "CSource"
+Res Id = 161
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Camera/orca/gci_orca_camera.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/orca/gci_orca_camera.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Orca Camera"
+
+[File 0162]
+File Type = "Include"
+Res Id = 162
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Camera/orca/gci_orca_camera.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/orca/gci_orca_camera.h"
+Exclude = False
+Project Flags = 0
+Folder = "Orca Camera"
+
+[File 0163]
+File Type = "CSource"
+Res Id = 163
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Camera/orca/gci_orca_camera_settings.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/orca/gci_orca_camera_sett"
+Path Line0002 = "ings.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Orca Camera"
+
+[File 0164]
+File Type = "Include"
+Res Id = 164
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Camera/orca/gci_orca_camera_settings.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/orca/gci_orca_camera_sett"
+Path Line0002 = "ings.h"
+Exclude = False
+Project Flags = 0
+Folder = "Orca Camera"
+
+[File 0165]
+File Type = "CSource"
+Res Id = 165
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Camera/orca/gci_orca_camera_ui.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/orca/gci_orca_camera_ui.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Orca Camera"
+
+[File 0166]
+File Type = "Include"
+Res Id = 166
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Camera/orca/gci_orca_camera_ui.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/orca/gci_orca_camera_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "Orca Camera"
+
+[File 0167]
+File Type = "User Interface Resource"
+Res Id = 167
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Camera/orca/gci_orca_camera_ui.uir"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Camera/orca/gci_orca_camera_ui.u"
+Path Line0002 = "ir"
+Exclude = False
+Project Flags = 0
+Folder = "Orca Camera"
+
+[File 0168]
+File Type = "CSource"
+Res Id = 168
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/GCI Utils/gci_utils.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/GCI Utils/gci_utils.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0169]
+File Type = "Include"
+Res Id = 169
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/GCI Utils/gci_utils.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/GCI Utils/gci_utils.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0170]
+File Type = "Include"
+Res Id = 170
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/GCI Utils/gci_utils_progress_feedback.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/GCI Utils/gci_utils_progr"
+Path Line0002 = "ess_feedback.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0171]
+File Type = "User Interface Resource"
+Res Id = 171
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/GCI Utils/gci_utils_progress_feedback.uir"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/GCI Utils/gci_utils_progr"
+Path Line0002 = "ess_feedback.uir"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0172]
+File Type = "CSource"
+Res Id = 172
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../GeneralPurposeMicroscope/GeneralPurposeMicroscope.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/GeneralPurposeMicroscope/General"
+Path Line0002 = "PurposeMicroscope.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "GeneralPurposeMicroscope"
+
+[File 0173]
+File Type = "Include"
+Res Id = 173
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../GeneralPurposeMicroscope/GeneralPurposeMicroscope.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/GeneralPurposeMicroscope/General"
+Path Line0002 = "PurposeMicroscope.h"
+Exclude = False
+Project Flags = 0
+Folder = "GeneralPurposeMicroscope"
+
+[File 0174]
+File Type = "Include"
+Res Id = 174
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../GeneralPurposeMicroscope/GeneralPurposeMicroscope_ui.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/GeneralPurposeMicroscope/General"
+Path Line0002 = "PurposeMicroscope_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "GeneralPurposeMicroscope"
+
+[File 0175]
+File Type = "User Interface Resource"
+Res Id = 175
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../GeneralPurposeMicroscope/GeneralPurposeMicroscope_ui.uir"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/GeneralPurposeMicroscope/General"
+Path Line0002 = "PurposeMicroscope_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "GeneralPurposeMicroscope"
+
+[File 0176]
+File Type = "CSource"
+Res Id = 176
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/GCI Registry/GL_CVIRegistry.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/GCI Registry/GL_CVIRegist"
+Path Line0002 = "ry.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0177]
+File Type = "Include"
+Res Id = 177
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/GCI Registry/GL_CVIRegistry.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/GCI Registry/GL_CVIRegist"
+Path Line0002 = "ry.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0178]
+File Type = "CSource"
+Res Id = 178
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/grid_plugin.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/grid_plugin.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0179]
+File Type = "Include"
+Res Id = 179
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/grid_plugin.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/grid_plugin.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0180]
+File Type = "Include"
+Res Id = 180
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../hardware.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/hardware.h"
+Exclude = False
+Project Flags = 0
+Folder = "MainApplication"
+
+[File 0181]
+File Type = "CSource"
+Res Id = 181
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/histogram_equalisation_plugin.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/histogram_equa"
+Path Line0002 = "lisation_plugin.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0182]
+File Type = "Include"
+Res Id = 182
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/histogram_equalisation_plugin.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/histogram_equa"
+Path Line0002 = "lisation_plugin.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0183]
+File Type = "CSource"
+Res Id = 183
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/histogram_plugin.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/histogram_plug"
+Path Line0002 = "in.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0184]
+File Type = "Include"
+Res Id = 184
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/histogram_plugin.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/histogram_plug"
+Path Line0002 = "in.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0185]
+File Type = "Include"
+Res Id = 185
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Shell/icsviewer_com_utils.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/icsviewer_com_ut"
+Path Line0002 = "ils.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0186]
+File Type = "CSource"
+Res Id = 186
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Shell/icsviewer_droptarget.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/icsviewer_dropta"
+Path Line0002 = "rget.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0187]
+File Type = "CSource"
+Res Id = 187
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Shell/icsviewer_event_handlers.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/icsviewer_event_"
+Path Line0002 = "handlers.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0188]
+File Type = "CSource"
+Res Id = 188
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Shell/icsviewer_plugin.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/icsviewer_plugin"
+Path Line0002 = ".c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0189]
+File Type = "Include"
+Res Id = 189
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Shell/icsviewer_plugin.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/icsviewer_plugin"
+Path Line0002 = ".h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0190]
+File Type = "CSource"
+Res Id = 190
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Shell/icsviewer_plugin_menu.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/icsviewer_plugin"
+Path Line0002 = "_menu.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0191]
+File Type = "Include"
+Res Id = 191
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Shell/icsviewer_plugin_menu.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/icsviewer_plugin"
+Path Line0002 = "_menu.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0192]
+File Type = "Include"
+Res Id = 192
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Shell/icsviewer_private.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/icsviewer_privat"
+Path Line0002 = "e.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0193]
+File Type = "CSource"
+Res Id = 193
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Shell/icsviewer_signals.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/icsviewer_signal"
+Path Line0002 = "s.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0194]
+File Type = "Include"
+Res Id = 194
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Shell/icsviewer_signals.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/icsviewer_signal"
+Path Line0002 = "s.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0195]
+File Type = "CSource"
+Res Id = 195
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Shell/icsviewer_tools.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/icsviewer_tools."
+Path Line0002 = "c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0196]
+File Type = "Include"
+Res Id = 196
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Shell/icsviewer_tools.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/icsviewer_tools."
+Path Line0002 = "h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0197]
+File Type = "Include"
+Res Id = 197
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Shell/icsviewer_uir.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/icsviewer_uir.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0198]
+File Type = "User Interface Resource"
+Res Id = 198
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Shell/icsviewer_uir.uir"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/icsviewer_uir.ui"
+Path Line0002 = "r"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0199]
+File Type = "CSource"
+Res Id = 199
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Shell/icsviewer_window.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/icsviewer_window"
+Path Line0002 = ".c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0200]
+File Type = "Include"
+Res Id = 200
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Shell/icsviewer_window.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/icsviewer_window"
+Path Line0002 = ".h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0201]
+File Type = "CSource"
+Res Id = 201
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/Image Utils/image_utils.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Image Utils/image_utils.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0202]
+File Type = "Include"
+Res Id = 202
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/Image Utils/image_utils.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Image Utils/image_utils.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0203]
+File Type = "CSource"
+Res Id = 203
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/ImageViewer/ImageViewer.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/ImageViewer/ImageViewer.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0204]
+File Type = "Include"
+Res Id = 204
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/ImageViewer/ImageViewer.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/ImageViewer/ImageViewer.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0205]
+File Type = "CSource"
+Res Id = 205
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Shell/ImageViewer_Drawing.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/ImageViewer_Draw"
+Path Line0002 = "ing.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0206]
+File Type = "Include"
+Res Id = 206
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Shell/ImageViewer_Drawing.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/ImageViewer_Draw"
+Path Line0002 = "ing.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0207]
+File Type = "CSource"
+Res Id = 207
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/ImageViewer/ImageViewerBuffer.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/ImageViewer/ImageViewerBu"
+Path Line0002 = "ffer.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0208]
+File Type = "Include"
+Res Id = 208
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/ImageViewer/ImageViewerBuffer.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/ImageViewer/ImageViewerBu"
+Path Line0002 = "ffer.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0209]
+File Type = "CSource"
+Res Id = 209
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/ImageViewer/ImageViewerMouse.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/ImageViewer/ImageViewerMo"
+Path Line0002 = "use.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0210]
+File Type = "Include"
+Res Id = 210
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/ImageViewer/ImageViewerMouse.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/ImageViewer/ImageViewerMo"
+Path Line0002 = "use.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0211]
+File Type = "CSource"
+Res Id = 211
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/ImageViewer/ImageViewerUtils.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/ImageViewer/ImageViewerUt"
+Path Line0002 = "ils.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0212]
+File Type = "Include"
+Res Id = 212
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/ImageViewer/ImageViewerUtils.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/ImageViewer/ImageViewerUt"
+Path Line0002 = "ils.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0213]
+File Type = "CSource"
+Res Id = 213
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/ImageViewer/ImageViewerWndProc.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/ImageViewer/ImageViewerWn"
+Path Line0002 = "dProc.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0214]
+File Type = "Include"
+Res Id = 214
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/ImageViewer/ImageViewerWndProc.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/ImageViewer/ImageViewerWn"
+Path Line0002 = "dProc.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0215]
+File Type = "CSource"
+Res Id = 215
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Imaging UI/Imaging.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Imaging UI/Imaging.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Imaging"
+
+[File 0216]
+File Type = "Include"
+Res Id = 216
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Imaging UI/Imaging.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Imaging UI/Imaging.h"
+Exclude = False
+Project Flags = 0
+Folder = "Imaging"
+
+[File 0217]
+File Type = "CSource"
+Res Id = 217
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Imaging Facade/Imaging90iDevicesFacade.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Imaging Facade/Imaging90"
+Path Line0002 = "iDevicesFacade.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Imaging"
+
+[File 0218]
+File Type = "Include"
+Res Id = 218
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Imaging UI/imaging_ui.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Imaging UI/imaging_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "Imaging"
+
+[File 0219]
+File Type = "User Interface Resource"
+Res Id = 219
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Imaging UI/imaging_ui.uir"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Imaging UI/imaging_ui.ui"
+Path Line0002 = "r"
+Exclude = False
+Project Flags = 0
+Folder = "Imaging"
+
+[File 0220]
+File Type = "CSource"
+Res Id = 220
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Imaging Facade/ImagingCameraFacade.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Imaging Facade/ImagingCa"
+Path Line0002 = "meraFacade.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Imaging"
+
+[File 0221]
+File Type = "CSource"
+Res Id = 221
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Imaging Facade/ImagingCondensersFacade.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Imaging Facade/ImagingCo"
+Path Line0002 = "ndensersFacade.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Imaging"
+
+[File 0222]
+File Type = "Include"
+Res Id = 222
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Imaging Facade/ImagingFacade.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Imaging Facade/ImagingFa"
+Path Line0002 = "cade.h"
+Exclude = False
+Project Flags = 0
+Folder = "Imaging"
+
+[File 0223]
+File Type = "CSource"
+Res Id = 223
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Imaging Facade/ImagingFluoCubesFacade.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Imaging Facade/ImagingFl"
+Path Line0002 = "uoCubesFacade.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Imaging"
+
+[File 0224]
+File Type = "CSource"
+Res Id = 224
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Imaging Facade/ImagingLampFacade.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Imaging Facade/ImagingLa"
+Path Line0002 = "mpFacade.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Imaging"
+
+[File 0225]
+File Type = "CSource"
+Res Id = 225
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Imaging Facade/ImagingObjectivesFacade.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Imaging Facade/ImagingOb"
+Path Line0002 = "jectivesFacade.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Imaging"
+
+[File 0226]
+File Type = "CSource"
+Res Id = 226
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Imaging Facade/ImagingShutterFacade.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Imaging Facade/ImagingSh"
+Path Line0002 = "utterFacade.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Imaging"
+
+[File 0227]
+File Type = "CSource"
+Res Id = 227
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Imaging Facade/ImagingStageFacade.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Imaging Facade/ImagingSt"
+Path Line0002 = "ageFacade.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Imaging"
+
+[File 0228]
+File Type = "CSource"
+Res Id = 228
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/ipi_object_drawing/ipi_object_drawing.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/ipi_object_drawing/ipi_ob"
+Path Line0002 = "ject_drawing.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0229]
+File Type = "Include"
+Res Id = 229
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/ipi_object_drawing/ipi_object_drawing.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/ipi_object_drawing/ipi_ob"
+Path Line0002 = "ject_drawing.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0230]
+File Type = "CSource"
+Res Id = 230
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Lamp/lamp.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Lamp/lamp.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Lamp"
+
+[File 0231]
+File Type = "Include"
+Res Id = 231
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Lamp/lamp.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Lamp/lamp.h"
+Exclude = False
+Project Flags = 0
+Folder = "Lamp"
+
+[File 0232]
+File Type = "CSource"
+Res Id = 232
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Lamp/lamp_ui.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Lamp/lamp_ui.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Lamp"
+
+[File 0233]
+File Type = "Include"
+Res Id = 233
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Lamp/lamp_ui.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Lamp/lamp_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "Lamp"
+
+[File 0234]
+File Type = "User Interface Resource"
+Res Id = 234
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Lamp/lamp_ui.uir"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Lamp/lamp_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "Lamp"
+
+[File 0235]
+File Type = "Include"
+Res Id = 235
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/FreeImageIcs/include/libics.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageIcs/include/libi"
+Path Line0002 = "cs.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0236]
+File Type = "Library"
+Res Id = 236
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../bin/libics.lib"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/bin/libics.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0237]
+File Type = "Include"
+Res Id = 237
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/FreeImageIcs/include/libics_conf.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/FreeImageIcs/include/libi"
+Path Line0002 = "cs_conf.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0238]
+File Type = "CSource"
+Res Id = 238
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Tools/line_tool.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Tools/line_tool.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0239]
+File Type = "Include"
+Res Id = 239
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Tools/line_tool.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Tools/line_tool.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0240]
+File Type = "CSource"
+Res Id = 240
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/linearscale_plugin.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/linearscale_pl"
+Path Line0002 = "ugin.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0241]
+File Type = "Include"
+Res Id = 241
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/linearscale_plugin.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/linearscale_pl"
+Path Line0002 = "ugin.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0242]
+File Type = "CSource"
+Res Id = 242
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Condensers/manual_condensers.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Condensers/manual_condensers.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Condenser"
+
+[File 0243]
+File Type = "Include"
+Res Id = 243
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Condensers/manual_condensers.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Condensers/manual_condensers.h"
+Exclude = False
+Project Flags = 0
+Folder = "Condenser"
+
+[File 0244]
+File Type = "CSource"
+Res Id = 244
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Fluorescent Cubes/manual_fluorescent_cubes.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Fluorescent Cubes/manual_fluores"
+Path Line0002 = "cent_cubes.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Fluor Cubes"
+
+[File 0245]
+File Type = "Include"
+Res Id = 245
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Fluorescent Cubes/manual_fluorescent_cubes.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Fluorescent Cubes/manual_fluores"
+Path Line0002 = "cent_cubes.h"
+Exclude = False
+Project Flags = 0
+Folder = "Fluor Cubes"
+
+[File 0246]
+File Type = "CSource"
+Res Id = 246
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Lamp/manual_lamp.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Lamp/manual_lamp.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Lamp"
+
+[File 0247]
+File Type = "Include"
+Res Id = 247
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Lamp/manual_lamp.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Lamp/manual_lamp.h"
+Exclude = False
+Project Flags = 0
+Folder = "Lamp"
+
+[File 0248]
+File Type = "CSource"
+Res Id = 248
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../microscope/manual_microscope.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/microscope/manual_microscope.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Microscope"
+
+[File 0249]
+File Type = "Include"
+Res Id = 249
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../microscope/manual_microscope.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/microscope/manual_microscope.h"
+Exclude = False
+Project Flags = 0
+Folder = "Microscope"
+
+[File 0250]
+File Type = "CSource"
+Res Id = 250
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Objectives/manual_objectives.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Objectives/manual_objectives.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Objectives"
+
+[File 0251]
+File Type = "Include"
+Res Id = 251
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Objectives/manual_objectives.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Objectives/manual_objectives.h"
+Exclude = False
+Project Flags = 0
+Folder = "Objectives"
+
+[File 0252]
+File Type = "CSource"
+Res Id = 252
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Shutter/manual_shutter.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Shutter/manual_shutter.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Optical Shutter"
+
+[File 0253]
+File Type = "Include"
+Res Id = 253
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Shutter/manual_shutter.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Shutter/manual_shutter.h"
+Exclude = False
+Project Flags = 0
+Folder = "Optical Shutter"
+
+[File 0254]
+File Type = "CSource"
+Res Id = 254
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../microscope/ManualMicroscopeFacade.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/microscope/ManualMicroscopeFacad"
+Path Line0002 = "e.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Microscope"
+
+[File 0255]
+File Type = "CSource"
+Res Id = 255
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/metadata_editable_cell_tree.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/metadata_edita"
+Path Line0002 = "ble_cell_tree.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0256]
+File Type = "CSource"
+Res Id = 256
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/metadata_plugin.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/metadata_plugi"
+Path Line0002 = "n.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0257]
+File Type = "Include"
+Res Id = 257
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/metadata_plugin.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/metadata_plugi"
+Path Line0002 = "n.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0258]
+File Type = "CSource"
+Res Id = 258
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../microscope/Microscope.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/microscope/Microscope.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Microscope"
+
+[File 0259]
+File Type = "Include"
+Res Id = 259
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../microscope/Microscope.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/microscope/Microscope.h"
+Exclude = False
+Project Flags = 0
+Folder = "Microscope"
+
+[File 0260]
+File Type = "CSource"
+Res Id = 260
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../microscope/microscope_ui.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/microscope/microscope_ui.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Microscope"
+
+[File 0261]
+File Type = "Include"
+Res Id = 261
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../microscope/Microscope_ui.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/microscope/Microscope_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "Microscope"
+
+[File 0262]
+File Type = "User Interface Resource"
+Res Id = 262
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../microscope/Microscope_ui.uir"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/microscope/Microscope_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "Microscope"
+
+[File 0263]
+File Type = "Include"
+Res Id = 263
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../microscope/MicroscopeFacade.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/microscope/MicroscopeFacade.h"
+Exclude = False
+Project Flags = 0
+Folder = "Microscope"
+
+[File 0264]
+File Type = "CSource"
+Res Id = 264
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../MainApplication/Microscopy.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/MainApplication/Microscopy.c"
+Exclude = True
+Compile Into Object File = False
+Project Flags = 0
+Folder = "MainApplication"
+
+[File 0265]
+File Type = "Include"
+Res Id = 265
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../MainApplication/Microscopy.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/MainApplication/Microscopy.h"
+Exclude = False
+Project Flags = 0
+Folder = "MainApplication"
+
+[File 0266]
+File Type = "Include"
+Res Id = 266
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../MainApplication/Microscopy_ui.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/MainApplication/Microscopy_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "MainApplication"
+
+[File 0267]
+File Type = "User Interface Resource"
+Res Id = 267
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../MainApplication/Microscopy_ui.uir"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/MainApplication/Microscopy_ui.ui"
+Path Line0002 = "r"
+Exclude = False
+Project Flags = 0
+Folder = "MainApplication"
+
+[File 0268]
+File Type = "CSource"
+Res Id = 268
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Image Corrections/ModDistortionMeasurement.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Image Corrections/ModDis"
+Path Line0002 = "tortionMeasurement.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "DistortionCorrection"
+
+[File 0269]
+File Type = "Include"
+Res Id = 269
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Image Corrections/ModDistortionMeasurement.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Image Corrections/ModDis"
+Path Line0002 = "tortionMeasurement.h"
+Exclude = False
+Project Flags = 0
+Folder = "DistortionCorrection"
+
+[File 0270]
+File Type = "Include"
+Res Id = 270
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Image Corrections/ModDistortionMeasurement_ui.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Image Corrections/ModDis"
+Path Line0002 = "tortionMeasurement_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "DistortionCorrection"
+
+[File 0271]
+File Type = "User Interface Resource"
+Res Id = 271
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Image Corrections/ModDistortionMeasurement_ui.uir"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Image Corrections/ModDis"
+Path Line0002 = "tortionMeasurement_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "DistortionCorrection"
+
+[File 0272]
+File Type = "CSource"
+Res Id = 272
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Mosaic/mosaic.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Mosaic/mosaic.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Mosaic"
+
+[File 0273]
+File Type = "Include"
+Res Id = 273
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Mosaic/mosaic.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Mosaic/mosaic.h"
+Exclude = False
+Project Flags = 0
+Folder = "Mosaic"
+
+[File 0274]
+File Type = "Include"
+Res Id = 274
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Image Corrections/NR.H"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Image Corrections/NR.H"
+Exclude = False
+Project Flags = 0
+Folder = "DistortionCorrection"
+
+[File 0275]
+File Type = "CSource"
+Res Id = 275
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Image Corrections/NR_SVDutils.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Image Corrections/NR_SVD"
+Path Line0002 = "utils.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "DistortionCorrection"
+
+[File 0276]
+File Type = "Include"
+Res Id = 276
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Image Corrections/NRUTIL.H"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Image Corrections/NRUTIL"
+Path Line0002 = ".H"
+Exclude = False
+Project Flags = 0
+Folder = "DistortionCorrection"
+
+[File 0277]
+File Type = "CSource"
+Res Id = 277
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Objectives/objectives.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Objectives/objectives.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Objectives"
+
+[File 0278]
+File Type = "Include"
+Res Id = 278
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Objectives/objectives.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Objectives/objectives.h"
+Exclude = False
+Project Flags = 0
+Folder = "Objectives"
+
+[File 0279]
+File Type = "CSource"
+Res Id = 279
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Objectives/objectives_ui.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Objectives/objectives_ui.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Objectives"
+
+[File 0280]
+File Type = "Include"
+Res Id = 280
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Objectives/objectives_ui.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Objectives/objectives_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "Objectives"
+
+[File 0281]
+File Type = "User Interface Resource"
+Res Id = 281
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Objectives/objectives_ui.uir"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Objectives/objectives_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "Objectives"
+
+[File 0282]
+File Type = "CSource"
+Res Id = 282
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Objectives/objectives_xml.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Objectives/objectives_xml.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Objectives"
+
+[File 0283]
+File Type = "Library"
+Res Id = 283
+Path Is Rel = True
+Path Rel To = "CVI"
+Path Rel Path = "sdk/lib/ole32.lib"
+Path = "/c/Program Files/National Instruments/CVI80/sdk/lib/ole32.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0284]
+File Type = "CSource"
+Res Id = 284
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Optical Calibration/optical_calibration.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Optical Calibration/opti"
+Path Line0002 = "cal_calibration.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "OpticalCalibration"
+
+[File 0285]
+File Type = "Include"
+Res Id = 285
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Optical Calibration/optical_calibration.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Optical Calibration/opti"
+Path Line0002 = "cal_calibration.h"
+Exclude = False
+Project Flags = 0
+Folder = "OpticalCalibration"
+
+[File 0286]
+File Type = "Include"
+Res Id = 286
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Optical Calibration/optical_calibration_uir.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Optical Calibration/opti"
+Path Line0002 = "cal_calibration_uir.h"
+Exclude = False
+Project Flags = 0
+Folder = "OpticalCalibration"
+
+[File 0287]
+File Type = "User Interface Resource"
+Res Id = 287
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Optical Calibration/optical_calibration_uir.uir"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Optical Calibration/opti"
+Path Line0002 = "cal_calibration_uir.uir"
+Exclude = False
+Project Flags = 0
+Folder = "OpticalCalibration"
+
+[File 0288]
+File Type = "CSource"
+Res Id = 288
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Optical Path/optical_path.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Optical Path/optical_path.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Optical Path"
+
+[File 0289]
+File Type = "Include"
+Res Id = 289
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Optical Path/optical_path.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Optical Path/optical_path.h"
+Exclude = False
+Project Flags = 0
+Folder = "Optical Path"
+
+[File 0290]
+File Type = "CSource"
+Res Id = 290
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Optical Path/optical_path_ui.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Optical Path/optical_path_ui.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Optical Path"
+
+[File 0291]
+File Type = "Include"
+Res Id = 291
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Optical Path/optical_path_ui.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Optical Path/optical_path_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "Optical Path"
+
+[File 0292]
+File Type = "User Interface Resource"
+Res Id = 292
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Optical Path/optical_path_ui.uir"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Optical Path/optical_path_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "Optical Path"
+
+[File 0293]
+File Type = "CSource"
+Res Id = 293
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Optical Path/optical_path_xml.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Optical Path/optical_path_xml.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Optical Path"
+
+[File 0294]
+File Type = "CSource"
+Res Id = 294
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Optical Zoom/optical_zoom.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Optical Zoom/optical_zoom.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Optical Zoom"
+
+[File 0295]
+File Type = "Include"
+Res Id = 295
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Optical Zoom/optical_zoom.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Optical Zoom/optical_zoom.h"
+Exclude = False
+Project Flags = 0
+Folder = "Optical Zoom"
+
+[File 0296]
+File Type = "CSource"
+Res Id = 296
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Optical Zoom/optical_zoom_ui.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Optical Zoom/optical_zoom_ui.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Optical Zoom"
+
+[File 0297]
+File Type = "Include"
+Res Id = 297
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Optical Zoom/optical_zoom_ui.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Optical Zoom/optical_zoom_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "Optical Zoom"
+
+[File 0298]
+File Type = "User Interface Resource"
+Res Id = 298
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Optical Zoom/optical_zoom_ui.uir"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Optical Zoom/optical_zoom_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "Optical Zoom"
+
+[File 0299]
+File Type = "CSource"
+Res Id = 299
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/palette_plugin.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/palette_plugin"
+Path Line0002 = ".c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0300]
+File Type = "Include"
+Res Id = 300
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/palette_plugin.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/palette_plugin"
+Path Line0002 = ".h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0301]
+File Type = "CSource"
+Res Id = 301
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Tools/palettebar_tool.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Tools/palettebar_tool."
+Path Line0002 = "c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0302]
+File Type = "Include"
+Res Id = 302
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Tools/palettebar_tool.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Tools/palettebar_tool."
+Path Line0002 = "h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0303]
+File Type = "CSource"
+Res Id = 303
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/Password/password.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Password/password.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0304]
+File Type = "Include"
+Res Id = 304
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/Password/password.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Password/password.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0305]
+File Type = "Include"
+Res Id = 305
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/Password/password_ui.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Password/password_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0306]
+File Type = "User Interface Resource"
+Res Id = 306
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/Password/password_ui.uir"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Password/password_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0307]
+File Type = "CSource"
+Res Id = 307
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/Profile/trunk/profile.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Profile/trunk/profile.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0308]
+File Type = "Include"
+Res Id = 308
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/Profile/trunk/profile.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Profile/trunk/profile.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0309]
+File Type = "CSource"
+Res Id = 309
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/profile_plugin.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/profile_plugin"
+Path Line0002 = ".c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0310]
+File Type = "Include"
+Res Id = 310
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/profile_plugin.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/profile_plugin"
+Path Line0002 = ".h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0311]
+File Type = "CSource"
+Res Id = 311
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Image Corrections/RefImages.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Image Corrections/RefIma"
+Path Line0002 = "ges.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "ImageCorrections"
+
+[File 0312]
+File Type = "Include"
+Res Id = 312
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Image Corrections/refImages.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Image Corrections/refIma"
+Path Line0002 = "ges.h"
+Exclude = False
+Project Flags = 0
+Folder = "ImageCorrections"
+
+[File 0313]
+File Type = "Include"
+Res Id = 313
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Image Corrections/RefImages_ui.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Image Corrections/RefIma"
+Path Line0002 = "ges_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "ImageCorrections"
+
+[File 0314]
+File Type = "User Interface Resource"
+Res Id = 314
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Image Corrections/RefImages_ui.uir"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Image Corrections/RefIma"
+Path Line0002 = "ges_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "ImageCorrections"
+
+[File 0315]
+File Type = "CSource"
+Res Id = 315
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../RegionOfInterest/RegionOfInterest.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/RegionOfInterest/RegionOfInteres"
+Path Line0002 = "t.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "RegionOfInterest"
+
+[File 0316]
+File Type = "Include"
+Res Id = 316
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../RegionOfInterest/RegionOfInterest.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/RegionOfInterest/RegionOfInteres"
+Path Line0002 = "t.h"
+Exclude = False
+Project Flags = 0
+Folder = "RegionOfInterest"
+
+[File 0317]
+File Type = "Include"
+Res Id = 317
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../RegionOfInterest/RegionOfInterest_ui.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/RegionOfInterest/RegionOfInteres"
+Path Line0002 = "t_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "RegionOfInterest"
+
+[File 0318]
+File Type = "User Interface Resource"
+Res Id = 318
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../RegionOfInterest/RegionOfInterest_ui.uir"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/RegionOfInterest/RegionOfInteres"
+Path Line0002 = "t_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "RegionOfInterest"
+
+[File 0319]
+File Type = "CSource"
+Res Id = 319
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Region Scan/RegionScan.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Region Scan/RegionScan.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "RegionScan"
+
+[File 0320]
+File Type = "Include"
+Res Id = 320
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Region Scan/RegionScan.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Region Scan/RegionScan.h"
+Exclude = False
+Project Flags = 0
+Folder = "RegionScan"
+
+[File 0321]
+File Type = "Include"
+Res Id = 321
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Region Scan/RegionScan_ui.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Region Scan/RegionScan_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "RegionScan"
+
+[File 0322]
+File Type = "User Interface Resource"
+Res Id = 322
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Region Scan/RegionScan_ui.uir"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Region Scan/RegionScan_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "RegionScan"
+
+[File 0323]
+File Type = "CSource"
+Res Id = 323
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Image Corrections/RemoveQuadraticBg16.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Image Corrections/Remove"
+Path Line0002 = "QuadraticBg16.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "DistortionCorrection"
+
+[File 0324]
+File Type = "Include"
+Res Id = 324
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Imaging/Image Corrections/RemoveQuadraticBg16.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Imaging/Image Corrections/Remove"
+Path Line0002 = "QuadraticBg16.h"
+Exclude = False
+Project Flags = 0
+Folder = "DistortionCorrection"
+
+[File 0325]
+File Type = "CSource"
+Res Id = 325
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/resample_menu_plugin.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/resample_menu_"
+Path Line0002 = "plugin.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0326]
+File Type = "Include"
+Res Id = 326
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/resample_menu_plugin.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/resample_menu_"
+Path Line0002 = "plugin.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0327]
+File Type = "CSource"
+Res Id = 327
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Tools/roi_tool.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Tools/roi_tool.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0328]
+File Type = "Include"
+Res Id = 328
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Tools/roi_tool.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Tools/roi_tool.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0329]
+File Type = "CSource"
+Res Id = 329
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/rotate_menu_plugin.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/rotate_menu_pl"
+Path Line0002 = "ugin.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0330]
+File Type = "Include"
+Res Id = 330
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/rotate_menu_plugin.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/rotate_menu_pl"
+Path Line0002 = "ugin.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0331]
+File Type = "CSource"
+Res Id = 331
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/save_plugin.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/save_plugin.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0332]
+File Type = "Include"
+Res Id = 332
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/save_plugin.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/save_plugin.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0333]
+File Type = "CSource"
+Res Id = 333
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Cell/SaveToExcel.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell/SaveToExcel.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "CellFinding"
+
+[File 0334]
+File Type = "Include"
+Res Id = 334
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Cell/SaveToExcel.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Cell/SaveToExcel.h"
+Exclude = False
+Project Flags = 0
+Folder = "CellFinding"
+
+[File 0335]
+File Type = "CSource"
+Res Id = 335
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/scalebar_plugin.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/scalebar_plugi"
+Path Line0002 = "n.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0336]
+File Type = "Include"
+Res Id = 336
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/scalebar_plugin.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/scalebar_plugi"
+Path Line0002 = "n.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0337]
+File Type = "CSource"
+Res Id = 337
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/screenshot_plugin.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/screenshot_plu"
+Path Line0002 = "gin.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0338]
+File Type = "Include"
+Res Id = 338
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/screenshot_plugin.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/screenshot_plu"
+Path Line0002 = "gin.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0339]
+File Type = "Library"
+Res Id = 339
+Path Is Rel = True
+Path Rel To = "CVI"
+Path Rel Path = "sdk/lib/Shell32.Lib"
+Path = "/c/Program Files/National Instruments/CVI80/sdk/lib/Shell32.Lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0340]
+File Type = "CSource"
+Res Id = 340
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Shutter/shutter.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Shutter/shutter.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Optical Shutter"
+
+[File 0341]
+File Type = "Include"
+Res Id = 341
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Shutter/shutter.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Shutter/shutter.h"
+Exclude = False
+Project Flags = 0
+Folder = "Optical Shutter"
+
+[File 0342]
+File Type = "CSource"
+Res Id = 342
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Shutter/shutter_ui.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Shutter/shutter_ui.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Optical Shutter"
+
+[File 0343]
+File Type = "Include"
+Res Id = 343
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Shutter/shutter_ui.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Shutter/shutter_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "Optical Shutter"
+
+[File 0344]
+File Type = "User Interface Resource"
+Res Id = 344
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Shutter/shutter_ui.uir"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Shutter/shutter_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "Optical Shutter"
+
+[File 0345]
+File Type = "CSource"
+Res Id = 345
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/signals/signals.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/signals/signals.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0346]
+File Type = "Include"
+Res Id = 346
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/signals/signals.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/signals/signals.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0347]
+File Type = "CSource"
+Res Id = 347
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Stage/stage/stage.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Stage/stage/stage.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "stage"
+
+[File 0348]
+File Type = "Include"
+Res Id = 348
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Stage/stage/stage.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Stage/stage/stage.h"
+Exclude = False
+Project Flags = 0
+Folder = "stage"
+
+[File 0349]
+File Type = "CSource"
+Res Id = 349
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Stage/stage/stage_ui.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Stage/stage/stage_ui.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "stage"
+
+[File 0350]
+File Type = "Include"
+Res Id = 350
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Stage/stage/stage_ui.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Stage/stage/stage_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "stage"
+
+[File 0351]
+File Type = "User Interface Resource"
+Res Id = 351
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Stage/stage/stage_ui.uir"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Stage/stage/stage_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "stage"
+
+[File 0352]
+File Type = "CSource"
+Res Id = 352
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "StageScan.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/StageScan/StageScan.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "StageScan"
+
+[File 0353]
+File Type = "Include"
+Res Id = 353
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "StageScan.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/StageScan/StageScan.h"
+Exclude = False
+Project Flags = 0
+Folder = "StageScan"
+
+[File 0354]
+File Type = "Include"
+Res Id = 354
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "StageScan_ui.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/StageScan/StageScan_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "StageScan"
+
+[File 0355]
+File Type = "User Interface Resource"
+Res Id = 355
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "StageScan_ui.uir"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/StageScan/StageScan_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "StageScan"
+
+[File 0356]
+File Type = "CSource"
+Res Id = 356
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/Status/status.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Status/status.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0357]
+File Type = "Include"
+Res Id = 357
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/Status/status.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Status/status.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0358]
+File Type = "Include"
+Res Id = 358
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/Status/status_ui.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Status/status_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0359]
+File Type = "User Interface Resource"
+Res Id = 359
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/Status/status_ui.uir"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/Status/status_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0360]
+File Type = "CSource"
+Res Id = 360
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Alignment/step_sampled_alignment.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Alignment/step_sampled_alignment"
+Path Line0002 = ".c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Alignment"
+
+[File 0361]
+File Type = "Include"
+Res Id = 361
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Alignment/step_sampled_alignment.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Alignment/step_sampled_alignment"
+Path Line0002 = ".h"
+Exclude = False
+Project Flags = 0
+Folder = "Alignment"
+
+[File 0362]
+File Type = "Include"
+Res Id = 362
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/String Utils/include/string_utils.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/String Utils/include/stri"
+Path Line0002 = "ng_utils.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0363]
+File Type = "Library"
+Res Id = 363
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../bin/StringUtils.lib"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/bin/StringUtils.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0364]
+File Type = "CSource"
+Res Id = 364
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "test.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/StageScan/test.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "StageScan"
+
+[File 0365]
+File Type = "Include"
+Res Id = 365
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../TimeLapse/TimeLapse.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/TimeLapse/TimeLapse.h"
+Exclude = False
+Project Flags = 0
+Folder = "TimeLapse"
+
+[File 0366]
+File Type = "CSource"
+Res Id = 366
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../TimeLapse/TimeLapse_single_point.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/TimeLapse/TimeLapse_single_point"
+Path Line0002 = ".c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "TimeLapse"
+
+[File 0367]
+File Type = "Include"
+Res Id = 367
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../TimeLapse/TimeLapse_single_point_ui.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/TimeLapse/TimeLapse_single_point"
+Path Line0002 = "_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "TimeLapse"
+
+[File 0368]
+File Type = "User Interface Resource"
+Res Id = 368
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../TimeLapse/TimeLapse_single_point_ui.uir"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/TimeLapse/TimeLapse_single_point"
+Path Line0002 = "_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "TimeLapse"
+
+[File 0369]
+File Type = "CSource"
+Res Id = 369
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/titlebar_plugin.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/titlebar_plugi"
+Path Line0002 = "n.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0370]
+File Type = "Include"
+Res Id = 370
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/titlebar_plugin.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/titlebar_plugi"
+Path Line0002 = "n.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0371]
+File Type = "Include"
+Res Id = 371
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Shell/Twain/TWAIN.H"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/Twain/TWAIN.H"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0372]
+File Type = "CSource"
+Res Id = 372
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/twain_plugin.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/twain_plugin.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0373]
+File Type = "Include"
+Res Id = 373
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Plugins/twain_plugin.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Plugins/twain_plugin.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0374]
+File Type = "CSource"
+Res Id = 374
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Shell/Twain/TwainDriver.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/Twain/TwainDrive"
+Path Line0002 = "r.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0375]
+File Type = "Include"
+Res Id = 375
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Shell/Twain/TwainDriver.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/Twain/TwainDrive"
+Path Line0002 = "r.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0376]
+File Type = "CSource"
+Res Id = 376
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Shell/Twain/TwainDriver_UI.c"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/Twain/TwainDrive"
+Path Line0002 = "r_UI.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0377]
+File Type = "Include"
+Res Id = 377
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Shell/Twain/TwainDriver_UI.h"
+Path Line0001 = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Shell/Twain/TwainDrive"
+Path Line0002 = "r_UI.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0378]
+File Type = "Library"
+Res Id = 378
+Path Is Rel = True
+Path Rel To = "CVI"
+Path Rel Path = "sdk/lib/Vfw32.Lib"
+Path = "/c/Program Files/National Instruments/CVI80/sdk/lib/Vfw32.Lib"
+Exclude = False
+Project Flags = 0
+Folder = "Not In A Folder"
+
+[File 0379]
+File Type = "CSource"
+Res Id = 379
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/XML utils/xml_utils.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/XML utils/xml_utils.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0380]
+File Type = "Include"
+Res Id = 380
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Common/XML utils/xml_utils.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Common/XML utils/xml_utils.h"
+Exclude = False
+Project Flags = 0
+Folder = "Common"
+
+[File 0381]
+File Type = "Unknown"
+Res Id = 381
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "xy_scan.bmp"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/StageScan/xy_scan.bmp"
+Exclude = False
+Project Flags = 0
+Folder = "StageScan"
+
+[File 0382]
+File Type = "Unknown"
+Res Id = 382
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "yx_scan.bmp"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/StageScan/yx_scan.bmp"
+Exclude = False
+Project Flags = 0
+Folder = "StageScan"
+
+[File 0383]
+File Type = "CSource"
+Res Id = 383
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Zstack/z_stack.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Zstack/z_stack.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Zstack"
+
+[File 0384]
+File Type = "Include"
+Res Id = 384
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Zstack/z_stack.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Zstack/z_stack.h"
+Exclude = False
+Project Flags = 0
+Folder = "Zstack"
+
+[File 0385]
+File Type = "Include"
+Res Id = 385
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Zstack/z_stack_ui.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Zstack/z_stack_ui.h"
+Exclude = False
+Project Flags = 0
+Folder = "Zstack"
+
+[File 0386]
+File Type = "User Interface Resource"
+Res Id = 386
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../Zstack/z_stack_ui.uir"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/Zstack/z_stack_ui.uir"
+Exclude = False
+Project Flags = 0
+Folder = "Zstack"
+
+[File 0387]
+File Type = "CSource"
+Res Id = 387
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Tools/zoom_tool.c"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Tools/zoom_tool.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[File 0388]
+File Type = "Include"
+Res Id = 388
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../icsviewer/Tools/zoom_tool.h"
+Path = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/icsviewer/Tools/zoom_tool.h"
+Exclude = False
+Project Flags = 0
+Folder = "IcsViewer"
+
+[Folders]
+Source Files Folder Not Added Yet = True
+Include Files Folder Not Added Yet = True
+User Interface Files Folder Not Added Yet = True
+Instrument Files Folder Not Added Yet = True
+Folder 0 = "stage"
+Folder 1 = "Common"
+Folder 2 = "Focus Drive"
+Folder 3 = "Analyzer"
+Folder 4 = "Microscope"
+Folder 5 = "Objectives"
+Folder 6 = "Fluor Cubes"
+Folder 7 = "Optical Path"
+Folder 8 = "Condenser"
+Folder 9 = "Lamp"
+Folder 10 = "Optical Shutter"
+Folder 11 = "Aperture Stop"
+Folder 12 = "Field Stop"
+Folder 13 = "Epi-field Stop"
+Folder 14 = "Optical Zoom"
+Folder 15 = "Camera"
+Folder 16 = "IcsViewer"
+Folder 17 = "Dummy Camera"
+Folder 18 = "C9100 Camera"
+Folder 19 = "Imaging"
+Folder 20 = "Focus"
+Folder 21 = "OpticalCalibration"
+Folder 22 = "Autofocus"
+Folder 23 = "ImageCorrections"
+Folder 24 = "DistortionCorrection"
+Folder 25 = "TimeLapse"
+Folder 26 = "RegionScan"
+Folder 27 = "RegionOfInterest"
+Folder 28 = "Mosaic"
+Folder 29 = "MainApplication"
+Folder 30 = "GeneralPurposeMicroscope"
+Folder 31 = "Alignment"
+Folder 32 = "CellFinding"
+Folder 33 = "CHARM"
+Folder 34 = "Orca Camera"
+Folder 35 = "Zstack"
+Folder 36 = "StageScan"
+Folder 37 = "C9100-13 Camera"
+
+[Compiler Options]
+Default Calling Convention = "cdecl"
+Require Prototypes = True
+Require Return Values = True
+Enable Pointer Mismatch Warning = False
+Enable Unreachable Code Warning = False
+Enable Unreferenced Identifiers Warning = False
+Enable Assignment In Conditional Warning = False
+O Option Compatible With 5.0 = False
+Uninitialized Locals Compile Warning = "Conservative"
+
+[Run Options]
+Stack Size = 250000
+Image Base Address = 4194304
+
+[Compiler Defines]
+Compiler Defines = "/DWIN32_LEAN_AND_MEAN"
+
+[Create Executable]
+Executable File_Debug Is Rel = False
+Executable File_Debug = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/bin/StageScan_dbg.exe"
+Executable File_Release Is Rel = False
+Executable File_Release = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/bin/StageScan.exe"
+Icon File Is Rel = False
+Icon File = "/c/cvi8 Applications/2007/FromStageScan/GCI_90i/MainApplication/microscope.ico"
+Application Title = ""
+DLL Exports = "Include File Symbols"
+DLL Import Library Choice = "Gen Lib For Current Mode"
+Use IVI Subdirectories for Import Libraries = False
+Use VXIPNP Subdirectories for Import Libraries = False
+Use Dflt Import Lib Base Name = True
+Where to Copy DLL = "Do not copy"
+Add Type Lib To DLL = False
+Include Type Lib Help Links = False
+Type Lib FP File Is Rel = False
+Type Lib FP File = ""
+Type Lib Guid = ""
+Runtime Support = "Full Runtime Support"
+Instrument Driver Support Only = False
+Embed Project .UIRs = False
+Generate Map File = False
+
+[External Compiler Support]
+UIR Callbacks File Option = 0
+Using LoadExternalModule = False
+Create Project Symbols File = True
+UIR Callbacks Obj File Is Rel = False
+UIR Callbacks Obj File = ""
+Project Symbols H File Is Rel = False
+Project Symbols H File = ""
+Project Symbols Obj File Is Rel = False
+Project Symbols Obj File = ""
+
+[ActiveX Server Options]
+Specification File Is Rel = False
+Specification File = ""
+Source File Is Rel = False
+Source File = ""
+Include File Is Rel = False
+Include File = ""
+IDL File Is Rel = False
+IDL File = ""
+Register ActiveX Server = False
+
+[tpcSection]
+tpcEnabled = 0
+tpcOverrideEnvironment = 0
+

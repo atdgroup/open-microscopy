@@ -1,0 +1,216 @@
+[Workspace Header]
+Version = 801
+Pathname = "/c/Documents and Settings/microscope/Desktop/Object Finding/Cell Map/CellMap.cws"
+CVI Dir = "/c/program files/national instruments/cvi80"
+IVI Standard Root Dir = "/C/Program Files/IVI"
+VXIplug&play Framework Dir = "/c/vxipnp/winnt"
+Number of Projects = 1
+Active Project = 1
+Project 0001 = "CellMap.prj"
+Drag Bar Left = 197
+Window Top = 82
+Window Left = -261
+Window Bottom = 943
+Window Right = 750
+Maximized = False
+Maximized Children = True
+Max Number Of Errors = 20
+Track Include File Dependencies = True
+Prompt For Missing Includes = True
+Stop On First Error File = False
+Bring Up Err Win For Warnings = True
+Show Build Dialog = False
+Save Changes Before Running = "Always"
+Hide Windows = False
+Global Hot Key = False
+Break At First Statement = False
+Sort Type = "File Name"
+Number of Opened Files = 0
+Window Confinement Region Enabled = True
+MainColumnWidth = 178
+FileDateColumnWidth = 70
+FileSizeColumnWidth = 70
+StatusColumnWidth = 70
+
+[Project Header 0001]
+Version = 801
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Debug"
+Warn User If Debugging Release = 1
+Batch Build Release = False
+Batch Build Debug = False
+Force Rebuild = False
+
+[File 0001]
+Path Line0001 = "/c/Documents and Settings/microscope/Desktop/Object Finding/Cell/ExcelAutomation"
+Path Line0002 = "/ExcelAutomation.fp"
+File Type = "Function Panel"
+Disk Date = 0
+In Projects = "1,"
+
+[File 0002]
+Path = "/c/Documents and Settings/microscope/Desktop/Object Finding/Cell/cell.c"
+File Type = "CSource"
+Disk Date = 3225270652
+In Projects = "1,"
+Window Top = 48
+Window Left = 18
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,399,708,0,0,"
+
+[File 0003]
+Path = "/c/Documents and Settings/microscope/Desktop/Object Finding/Cell/cell.h"
+File Type = "Include"
+Disk Date = 3213166097
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0004]
+Path Line0001 = "/c/Documents and Settings/microscope/Desktop/Object Finding/Cell Map/cell_info_u"
+Path Line0002 = "i.uir"
+File Type = "User Interface Resource"
+Disk Date = 0
+In Projects = "1,"
+Window Top = 301
+Window Left = 150
+Window Height = 399
+Window Width = 708
+
+[File 0005]
+Path Line0001 = "/c/Documents and Settings/microscope/Desktop/Object Finding/Cell Map/celllinklis"
+Path Line0002 = "t.c"
+File Type = "CSource"
+Disk Date = 3262322575
+In Projects = "1,"
+Window Top = 114
+Window Left = 22
+Source Window State = "1,27,27,27,16,39,39,0,0,0,0,0,0,0,0,0,95,0,114,30,724,1072,0,0,"
+
+[File 0006]
+Path Line0001 = "/c/Documents and Settings/microscope/Desktop/Object Finding/Cell Map/celllinklis"
+Path Line0002 = "t.h"
+File Type = "Include"
+Disk Date = 3199785634
+In Projects = "1,"
+Window Top = 100
+Window Left = 200
+Source Window State = "1,24,26,26,1,59,59,0,0,0,0,0,0,0,0,0,3,0,20,42,573,839,0,0,"
+
+[File 0007]
+Path = "/c/Documents and Settings/microscope/Desktop/Object Finding/Cell Map/cellmap.c"
+File Type = "CSource"
+Disk Date = 3262232418
+In Projects = "1,"
+Window Top = 67
+Window Left = 13
+Source Window State = "1,5,5,5,10,25,10,0,0,0,0,0,0,0,0,0,318,0,345,4,798,1224,0,0,"
+
+[File 0008]
+Path = "/c/Documents and Settings/microscope/Desktop/Object Finding/Cell Map/cellmap.h"
+File Type = "Include"
+Disk Date = 3224847334
+In Projects = "1,"
+Window Top = 170
+Window Left = 8
+Source Window State = "1,31,31,31,8,21,8,0,3,0,0,44,0,44,0,0,11,0,31,21,569,1146,0,0,"
+
+[File 0009]
+Path Line0001 = "/c/Documents and Settings/microscope/Desktop/Object Finding/Cell Map/cellmap_ui."
+Path Line0002 = "h"
+File Type = "Include"
+Disk Date = 3220620136
+In Projects = "1,"
+Window Top = 186
+Window Left = 90
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,399,708,0,0,"
+
+[File 0010]
+Path = "/c/Documents and Settings/microscope/Desktop/Object Finding/Cell Map/example.c"
+File Type = "CSource"
+Disk Date = 3199777784
+In Projects = "1,"
+Window Top = 164
+Window Left = 40
+Source Window State = "1,50,63,50,0,0,0,0,0,0,0,1,0,1,0,0,9,0,41,6,613,872,0,0,"
+
+[File 0011]
+Path Line0001 = "/c/Documents and Settings/microscope/Desktop/Object Finding/Cell/ExcelAutomation"
+Path Line0002 = "/ExcelAutomation.h"
+File Type = "Include"
+Disk Date = 0
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0012]
+Path = "/c/Documents and Settings/microscope/Desktop/Object Finding/Cell/SaveToExcel.c"
+File Type = "CSource"
+Disk Date = 3233747530
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0013]
+Path = "/c/Documents and Settings/microscope/Desktop/Object Finding/Cell/SaveToExcel.h"
+File Type = "Include"
+Disk Date = 3233746052
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0014]
+Path = "/c/Documents and Settings/microscope/Desktop/Object Finding/signals/signals.c"
+File Type = "CSource"
+Disk Date = 0
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0015]
+Path = "/c/Documents and Settings/microscope/Desktop/Object Finding/signals/signals.h"
+File Type = "Include"
+Disk Date = 0
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0016]
+Path Line0001 = "/c/Documents and Settings/microscope/Desktop/Object Finding/String Utils/string_"
+Path Line0002 = "utils.c"
+File Type = "CSource"
+Disk Date = 0
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0017]
+Path Line0001 = "/c/Documents and Settings/microscope/Desktop/Object Finding/String Utils/string_"
+Path Line0002 = "utils.h"
+File Type = "Include"
+Disk Date = 0
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[Build Options 0001]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Debugging Level = "Standard"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0001]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = True
+Suppress CVI Error Messages = False
+
+[DLL Debugging Support 0001]
+External Process Path = ""
+
+[Command Line Args 0001]
+Command Line Args = ""
+

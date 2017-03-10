@@ -1,0 +1,35 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 12 (filtered)">
+<title>FLIM Instrument Respoense (Prompt) Measurement</title>
+
+</head>
+
+<body lang=EN-GB link=blue vlink=purple>
+
+<p>
+This page tells you how to acquire a prompt or IRF for time resolved processing.
+</p>
+
+<p>
+You need to arrange for the laser to be working at approximately it's normal power and the PMT to be counting photons at near the imaging rate. 
+We also need to let the laser wavelength reach the PMT by removing the emission filter and replacing it with about 5 ND of neutral density filters.
+We assume an imaging count rate at the PMT is about 10^5 (1E5) counts per second.
+</p>
+
+<ol>
+<li>Set the laser to the normal power, or image a normal sample to find out what normal is.</li>
+<li>Replace the emission filter with about 5 ND.</li>
+<li>Replace the sample with a mirror slide (or slide covered in foil).</li>
+<li>Set the scan to park and ADC to required value.</li>
+<li>Set acquisition time to a few seconds and press acquire.</li>
+<li>Say yes to acquire a prompt.</li>
+<li>Repeat acquiring a prompt and tweak the time and laser power slightly to get a prompt that peaks near 65000 but does not exceed it.</li> 
+<li>Repeat for other ADC values.</li> 
+<li>Repeat for other filter sets (there is no evidence that these will be different but ...)</li> 
+
+</body>
+
+</html>

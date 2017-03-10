@@ -1,0 +1,13 @@
+Gray Institute Microscope: Dummy
+
+Built on DATE
+ATD_Microscopy ver 1.0
+ATD_Hardware ver 1.0
+ATD_Libraries ver 1.0
+IcsViewer ver 1.0
+
+Copyright © 2009-2015 
+Gray Institute for Radiation Oncology & Biology
+
+Hardware: B Vojnovic, I Tullis, R Newman
+Software: P Barber, G Pierce, R Locke

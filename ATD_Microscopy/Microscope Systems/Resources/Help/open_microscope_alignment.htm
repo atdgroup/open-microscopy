@@ -1,0 +1,571 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 12 (filtered)">
+<title>Open Microscope Alignment</title>
+
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"\@MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+h1
+	{mso-style-link:"Heading 1 Char";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Cambria","serif";}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{mso-style-link:"Title Char";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:center;
+	font-size:16.0pt;
+	font-family:"Cambria","serif";
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+span.MsoSubtleEmphasis
+	{color:gray;
+	font-style:italic;}
+span.MsoBookTitle
+	{font-variant:small-caps;
+	letter-spacing:.25pt;
+	font-weight:bold;}
+p.MsoTocHeading, li.MsoTocHeading, div.MsoTocHeading
+	{margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Cambria","serif";
+	color:#365F91;
+	font-weight:bold;}
+span.TitleChar
+	{mso-style-name:"Title Char";
+	mso-style-link:Title;
+	font-family:"Cambria","serif";
+	font-weight:bold;}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Cambria","serif";
+	font-weight:bold;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-GB link=blue vlink=purple>
+
+<div class=WordSection1>
+
+<p class=MsoNormal align=center style='text-align:center'><strong><span
+style='font-size:22.0pt'>Open Microscope Alignment</span></strong></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+class=MsoSubtleEmphasis>Paul Barber, Iain Tullis, Boris Vojnovic, April 2011.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoTocHeading><span lang=EN-US>Contents</span></p>
+
+<p class=MsoToc1><span class=MsoHyperlink><a href="#_Toc290025066">Bottom
+Mirror and Optical Path<span style='color:windowtext;display:none;text-decoration:
+none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>1</span></a></span></p>
+
+<p class=MsoToc1><span class=MsoHyperlink><a href="#_Toc290025067">Fluorescence
+Excitation Arm<span style='color:windowtext;display:none;text-decoration:none'>.. </span><span
+style='color:windowtext;display:none;text-decoration:none'>4</span></a></span></p>
+
+<p class=MsoToc1><span class=MsoHyperlink><a href="#_Toc290025068">FLIM Laser
+Alignment<span style='color:windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>5</span></a></span></p>
+
+<p class=MsoToc1><span class=MsoHyperlink><a href="#_Toc290025069">PMT Arm<span
+style='color:windowtext;display:none;text-decoration:none'>.. </span><span
+style='color:windowtext;display:none;text-decoration:none'>8</span></a></span></p>
+
+<p class=MsoToc1><span class=MsoHyperlink><a href="#_Toc290025070">Final Image
+Registration<span style='color:windowtext;display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>8</span></a></span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h1><a name="_Toc290025066">Bottom Mirror and Optical Path</a></h1>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=355 valign=top style='width:213.05pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>1) Make sure base is square on the table.</p>
+  </td>
+  <td width=355 valign=top style='width:213.05pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><img width=349 height=262
+  src="open_microscope_alignment_files/image001.jpg"></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=355 valign=top style='width:213.05pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>2) Bottom mirror (BM) + mirror switch (MS or optical path)
+  alignment with tube lens removed.</p>
+  <p class=MsoNormal>Check by eye that BM is roughly square with optics, or
+  remove MS arm and use a target directly at side of BM.</p>
+  <p class=MsoNormal>Remove camera and use 2 t-shirts (TS) with large and small
+  holes in camera arm (CAM). Use aperture (AP) in-situ and TS in laser scanning
+  (LS) arm. On top of BM block use 2 separated AP’s.</p>
+  <p class=MsoNormal>&nbsp;</p>
+  </td>
+  <td width=355 valign=top style='width:213.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><img width=344 height=258
+  src="open_microscope_alignment_files/image002.jpg"></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=355 valign=top style='width:213.05pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>By eye align all apertures and targets with BM and MS
+  offset adjustment.</p>
+  <p class=MsoNormal>Iterate CAM and LS arms.</p>
+  </td>
+  <td width=355 valign=top style='width:213.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><img width=347 height=260
+  src="open_microscope_alignment_files/image003.jpg"></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=355 valign=top style='width:213.05pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>3) Assemble cube slider (CS) onto BM block. Check post
+  heights. Remove cube slider and measure posts if necessary, they can vary be
+  should be correct at manufacture.</p>
+  </td>
+  <td width=355 valign=top style='width:213.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><img width=347 height=260
+  src="open_microscope_alignment_files/image004.jpg"></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=355 valign=top style='width:213.05pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>4) Use jig to set alignment of z stage (ZS).</p>
+  </td>
+  <td width=355 valign=top style='width:213.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><img width=336 height=252
+  src="open_microscope_alignment_files/image005.jpg"></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=355 valign=top style='width:213.05pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>5) Assemble and then test alignment through CAM and LS arms as in 2.</p>
+  </td>
+  <td width=355 valign=top style='width:213.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><img width=347 height=258
+  src="open_microscope_alignment_files/image006.jpg"></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=355 valign=top style='width:213.05pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>6) Insert tube lens. May have to un-assemble tower and
+  slightly lift it up to get all tube lens components in place. Align again as
+  in 2.</p>
+  </td>
+  <td width=355 valign=top style='width:213.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><img width=336 height=252
+  src="open_microscope_alignment_files/image007.jpg"></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=355 valign=top style='width:213.05pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>Replace camera. Place target on top of tower and
+  illuminate (close down the AP below it in the alignment tool).</p>
+  <p class=MsoNormal>Can now align target at image centre, but also check LS
+  arm by replacing target with AP as in 2. Iterate CAM and LS arms.</p>
+  <p class=MsoNormal>Can add piezo z drive now and check alignment again.</p>
+  </td>
+  <td width=355 valign=top style='width:213.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><img width=336 height=448
+  src="open_microscope_alignment_files/image008.jpg"><img width=336 height=252
+  src="open_microscope_alignment_files/image009.jpg"></p>
+  </td>
+ </tr>
+</table>
+
+<h1><a name="_Toc290025067">Fluorescence Excitation Arm</a></h1>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=355 valign=top style='width:213.05pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>7) Fluorescence (FL) excitation alignment. Adjust
+  apertures to get a small spot at the top of the tower. Use the following 3
+  steps to check alignment.</p>
+  </td>
+  <td width=355 valign=top style='width:213.05pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><img width=336 height=252
+  src="open_microscope_alignment_files/image010.jpg"></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=355 valign=top style='width:213.05pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>With target on top of tower, check centrality low, at the
+  objective (OBJ) position.</p>
+  </td>
+  <td width=355 valign=top style='width:213.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><img width=336 height=252
+  src="open_microscope_alignment_files/image011.jpg"></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=355 valign=top style='width:213.05pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>… and high on the alignment tool.</p>
+  </td>
+  <td width=355 valign=top style='width:213.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><img width=336 height=252
+  src="open_microscope_alignment_files/image012.jpg"></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=355 valign=top style='width:213.05pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>Add an objective and balance a FL block on it. View this
+  epi spot on the camera – it should be central.</p>
+  </td>
+  <td width=355 valign=top style='width:213.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><img width=336 height=252
+  src="open_microscope_alignment_files/image013.jpg"></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=355 valign=top style='width:213.05pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>The only real adjustment here is to fiddle with the prism
+  mirror under the cover. This can be rotated and pushed back and forwards.</p>
+  </td>
+  <td width=355 valign=top style='width:213.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='position:absolute;z-index:251657728;
+  margin-left:109px;margin-top:101px;width:68px;height:66px'><img width=68
+  height=66 src="open_microscope_alignment_files/image014.gif"></span><img
+  width=336 height=252 src="open_microscope_alignment_files/image015.jpg"></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=355 valign=top style='width:213.05pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>Bingo!</p>
+  </td>
+  <td width=355 valign=top style='width:213.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><img width=336 height=252
+  src="open_microscope_alignment_files/image016.jpg"></p>
+  </td>
+ </tr>
+</table>
+
+<h1><a name="_Toc290025068">FLIM Laser Alignment</a></h1>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=355 valign=top style='width:213.05pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>8) Align laser through the telescope section with the
+  first lens (L1) and pinhole (PH) removed. Have tip/tilt and y adjustment from
+  top mirror (M2). Can get some extra y by loosing and fiddling with the bottom
+  mirror (M1). X adjustment must come from loosening the laser fibre coupler
+  and fiddling with that.</p>
+  <p class=MsoNormal>Insert L1 and PH and check alignment again.</p>
+  </td>
+  <td width=355 valign=top style='width:213.05pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><img width=336 height=448
+  src="open_microscope_alignment_files/image017.jpg"></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=355 valign=top style='width:213.05pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>9) Align past the dichroic/beam splitter (BS) with the
+  post telescope mirror (M3). Only tip/tilt and x should be required here
+  (that’s all you have!).</p>
+  </td>
+  <td width=355 valign=top style='width:213.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><img width=336 height=448
+  src="open_microscope_alignment_files/image018.jpg"></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=355 valign=top style='width:213.05pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>10) Check rough laser collimation past the telescope by
+  running a card up and down the beam that comes out of the ‘wrong’ exit from
+  the BS. Here, the beam has been turned by a make-shift mirror to get a long
+  path.</p>
+  </td>
+  <td width=355 valign=top style='width:213.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><img width=336 height=252
+  src="open_microscope_alignment_files/image019.jpg"></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=355 valign=top style='width:213.05pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>11) Alignment onto S1 through AP2 with M4. In practice AP1
+  is set at 6 mm.</p>
+  </td>
+  <td width=355 valign=top style='width:213.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><img width=252 height=284
+  src="open_microscope_alignment_files/image020.jpg"></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=355 valign=top style='width:213.05pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>12) Align through 4f system onto S2 with beam parked
+  centrally (set software scanner offsets to 0,0). Can tweak M3 (post
+  telescope) for alignment through AP2 and M4 for alignment through slit (AP3)
+  in the middle of 4f system (shown here). May need to loosen scanners and
+  twist for rough alignment and so edge of beam does not clip.</p>
+  </td>
+  <td width=355 valign=top style='width:213.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><img width=336 height=252
+  src="open_microscope_alignment_files/image021.jpg"></p>
+  <p class=MsoNormal><img width=184 height=132
+  src="open_microscope_alignment_files/image022.jpg"><img width=152 height=132
+  src="open_microscope_alignment_files/image023.jpg"></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=355 valign=top style='width:213.05pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>13) Check position of scan lens after S2. If these are
+  correct with a focussed beam at the intermediate image plane (AP4) then we
+  should be getting light up at the objective.</p>
+  <p class=MsoNormal><img width=337 height=181
+  src="open_microscope_alignment_files/image024.jpg"></p>
+  </td>
+  <td width=355 valign=top style='width:213.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><img width=336 height=252
+  src="open_microscope_alignment_files/image025.jpg"></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=355 valign=top style='width:213.05pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>&nbsp;</p>
+  </td>
+  <td width=355 valign=top style='width:213.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>&nbsp;</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=355 valign=top style='width:213.05pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>14) Check it is central, straight up and collimated
+  (roughly) out of the objective holder. NB The beam shown left is too small (maybe
+  pinhole too large) and is also clipped at the bottom by a scanner. You should
+  only see the central Gaussian-like beam overfilling the 15 mm aperture (as picture
+  right).</p>
+  </td>
+  <td width=355 valign=top style='width:213.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><img width=171 height=170
+  src="open_microscope_alignment_files/image026.jpg"><img width=163 height=170
+  src="open_microscope_alignment_files/image027.jpg"></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=355 valign=top style='width:213.05pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>15) Scan Very Fast at 64x64 with scanners reversed
+  (scanner settings panel) to check beam is stationary on S2. May need to
+  remove a rod and shields after S2 to see it. Tweak the position of the 4f
+  lenses symmetrically to get it stationary</p>
+  <p class=MsoNormal>Un-reverse scanners and check beam is stationary at the
+  objective back aperture with the Nikon FL alignment tool (or a target on 8 mm
+  tube + RMS adapter).</p>
+  </td>
+  <td width=355 valign=top style='width:213.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><img width=336 height=228
+  src="open_microscope_alignment_files/image028.jpg"></p>
+  </td>
+ </tr>
+</table>
+
+<h1><a name="_Toc290025069">PMT Arm</a></h1>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=355 valign=top style='width:213.05pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>16) Check the height and rough alignment of the PMT arm.</p>
+  </td>
+  <td width=355 valign=top style='width:213.05pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><img width=336 height=317
+  src="open_microscope_alignment_files/image029.jpg"></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=355 valign=top style='width:213.05pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>17) Laser off. Look back down the PMT arm at an
+  illuminated target and adjust the PMT arm steering mirror.</p>
+  </td>
+  <td width=355 valign=top style='width:213.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><img width=336 height=252
+  src="open_microscope_alignment_files/image030.jpg"></p>
+  </td>
+ </tr>
+</table>
+
+<h1><a name="_Toc290025070">Final Image Registration</a></h1>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=355 valign=top style='width:213.05pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>18) Assemble stage etc. and image a sample with FL. Image
+  with SPC/FLIM and tweak telescope collimation of laser for parfocality with FL
+  (Make sure FLIM is focussed in the same plane as FL).</p>
+  </td>
+  <td width=355 valign=top style='width:213.05pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><img width=336 height=252
+  src="open_microscope_alignment_files/image031.jpg"></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=355 valign=top style='width:213.05pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>19) Check scanner Lag Compensation by getting an image at
+  the slowest setting, noting the position of something in the image, and then
+  scan fast. A horizontal shift indicates top pot should be adjusted.</p>
+  <p class=MsoNormal>20) Adjust FLIM field of view to be same as FL using the
+  software scanner offsets for x,y shift and the two lower hardware pots for
+  x,y scale.</p>
+  </td>
+  <td width=355 valign=top style='width:213.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='position:absolute;z-index:251660800;
+  margin-left:256px;margin-top:144px;width:44px;height:28px'><img width=44
+  height=28 src="open_microscope_alignment_files/image032.gif"></span><span
+  style='position:absolute;z-index:251659776;margin-left:256px;margin-top:126px;
+  width:44px;height:29px'><img width=44 height=29
+  src="open_microscope_alignment_files/image033.gif"></span><span
+  style='position:absolute;z-index:251658752;margin-left:256px;margin-top:110px;
+  width:44px;height:29px'><img width=44 height=29
+  src="open_microscope_alignment_files/image034.gif"></span><img width=219
+  height=198 src="open_microscope_alignment_files/image035.jpg"><img width=72
+  height=197 src="open_microscope_alignment_files/image036.jpg"></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal>&nbsp;</p>
+
+</div>
+
+</body>
+
+</html>

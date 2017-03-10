@@ -1,0 +1,4 @@
+11:42:23 Log file created: C:\Devel\ATD\OpenMicroscope\ATD_Microscopy\Microscope Systems\OpenMicroscope\trunk\bin\Microscope Data\Logs\Log_22.txt
+11:42:23 Manual Shutter computer control set to 1
+11:42:25 Dummy Camera exposure to 10.000000
+11:42:25 Dummy Colour Camera exposure to 10.000000

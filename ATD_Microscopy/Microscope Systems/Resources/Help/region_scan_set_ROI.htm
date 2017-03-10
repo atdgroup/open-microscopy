@@ -1,0 +1,155 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+  <meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+  <title>Setting a region of interest</title>
+</head>
+<body>
+<h2>Region of Interest</h2>
+Before a scan can be carried out, the region of interest (ROI) must
+first be defined. This will be a rectangular area so that a succession
+of regular stage movements in the X and Y directions bring each part of
+the ROI into view of the camera. To complete the task the focal plane
+must also be defined to account for variation in sample height with
+respect to the objective.<br>
+<br>
+To define a rectangular area on a plane we essentially need to specify
+the lengths of the sides and its position. The ROI panel gives 3
+methods to do this:<br>
+<br>
+<b>Corners</b><br>
+Using the joystick to move to 2 points to specify opposite corners of
+the rectangle is enough to define the ROI. Click on 'Set start', use
+the joystick to move to one of the corners, then press 'OK' when in
+position. Repeat using 'Set end'. <br>
+<br>
+<img style="width: 371px; height: 494px;" alt=""
+ src="images/ROI_corners.png"><br>
+<br>
+<b>Edges</b><br>
+Rather than moving specifically to 2 corners we can also use the 4
+edges of the rectangle to locate our ROI. This requires moving to 4
+points rather than 2 but has the advantage of not having to precisely
+find the corners. In any order, and as before, use the 'Set' buttons
+along with the joystick to move to any points along the 4 edges. <br>
+<br>
+<img style="width: 371px; height: 492px;" alt=""
+ src="images/ROI_square.png"><br>
+<br>
+<b>Square</b><br>
+For the special case of the ROI being a square we may specify the
+centre of the square and one point on the border. This is enough to
+uniquely define our ROI. Again the 'Set' buttons along with the
+joystick are used to set these 2 points. <br>
+<br>
+<img style="width: 371px; height: 492px;" alt=""
+ src="images/ROI_square.png"><br>
+<br>
+<b>Note: numerical input</b><br>
+Rather than use the joystick to physically move to the points required
+it is also possible to enter the desired co-ordinates directly. A
+mixture of the 2 methods can also be used. <br>
+<br>
+<b>After we defined the ROI it is time to define the focal plane.</b><br>
+This is necessary so that as
+the sample moves in X and Y we can change the stage Z position to
+maintain focus.<br>
+<br>
+<span style="font-weight: bold;">Use points inside/outside ROI</span> -
+Focusing, which requires live imaging, may expose cells to harmful UV
+or cause bleaching. If this occurs inside the ROI then the cells
+scanned will not be 'equal' - some will have experienced different
+conditions than others. This would suggest that the better option would
+be to focus by imaging cells or objects outside the ROI. This assumes
+of course that there are cells to see which might not be the case.
+Similarly, cells on the outskirts of the ROI may not be representative
+and lead to incorrect focusing. So knowledge of the cell pattern will
+help deciding which option to take.<br>
+<br>
+<b>Setup focal plane</b><br>
+The
+stage will go to the first focal position and a live image is
+presented.
+Use the <a href="Piezo_Z-drive.htm">Z-drive</a> to achieve focus,
+moving in X and Y if necessary.
+Clicking 'OK' stores the information and moves to the second point.
+After 3 points have been completed a focal plane will have been
+defined. The three points to which the stage automatically drove formed
+an equilateral triangle which minimises error in the calculation.<br>
+<br>
+<b>Set fixed offset</b><br>
+If it is known that the focus varies little across the ROI then it may
+be desirable to simply set a single focus to define a flat focal plane.
+This saves time and minimises cell exposure to the illumination. When
+selected, the stage drives to a single point, the user is asked to
+focus
+using the joystick, and on completion this Z value will be used for any
+susequent scan.<br>
+<br>
+<b>Checking the results</b><br>
+Before initiating the scan we may like to check how well the focusing
+set up is going to perform. The final tab of the ROI panel allows the
+user to go to various points and see how accurate the calculated focus
+position is. If, at this stage, it is found that the results are
+unsatisfactory then the process can be repeated.<br>
+<br>
+<img style="width: 369px; height: 489px;" alt=""
+ src="images/ROI_check.png"><br>
+<br>
+<b>Possible problems</b><br>
+Focusing can be a tricky business. There are 3 main sources of
+problems.<br>
+<br>
+The 3 point procedure assumes that the objects lie on a flat surface at
+some angle with respect to the plane of the stage. So we are assuming
+the substrate is flat (at least across the ROI). Now if, for example,
+we are looking at cells on a sheet of mylar containing media there may
+be some sag in the centre due to the weight of the media and dependent
+on how tightly stretched the mylar is on the cell dish. In this case
+the cells will not lie on a plane but on a 3D parabolic surface and the
+method will fail. Similarly, if there were a wrinkle in the mylar then
+focusing on a point here will generate a spurious Z value which will
+lead to an erroneous result. Possible solutions, apart from ensuring
+correct construction of the cell dish, are to reduce the scan area
+(since the planar approximation will hold better over shorter
+distances), change the scan area position to a 'flatter' region, or to
+use single point focusing in the hope that a fixed stage height will
+provide adequate focusing for the majority of the cells.<br>
+<br>
+Secondly, the 3 point procedure requires well-spaced points to be
+accurate. Any 2 points define the gradient of the plane in that
+direction - how much the Z height changes over the distance between
+points. Consider 2 points close together - with perfect focusing the
+gradient is still well-defined. However, if there is a small error in
+the Z values then the error in the gradient becomes large since any
+inaccuracy is then magnified at larger distances. This situation can
+arise when there are few objects at the nominal focal points and the
+user has to hunt for something to focus on. Often, since a sense of
+position can easily be lost when using the joystick, the user ends up
+at similar locations and this situation occurs. The only real solution
+here is to start again and, preferably with knowledge of where objects
+are likely to be found, take care to control the direction of the stage
+movement with the joystick.<br>
+<br>
+Somewhat related to both of these issues is when one of the focal
+points is simply incorrect. If the user focuses on a foreign object
+which isn't in the cellular plane, for example, an incorrect focal
+plane will be set. Also, if the user moves too far from the ROI to find
+an object then the planar approximation, which is a local
+approximation, may no longer hold (as in the example of the sagging
+cell dish).<br>
+<br>
+In all these situations, where focusing is not straightforward, it is
+worth looking at the sample live under a non-damaging illumination to
+see if there is anything unexpected or to reassess the position of the
+objects of interest.<br>
+<br>
+Additionally, a problem may occur if the plane defined takes the Z drive beyond its
+limit of travel at one edge of the slide. The microscope should warn if this happens.
+In this case you should follow the instructions to refocus at a central position using 
+a coarse Z drive. If the plane defined exceeds both limits of the Z drive, the software
+will advise that a smaller region should be scanned. You can also make sure that the sample is not
+mounted at an angle (e.g. as the cover slip is too close to the edge of the slide, and the slide it sitting 
+on it, in the stage insert of an inverted microscope; the Open microscopes Abbe and Galileo are inverted).
+</body>
+</html>

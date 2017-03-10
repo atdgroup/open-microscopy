@@ -1,0 +1,38 @@
+[OPTIONS]
+Auto Index=Yes
+Compatibility=1.1 or later
+Compiled file=Microscopy.chm
+Contents file=Table of Contents.hhc
+Default topic=OpenMicroscope_GUI.htm
+Display compile progress=No
+Index file=Microscopy.hhk
+Language=0x809 English (United Kingdom)
+
+
+[FILES]
+timelapse_scripting.htm
+timelapse_scripting_api.htm
+region_scan_overview.htm
+region_scan_set_ROI.htm
+cell_finding_options.htm
+autofocus.htm
+automation.htm
+background.htm
+camera.htm
+focal_plane.htm
+log.htm
+manual_lamp.htm
+manual_scanner.htm
+manual_shutter.htm
+objective_pixel_calibration.htm
+objectives.htm
+optical_lift.htm
+stage.htm
+temperature_monitor.htm
+timelapse_overview.htm
+well_plate_define.htm
+timelapse_scripting_example.htm
+OpenMicroscope_GUI.htm
+
+[INFOTYPES]
+

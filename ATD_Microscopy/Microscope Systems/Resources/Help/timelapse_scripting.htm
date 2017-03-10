@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+  <meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+  <title>Timelapse Scripting</title>
+</head>
+<body>
+<h2> Timelapse scripting</h2>
+<br>
+The timelapse module performs its tasks by invoking a script chosen by
+the user.<br>
+The user can also write their own scripts. <br>
+<br>
+<a href="timelapse_scripting_example.htm">Here</a> is an example.
+<br>
+<a href="timelapse_scripting_api.htm">The Python scripting API
+(commands)</a>.<br>
+<br>
+<h2>Introduction</h2>
+To each script there are four functions which are invoked
+by the Python interpreter. <br>
+<br>
+<strong>OnStart()</strong> - This is called when the timelapse is
+started by the user. <br>
+This function takes no parameters.
+<br>
+<br>
+<strong>OnAbort()</strong> - This is called when the timelapse
+experiment is stopped or aborted.<br>
+This function takes no parameters.
+<br>
+<br>
+<strong>OnCycleStart()</strong> - This is called once at the start of
+each cycle of points. It should contain at least one call to
+microscope.VisitPoints() to start the cycle.<br>
+This function takes no parameters.
+<br>
+<br>
+<strong>OnNewPoint(x, y, z, position)</strong> - This is called each
+time the stage moves to a new point. <br>
+The parameters, which are passed to the function, are the x, y and z
+co-ordinates of the stage and the position of the current point within
+the list of positions that we are iterating.
+<br>
+A skeleton program which simply prints out the position of each of the
+timelapse points would be written as so: (remember white space
+indentation is relevant in Python)
+<br>
+<br>
+<font color="#0000ff">import</font> sys<br>
+<font color="#0000ff">import</font> microscope<br>
+<br>
+<font color="#0000ff">def</font> OnStart():<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="#0000ff">print</font> "OnStart()"<br>
+<br>
+<font color="#0000ff">def</font> OnAbort():<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="#0000ff">print</font> "OnAbort()"<br>
+<br>
+<font color="#0000ff">def</font> OnCycleStart():<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="#0000ff">print</font>
+"OnCycleStart"<br>
+&nbsp;&nbsp;&nbsp;&nbsp;microscope.VisitPoints()<br>
+<br>
+<font color="#0000ff">def</font> OnNewPoint(x, y, z, position):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="#0000ff">print</font> "NewPoint()"<a
+ href="timelapse_scripting_example.htm"><br>
+</a>
+</body>
+</html>

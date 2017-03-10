@@ -1,0 +1,384 @@
+[Workspace Header]
+Version = 801
+Pathname = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Stage/stage.cws"
+CVI Dir = "/c/program files/national instruments/cvi80"
+IVI Standard Root Dir = "/C/Program Files/IVI"
+VXIplug&play Framework Dir = "/c/vxipnp/winnt"
+Number of Projects = 1
+Active Project = 1
+Project 0001 = "stage.prj"
+Project 0001 Folder Common Collapsed = True
+Project 0001 Folder Include Files Collapsed = True
+Drag Bar Left = 160
+Window Top = 137
+Window Left = 698
+Window Bottom = 916
+Window Right = 1243
+Maximized = False
+Maximized Children = True
+Max Number Of Errors = 20
+Track Include File Dependencies = True
+Prompt For Missing Includes = True
+Stop On First Error File = False
+Bring Up Err Win For Warnings = True
+Show Build Dialog = False
+Save Changes Before Running = "Ask"
+Hide Windows = True
+Global Hot Key = True
+Break At First Statement = False
+Sort Type = "File Name"
+Number of Opened Files = 0
+Window Confinement Region Enabled = False
+MainColumnWidth = 333
+FileDateColumnWidth = 95
+FileSizeColumnWidth = 70
+StatusColumnWidth = 52
+
+[Project Header 0001]
+Version = 801
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Debug"
+Warn User If Debugging Release = 1
+Batch Build Release = False
+Batch Build Debug = False
+Force Rebuild = False
+
+[File 0001]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Stage/stage/stage.c"
+File Type = "CSource"
+Disk Date = 3230620778
+In Projects = "1,"
+Window Top = 105
+Window Left = 228
+Source Window State = "1,779,779,779,4,19,19,0,3,90,0,1,0,1,0,56,751,0,779,4,811,755,0,0,"
+
+[File 0002]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Focus Drive/90i_focus_drive.c"
+File Type = "CSource"
+Disk Date = 3230621215
+In Projects = "1,"
+Window Top = 527
+Window Left = 18
+Source Window State = "1,65,66,65,37,0,37,0,3,80,0,0,0,0,0,30,50,0,65,37,461,676,0,0,"
+
+[File 0003]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Focus Drive/90i_focus_drive.h"
+File Type = "Include"
+Disk Date = 3230014901
+In Projects = "1,"
+Window Top = 495
+Window Left = 30
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,25,0,0,0,0,396,676,0,0,"
+
+[File 0004]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Common/Com Port Control/com_port_control.c"
+File Type = "CSource"
+Disk Date = 3214203884
+In Projects = "1,"
+Window Top = 23
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,399,676,0,0,"
+
+[File 0005]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Common/Com Port Control/com_port_control.h"
+File Type = "Include"
+Disk Date = 3188983237
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0006]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Common/Com Port Control/comport_hash.c"
+File Type = "CSource"
+Disk Date = 3181294050
+In Projects = "1,"
+Window Top = 23
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,399,676,0,0,"
+
+[File 0007]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Common/Com Port Control/comport_hash.h"
+File Type = "Include"
+Disk Date = 3181126458
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0008]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Stage/Corvus/Corvus_stage.c"
+File Type = "CSource"
+Disk Date = 3230617080
+In Projects = "1,"
+Window Top = 163
+Window Left = 530
+Source Window State = "1,437,438,438,0,0,0,0,3,0,0,1,0,1,0,0,410,0,437,22,798,669,0,0,"
+
+[File 0009]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Stage/Corvus/Corvus_stage.h"
+File Type = "Include"
+Disk Date = 3226318555
+In Projects = "1,"
+Window Top = 94
+Window Left = 42
+Source Window State = "1,5,5,5,28,39,39,0,3,0,0,0,0,0,0,0,0,0,5,28,399,676,0,0,"
+
+[File 0010]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Focus Drive/focus_drive.c"
+File Type = "CSource"
+Disk Date = 3230621524
+In Projects = "1,"
+Window Top = 337
+Window Left = 55
+Source Window State = "1,737,737,737,4,19,19,0,3,80,0,0,0,0,0,30,722,0,737,4,461,676,0,0,"
+
+[File 0011]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Focus Drive/focus_drive.h"
+File Type = "Include"
+Disk Date = 3230034403
+In Projects = "1,"
+Window Top = 527
+Window Left = 66
+Source Window State = "1,108,112,108,0,0,0,0,3,80,0,0,0,0,0,30,93,0,108,0,461,676,0,0,"
+
+[File 0012]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Focus Drive/focus_drive_ui.c"
+File Type = "CSource"
+Disk Date = 3230016952
+In Projects = "1,"
+Window Top = 28
+Window Left = 78
+Source Window State = "1,51,59,51,0,0,0,0,0,80,0,0,0,0,0,30,0,0,0,0,461,676,0,0,"
+
+[File 0013]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Focus Drive/focus_drive_ui.h"
+File Type = "Include"
+Disk Date = 3230014244
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0014]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Focus Drive/focus_drive_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3230016804
+In Projects = "1,"
+Window Top = 232
+Window Left = 114
+Window Height = 396
+Window Width = 676
+
+[File 0015]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Common/GCI Utils/gci_utils.c"
+File Type = "CSource"
+Disk Date = 3229426454
+In Projects = "1,"
+Window Top = 23
+Source Window State = "1,394,394,394,4,24,24,0,3,0,0,0,0,0,0,0,382,0,394,4,399,676,0,0,"
+
+[File 0016]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Common/GCI Utils/gci_utils.h"
+File Type = "Include"
+Disk Date = 3229426496
+In Projects = "1,"
+Source Window State = "1,38,38,38,4,24,24,0,0,0,0,0,0,0,0,0,19,0,38,12,396,676,0,0,"
+
+[File 0017]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Common/GCI_Registry/GL_CVIRegistry.c"
+File Type = "CSource"
+Disk Date = 3146226020
+In Projects = "1,"
+Window Top = 23
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,399,676,0,0,"
+
+[File 0018]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Common/GCI_Registry/GL_CVIRegistry.h"
+File Type = "Include"
+Disk Date = 3210833290
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0019]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/hardware.h"
+File Type = "Include"
+Disk Date = 3226312262
+In Projects = "1,"
+Window Top = 71
+Window Left = 30
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,24,2,399,676,0,0,"
+
+[File 0020]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Stage/main.c"
+File Type = "CSource"
+Disk Date = 3230555700
+In Projects = "1,"
+Window Top = 336
+Window Left = 79
+Source Window State = "1,51,52,52,0,0,0,0,0,80,0,0,0,0,0,38,53,0,56,26,569,676,0,0,"
+
+[File 0021]
+Path = "/c/program files/national instruments/cvi80/sdk/lib/ole32.lib"
+File Type = "Library"
+Disk Date = 3227504400
+In Projects = "1,"
+
+[File 0022]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Common/Password/password.c"
+File Type = "CSource"
+Disk Date = 3188463850
+In Projects = "1,"
+Window Top = 23
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,399,676,0,0,"
+
+[File 0023]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Common/Password/password.h"
+File Type = "Include"
+Disk Date = 3126098206
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0024]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Common/Password/password_ui.h"
+File Type = "Include"
+Disk Date = 3208324099
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0025]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Common/Password/password_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3216914685
+In Projects = "1,"
+
+[File 0026]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Common/signals/signals.c"
+File Type = "CSource"
+Disk Date = 3226476651
+In Projects = "1,"
+Window Top = 23
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,399,676,0,0,"
+
+[File 0027]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Common/signals/signals.h"
+File Type = "Include"
+Disk Date = 3215073356
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0028]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Stage/stage/stage.h"
+File Type = "Include"
+Disk Date = 3230613529
+In Projects = "1,"
+Window Top = 137
+Window Left = 572
+Source Window State = "1,147,147,147,5,21,21,0,0,0,0,0,0,0,0,0,139,0,158,45,671,522,0,0,"
+
+[File 0029]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Stage/stage/stage_ui.c"
+File Type = "CSource"
+Disk Date = 3230615848
+In Projects = "1,"
+Window Top = 29
+Window Left = 47
+Source Window State = "1,767,767,767,16,29,29,0,0,91,0,0,0,0,0,65,407,0,417,20,918,757,0,0,"
+
+[File 0030]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Stage/stage/stage_ui.h"
+File Type = "Include"
+Disk Date = 3230282588
+In Projects = "1,"
+Window Top = 370
+Window Left = 186
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0031]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Stage/stage/stage_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3230284320
+In Projects = "1,"
+Window Top = 69
+Window Left = 568
+Window Height = 792
+Window Width = 544
+
+[File 0032]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Common/Status/status.c"
+File Type = "CSource"
+Disk Date = 3229928851
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0033]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Common/Status/status.h"
+File Type = "Include"
+Disk Date = 3224766511
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0034]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Common/Status/status_ui.h"
+File Type = "Include"
+Disk Date = 3224764985
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0035]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Common/Status/status_ui.uir"
+File Type = "User Interface Resource"
+Disk Date = 3224765048
+In Projects = "1,"
+
+[File 0036]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Common/String Utils/string_utils.h"
+File Type = "Include"
+Disk Date = 3214206627
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0037]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/bin/StringUtils.lib"
+File Type = "Library"
+Disk Date = 3214490686
+In Projects = "1,"
+
+[File 0038]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Common/XML Utils/xml_utils.c"
+File Type = "CSource"
+Disk Date = 3222248176
+In Projects = "1,"
+Window Top = 48
+Window Left = 18
+Source Window State = "1,173,173,173,4,20,20,0,3,0,0,0,0,0,0,0,161,0,173,4,396,676,0,0,"
+
+[File 0039]
+Path = "/p/GROUP9_Adv Tech/CVI/GCI_90i_notsvn/Common/XML Utils/xml_utils.h"
+File Type = "Include"
+Disk Date = 3221208196
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[Build Options 0001]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Debugging Level = "Standard"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0001]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = True
+Suppress CVI Error Messages = False
+
+[DLL Debugging Support 0001]
+External Process Path = ""
+
+[Command Line Args 0001]
+Command Line Args = ""
+

@@ -1,0 +1,95 @@
+[Debug]
+Level = 0
+           
+[WebServer]
+Root = "${MS_MICROSCOPY_DIR_PATH}\\Resources\\web"
+Port = "127.0.0.1:2222"
+
+[Microscope]
+Microscope User Data = "C:\Microscope Data"
+BypassUsername = 0
+EnableStudyGeneratorLink = 0
+BypassManualDevices = 0
+ICS File Version = 2
+AutoSnap = 0
+
+[PythonSysPath]
+Path = "${MS_MODULES_DIR_PATH_ESCAPED}\\Python Automation\\trunk"
+TimeLapseDirPath = "${MICROSCOPY_TOPLEVEL_SOURCE_DIR_ESCAPED}\\bin\\Microscope Data\\TimeLapse Scripts"
+FreeImageWrapperDirPath = "${LIBRARIES_DIR_PATH_ESCAPED}\\FreeImageAlgorithms\\trunk\\Wrappers"
+
+[DummyCamera]
+GainSafePresetForSensitivity = 60.0
+MaxSafeSensitivityPercentage = 30.0
+
+[ATD_CubeSlider_Dummy_1]
+DeviceType = ATD_CubeSlider_Dummy
+
+[ATD_OpticalPath_Dummy_1]
+DeviceType = ATD_OpticalPath_Dummy
+
+[ATD_LedLamp_Dummy_1]
+DeviceType = ATD_LedLamp_Dummy
+
+[ATD_Scanner_Dummy_1]
+DeviceType = ATD_Scanner_Dummy
+
+[ATD_Shutter_Dummy_1]
+DeviceType = ATD_Shutter_Dummy
+
+[FilterSet_Dummy_1]
+DeviceType = FilterSet_Dummy
+
+[PmtSet_Dummy_1]
+DeviceType = PmtSet_Dummy
+
+[ATD_TemperatureMonitor_Dummy_1]
+DeviceType = ATD_TemperatureMonitor_Dummy
+
+[Stage_1]
+DeviceType = DummyStage
+
+[ATD_ZDrive_Dummy_1]
+DeviceType = ATD_ZDrive_Dummy
+MicronsPerStep=131.07
+Min Microns=-100.00
+Max Microns=100.00
+Speed = 1.0
+
+[ATD_laserpowermonitor_logp1]
+DeviceType = ATD_laserpowermonitor_logp
+calibration = 1.02
+aperture = 10
+COM_Port = 6
+i2c_Bus = 2
+i2c_ChipAddress = 0
+i2c_ChipType = 0xD0
+; The following is used for the new FTDI code that removes the need for the virtual comport driver.
+FTDI_SN = DPCXXI5Q
+I2C_DEVICE_ADDRESS = 0x68
+I2C_DEVICE_BUS = 2
+
+[MetaData]
+Microscope = Dummy
+Manufacturer = Gray Institute for Radiation Oncology and Biology
+Microscope built on = $WCNOW$
+ATD_Microscopy ver = $WCREV$ $WCDATE$
+ATD_Hardware ver = $HARDWARE_REV$ $HARDWARE_DATE$
+ATD_Libraries ver = $LIBRARIES_REV$ $LIBRARIES_DATE$
+IcsViewer ver = $ICSVIEWER_REV$ $ICSVIEWER_DATE$
+
+[Stage_Metadata]
+Stage Manufacturer = Dummy
+Stage Model = SCANDummy
+Stage Controller = Dummy
+
+[Lamp_Metadata]
+Lamp Type = Dummy
+
+[Laser_Metadata]
+Laser Manufacturer = Dummy
+Laser Model = 12345
+
+[Scanner_Metadata]
+Scanner Manufacturer = Gray Institute
+Scanner Model = Dummy

@@ -1,0 +1,5 @@
+Path to documentation
+C:\Devel\ATD\ATD_Microscopy\Microscope Systems\Resources\Help
+
+Main project file >> open in HTML Help Workshop
+Microscopy.hhp

@@ -1,0 +1,17 @@
+SET(LASER_SRCS 	${HARDWARE_DIR_PATH}/Laser/trunk/white_light_laser.c
+					${HARDWARE_DIR_PATH}/Laser/trunk/white_light_laser.h
+					${HARDWARE_DIR_PATH}/Laser/trunk/white_light_laser_ui.h
+					${HARDWARE_DIR_PATH}/Laser/trunk/white_light_laser_ui.uir
+					${HARDWARE_DIR_PATH}/Laser/trunk/main.c
+)
+
+# Make sure the compiler can find include files from our library.
+INCLUDE_DIRECTORIES(
+					${HARDWARE_DIR_PATH}/Laser/trunk/
+					)
+
+SET(LASER_RESOURCES 
+					${HARDWARE_DIR_PATH}/Laser/trunk/white_light_laser_ui.uir
+)
+
+LIST(APPEND HARDWARE_RESOURCE_SRCS ${LASER_RESOURCES})
